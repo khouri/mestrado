@@ -1,0 +1,122 @@
+Avaliador A:
+
+According to the authors the number of activities provided by scientific
+workflow management systems is large. Therefore, scientists must know a
+variety of them to take advantage of the reusability of these systems.
+Having this problem as motivation, the authors propose a hybrid activity
+recommendation system considering information on frequency, input and
+outputs of activities and ontological annotations. 
+
+They also propose the
+modeling of activity recommendation as a classification problem, which after
+being tested with classical techniques achieved satisfactory results. The
+positive aspects of this paper are that the problem addressed is relevant
+and the results are promising. In addition, authors explore the activity
+semantics during workflow recommendation that still remains a challenged
+topic even if in different application domains (comparing with scientific
+workflows) is advanced. Despite the interesting points of the paper, the
+paper must be improved in the follow aspects before being published:
+
+- I suggest the authors to rethink the title of the paper that emphases the
+ontology aspect of the approach. In my opinion the paper has a strong
+emphasis in the results presented in section 5.
+
+
+---------------------------------------------------------------------------
+- The abstract presents acronyms that are not introduced (e.g. SVM, MRR).
+Moreover, you say that in this project you propose the modeling. It should
+be: in this paper…
+---------------------------------------------------------------------------
+
+- In the introduction you mention workflow management systems but currently
+there are business process management systems (BPMS) in the area of business
+process management (BPM). I suggest the authors to discuss the differences
+(if the case).
+
+- In the second paragraph of the introduction you refer to a repository of
+activities. In the text, in addition to the reference number, provide the
+name of the repository or the authors.
+
+- In the introduction you say:  However, there is a precondition for
+reusing and/or creating workflows: knowing the available activities… What
+do you mean?
+
+- Introduction:..the second case, whose goal is to serve a less expert user,
+several workflows are build and the user should select which one most
+satisfies him/her need. What do you mean in this sentence is that several
+workflows are dynamically built?
+
+- There is a gap in the introduction (second page) when you introduce your
+approach. You should better motivate the problem addressed in the paper
+before presenting your proposal (more precisely, when you start the
+paragraph This paper present a hybrid (second page of the Introduction).
+
+- In the introduction you say: In section Results: we present and discuss
+the results obtained with the experiment. But which experiment do you mean?
+Until this point of the text you haven’t introduced (even shortly) the
+experiment.
+
+
+------------------------------------------------------------------------------
+In the Related Work Section you say: The present approach considers the
+order of activities as an important factor in the recommendation. In this
+point you should explain why the order is important; Moreover, this acronym
+ SWMS was not introduced; Why you say that:  In our approach, the inputs
+and outputs of each activity are considered, in addition to the use of a
+domain ontology? Improve discussion; The paragraph  starting withn [22, 11]
+do not consider…is too short. Include the last name of the authors in the
+text and provide more information: What is the meaning of these terms:
+simple activities, subworkflows  and shims? You should have a background
+section where you introduce the terms and concepts used in the paper. For
+example, the term workflow is not defined. You defined scientific workflow
+in the Introduction (you should inform that by simplicity you will refer to
+scientific workflow as workflow along the text).
+------------------------------------------------------------------------------
+
+
+- In Section 3 tell the name of the program in the sentence: myExperiment
+repository ([14]), using the program [15]
+
+- Did you considered the possibility of using process mining algorithms
+(such as Alpha algorithm) as an alternative to the Simple Matrix solution
+(Section 3.1). Not sure if it is possible because it is based on process
+logs, but would be interesting to think about.
+
+- In Section 3.2 why 118 times? Is there any reason for this number or was
+just defined?
+
+- In Section 3.3 you tell that you used 10-fold-cross-validation technique.
+Justify why did you use this technique in particular.
+
+- Second paragraph of Section 4 is too short. Improve discussion.
+
+- In Section 4 you say that the annotation of all the workflows was
+manually. Don’t you consider a limitation of your work that could be
+described in the Conclusions?
+
+- Provide more information about the ontology building (Figure 2). How was
+it build or add references for further information. The title of the paper
+includes the ontology term. So, it is expected more information.
+
+- In the Results section I suggest you to add a comparative table where you
+include some parameters and provide a more pragmatic view of your analyses.
+
+- In the Conclusion Section you mention a systematic literature review.
+However, you didn’t talked about this review when you discuss related
+work. Improve your Related Work section and add a reference to the
+systematic literature review.
+
+- The Conclusion Section must be improved. You should provide deeper
+analyses of your results. How it can be used in practice. How could you
+extend your computational solutions to other domains or problems. Also, the
+limitations of your approach should be discussed.
+
+- The paper should be proofread because it has many typos in its writing.
+E.g. (abstract: The proposed technique were; Introduction: Section Relate
+Work describes the techniques proposed in the related literature are
+described; as a artificial intelligence; Section Conclusion the final
+considerations are presented; Section 5, such the one treated (use the term
+addressed) in this paper. Conclusions, problemrecommendation
+
+- Some references look incomplete: L. Richardson. Beautiful soup, 11 2015;
+C. G. Roure. myexperiment, 2015.

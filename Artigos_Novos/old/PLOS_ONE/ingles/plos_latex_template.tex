@@ -1,0 +1,865 @@
+% Template for PLoS
+% Version 3.4 January 2017
+%
+% % % % % % % % % % % % % % % % % % % % % %
+%
+% -- IMPORTANT NOTE
+%
+% This template contains comments intended 
+% to minimize problems and delays during our production 
+% process. Please follow the template instructions
+% whenever possible.
+%
+% % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Once your paper is accepted for publication, 
+% PLEASE REMOVE ALL TRACKED CHANGES in this file 
+% and leave only the final text of your manuscript. 
+% PLOS recommends the use of latexdiff to track changes during review, as this will help to maintain a clean tex file.
+% Visit https://www.ctan.org/pkg/latexdiff?lang=en for info or contact us at latex@plos.org.
+%
+%
+% There are no restrictions on package use within the LaTeX files except that 
+% no packages listed in the template may be deleted.
+%
+% Please do not include colors or graphics in the text.
+%
+% The manuscript LaTeX source should be contained within a single file (do not use \input, \externaldocument, or similar commands).
+%
+% % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- FIGURES AND TABLES
+%
+% Please include tables/figure captions directly after the paragraph where they are first cited in the text.
+%
+% DO NOT INCLUDE GRAPHICS IN YOUR MANUSCRIPT
+% - Figures should be uploaded separately from your manuscript file. 
+% - Figures generated using LaTeX should be extracted and removed from the PDF before submission. 
+% - Figures containing multiple panels/subfigures must be combined into one image file before submission.
+% For figure citations, please use "Fig" instead of "Figure".
+% See http://journals.plos.org/plosone/s/figures for PLOS figure guidelines.
+%
+% Tables should be cell-based and may not contain:
+% - spacing/line breaks within cells to alter layout or alignment
+% - do not nest tabular environments (no tabular environments within tabular environments)
+% - no graphics or colored text (cell background color/shading OK)
+% See http://journals.plos.org/plosone/s/tables for table guidelines.
+%
+% For tables that exceed the width of the text column, use the adjustwidth environment as illustrated in the example table in text below.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- EQUATIONS, MATH SYMBOLS, SUBSCRIPTS, AND SUPERSCRIPTS
+%
+% IMPORTANT
+% Below are a few tips to help format your equations and other special characters according to our specifications. For more tips to help reduce the possibility of formatting errors during conversion, please see our LaTeX guidelines at http://journals.plos.org/plosone/s/latex
+%
+% For inline equations, please be sure to include all portions of an equation in the math environment.  For example, x$^2$ is incorrect; this should be formatted as $x^2$ (or $\mathrm{x}^2$ if the romanized font is desired).
+%
+% Do not include text that is not math in the math environment. For example, CO2 should be written as CO\textsubscript{2} instead of CO$_2$.
+%
+% Please add line breaks to long display equations when possible in order to fit size of the column. 
+%
+% For inline equations, please do not include punctuation (commas, etc) within the math environment unless this is part of the equation.
+%
+% When adding superscript or subscripts outside of brackets/braces, please group using {}.  For example, change "[U(D,E,\gamma)]^2" to "{[U(D,E,\gamma)]}^2". 
+%
+% Do not use \cal for caligraphic font.  Instead, use \mathcal{}
+%
+% % % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Please contact latex@plos.org with any questions.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% Use Unicode characters when possible
+\usepackage[utf8x]{inputenc}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% color can be used to apply background shading to table cells only
+\usepackage[table]{xcolor}
+
+% array package and thick rules for tables
+\usepackage{array}
+
+% create "+" rule type for thick vertical lines
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+% create \thickcline for thick horizontal lines of variable length
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+% \thickhline command for thick horizontal lines that span the table
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in 
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Use the PLoS provided BiBTeX style
+\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+% Leave date blank
+\date{}
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{27.023pt}
+\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{\sf PLOS}
+
+%% Include all macros below
+
+\newcommand{\lorem}{{\bf LOREM}}
+\newcommand{\ipsum}{{\bf IPSUM}}
+
+%% END MACROS SECTION
+
+
+\begin{document}
+\vspace*{0.2in}
+
+% Title must be 250 characters or less.
+\begin{flushleft}
+{\Large
+\textbf\newline{An ontology and frequency-based approach to	recommend activities in scientific workflows} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+}
+\newline
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+\\
+Adilson Khouri\textsuperscript{1\Yinyang},
+Luciano Digiampietri\textsuperscript{1\Yinyang}
+\\
+\bigskip
+\textbf{1} School of Arts, Sciences and Humanities, University of S\~{a}o Paulo, Brazil
+\\
+%\textbf{2} School of Arts, Sciences and Humanities, University of S\~{a}o Paulo, Brazil
+%\\
+\bigskip
+
+% Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
+% 
+% Remove or comment out the author notes below if they aren't used.
+%
+% Primary Equal Contribution Note
+\Yinyang These authors contributed equally to this work.
+
+% Additional Equal Contribution Note
+% Also use this double-dagger symbol for special authorship notes, such as senior authorship.
+%\ddag These authors also contributed equally to this work.
+
+% Current address notes
+%\textcurrency Current Address: Dept/Program/Center, Institution Name, City, State, Country % change symbol to "\textcurrency a" if more than one current address note
+% \textcurrency b Insert second current address 
+% \textcurrency c Insert third current address
+
+% Deceased author note
+%\dag Deceased
+
+% Group/Consortium Author Note
+%\textpilcrow Membership list can be found in the Acknowledgments section.
+
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
+%* correspondingauthor@institute.edu
+
+\end{flushleft}
+% Please keep the abstract below 300 words
+\section*{Abstract}
+The number of activities provided by scientific workflow management systems is large,
+which requires scientists to know many of them to take advantage of the reusability
+of these systems. To minimize this problem, the literature presents some techniques to recommend activities during the scientific workflow construction. This project specified and developed a hybrid activity recommendation system considering information on frequency, input and outputs of activities and ontological annotations. Additionally, this project presents a modeling of activities recommendation as a classification problem, tested using \(5\) classifiers; \(5\) regressors; a SVM classifier, which uses the results of other classifiers and
+regressors to recommend; and Rotation Forest , an ensemble of classifiers. The proposed technique was compared to other related techniques and to classifiers and regressors, using \(10\)-fold-cross-validation, achieving a MRR at least \(70\%\) greater than those obtained by other techniques.
+
+
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLOS ONE authors please skip this step. 
+% Author Summary not valid for PLOS ONE submissions.   
+% \section*{Author summary}
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. % Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus % mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc % convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
+
+\linenumbers
+
+% Use "Eq" instead of "Equation" for equation citations.
+\section*{Introduction}
+%A quantidade de projetos de pesquisa que usam computação intensiva vem crescendo em áreas que não possuem conhecimentos avançados em computação, como biologia, física e astronomia. Uma das ferramentas para auxiliar no gerenciamento e construção de experimentos de computação intensiva são os sistemas gerenciadores de workflows. \emph{Workflows científicos} são processos estruturados e ordenados, construídos de forma manual, semi-automática ou automática que permitem solucionar problemas científicos utilizando atividades, que podem ser: i) blocos de código fonte; ii) serviços; e iii) workflows finalizados \cite{Wang2010}. Estes sistemas facilitam a criação de novos experimentos, compartilhamento dos resultados e reutilização de atividades existentes.
+
+%Atualmente há um grande número de atividades disponíveis em repositórios como \emph{myExperiment} que armazena mais de \(2.500\) workflows \footnote{http://www.myexperiment.org/} e \emph{BioCatalogue} que disponibiliza mais de \(2.464\) serviços \cite{Biocatalogue}. O grande número de atividades e o baixo reuso de algumas atividades e workflows \cite{Wang2010} motivam a construção de técnicas para recomendar atividades aos cientistas durante a composição dos workflows.
+
+
+%Dentro dos sistemas gerenciadores de \textit{workflow}, as atividades são tipicamente representadas como ícones gráficos com função \textit{drag and drop}. Desta forma é possível construir experimentos computacionais arrastando ícones e preenchendo par{\^a}metros de entrada. A maioria destes sistemas fornecem conjuntos de atividades básicas que podem ser utilizadas em diferentes domínios, por exemplo, uma atividade que calcula o valor médio de um conjunto de dados, é aplicável em biologia, física, astronomia e outras áreas. Porém, há uma pré-condição para se reutilizar e/ou criar \textit{workflows}: conhecer quais são as atividades disponíveis.
+%
+%Para minimizar o problema de conhecer um grande número de atividades foram propostas diversas técnicas para recomendar atividades ou compor workflows. No primeiro caso, cujo objetivo é atender um usuário experiente nesses sistemas, durante a construção do workflow são recomendadas atividades para ajudar a finalizar o workflow. No segundo caso, cujo objetivo é atender um usuário menos experiente nesses sistemas, diversos workflows são construídos e sugeridos para o usuário selecionar qual satisfaz mais sua necessidade.
+%
+%Este artigo apresenta uma estratégia híbrida para recomendar atividades em workflows científicos baseada em frequência de atividades em conjunto com uma ontologia de domínio (\emph{knowledge-base} híbrido, com MoC \emph{dataflow}) para conjuntos de dados sem proveniência, sem dados de confiabilidade entre autores e sem anotações sem{\^a}nticas prévias. Além disso  sugere uma modelagem do problema de recomendar atividades em workflows científicos para que seja solucionado por classificadores como: Suport Vector Machine (SVM), Naive Bayes (NB), K-Nearest-Neighbor (KNN), Classification and Regression Trees (CART) e Rede Neural (MLP). Também são utilizados os seguintes regressores como: Suport Vector Regression (SVR), CART, Rede Neural, Multivariate Adaptive Regression Splines (MARS) e regressão binomial (RB). E uma comparação das soluções da literatura correlata com as propostas.
+%
+%Na seção \emph{Correlatos} são dicutidas as técnicas propostas pela literatura correlata, em \emph{Materiais e métodos} serão descritas a fonte dos dados, a adaptação do problema para ser tratado como um problema de classificação e metodologia de testes. 
+%Em \emph{Técnica Proposta} é descrita a solução proposta nesse artigo. Na seção \emph{Results and Discussion} serão descritos os resultados obtidos com o experimento e suas analises por fim, na seção \emph{Conclusion} serão feitas as considerações finais.
+
+The number of research projects using intensive computing has been growing in areas that lack advanced computer skills such as biology, physics, and astronomy. One of the tools to assist in the management and construction of intensive computing experiments are the workflows manager systems. \emph{Scientific Workflows} represent structured and ordered processes, constructed manually, semi-automatically or automatically to solve scientific problems using activities, which can be: i) source code blocks; (ii) services; or iii) finished workflows \cite{Wang2010}. These systems facilitate the creation of new experiments, sharing of results and reuse of existing activities.
+
+Nowadays, there are a large number of activities available in repositories such as \emph{myExperiment} which stores more than 2,500 workflows\footnote{http://www.myexperiment.org/} and \emph{BioCatalogue} Which provides more than 2,464 services~\cite{Biocatalogue}. The large number of activities and the low reuse of some activities and workflows motivate the construction of techniques to recommend activities to the scientists during the composition of workflows~\cite{Wang2010}.
+
+In the workflow management systems, activities are typically represented as graphical icons with drag and drop functionality. Thus, it is possible to construct computational experiments by dragging icons and filling in input parameters. Most of these systems provide sets of basic activities that can be used in different domains, for example, an activity that calculates the average value of a set of data is applicable in biology, physics, astronomy, and other areas. However, there is a precondition for reusing and\/or creating workflows: knowing the available activities.
+
+In order to minimize the problem of knowing a large number of activities, several techniques were proposed to recommend activities or to compose workflows. In the first case, which aims to serve an expert user in these systems, during the construction of the workflow, activities are recommended to help to complete the workflow. In the second case, whose goal is to serve a less expert user on these systems, several workflows are built and the user should select which one most satisfies him\/her need.
+
+This paper presents a hybrid approach for recommending activities in scientific workflows based on the frequency of activities combined with a knowledge-base ontology for data sets without provenance information, and without reliability data about the authors of the services and workflows. We also propose a modeling of the problem of recommending activities in scientific workflows to be used by classifiers such as: Support Vector Machine (SVM), Naive Bayes (NB), K-Nearest-Neighbor (KNN), Classification and Regression Trees, and Neural Network (MLP). The following regressors were also used: Support Vector Regression (SVR), CART, Neural Network, Multivariate Adaptive Regression Splines (MARS) and Binomial Regression (RB). At last, a comparison of our approach and the approaches from the related literature is presented.
+
+In the Section \emph{Relate Work} the techniques proposed in the related literature are described. Section \emph{Materials and Methods} the data source, selected sample are described, as well as the modeling of the problem as a classification problem.
+The solution proposed in this article is described in \emph{Technical Proposal}. In the \emph{Results and Discussion} section we describe the results obtained with the experiment are presented and discussed. In Section \emph{Conclusion} the final considerations are presented.
+
+\section*{Related Work}
+%A literatura correlata apresenta diversas técnicas para recomendar atividades em workflows científicos que serão descritas brevemente nessa seção. Os trabalhos de \citeonline{Shao2007} e \citeonline{Shao2009}, que consideram a mineração sequencial de atividades como \emph{itemsets} desconsideram a ordem das atividades e a semântica das mesmas. A proposta de \citeonline{TostaBraganholo2015} desconsidera apenas a semântica das atividades. Esta proposta de mestrado considera a ordem de atividades que é um fator importante na recomendação conforme visto no capítulo de conceitos fundamentais.
+%
+%Os trabalhos de \citeonline{Koop2008, Oliveira2008, Wang2009, Zhang2009, Tan2011, Cao2012, Diamantini2012, Garijo2013, Yeo2013} consideram a ordem das atividades, entrada e saída e proveniência dos dados. Suas limitações são a necessidade de dados de proveniência, pois nem todo SGWC armazena essas informações, além de desconsiderar informação semântica dos workflows e atividades. Este projeto não necessita de informações de proveniência e considera a semântica da informação por meio de uma ontologia hierarquizada e validada por um especialista da área.
+%
+%O trabalho de \citeonline{Bomfim2005} usa apenas um mapeamento entre atividades e ontologia desconsiderando a entrada e saída, o que potencialmente gera recomendações ineficientes. Neste projeto são consideradas às entradas e saídas de cada atividade individualmente, além do uso de uma ontologia de domínio.
+%
+%\citeonline{Wang2008, Leng2010} desconsideram o uso de semântica das atividades e da frequência de suas ocorrências em pares. Nesse projeto de mestrado são considerados esses dois fatores.
+%
+%O trabalho de \citeonline{Yao2012} exige dados que permitam calcular a confiança dos usuários e dos seus workflows. Repositórios como \emph{myExperiment}\footnote{http://www.myexperiment.org/} não exigem dos usuários o preenchimento de todos os seus dados, de forma que grande parte das informações relacionadas a este aspecto não são preenchidas pelos usuários. Além disso, os autores desconsideram a semântica das atividades e workflows. Este projeto de mestrado considera a semântica de workflows e não necessita da informação sobre a confiança dos usuários.
+%
+%Os trabalhos de \citeonline{Telea1999, Oliveir2010} e \citeonline{Zhang2011} desconsideram o uso de semântica de dados para recomendar, o que é um limitante conforme discutido por \citeonline{CorchoGarijo2014, Soomro2015}. No presente mestrado, a frequência é considerada em conjunto com a ontologia de domínio.
+%
+%Os trabalhos de \citeonline{Zhang2014, Mohan2015, Cerezo2011} desconsideram o uso de uma ontologia hierarquizada e validada por um especialista. Dessa forma, a qualidade das anotações semânticas é questionável. Nesse projeto foi construída uma ontologia usando uma metodologia e esta foi validada por um especialista.
+%
+%Os trabalhos de \citeonline{CorchoGarijo2014, Soomro2015} consideram o uso de frequência e ontologia, como neste projeto, porém recomendam \emph{subworkflows} o que limita as recomendações de atividades. Apenas atividades usadas em fragmentos comuns de workflows poderão ser recomendadas. Em outras palavras, se a atividade se encontra no ``meio'' de um \emph{subworkflow} esta nunca poderá ser recomendada individualmente. No presente mestrado, todas as atividades tem possibilidade de ser recomendadas, mesmo que no final da lista de recomendação. Além disso, apresenta uma recomendação mais abrangente, pois trata o caso de atividades simples, \emph{subworkflows} e \emph{Shims} (atividades conversoras de tipos de dados e/ou adpatadores).
+
+The related literature presents several techniques to recommend activities in scientific workflows. They will be briefly described in this section. The works of \citeonline{Shao2007} and \citeonline{Shao2009}, which consider the sequential mining of activities as \emph{itemsets}, ignore the order of activities and their semantics. The proposal of \citeonline{TostaBraganholo2015} disregards only the semantics of activities. The present approach considers the order of activities as an important factor in the recommendation.
+
+The work of \citeonline{Koop2008, Oliveira2008, Wang2009, Zhang2009, Tan2011, Cao2012, Diamantini2012, Garijo2013, Yeo2013} consider the order of activities, input, output and data provenance. Their limitations are the need of provenance data, since not all SWMS stores this information. Besides, they do not use semantic information of workflows and activities. Our approach does not require provenance information and considers the semantics of the information through an ontology validated by a specialist of the area.
+
+The work of \citeonline{Bomfim2005} uses only a mapping between activities and ontology, disregarding the input and output, which potentially generates inefficient recommendations. In our approach, the inputs and outputs of each activity are considered, in addition to the use of a domain ontology.
+
+\citeonline{Wang2008, Leng2010} do not consider the use of semantics of activities and the frequency of their occurrence in pairs.
+
+The work of \citeonline{Yao2012} requires calculating the confidence of users and of their workflows. Repositories like \emph{myExperiment} \footnote{http://www.myexperiment.org/} do not require users to fill in this data, thus much of the information related to this aspect is not populated by users. In addition, the authors disregard the semantics of activities and workflows.
+
+The work of \citeonline{Telea1999, Oliveir2010} and \citeonline{Zhang2011} disregard the use of semantics to recommend, which is a limitation as discussed by \citeonline{CorchoGarijo2014, Soomro2015}. In our approach, the frequency is considered in conjunction with the domain ontology.
+
+The work of \citeonline{CorchoGarijo2014, Soomro2015} considers the use of frequency and ontology, as in this approach, but they recommend \emph{subworkflows} which limits the recommendations of activities. Only activities used in common fragments of workflows may be recommended. In other words, if the activity is in the ``middle'' of a \emph{subworkflow} this can never be recommended individually. In our approach, all activities can be recommended even at the end of the recommendation list. In addition, it presents a more comprehensive recommendation, as it deals with simple activities, \emph{subworkflows} and \emph{shims} (data type converters and /or adapters).
+
+\section*{Materials and Methods} \label{mat_met}
+%Os workflows foram obtidos no repositório \emph{myExperiment} \cite{ROURE2015}, por meio do programa \emph{wget} \cite{wget2015}. Após efetuar o \emph{download} dos \(2481\) workflows em formato \emph{xml}, foi utilizado o analisador de código \emph{Beautiful Soup} \cite{BeautifulSoup2015}, para organizar o conjunto de dados em uma base de dados relacional.
+%
+%Os dados foram armazenados em uma matriz simples usada para as técnicas que não usam ordem das atividades. E também em uma matriz adaptada para a modelagem como problema de classificação (binária) e regressão. As matizes serão descritas nas próximas seções.
+
+The workflows were obtained in the \emph{myExperiment} \cite{ROURE2015} repository, through the program \emph{wget} \cite{wget2015}. After downloading the 2,481 workflows in \emph{xml} format, the \cite{BeautifulSoup2015} code analyzer was used to organize the dataset in a relational data.
+
+The data were stored in a simple matrix used for techniques that do not use the order of the activities. And also in an array adapted to modeling the recommendation problem as artificial intelligence binary classification and regression problems. These representation will be described in the following sections.
+
+
+% ---------------------------------------------------------------------------- %
+\subsection*{Matriz simples}
+%Os workflows da área de bioinformática (totalizando \(73\)) em conjunto com suas atividades (totalizando \(280\)) foram convertidos em uma matriz \(M_{i,j}\) em que cada linha \(i\) representa um workflow, cada coluna \(j\) representa uma das \(280\) atividades e cada célula da matriz \(M\) representa a existência \(M_{i,j} = 1\), ou não \(M_{i,j} = 0\), da atividade da coluna \(j\) no workflow \(i\). A tabela \ref{tabela_matriz_de_dados} apresenta um exemplo, fictício, de matriz \(M\). Para a realização dos testes, para cada linha da tabela \ref{tabela_matriz_de_dados} é removida uma atividade e é recomendada uma lista de possíveis atividades. O objetivo do sistema de recomendação é identificar corretamente qual a atividade está faltando no workflow (isto é, aquela que foi removida).
+The 73 bioinformatics' workflows together with their 280 activities were converted into a matrix $M_{i, j}$. In this matrix, each line corresponds to a workflow and each column to an activity. $M_{i, j} = 1$ means that the workflows \emph{i} has the activity \emph{j}. Otherwise, $M_{i, j} = 0$ means that the workflow \emph{i} does not have the activity \emph{j}. Table~\ref{tabela_matriz_de_dados} presents an fictitious example of a matrix \(M\). To perform the evaluation of the approach, an activity is removed from each row of the table \ref{tabela_matriz_de_dados}, and a list of possible activities is recommended. The goal of the recommendation system is to correctly identify which activity is missing in the workflow (i.e., the one that was removed).
+\begin{table}[htb]
+	\centering
+	\caption{Input matrix example.}
+	\begin{tabular}{|c|c|c|c|c|}  \hline
+		\textbf{Workflow} & \textbf{Activ\(\mathbf{01}\)} & \textbf{Activ\(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)} & \textbf{Activ\(\mathbf{280}\)}  \\ \hline
+		01 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+		02 			  & 1 			  & 1 			  & \(\ldots\) 	  & 1  				\\ \hline
+		03 			  & 1 			  & 0 			  & \(\ldots\) 	  & 1  				\\ \hline
+		\(\vdots\) 		  			  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 		\\ \hline
+		73 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+	\end{tabular}
+	\label{tabela_matriz_de_dados}
+	\vspace{0.1cm}
+	%\source{\varAutorData}
+\end{table}
+
+\subsection*{Matriz adaptada}
+%Para usar técnicas de classificação e regressão foram propostas algumas alterações no conjunto de dados original, descrito na tabela \ref{tabela_matriz_de_dados}, as quais podem ser visualizadas na tabela \ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}. Cada workflow foi replicado \(118\) vezes. Destes, \(59\) são uma cópia idêntica ao original, enquanto que dos outros \(59\) foi removida uma mesma atividade para todos os workflows, e foi adicionada uma nova atividade representando uma possível recomendação. Dessa forma, para cada workflow original haverá \(59\) instâncias corretas e \(59\) instâncias incorretas e este tipo de informação será utilizada para treinar os classificadores ou regressores.
+In order to use classification and regression techniques, some changes were proposed in the original dataset (exemplified in the table~\ref{tabela_matriz_de_dados}), which can be viewed in the table~\ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}. Each workflow was replicated \(118\) times. 59 of these correspond to identical copies of the original workflow, while in the other \(59\) one activity was removed from original workflow and a new activity was added representing a possible recommendation. Thus, for each original workflow, there will be \(59\) correct instances and \(59\) incorrect instances and this type of information will be used to train the classifiers or regressors.
+\begin{table}[!htb]
+	\tiny
+	\centering
+	\caption{Input matrix used by classifiers and regressors}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}  \hline
+		\textbf{\(\#\)} & \textbf{Workflow} & \textbf{Activ\(\mathbf{01}\)} & \textbf{Activ\(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)}  & \textbf{Activ\(\mathbf{279}\)} & \textbf{Activ\(\mathbf{280}\)} & \textbf{Class} \\ \hline
+		
+		1	&		01		 			   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		2	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		\(\vdots\)  &  \(\vdots\) 	   	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)\\ \hline
+		59	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+		1	&		01		 			   & 0 (removed) 		  & 1 (added) &\(\ldots\)& 1 & 0	& F	\\ \hline
+		2	&		01 					   & 0 (removed)& 0 		  & \(\ldots\) 	  & 1 (added) & 0& F	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\) & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+		59	&		01 					   & 0 (removed)			  & 0 			  & \(\ldots\) & 0 & 1 (added)& F \\ \hline
+		&\(\vdots\) & & & & & & 																		\\ \hline
+		1	&		73		 			   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		2	&		73 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+		59	&		73 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+		1	&		73		 			   & 1 (added) & 0 (removed)  & \(\ldots\) 	  & 1 & 0   		& F	\\ \hline
+		2	&		73 					   & 1 			  & 0 (removed)  & \(\ldots\)& 1 (added) & 0  & F	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)	\\ \hline
+		59	&		73 					   & 1 			  & 0 (removed)  & \(\ldots\) 	  & 0 & 1 (added) & F	\\ \hline
+	\end{tabular}
+	\label{tabela_matriz_de_dados_adapatada_classificacao_regressao}
+	\vspace{0.1cm}
+	%\source{\varAutorData}
+\end{table}
+
+%A escolha de \(59\) atividades a serem recomendadas foi feita por duas razões. A primeira é selecionar as 59 atividades com maior frequência na base de dados. A segunda é a limitação computacional: replicar as \(280\) possíveis recomendações poderia ser inviável em termos de treinamento. Foram replicadas \(59\) instâncias de workflows idênticas consideradas corretas, isto é com a atividade correta não removida, para garantir o balanceamento entre classes. A última alteração foi adicionar uma coluna indicando se a recomendação da atividade proposta é a correta, isto é, a pertencente ao respectivo workflow (\emph{T}) ou não (\emph{F}).
+The choice of \(59\) activities to be recommended was made for two reasons. The first is to select the 59 activities most frequently in the database. The second is the computational limitation: replicating the \(280\) possible recommendations might be impractical in terms of training. We have replicated \(59\) instances of identical workflows considered correct, i.e. with the correct activity not removed, to ensure inter-class balancing. The last change was to add a column indicating whether the recommendation of the proposed activity is correct, that is, the one belonging to the respective workflow (\emph{T}) or not (\emph{F}).
+
+\subsection*{Results evaluation}
+%Para a validação será utilizada a técnica cruzada considerando \(10\) subconjuntos (\emph{\(10\)-fold cross validation}). Nessa técnica, o conjunto de dados é dividido em 10 subconjuntos (\emph{folds}) e são realizadas dez execuções. Em cada uma, \(10\%\) dos workflows são separados para teste e \(90\%\) para treinamento. Assim, para cada execução, o sistema treina com \(90\%\) dos dados e o resultado do treinamento é testado para os \(10\%\) restantes. 
+%
+%Deve-se ressaltar que \(100\%\) do conjunto de dados é rotulado (isto é, fica explícito ao sistema qual atividade foi removida) e assim é possível verificar o desempenho de cada uma das execuções. O teste apresenta os \(10\%\) de workflows, sem informar os rótulos (a atividade removida), para os sistemas de recomendação que já foram treinados. Ao término das dez execuções são calculadas as médias das métricas: i) \emph{Sucess at rank k} (\(S@k\)); e ii) \emph{Mean Reciprocal Rank} (MRR). 
+%
+%A métrica \(S@k\) calcula a probabilidade de um item de interesse estar localizado entre as \(k\) primeiras posições da lista de atividades recomendadas. Seus valores residem entre zero e um. Os resultados dessa métrica são cumulativos para valores crescentes de \(k\), isto ocorre pois se uma atividade de interesse estiver entre as cinco primeiras posições da lista de recomendações, ela também encontra-se entre as dez primeiras posições. No limite, a atividade sempre estará entre as \(L\) primeiras posições, sendo \(L\) o tamanho total da lista de recomendações. Assim, valores elevados para $S@k$ são considerados bons, especialmente para valores baixos de $k$. Essas métricas são calculadas por:
+The 10-fold-cross-validation technique was used to evaluate the proposed approach. In this technique, the dataset is divided into 10 subsets (\emph{folds}) and ten executions are performed. In each, \(10\%\) of the workflows are separated for testing and \(90\%\) for training. Thus, for each run, the system trains with \(90\%\) of the data and the training result is tested for the remaining \(10​​\%\).
+
+It is worth noticing that \(100\%\) of the data set is labeled (that is, it makes explicit to the system which activity was removed) and thus it is possible to verify the performance of each of the runs. The test presents the \(10​​\%\) workflows, without informing the labels (the activity removed), for the recommendation systems that have already been trained. At the end of the ten executions, the averages of the metrics are calculated: i) \emph{Sucess at rank k} (\(S@k\)); and ii) Mean Reciprocal Rank (MRR).
+
+The metric \(S@k\) calculates the probability of an item of interest being located between the \(k\) first positions in the list of recommended activities. Its value ​​lies in between zero and one. The results of this metric are cumulative for increasing values ​​of \(k\), this occurs because if an activity of interest is in the top five of the list of recommendations, it is also in the top ten positions. At the limit, the activity will always be between the \(L\) first positions, where \(L\) is the total size of the recommendations list. Thus, high values ​​for $S@k$ are considered good, especially for low values ​​of $k$. This metric is calculated using the following equation:
+\begin{align}
+MRR &= \frac{1}{N} \sum\limits_{i=1}^{N} \left( \frac{1}{n_{i}} \right) 		\label{equ_mrr}\\
+S@k &= \frac{1}{N} \sum\limits_{i=1}^{N} \left( I(n_{i} \leq k) \right)			\label{equ_s@k}
+\end{align}
+%em que \(N\) é o número de listas recomendadas, \(n_{i}\) é a posição do item desejado na lista de recomendações \(i\), \(k\) é uma posição da lista determinada como parâmetro de entrada da equação \eqref{equ_s@k} e a função \emph{I}, indica se a atividade \(n_{i}\) ocorre em uma posição (\(x\)) menor ou igual ao parâmetro de entrada \(k\), e é dada por
+\(N\) is the number of recommending lists; \(n_{i}\) is the position of the required item in the list \(i\), \(k\) is the input parameter which determines the last position that will be considered in the equation~\eqref{equ_s@k}; and function \emph{I} indicates if the activity \(n_{i}\) occurs in a position smaller or equal to \(k\):
+\begin{align}
+I(x, k)   &= \begin{cases} \label{equ_indicativa}
+1 \textrm{ if } x \leq k \\
+0 \textrm{ otherwise }
+\end{cases}
+\end{align}
+
+%Para exemplificar o uso destas métricas será utilizado um workflow fictício representado na figura \ref{figura_atividades_removidas} que teve quatro atividades removidas (\textbf{B}, \textbf{C}, \textbf{A} e \textbf{Z}) uma a uma gerando quatro casos que necessitam de recomendações (\(\mathbf{1}, \mathbf{2}, \mathbf{3}\) e \(\mathbf{4}\)). Que foram usados como entradas para quatro sistemas de recomendação distintos. Cada sistema produziu quatro listas de recomendação, uma para cada caso da figura \ref{figura_atividades_removidas}, rotulados com a mesma numeração. Assim, a lista \(01\) é a recomendação correspondente do caso \(1\) e assim sucessivamente.
+
+%As tabelas \ref{TABELAO:SISTEMA_RECOMENDACAO_01}, \ref{TABELAO:SISTEMA_RECOMENDACAO_02}, \ref{TABELAO:SISTEMA_RECOMENDACAO_03} e \ref{TABELAO:SISTEMA_RECOMENDACAO_04} apresentam os resultados dos quatro sistemas de recomendação. Cada item em negrito das listas representa a atividade que foi removida do workflow, que é o item considerado correto (atividades com \emph{X} na figura \ref{figura_atividades_removidas}). Sua posição é determinada na coluna \emph{Rank} dessas tabelas.
+
+%O sistema de recomendação \(01\), cujos resultados se encontram na tabela \ref{TABELAO:SISTEMA_RECOMENDACAO_01}, apresenta os seguintes valores de \(S@k\)
+%\begin{align}
+%S@1 &= \frac{1}{4}  \Big( (I_{L_{1}} = 0) + (I_{L_{2}} = 0) + (I_{L_{3}} = 0) + (I_{L_{4}} = 0) \Big)	=	0,00	\\
+%S@3 &= \frac{1}{4}  \Big( (I_{L_{1}} = 1) + (I_{L_{2}} = 0) + (I_{L_{3}} = 1) + (I_{L_{4}} = 0) \Big)	=	0,50	\\
+%S@5 &= \frac{1}{4}  \Big( (I_{L_{1}} = 1) + (I_{L_{2}} = 0) + (I_{L_{3}} = 1) + (I_{L_{4}} = 0) \Big)	=	0,50	\\
+%S@7 &= \frac{1}{4}  \Big( (I_{L_{1}} = 1) + (I_{L_{2}} = 1) + (I_{L_{3}} = 1) + (I_{L_{4}} = 0) \Big)	=	0,75	\\
+%S@10 &= \frac{1}{4} \Big( (I_{L_{1}} = 1) + (I_{L_{2}} = 1) + (I_{L_{3}} = 1) + (I_{L_{4}} = 1) \Big) 	=	1,00		
+%\end{align}
+%sendo \(I_{L_{1}}\) o resultado da função indicadora \eqref{equ_indicativa}. As posições das atividades recomendadas por sistema são
+%\begin{align}
+%\left( \frac{1}{n_{i}} \right)_{L_{1}}  &= \frac{1}{2} 	\\
+%\left( \frac{1}{n_{i}} \right)_{L_{2}} &= \frac{1}{7} 	\\
+%\left( \frac{1}{n_{i}} \right)_{L_{3}} &= \frac{1}{3} 	\\
+%\left( \frac{1}{n_{i}} \right)_{L_{4}} &= \frac{1}{8} 	
+%\end{align}
+%e cuja média é dada por
+%\begin{align}
+%MRR &= \frac{\left( \frac{1}{2} + \frac{1}{7} + \frac{1}{3} + \frac{1}{8} \right)}{4} = 0,275297
+%\end{align}
+%De forma análoga os resultados obtidos pelos sistemas \(02\), \(03\) e \(04\) podem ser visualizados na tabela \ref{tabela_resultados_mrr_Sak}.
+%\begin{table}[!htb]
+%	\centering
+%	\caption{Lista de recomendação ordenada por frequência}
+%	\begin{tabular}{ccccccc} \hline
+%		\textbf{Sistema} & \(\mathbf{S@1}\) & \(\mathbf{S@3}\) & \(\mathbf{S@5}\) & \(\mathbf{S@7}\) & \(\mathbf{S@10}\) & \textbf{MRR}	\\ \hline
+%		1 & \(0,00\) 	& \(0,50\)	& \(0,50\)	& \(0,75\)	& \(1,00\) & \(0,275297\) \\ 
+%		2 & \(0,50\)	& \(0,75\)	& \(1,00\)	& \(1,00\)	& \(1,00\) & \(0,687500\) \\ 
+%		3 & \(0,00\)	& \(0,00\)	& \(0,00\)	& \(0,50\)	& \(1,00\) & \(0,124206\) \\ 
+%		4 & \(0,25\)	& \(0,50\)	& \(0,50\) 	& \(0,50\)	& \(1,00\) & \(0,427777\) \\ \hline
+%	\end{tabular}
+%	\label{tabela_resultados_mrr_Sak}
+%	\vspace{0.1cm}
+%\end{table}
+%
+%Ao comparar os quatro sistemas é possível constatar que, de acordo com as métricas calculadas, o melhor é o número~\(02\) pois apresenta o maior valor de \(MRR = 0,687500\) e os maiores valores observados de \(S@1 = 0,50\) e \(S@3 = 0,75\).
+
+
+\section*{Técnica Proposta}
+%A solução proposta neste artigo recomenda atividades usando três conceitos importantes na área de workflows científicos: i) frequência de atividades; ii) compatibilidade entre entrada e saída; e ii) semântica de atividades. Para explicar esta proposta, será usada a figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2} como exemplo. Nela é possível observar seis workflows com suas anotações, que simulam uma base de dados de workflows científicos.
+The proposed solution recommends activities using three important concepts in the area of ​​scientific workflows: i) frequency of activities; ii) compatibility between input and output; and iii) semantics of activities. To explain this proposal, the figure~\ref{FIGURA_ONTOLOGIA_CONSTRUIDA2} will be used as an example. It is possible to observe six workflows with their annotations, which simulate a database of scientific workflows.
+\begin{figure}[!h]
+	\caption{{\bf An example of a database of scientific workflows.}
+Scientific workflows with ontological annotations used to exemplify the proposed solution.}
+	\label{FIGURA_ONTOLOGIA_CONSTRUIDA2}
+\end{figure}
+
+%A solução proposta começa calculando a frequência de ocorrência de cada par de atividades existentes, que é o número de vezes que uma atividade \emph{W} ocorre imediatamente após uma outra atividade \emph{Z}. Ao considerar somente atividades que já foram conectadas, previamente na base de workflows, a compatibilidade de entrada e saída é garantida por consequência.
+The proposed solution begins by calculating the frequency of occurrence of each pair of existing activities, which is the number of times that an activity \emph{W} occurs immediately after another activity \emph{Z}. By considering only activities that have already been connected (on the dataset of workflows), the output and input compatibility is guaranteed.
+
+%Após calcular a frequência é necessário anotar todos os workflows da figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}, usando os conceitos da ontologia construída (ver figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}). Essa etapa é feita manualmente (de forma não automatizada). Por fim, o algoritmo anota todas as atividades com as mesmas anotações de seus respectivos workflows; isto é, se a atividade \emph{X} (da figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}) está dentro de dois workflows com anotações distintas então esta atividade receberá duas anotações. O resultado final é a tabela \ref{tabela_lista_recomendacao_ordenada_frequencia}, que apresenta as frequências e anotações de atividades, nesse ponto o sistema está treinado e pronto para uso do cientista.
+After calculating the frequency it is necessary to annotate all the workflows of the figure~\ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}, using the concepts of the domain ontology (see figure~\ref{FIGURA_ONTOLOGIA_CONSTRUIDA}). This step was performed manually (not automatically). Finally, the algorithm annotates all activities with the same annotations of their respective workflow; i.e., if the \emph{X} activity (of the figure \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}) is inside two workflows with distinct annotations, then this activity will be related to two different concepts from the ontology. The final result is presented in the table \ref{tabela_lista_recomendacao_ordenada_frequencia}, which contains the frequencies and annotations of activities.
+
+\begin{figure}[!h]
+	\caption{{\bf Ontology.} Ontology built to annotate scientific workflows with ontological concepts.}
+	\label{FIGURA_ONTOLOGIA_CONSTRUIDA}
+\end{figure}
+
+
+%Para compreender o mecanismo de recomendação treinado será usado outro exemplo, cujo objetivo é simular a interação do usuário com o sistema de recomendação. Suponha que durante a construção do workflow \(1\) (ver figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}) um cientista insira a atividade \emph{Z} e solicite uma recomendação. O sistema vai procurar na lista das atividades posteriores a \emph{Z} ordenadas por frequência e conceito ontológico e irá retornar a lista de recomendação apresentada na tabela~\ref{tabela_lista_recomendacao_ordenada_frequencia}. A ordenação por conceito ontológico, além de ser estável serve como critério de desempate, quando duas atividades tiverem a mesma frequência. Neste exemplo, de acordo com a lista de recomendação da tabela~\ref{tabela_lista_recomendacao_ordenada_frequencia}, a atividade \emph{W} seria recomendada em primeiro lugar ao cientista, o que representa um acerto.
+To understand the recommendation training mechanism, another example will be used to simulate a user interacting with the recommendation system. Let us assume that during the construction of the workflow~\(1\) (see figure~\ref{FIGURA_ONTOLOGIA_CONSTRUIDA}) a scientist inserts the \emph{Z} activity and asks for a recommendation. The system will look at the list of activities after \emph{Z} sorted by frequency and ontological concept and will return the recommendation list presented in table~\ref{tabela_lista_recomendacao_ordenada_frequencia}. The sorting considering the ontological concepts serves as a tiebreaker criterion when two activities have the same frequency. In this example, according to the recommendation list of table~\ref{tabela_lista_recomendacao_ordenada_frequencia}, the \emph{W} activity would be recommended first to the user.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Recommendation for activity \emph{Z} sorted by frequency and ontological concept}
+	\begin{tabular}{|c|c|c|c|}  \hline
+		\textbf{Position} & \textbf{Activ} & \textbf{Frequency} & \textbf{Annotation} 	\\ \hline
+		1				& W 				& 3 				& BLAST				\\ \hline
+		2				& X 				& 2 				& FAST, CLUSTAL		\\ \hline
+		3				& Q 				& 1 				& SNAP DRAGONS		\\ \hline
+		\(\vdots\)		& \(\vdots\)		& \(\vdots\) 		& \(\vdots\)		\\ \hline
+		280				& \(\vdots\)		& \(\vdots\)		& \(\vdots\)	\\ \hline
+	\end{tabular}
+	\label{tabela_lista_recomendacao_ordenada_frequencia}
+	\vspace{0.1cm}
+\end{table}
+
+%As atividades são anotadas com a mesma anotação dos workflows que as contém. Dessa forma, é possível que haja pelo menos uma atividade com mais de uma anotação. Isso gera um novo caso de recomendação a ser considerado. Suponha que ambas as atividades \emph{W} e \emph{X} contenham dentro de suas listas de anotação o conceito \emph{BLAST}. Nesse caso, seria recomendada a atividade com menor número de anotações, por ser considerada mais específica para o experimento em questão. Caso ambas as atividades tenham o mesmo número de anotações, é utilizada a ordem alfabética de conceitos como critério de desempate. Se ocorrer um novo empate é usado um seletor aleatório.
+The activities are annotated with the same annotation of the workflows that contain them. Thus, it is possible that there is at least one activity with more than one annotation. This creates a new recommendation case to consider. Suppose both \emph{W} and \emph{X} activities contains in their annotation lists the concept \emph{BLAST}. In this case, the activity with a lower number of annotations would be recommended, since it is considered more specific for the experiment in question. If both activities have the same number of annotations, the alphabetical order of concepts is used as the tie-breaking criterion. If a new tie occurs a random selector is used.
+
+\section*{Results}
+The table \ref{tb_resultadosExperimentos} displays the results of each recommendation system used. FESO is our proposed approach. The techniques that have the letter \emph{C} in subscript are classifiers; the ones that have letter \emph{R} in subscript are regressors; and those that have nothing are from related literature. Each system makes its recommendations according to its own criteria in an recommendation list. Then the activities not recommended are added to the end of this list. Thus, the correct activity will always be found, and the factor that differentiates the recommendation systems is the position the activities are in the recommendation list, which contains \(280\) positions.
+\bgroup
+\begin{table}[!htp]
+	\centering
+	%\tiny
+	\caption{Recommendation results}
+	\begin{tabular}{|l|l|l|l|l|l|l|l|l|} \hline
+		\textbf{\(\mathbf{\#}\)} & \textbf{Approach}&\textbf{S@1}&\textbf{S@5} & \textbf{S@10} & \textbf{S@50} & \textbf{S@100} & \textbf{S@280} & \textbf{MRR} \\ \hline
+		
+		1  & Random				& 0,0037 & 0,0260 & 0,0280 & 0,0300 & 0,0400 & 1,0000 & 0.033 \\ \hline
+		2  & \emph{Apriori}			& 0,0037 & 0,0385 & 0,0559 & 0,0568 & 0,0570 & 1,0000 & 0,037 \\ \hline
+		3  & KNN\(_C\)				& 0,0037 & 0,0685 & 0,0959 & 0,5068 & 1,0000 & 1,0000 & 0,040 \\ \hline
+		4  & Neural Network\(_C\)		& 0,0137 & 0,1507 & 0,1781 & 0,8082 & 1,0000 & 1,0000 & 0,089 \\ \hline
+		5  & CART\(_C\)				& 0,0274 & 0,1233 & 0,3699 & 0,7671 & 1,0000 & 1,0000 & 0,113 \\ \hline
+		6  & CART\(_R\)    			& 0,1370 & 0,1370 & 0,2603 & 0,6164 & 1,0000 & 1,0000 & 0,114 \\ \hline
+		7  & Naive Bayes\(_C\)     	& 0,0274 & 0,1507 & 0,3425 & 0,6301 & 1,0000 & 1,0000 & 0,114 \\ \hline
+		8  & Binomial\(_R\) 		& 0,0822 & 0,1918 & 0,2055 & 0,8493 & 1,0000 & 1,0000 & 0,136 \\ \hline
+		9  & Neural Network\(_R\)     	& 0,1096 & 0,2603 & 0,2603 & 0,2603 & 1,0000 & 1,0000 & 0,154 \\ \hline
+		10 & MARS\(_R\)     		& 0,1233 & 0,2055 & 0,2192 & 0,7260 & 1,0000 & 1,0000 & 0,167 \\ \hline
+		11 & FES           			& 0,1474 & 0,2603 & 0,3699 & 0,8671 & 1,0000 & 1,0000 & 0,196 \\ \hline
+		12 & SVM\(_R\)     			& 0,1233 & 0,3151 & 0,4932 & 0,8493 & 1,0000 & 1,0000 & 0,238 \\ \hline
+		13 & SVM\(_C\)    			& 0,2425 & 0,4658 & 0,4932 & 0,7123 & 1,0000 & 1,0000 & 0,244 \\ \hline
+		14 & composed SVM\(_C\)		& 0,2515 & 0,4458 & 0,5232 & 0,7623 & 1,0000 & 1,0000 & 0,314 \\ \hline
+		15 & Rotation Forest\(_C\)  & 0,2925 & 0,4558 & 0,5432 & 0,7723 & 1,0000 & 1,0000 & 0,324 \\ \hline
+		16 & FESO          			& 0,3425 & 0,4658 & 0,5932 & 0,8123 & 1,0000 & 1,0000 & 0,334 \\ \hline
+	\end{tabular}
+	\label{tb_resultadosExperimentos}
+	\vspace{0.1cm}
+\end{table}
+\egroup
+
+%O sistema baseado em \emph{Aleatoriedade} não precisou de treinamento. O algoritmo apenas selecionava aleatoriamente as atividades formando uma lista de atividades recomendadas. Esse sistema recomendou menos de \(3\%\) das atividades corretas entre as dez primeiras posições. A maioria das atividades corretas foram classificadas próximas a posição \(140\) que é a posição média das listas recomendadas. Os valores das métricas \(S@280 = 1\) e \(S@100 = 0,0400\) indicam que a maior parte dos itens corretos foi encontrado após a centésima posição. Esse sistema foi proposto como um marco de comparação.
+%
+%O sistema que usa a técnica \emph{Apriori} obteve seu melhor desempenho quando os parâmetros \emph{confiança} e \emph{suporte} foram definidos como \emph{sem limitação}, isto é, não foi estabelecido um valor de confiança ou suporte mínimo para considerar possíveis regras de associação criadas. Todas as regras foram consideradas válidas. Mesmo sem restringir esses valores, os resultados desse sistema foram superiores apenas ao sistema baseado em Aleatoriedade. Recomendando menos de \(6\%\) das atividades corretas entre as \(50\) primeiras posições, sua precisão ainda é baixa com valor de \(MRR = 0,037\). Os baixos resultados dessa técnica acontecem devido ao fato de desconsiderar a ordem das atividades durante a geração das regras e, consequentemente, da recomendação.
+%
+%O sistema baseado em \emph{KNN} foi treinado para diferentes valores do parâmetro \(k = [1:100]\) que representa o número de vizinhos mais próximos (de acordo com a distância Euclidiana) que serão considerados para classificar. Este sistema apresentou os melhores resultados de recomendação para o valor de \(k = 2\). Mesmo assim, menos de \(10\%\) dos itens corretos foram encontrados entre as dez primeiras posições da lista e \(50\%\) dos itens entre os \(50\) primeiros itens. De acordo com a métrica MRR, a posição média dos itens recomendados foi distante da primeira posição da lista \(MRR = 0,040\). Esses resultados indicam que classificar atividades de acordo com a distância entre grupos de vizinhos próximos não é uma abordagem adequada para o problema.
+%
+%O sistema que usa uma rede neural MLP como classificador teve uma melhoria de quase quatro vezes na métrica \(S@1\) de \(0,0037\) para \(0,0137\) em relação ao \emph{KNN}. Para o treinamento da rede foram usados os parâmetros: i) número de neurônios \(\eta\) (variando entre \(1:40\)); ii) taxa de aprendizagem \(\alpha\) (variando entre \(10^{-7}:10^{+1}\)); iii) duas camadas escondidas; e iv) arquitetura totalmente conectada. Os melhores resultados de classificação foram obtidos para \(\eta = 18\) e \(\alpha = 10^{-4}\) obtendo \(17\%\) de itens classificados entre as dez primeiras posições da lista, e \(80\%\) entre as \(50\) primeiras posições, o que representa uma melhoria de \(30\%\) em relação a técnica \emph{KNN}. O valor da métrica \(MRR = 0,089\) apresentou uma taxa duas vezes mais elevada que a do \emph{KNN}, esse aumento de precisão indica que o poder de generalizar da rede neural para solucionar problemas não lineares foi mais eficiente que a capacidade de generalização das técnicas anteriores.
+%
+%O sistema baseado em CART como classificador, que tem como característica tratar dados categóricos, apresentou um resultado superior ao da rede neural. O treinamento usou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini ou ganho de informação. O melhor resultado foi para \(gamma = 0\), \(\delta = 30\), \(cp = 10^{-3}\) e \(\xi = \) Ganho de informação. 
+
+%
+%
+%Os resultados desse sistema foram aproximadamente duas vezes melhores que os da rede neural. Isso indica uma tendência de bons resultados para técnicas que lidem com dados categóricos por natureza. Essa melhoria indicou um aumento de \(26\%\) na métrica \(MRR\) que representa um aumento da precisão do sistema, além disso posicionou \(13\%\) dos itens procurados na primeira posição e \(26\%\) nas primeiras \(50\) posições.
+%
+%O sistema baseado em CART como regressor, teve seu melhor valor com os parâmetros \(gamma = 2\), \(\delta = 20\), \(cp = 10^{-5}\) e \(\xi = \) Ganho de informação. A recomendação que usou valores contínuos apresentou um resultado superior ao \(CART_{C}\) nas métricas \(S@1\) e \(S@5\) e um resultado inferior para \(S@10\) e \(S@50\), e a precisão geral (MRR) do \(CART_R\) foi levemente superior.
+
+The \emph{Randomn} approach did not require training. The algorithm only randomly selected activities, forming a list of recommended activities. This system recommended less than \(3\%\) of the correct activities in the top ten positions. Most of the correct activities were rated close to position \(140\) which is the average position of the recommended lists. The metric values ​​\(S@280 = 1\) and \(S@100 = 0.04\) indicate that most of the correct items were found after the hundredth position. This system was used to calculate the simplest baseline.
+
+The system using the \emph{Apriori} technique achieved a better performance when the \emph{confidence} and \emph{support} parameters were defined as \emph{without limitation}, that means, no minimum confidence and support values were defined for the creation of association rules. All rules were considered valid. Even without restricting these values, the results of this technique presented results better than only the \emph{Random} approach. Recommending less than \(6\%\) of correct activities between the \(50\) first positions, its accuracy is still low with the value of \(MRR = 0.037\). The poor results of this technique happened due to the fact the technique disregards the order of the activities during the generation of the rules and, consequently, of the recommendation.
+
+The \emph{KNN}  based approach has been trained considering different values ​​of the parameter \emph{k} (from 1 to 100) which represents the number of nearest neighbors (and using the Euclidean distance as the proximity metric). The best recommendation results for this approach were obtained with \(k = 2\). Even so, less than \(10​​\%\) of the correct items were found among the top ten items in the list and \(50\%\) of items in the first 50 items. According to the MRR metric, the average position of the recommended items was far from the first position in the list \(MRR = 0.04\). These results indicate that classifying activities according to the distance between groups of neighbors is not an appropriate approach to this problem.
+
+The approach which uses an MLP neural network as a classifier had results significantly better than the ones achieved by the \emph{KNN} approach when considering the metric (S@1) \(0.0137\) versus \(0.0037\). For the training of the network the parameters used were: i) number of neurons \(\eta\) (ranging from \(1:40\)); ii) learning rate \(\alpha\) (ranging from \(10^{-7}: 10\)); iii) two hidden layers; and iv) fully connected architecture. The best classification results were achieved with \(\eta = 18\) and \(\alpha = 10^{-4}\), obtaining \(17\%\) of items ranked among the top ten positions in the list, and \(80\%\) among the \(50\) first positions, which represents an improvement of \(30\%\) when compared with the \emph{KNN} approach. The metric value \(MRR = 0.089\) was twice as high as the one from \emph{KNN}, this growth in precision indicates the neural network generalization power to solve nonlinear problems was more efficient than the previous approaches.
+
+The approach which uses CART as a classifier, dealing with categorical data, presented a result superior to the one from neural network. The training used the parameters: i) minimum division value \(\gamma = [0:30]\); ii) maximum final tree size \(\delta = [0:10000]\); iii) minimum variation value to perform a division \(cp = [10^{-7}:10]\); iv) division function (\(\xi\)) as Gini Index or Information Gain. The best result was achieved with \(gamma = 0\), \(\delta = 30\), \(cp = 10^{-3} \), and \(\xi = \) Information Gain.
+
+The results of this approach were approximately twice as good as those of the neural network. This indicates approaches that deal with categorical data by nature has a potential for obtaining good results in problems such the one treated in this paper. The MRR results were \(26\%\) better than the ones achieved by the MLP based approach, and this approach was able to position \(12.3\%\) of the searched items in the first position and 76\% in the first \(50\) positions.
+
+The approach which uses CART as regressor achieve its best results with \(gamma = 2\), \(\delta = 20\), \(cp = 10^{-5}\), and \(\xi = \)Information Gain. The recommendation that used continuous values ​​presented a result superior to \(CART_C\) considering the metrics \(S@1\) and \(S@5\) and worse results for \(S@10\) and \(S@50\). The general precision (MRR) of \(CART_R\) was slightly higher than the one achieved by \(CART_C\).
+
+
+
+%O sistema baseado no classificador Naive Bayes obteve resultados muito próximos ao do regressor CART. O treinamento ocorreu modificando o atributo \emph{correção de Laplace} com valores entre \([0:100]\). O melhor resultado ocorreu para o valor zero obtendo \(34\%\) dos itens recomendados entre as dez primeiras posições e \(63\%\) entre as \(50\) primeiras posições. Em contrapartida, o valor de \(MRR\) não sofreu grande variação.
+%
+%O sistema baseado em regressor binomial apresentou melhoria em relação ao Naive Bayes e à rede neural (técnicas que apresentaram resultados próximos). O treinamento dessa técnica ocorre por máxima verossimilhança de um modelo generalizado linear aproximado por uma distribuição binomial. Os resultados para \(S@5\) e \(S@50\) foram superiores que das técnicas anteriores e o valor da métrica \(MRR\) melhorou em aproximadamente \(19\%\) em relação a técnica Naive Bayes. Isto indica que aproximar a variável dependente por uma distribuição binomial e estimar seus parâmetros por verossimilhança é uma ideia potencialmente interessante para tratar este problema.
+%
+%A rede neural como regressor, que utiliza o peso da rede neural como saída, foi treinada de forma análoga à rede neural usada como classificador. O melhor resultado foi obtido para os valores de \(\eta = 10\) e \(\alpha = 10^{-2}\) recomendando \(26\%\) dos itens corretos entre as dez primeiras posições da lista. A precisão do sistema (MRR) melhorou \(13\%\) em relação ao regressor binomial. Esses resultados indicam que usar um regressor ao invés de um classificador apresenta um resultado melhor para esse tipo de problema, quando solucionado com redes neurais.
+%
+%O sistema que usou o algoritmo MARS como regressor apresentou um resultado superior à rede neural (usada como regressor) em \(12,5\%\) na métrica \(S@1\), três vezes mais atividades recomendadas entre as \(50\) primeiras e um aumento de precisão geral (MRR) de \(8\%\). Esse resultado mostra que as curvas criadas pelas diversas funções conectadas do MARS obtiveram uma generalização melhor que da rede neural. O treinamento dos parâmetros foi por verossimilhança.
+%
+%O regressor SVM apresentou resultados duas vezes melhores que o algoritmo MARS para a medida S@10, pois em \(49\%\) das recomendações o item correto estava entre as dez primeiras posições da lista de recomendações. O valor de MRR também foi superior (\(42\%\)). O treinamento foi feito por otimização de margem com os valores de \(c = [10^{-7}:10^{2}]\) , \(\epsilon = [10^{-7}:10^{2}]\), valores de tolerância \(\beta = [10^{-7}:10^{2}]\), funções de \emph{kernel}: i) linear; ii) sigmoide; iii) polinomial; e iv) radial, os parâmetros do \emph{kernel} polinomial são: i) \(p = [1:10]\) que é a potência da função. Os melhores valores encontrados foram para \(c = 1\), \(\epsilon = 1\), \(\beta = 10^{-4}\), \emph{kernel} polinomial com \(p = 2\). Esse resultado é um indício que o problema não é linearmente separável, pois foi usada uma função de \emph{kernel} polinomial para mapear o problema em alta dimensão e projetá-lo novamente para uma dimensão mais baixa. Os autores acreditam que esta característica foi responsável pelo bom desempenho desse regressor.
+%
+%Dentre os sistemas propostos pela literatura, o sistema baseado em entrada, saída e frequência (FES) \cite{Wang2008} é o que apresenta os melhores resultados. Nos experimentos realizados, este sistema identificou o item correto entre as dez primeiras posições da lista de recomendação em \(37\%\) dos casos, e obteve um valor de \(MRR = 0,196\).
+%
+%O sistema baseado no algoritmo SVM para classificação foi o único classificador que superou os resultados dos regressores. Seu treinamento foi análogo ao SVM para regressão. Sua melhor execução foi para os valores \(c = 10^{-1}\), \(p = 10^{-4}\) e \emph{kernel} linear. Esta execução, para a métrica \(S@1\) foi \(64\%\) melhor que a da técnica FES e o valor da precisão geral (MRR) aumentou \(24\%\). Este resultado indica que a solução utilizando \emph{kernel} para mapeamento em alta dimensão é uma proposta eficiente no caso de classificadores.
+%
+%O sistema SVM composto, que executa sobre os resultados dos outros sistemas de recomendação, apresentou um desempenho superior ao SVM para classificação. Seu treinamento foi análogo ao do SVM\(_{C}\) e seu melhor desempenho foi para os parâmetros \(c = 10^{-2}\), \(p = 1\) e \emph{kernel polinomial}. Houve uma melhoria de \(3\%\) na métrica \(S@1\) e \(28\%\) na métrica \(MRR\), essa melhoria é em virtude do uso do resultado de outros classificadores em conjunto com a redução de esparsidade do conjunto de dados.
+
+%O sistema utilizando \emph{Rotation Forest} apresentou o segundo melhor resultado, seu treinamento utilizou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini e ganho de informação; v) \(K = [1:10]\) como número de partições; vi) \(L = [1:10]\) como o número de classificadores; e vii) valores de corte \(0,25; 0,5; 0,75\). Essa melhoria foi em virtude de usar em conjunto uma técnica de classificação do tipo \emph{ensemble} e três limiares de corte, os quais foram estabelecidos para converter os valores numéricos (da média dos \(L\) classificadores) em valores binários.
+%
+%A técnica FESO, apresentou um resultado superior às demais. Este  considera o uso de frequência, entrada e saída e informações semânticas sobre as atividades. Em comparação com as demais técnicas seu resultado foi superior para todas as métricas calculadas, exceto \(S@50\) para algumas técnicas. Em relação à técnica FES, seu resultado foi superior. Em particular, parte dessa melhora é justificada pelos casos em que a atividade correta teria frequência zero no conjunto de treinamento, pois ela permite recomendar baseada na ontologia (usando as atividades que contenham a ontologia do novo workflow). Além disso, para o caso em que há empate entre duas atividades com o critério de entrada e saída e a frequência a técnica proposta apresenta um fator a mais para ser utilizado como desempate.
+%
+%Algumas tendências observadas com esses resultados foram que aumentar a informação sobre dados na recomendação melhora o seu desempenho, como o resultado dos experimentos: 2, 12 e 14 mostram. Uma segunda tendência é que o classificador SVM foi o único que obteve um melhor resultado que os regressores, indicando que soluções por maximização de espaço entre dados em alta dimensão podem ser uma área de estudo promissora. Uma terceira tendência é o uso de classificadores compostos e \emph{ensembles}, os quais apresentaram resultados promissores. No caso do \emph{ensemble} há um indício que técnicas desse tipo, que usem limiares para converter os valores da média dos resultados do conjunto \(L\) em valores binários, têm resultados promissores na recomendação de atividades.
+
+
+
+
+
+
+%\section*{Discussion}
+%DISCUSSAO
+%Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero~\cite{bib3}.
+
+The Naive Bayes classifier based approach obtained results very similar to the ones achieved by the CART regressor. The training occurred by ranging the \emph{Laplace correction} attribute with values ​​between \([0:100]\). The best result occurred with value zero for this parameter, achieving \(34\%\) of the recommended items in the top ten positions and \(63\%\) among the first \(50\) positions. In contrast, the value of \(MRR\) did not change much.
+
+The binomial regressor approach presented better results when compared with the Naive Bayes and the neural network approaches. The training of this technique occurs using the maximum likelihood for a generalized linear model approximated by a binomial distribution. The results for \(S@5\) and \(S@50\) were higher than the achieved by the previous approaches and the value of the metric \(MRR\) improved by approximately 19% when compared to the one achieved by the Naive Bayes approach.
+
+The approach which uses a neural network as regressor, considering the weight of the neural network as output, was trained in an analogous way to the neural network used as a classifier. The best result was obtained for the values ​​of \(\eta = 10\) and \(\alpha = 10^{-2}\). It was able to recommend \(26\%\) of the correct items among the top ten positions in the list. System accuracy (MRR) improved \(13\%\) from the achieved by the binomial regressor. These results indicate that using a regressor instead of a classifier presents a better result for this kind of problem, at least when using neural networks.
+
+The approach based on the MARS algorithm as regressor achieved a better result than the one from the neural network (used as regressor). The metric \(S@1\) was improved in \(12.5\%\) and the overall precision (MRR) increased  \(8\%\). This result shows that the curves created by the various connected functions of the MARS obtained a better generalization than the neural network. The training of the parameters was performed using likelihood.
+
+Among the systems proposed in the literature, the system based on input, output and frequency (FES) \cite{Wang2008} is the one with the best results. In the experiments performed, this system identified the correct item among the top ten positions of the recommendation list in \(37\%\) of the cases, and obtained a value of \(MRR = 0.196\).
+
+The SVM regressor presented results twice as good as the MARS algorithm for the metric \(S@10\), since in \(49\%\) of the recommendations the correct item was among the top ten positions in the recommendations list. The MRR value was also higher (\(42\%\)). The training was performed using margin optimization with the values ​​of \(c = [10^{-7}:10^2]\), \(\epsilon = [10^{-7}:10^{2}]\), Tolerance values ​​\(\beta = [10^{-7}:10^{2}]\),  kernel functions: i) linear; ii) sigmoid; iii) polynomial; and (iv) radial. The tested values of the parameter of the polynomial kernel were  \(p = [1:10]\) which is the power of the function. The best results were achieved for \(c = 1\), \(\epsilon = 1\), \(\beta = 10^{-4}\), and polynomial kernel with \(p = 2\). %The fact that the best results obtained with a polynomial kernel is a clue that the problem is not linearly separable, since a polynomial kernel function was used to map the problem to high dimension and project it back to a smaller dimension. The authors believe that this characteristic was responsible for the good performance of this regressor.
+
+The approach based on the SVM algorithm for classification was the only classifier that surpassed the results of the regressors. His training was analogous to the SVM for regression. Its best results were achieved with ​\(c = 10^{-1}\), \(p = 10^{-4}\), and \emph{linear kernel}. The value of the metric \(S@1\) was \(64\%\) better than the one from FES technique and the general precision value (MRR) increased \(24\%\). This result indicates that the solution using \emph{kernel} for high-dimensional mapping is an efficient proposal in the case of classifiers.
+
+The composed SVM system, which recommends items based on the results of the other recommendation approaches, achieved better results than the SVM. Its training was analogous to that of SVM\(_C\) and its best result was achieved with \(c = 10^{-2}\), \(p = 1\), and polynomial kernel. There was an improvement of \(3\%\) in the metric \(S@1\) and \(28\%\) in the metric \(MRR\), this improvement is due to the use of the result of other classifiers together with the sparsity reduction of the data set.
+
+The system using \emph{Rotation Forest} presented the second best result, its training used the parameters: i) minimum division value \(\gamma = [0:30]\); ii) maximum final tree size \(\delta = [0:10000]\); iii) minimum variation value to perform a division \(cp = [10^{-7}:10]\); iv) division function (\(\xi\)) using Gini Index and Information Gain; v) \(K = [1:10]\) as the number of partitions; vi) \(L = [1:10]\) as the number of classifiers; and (vii) cutoff values ​​\(0.25, 0.5, 0.75\). Is use of an ensemble classification technique was able to achieve better results, for example, \(S@1 = 0.29\), \(S@10 = 0.54\), and \(MRR = 0.324\).
+
+Our ontology-based approach (FESO) achieved better (or at least equal) results than the previous approaches for almost all of the evaluated metrics. It considers the use of frequency, input, output, and semantic information about the activities. In comparison to the other techniques, its result was higher for all calculated metrics, except \(S@50\) for some techniques. In relation to the FES technique, its result was superior. In particular, part of this improvement is justified by cases where the correct activity has zero frequency in the training set. Since FESO considers the ontology information it is able to recommend activities even if they have zero frequency in the train set. In addition, for the case where there is a tie between two activities considering the input, output, and the frequency criteria, the proposed technique presents an additional factor to be used as a tie breaker.
+
+We were able to identify some trends in these results were. Increasing information on data in the recommendation improves their recommenders performance, as the result of the experiments: 2, 12, and 14 show. A second trend is that the SVM classifier was the only one that obtained a better result than the regressors, indicating that solutions by maximizing space between data in high dimension may be a promising area of ​​study. A third trend is the use of composite classifiers and \emph{ensembles}, which presented promising results. In the case of the \emph{ensemble} there is a clue that techniques of this kind, which use thresholds to convert the mean values ​​of the set result \(L\) into binary values, have promising results in recommending activities.
+
+\section*{Conclusions}
+%Este trabalho desenvolveu uma técnica híbrida para recomendar atividades em workflows científicos, que usa compatibilidade sintática, frequência e ontologias de domínio para recomendar atividades, denominada FESO. Além disso, também modelou o problema de recomendação como um problema de regressão e classificação em inteligência artificial.
+%Para encontrar as técnicas da literatura correlata, foi realizada uma revisão sistemática. Nessa revisão foram encontradas as técnicas, suas restrições, suas vantagens e as formas que foram validadas. O próximo passo foi implementá-las e compará-las com as soluções propostas neste mestrado, incluindo as soluções baseadas em classificadores e regressores. 
+%
+%Para realizar a comparação foi organizado um banco de dados relacional de workflows e suas atividades. Também foi necessário estabelecer uma metodologia para comparar diferentes técnicas de recomendação de atividades para um mesmo conjunto de dados com as mesmas métricas de validação \(S@k\) e \(MRR\). 
+%
+%Ao comparar todas as técnicas, foram constatados determinados aspectos do conjunto de dados, como o fato das atividades não serem independentes; o problema não ser linearmente separável; e que técnicas de agrupamento não se mostraram adequadas para solucionar este problema. Com exceção do SVM, regressores apresentaram soluções mais precisas do que classificadores. Além disso, adicionar informação nos sistemas de recomendação melhorou a precisão destes. 
+%
+%Como trabalhos futuros pode-se usar classificadores compostos, recomendação baseada em redes sociais, obter dados sobre a proveniência das atividades para aumentar a precisão das recomendações entre outros.
+
+This work presented a hybrid approach to recommend activities in scientific workflows, called FESO. It uses syntax compatibility, frequency, and domain ontologies to recommend activities. We also modeled the problem of recommendation as a regression and an artificial intelligence classification problem. 
+
+Our results were compared with the ones presented in the related literature which was previously identified through a systematic literature review. In this review, we identified techniques, their restrictions, their advantages and the forms that they were validated. 
+
+In order to perform the comparison, a relational database of workflows and their activities was organized. It was also necessary to establish a methodology to compare different activity recommendation techniques for the same data set with the same validation metrics \(S@k\) and \(MRR\).
+
+When comparing all techniques, certain aspects of the data set were verified, such as the fact that the activities were not independent; the problem is not linearly separable, and that clustering techniques were not adequate to solve this problem. With the exception of SVM, regressors presented more accurate results than classifiers. Finally, adding information in the recommendation systems improved their accuracy.
+
+As future works, we intend to investigate the use of data provenance to increase the accuracy of the recommendations.
+
+%\section*{Supporting information}
+
+%uc Include only the SI item label in the paragraph heading. Use the \nameref{label} command to cite SI items in the text.
+%\paragraph*{S1 Fig.}
+%\label{S1_Fig}
+%{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
+
+%\paragraph*{S2 Fig.}
+%\label{S2_Fig}
+%{\bf Lorem ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas %ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+%\paragraph*{S1 File.}
+%\label{S1_File}
+%{\bf Lorem ipsum.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas %ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+%\paragraph*{S1 Video.}
+%\label{S1_Video}
+%{\bf Lorem ipsum.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas %ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+%\paragraph*{S1 Appendix.}
+%\label{S1_Appendix}
+%{\bf Lorem ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas %ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+%\paragraph*{S1 Table.}
+%\label{S1_Table}
+%{\bf Lorem ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas %ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+%\section*{Acknowledgments}
+%Agradecemos a Pró-Reitoria de Pós-Graduação da Universidade de São Paulo (USP) e a agência CAPES que forneceram bolsas de estudo para o estudante. Permitindo completar esse mestrado com publicações na área de computação.
+
+\nolinenumbers
+
+% Either type in your references using
+% \begin{thebibliography}{}
+% \bibitem{}
+% Text
+% \end{thebibliography}
+%
+% or
+%
+% Compile your BiBTeX database using our plos2015.bst
+% style file and paste the contents of your .bbl file
+% here. See http://journals.plos.org/plosone/s/latex for 
+% step-by-step instructions.
+% 
+
+\begin{thebibliography}{10}
+	
+	\bibitem{Wang2010}
+	Wang F, Deng H, Guo L, Ji K.
+	\newblock {A Survey on Scientific Workflow Techniques for Escience in
+		Astronomy}.
+	\newblock In: 2010 International Forum on Information Technology and
+	Applications. vol.~1. IEEE; 2010. p. 417--420.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634997}.
+	
+	\bibitem{Biocatalogue}
+	Bhagat J, Tanoh F, Nzuobontane E, Laurent T, Orlowski J, Roos M, et~al..
+	BioCatalogue: a universal catalogue of web services for the life sciences;
+	2014.
+	\newblock Available from: \url{doi:10.1093/nar/gkq394}.
+	
+	\bibitem{Shao2007}
+	Shao Q, Kinsy M, Chen Y.
+	\newblock {Storing and Discovering Critical Workflows from Log in Scientific
+		Exploration}.
+	\newblock In: 2007 IEEE Congress on Services (Services 2007). IEEE; 2007. p.
+	209--212.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4278799}.
+	
+	\bibitem{Shao2009}
+	Shao Q, Sun P, Chen Y.
+	\newblock {Efficiently discovering critical workflows in scientific
+		explorations}.
+	\newblock Future Generation Computer Systems. 2009;25(5):577--585.
+	
+	\bibitem{TostaBraganholo2015}
+	Oliveira FTd, Braganholo V, Murta L, Mattoso M.
+	\newblock {Improving workflow design by mining reusable tasks}.
+	\newblock Journal of the Brazilian Computer Society. 2015;21(1):16.
+	
+	\bibitem{Koop2008}
+	Koop D.
+	\newblock VisComplete: Automating Suggestions for Visualization Pipelines.
+	\newblock IEEE Transactions on Visualization and Computer Graphics.
+	2008;14(6):1691--1698.
+	
+	\bibitem{Oliveira2008}
+	de~Oliveira FT, Murta L, Werner C, Mattoso M.
+	\newblock Using Provenance to Improve Workflow Design.
+	\newblock In: Freire J, Koop D, Moreau L, editors. Provenance and Annotation of
+	Data and Processes. vol. 5272 of Lecture Notes in Computer Science. Springer
+	Berlin Heidelberg; 2008. p. 136--143.
+	\newblock Available from:
+	\url{http://dx.doi.org/10.1007/978-3-540-89965-5\_15}.
+	
+	\bibitem{Wang2009}
+	Wang Y, Cao J, Li M.
+	\newblock {Change Sequence Mining in Context-Aware Scientific Workflow}.
+	\newblock In: 2009 IEEE International Symposium on Parallel and Distributed
+	Processing with Applications. IEEE; 2009. p. 635--640.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5207868}.
+	
+	\bibitem{Zhang2009}
+	Zhang J, Liu Q, Xu K. FlowRecommender: A Workflow Recommendation Technique for
+	Process Provenance; 2009.
+	
+	\bibitem{Tan2011}
+	Tan W, Zhang J, Madduri R, Foster I, {De Roure} D, Goble C.
+	\newblock {Providing Map and GPS Assistance to Service Composition in
+		Bioinformatics}.
+	\newblock In: 2011 IEEE International Conference on Services Computing. IEEE;
+	2011. p. 632--639.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009316}.
+	
+	\bibitem{Cao2012}
+	Cao B, Yin J, Deng S, Wang D, Wu Z.
+	\newblock Graph-based workflow recommendation: on improving business process
+	modeling.
+	\newblock In: Proceedings of the 21st ACM international conference on
+	Information and knowledge management. CIKM '12. ACM; 2012. p. 1527--1531.
+	\newblock Available from: \url{http://doi.acm.org/10.1145/2396761.2398466}.
+	
+	\bibitem{Diamantini2012}
+	Diamantini C, Potena D, Storti E.
+	\newblock {Mining Usage Patterns from a Repository of Scientific Workflows}.
+	\newblock In: Proceedings of the 27th Annual \{ACM\} Symposium on Applied
+	Computing. SAC '12. ACM; 2012. p. 152--157.
+	\newblock Available from: \url{http://doi.acm.org/10.1145/2245276.2245307}.
+	
+	\bibitem{Garijo2013}
+	Garijo D, Corcho O, Gil Y.
+	\newblock {Detecting Common Scientific Workflow Fragments Using Templates and
+		Execution Provenance}.
+	\newblock In: Proceedings of the Seventh International Conference on Knowledge
+	Capture. K-CAP '13. New York, NY, USA: ACM; 2013. p. 33--40.
+	\newblock Available from: \url{http://doi.acm.org/10.1145/2479832.2479848}.
+	
+	\bibitem{Yeo2013}
+	Yeo P, Abidi SSR.
+	\newblock {Dataflow Oriented Similarity Matching for Scientific Workflows}.
+	\newblock In: 2013 IEEE International Symposium on Parallel \& Distributed
+	Processing, Workshops and Phd Forum. IEEE; 2013. p. 2091--2100.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6651115}.
+	
+	\bibitem{Bomfim2005}
+	Bomfim E, Oliveira J, de~Souza JM, Strauch J.
+	\newblock Thoth: improving experiences reuses in the scientific environment
+	through workflow management system.
+	\newblock In: Computer Supported Cooperative Work in Design, 2005. Proceedings
+	of the Ninth International Conference. vol.~2; 2005. p. 1164--1170 Vol. 2.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1504261}.
+	
+	\bibitem{Wang2008}
+	Wang J, Han Y, Yan S, Chen W, Ji G.
+	\newblock VINCA4Science: A Personal Workflow System for e-Science.
+	\newblock In: Internet Computing in Science and Engineering, 2008. ICICSE '08.
+	International Conference on; 2008. p. 444--451.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4548305}.
+	
+	\bibitem{Leng2010}
+	Leng Y, El-Gayyar M, Cremers AB.
+	\newblock {Semantics Enhanced Composition Planner for Distributed Resources}.
+	\newblock In: 2010 Ninth International Symposium on Distributed Computing and
+	Applications to Business, Engineering and Science. IEEE; 2010. p. 61--65.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5573302}.
+	
+	\bibitem{Yao2012}
+	Yao J, Tan W, Nepal S, Chen S, Zhang J, De~Roure D, et~al.
+	\newblock ReputationNet: A Reputation Engine to Enhance ServiceMap by
+	Recommending Trusted Services.
+	\newblock In: Services Computing (SCC), 2012 IEEE Ninth International
+	Conference on; 2012. p. 454--461.
+	\newblock Available from:
+	\url{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6274177}.
+	
+	\bibitem{Telea1999}
+	Telea A, van Wijk JJ.
+	\newblock Vission: An Object Oriented Dataflow System for Simulation and
+	Visualization.
+	\newblock In: PROCEEDINGS OF IEEE VISSYM; 1999. p. 95--104.
+	\newblock Available from:
+	\url{http://link.springer.com/chapter/10.1007%2F978-3-7091-6803-5_21}.
+		
+		\bibitem{Oliveir2010}
+		de~Oliveira FT.
+		\newblock UM SISTEMA DE RECOMENDAÇÃO PARA COMPOSIÇÃO DE WORKFLOWS.
+		\newblock UNIVERSIDADE FEDERAL DO RIO DE JANEIRO; 2010.
+		
+		\bibitem{Zhang2011}
+		Zhang J, Tan W, Alexander J, Foster I, Madduri R.
+		\newblock {Recommend-As-You-Go: A Novel Approach Supporting Services-Oriented
+			Scientific Workflow Reuse}.
+		\newblock In: 2011 IEEE International Conference on Services Computing. IEEE;
+		2011. p. 48--55.
+		\newblock Available from:
+		\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009243}.
+		
+		\bibitem{CorchoGarijo2014}
+		Garijo D, Corcho O, Gil Y, Braskie MN, Hibar D, Hua X, et~al.
+		\newblock {Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users}.
+		\newblock Proceedings of the 2014 IEEE 10th International Conference on
+		eScience. 2014; p. 239--246.
+		
+		\bibitem{Soomro2015}
+		Soomro K, Munir K, Mcclatchey R.
+		\newblock Incorporating Semantics in Pattern-Based Scientific Workflow
+		Recommender Systems. 2015;.
+		
+		\bibitem{Zhang2014}
+		Zhang J, Lee C, Xiao S, Votava P, Lee TJ, Nemani R, et~al.
+		\newblock {A Community-Driven Workflow Recommendations and Reuse
+			Infrastructure}.
+		\newblock In: 2014 IEEE 8th International Symposium on Service Oriented System
+		Engineering. IEEE; 2014. p. 162--172.
+		\newblock Available from:
+		\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6830902}.
+		
+		\bibitem{Mohan2015}
+		Mohan A, Ebrahimi M, Lu S.
+		\newblock 2015 IEEE International Conference on Services Computing A
+		Folksonomy-Based Social Recommendation System for Scientific Workflow Reuse.
+		2015;.
+		
+		\bibitem{Cerezo2011}
+		Cerezo N, Montagnat J.
+		\newblock {Scientific Workflow Reuse Through Conceptual Workflows on the
+			Virtual Imaging Platform}.
+		\newblock In: Proceedings of the 6th Workshop on Workflows in Support of
+		Large-scale Science. \{WORKS\} '11. ACM; 2011. p. 1--10.
+		\newblock Available from: \url{http://doi.acm.org/10.1145/2110497.2110499}.
+		
+		\bibitem{ROURE2015}
+		Roure CG. myExperiment; 2015.
+		\newblock Available from: \url{http://www.myexperiment.org/}.
+		
+		\bibitem{wget2015}
+		Scrivano G, Niksic H. GNU Wget Introduction to GNU Wget; 2015.
+		\newblock Available from: \url{http://www.gnu.org/software/wget/}.
+		
+		\bibitem{BeautifulSoup2015}
+		Richardson L. Beautiful Soup; 2015.
+		\newblock Available from: \url{http://www.crummy.com/software/BeautifulSoup/}.
+		
+	\end{thebibliography}
+
+
+\end{document}
+

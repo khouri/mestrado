@@ -1,0 +1,169 @@
+\begin{thebibliography}{10}
+
+\bibitem{BioCatalogue2015}
+J.~Bhagat, F.~Tanoh, E.~Nzuobontane, T.~Laurent, J.~Orlowski, M.~Roos,
+  K.~Wolstencroft, S.~Aleksejevs, R.~Stevens, S.~Pettifer, R.~Lopez, and
+  C.~Goble.
+\newblock Biocatalogue: a universal catalogue of web services for the life
+  sciences, junho 2014.
+
+\bibitem{Bomfim2005}
+E.~Bomfim, J.~Oliveira, J.~de~Souza, and J.~Strauch.
+\newblock Thoth: improving experiences reuses in the scientific environment
+  through workflow management system.
+\newblock In {\em Computer Supported Cooperative Work in Design, 2005.
+  Proceedings of the Ninth International Conference}, volume~2, pages
+  1164--1170 Vol. 2, 2005.
+
+\bibitem{Cao2012}
+B.~Cao, J.~Yin, S.~Deng, D.~Wang, and Z.~Wu.
+\newblock Graph-based workflow recommendation: on improving business process
+  modeling.
+\newblock In {\em Proceedings of the 21st ACM international conference on
+  Information and knowledge management}, CIKM '12, pages 1527--1531. ACM, 2012.
+
+\bibitem{Oliveir2010}
+F.~T. de~Oliveira.
+\newblock Um sistema de recomendaÇÃo para composiÇÃo de workflows.
+\newblock Master's thesis, UNIVERSIDADE FEDERAL DO RIO DE JANEIRO, 2010.
+
+\bibitem{Oliveira2008}
+F.~T. de~Oliveira, L.~Murta, C.~Werner, and M.~Mattoso.
+\newblock Using provenance to improve workflow design.
+\newblock In J.~Freire, D.~Koop, and L.~Moreau, editors, {\em Provenance and
+  Annotation of Data and Processes}, volume 5272 of {\em Lecture Notes in
+  Computer Science}, pages 136--143. Springer Berlin Heidelberg, 2008.
+
+\bibitem{Diamantini2012}
+C.~Diamantini, D.~Potena, and E.~Storti.
+\newblock {Mining Usage Patterns from a Repository of Scientific Workflows}.
+\newblock In {\em Proceedings of the 27th Annual \{ACM\} Symposium on Applied
+  Computing}, SAC '12, pages 152--157. ACM, 2012.
+
+\bibitem{Garijo2013}
+D.~Garijo, O.~Corcho, and Y.~Gil.
+\newblock {Detecting Common Scientific Workflow Fragments Using Templates and
+  Execution Provenance}.
+\newblock In {\em Proceedings of the Seventh International Conference on
+  Knowledge Capture}, K-CAP '13, pages 33--40, New York, NY, USA, 2013. ACM.
+
+\bibitem{CorchoGarijo2014}
+D.~Garijo, O.~Corcho, Y.~Gil, M.~N. Braskie, D.~Hibar, X.~Hua, J.~Neda,
+  P.~Thompson, and A.~W. Toga.
+\newblock {Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users}.
+\newblock {\em Proceedings of the 2014 IEEE 10th International Conference on
+  eScience}, pages 239--246, 2014.
+
+\bibitem{Harvey2010}
+M.~Harvey, I.~Ruthven, and M.~Carman.
+\newblock {Ranking Social Bookmarks Using Topic Models}.
+\newblock {\em Proceedings of the 19th ACM International Conference on
+  Information and Knowledge Management}, pages 1401--1404, 2010.
+
+\bibitem{Koop2008}
+D.~Koop.
+\newblock Viscomplete: Automating suggestions for visualization pipelines.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1691--1698, nov 2008.
+
+\bibitem{Leng2010}
+Y.~Leng, M.~El-Gayyar, and A.~B. Cremers.
+\newblock {Semantics Enhanced Composition Planner for Distributed Resources}.
+\newblock In {\em 2010 Ninth International Symposium on Distributed Computing
+  and Applications to Business, Engineering and Science}, pages 61--65. IEEE,
+  aug 2010.
+
+\bibitem{TostaBraganholo2015}
+F.~T.~d. Oliveira, V.~Braganholo, L.~Murta, and M.~Mattoso.
+\newblock {Improving workflow design by mining reusable tasks}.
+\newblock {\em Journal of the Brazilian Computer Society}, 21(1):16, 2015.
+
+\bibitem{BeautifulSoup2015}
+L.~Richardson.
+\newblock Beautiful soup, 11 2015.
+
+\bibitem{ROURE2015}
+C.~G. Roure.
+\newblock myexperiment, 2015.
+
+\bibitem{wget2015}
+G.~Scrivano and H.~Niksic.
+\newblock Gnu wget introduction to gnu wget, 11 2015.
+
+\bibitem{Shao2007}
+Q.~Shao, M.~Kinsy, and Y.~Chen.
+\newblock {Storing and Discovering Critical Workflows from Log in Scientific
+  Exploration}.
+\newblock In {\em 2007 IEEE Congress on Services (Services 2007)}, pages
+  209--212. IEEE, jul 2007.
+
+\bibitem{Shao2009}
+Q.~Shao, P.~Sun, and Y.~Chen.
+\newblock {Efficiently discovering critical workflows in scientific
+  explorations}.
+\newblock {\em Future Generation Computer Systems}, 25(5):577--585, may 2009.
+
+\bibitem{Soomro2015}
+K.~Soomro, K.~Munir, and R.~Mcclatchey.
+\newblock Incorporating semantics in pattern-based scientific workflow
+  recommender systems.
+\newblock 2015.
+
+\bibitem{Tan2011}
+W.~Tan, J.~Zhang, R.~Madduri, I.~Foster, D.~{De Roure}, and C.~Goble.
+\newblock {Providing Map and GPS Assistance to Service Composition in
+  Bioinformatics}.
+\newblock In {\em 2011 IEEE International Conference on Services Computing},
+  pages 632--639. IEEE, jul 2011.
+
+\bibitem{Telea1999}
+A.~Telea and J.~J. van Wijk.
+\newblock Vission: An object oriented dataflow system for simulation and
+  visualization.
+\newblock In {\em PROCEEDINGS OF IEEE VISSYM}, pages 95--104, 1999.
+
+\bibitem{Wang2010}
+F.~Wang, H.~Deng, L.~Guo, and K.~Ji.
+\newblock {A Survey on Scientific Workflow Techniques for Escience in
+  Astronomy}.
+\newblock In {\em 2010 International Forum on Information Technology and
+  Applications}, volume~1, pages 417--420. IEEE, jul 2010.
+
+\bibitem{Wang2008}
+J.~Wang, Y.~Han, S.~Yan, W.~Chen, and G.~Ji.
+\newblock Vinca4science: A personal workflow system for e-science.
+\newblock In {\em Internet Computing in Science and Engineering, 2008. ICICSE
+  '08. International Conference on}, pages 444--451, 2008.
+
+\bibitem{Wang2009}
+Y.~Wang, J.~Cao, and M.~Li.
+\newblock {Change Sequence Mining in Context-Aware Scientific Workflow}.
+\newblock In {\em 2009 IEEE International Symposium on Parallel and Distributed
+  Processing with Applications}, pages 635--640. IEEE, 2009.
+
+\bibitem{Yao2012}
+J.~Yao, W.~Tan, S.~Nepal, S.~Chen, J.~Zhang, D.~De~Roure, and C.~Goble.
+\newblock Reputationnet: A reputation engine to enhance servicemap by
+  recommending trusted services.
+\newblock In {\em Services Computing (SCC), 2012 IEEE Ninth International
+  Conference on}, pages 454--461, 2012.
+
+\bibitem{Yeo2013}
+P.~Yeo and S.~S.~R. Abidi.
+\newblock {Dataflow Oriented Similarity Matching for Scientific Workflows}.
+\newblock In {\em 2013 IEEE International Symposium on Parallel \& Distributed
+  Processing, Workshops and Phd Forum}, pages 2091--2100. IEEE, may 2013.
+
+\bibitem{Zhang2009}
+J.~Zhang, Q.~Liu, and K.~Xu.
+\newblock Flowrecommender: A workflow recommendation technique for process
+  provenance, 2009.
+
+\bibitem{Zhang2011}
+J.~Zhang, W.~Tan, J.~Alexander, I.~Foster, and R.~Madduri.
+\newblock {Recommend-As-You-Go: A Novel Approach Supporting Services-Oriented
+  Scientific Workflow Reuse}.
+\newblock In {\em 2011 IEEE International Conference on Services Computing},
+  pages 48--55. IEEE, jul 2011.
+
+\end{thebibliography}

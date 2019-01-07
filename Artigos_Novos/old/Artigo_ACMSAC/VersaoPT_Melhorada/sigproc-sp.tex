@@ -1,0 +1,240 @@
+\documentclass{acm_proc_article-sp}
+
+\usepackage{multirow}
+
+\begin{document}
+
+\title{An ontology and frequency-based method to recommend activities in scientific workflows}
+
+\numberofauthors{2} 
+
+\author{
+% 1st. author
+\alignauthor
+Adilson Khouri\titlenote{Adilson Lopes Khouri.}\\
+       \affaddr{Universidade de S{\~a}o Paulo}\\
+       \affaddr{1000 Av. Arlindo B{\'e}ttio}\\
+       \affaddr{S{\~a}o Paulo, Brazil}\\
+       \email{adilson.khouri.usp@gmail.com}
+% 2nd. author
+\alignauthor
+Luciano Digiampietri\titlenote{Luciano Antonio Digiampietri.}\\
+       \affaddr{Universidade de S{\~a}o Paulo}\\
+       \affaddr{1000 Av. Arlindo B{\'e}ttio}\\
+       \affaddr{S{\~a}o Paulo, Brazil}\\
+       \email{luciano.digiampietri@gmail.com}
+}
+
+\maketitle
+\begin{abstract}
+This paper presents a novel and hybrid approach to recommend activities in scientific workflows for datasets of activities with no provenance, no data reliability between authors and without prior semantic annotations. It is based on activities frequency and domain ontology (in this work, bioinformatics ontology). The other three main contributions from this paper are: a comparison of different techniques for activities recommendation using real workflows obtained from the myExperiment repository; the modeling of the activities recommendation problem as a classification problem, using the following classifiers: CART, Naive Bayes, Neural Network (MLP), Suport Vector Machines(SVM) and K-Nearest-Neighbor(KNN); the modeling of the activities recommendation problem as a regression problem, using the following regressors: binomial, CART, MARS, Neural Network and Suport Vector Regression (SVR).
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.4}{Information Systems Applications}{Recommender Systems}
+%A category including the fourth, optional field follows...
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+% Retirados de http://www.acm.org/about/class/1998
+\terms{Algorithms, Experimentation}
+
+\keywords{Activities Recommendation with Ontology, Scientific Workflows, Artificial Intelligence}
+
+\section{Introdu\c{c}{\~a}o}\label{INTRODUCAO}
+Uma das ferramentas para auxiliar no gerenciamento de experimentos cient{\'i}ficos s{\~a}o os sistemas gerenciadores de \emph{workflows}. \emph{Workflows cient{\'i}ficos} s{\~a}o processos estruturados e ordenados, constru{\'i}dos de forma manual, semi-autom{\'a}tica ou autom{\'a}tica que permitem solucionar problemas cient{\'i}ficos utilizando atividades, que podem ser: i) blocos de c{\'o}digo fonte; ii) servi\c{c}os; e iii) \emph{workflows} finalizados \cite{Wang2010}. Estes sistemas facilitam a cria\c{c}{\~a}o de novos experimentos, compartilhamento dos resultados e reutiliza\c{c}{\~a}o de atividades existentes.
+
+Dentro dos sistemas gerenciadores de \textit{workflow}, as atividades s{\~a}o tipicamente representadas como {\'i}cones gr{\'a}ficos com fun\c{c}{\~a}o \textit{drag and drop}. Desta forma {\'e} poss{\'i}vel construir experimentos computacionais arrastando {\'i}cones e preenchendo par{\^a}metros de entrada. A maioria destes sistemas fornecem conjuntos de atividades b{\'a}sicas que podem ser utilizadas em diferentes dom{\'i}nios, por exemplo, uma atividade que calcula o valor m{\'e}dio de um conjunto de dados, {\'e} aplic{\'a}vel em biologia, f{\'i}sica, astronomia e outras {\'a}reas. Por{\'e}m, h{\'a} uma pr{\'e}-condi\c{c}{\~a}o para se reutilizar e/ou criar \textit{workflows}: conhecer quais s{\~a}o as atividades dispon{\'i}veis.
+
+Atualmente h{\'a} um grande n{\'u}mero de atividades dispon{\'i}veis em reposit{\'o}rios como \emph{myExperiment} que armazena mais de \(2.500\) \emph{workflows} \cite{myExperiment} e \emph{BioCatalogue} que disponibiliza mais de \(2.464\) servi\c{c}os \cite{Biocatalogue}. O grande n{\'u}mero de atividades e o baixo reuso de algumas atividades e \emph{workflows} \cite{Wang2010} motivam a constru\c{c}{\~a}o de t{\'e}cnicas para recomendar atividades aos cientistas durante a composi\c{c}{\~a}o dos \emph{workflows}.
+
+Sistemas de recomenda\c{c}{\~a}o permitem aos cientistas aproveitar o poder de reutiliza\c{c}{\~a}o de workflows cient{\'i}ficos sem a necesidade de conhecer todas as atividades ou criar atividades com mesma funcionalidade. Esses sistemas funcionam como filtro de atividades recomendando para o usu{\'a}rio atividades que lhe sejam {\'u}teis. 
+
+Este artigo \cite{Uschold95} apresenta uma estrat{\'e}gia h{\'i}brida para recomendar atividades em workflows cient{\'i}ficos baseada em frequ{\^e}ncia de atividades em conjunto com uma ontologia de dom{\'i}nio (\emph{knowledge-base} h{\'i}brido, com MoC \emph{dataflow}) para conjuntos de dados sem proveni{\^e}ncia, sem dados de confiabilidade entre autores e sem anota\c{c}{\~o}es sem{\^a}nticas pr{\'e}vias. Al{\'e}m disso  sugere uma modelagem do problema de recomendar atividades em workflows cient{\'i}ficos para que seja solucionado por classificadores como: Suport Vector Machine (SVM), Naive Bayes (NB), K-Nearest-Neighbor (KNN), Classification and Regression Trees (CART) e Rede Neural (MLP). Tamb{\'e}m s{\~a}o utilizados os seguintes regressores como: Suport Vector Regression (SVR), CART, Rede Neural, Multivariate Adaptive Regression Splines (MARS) e regress{\~a}o binomial (RB). E uma compara\c{c}{\~a}o das solu\c{c}{\~o}es da literatura correlata com as propostas.
+
+O restante do artigo tem a seguinte estrutura na subse\c{c}{\~a}o \ref{SISTEMASRECOMENDACAO} s{\~a}o definidos os sistemas de recomenda\c{c}{\~a}o, seus problemas e desafios, as poss{\'i}veis solu\c{c}{\~o}es destes. Na subse\c{c}{\~a}o \ref{SISTEMASGERENCIADORESWORKFLOWCIENTIFICO} s{\~a}o apresentados os sistemas gerenciadores de workflows cient{\'i}ficos e os workflows cient{\'i}ficos. A subse\c{c}{\~a}o \ref{RECOMENDACAO_WORKFLOWS_CIENTIFICOS} apresenta os desafios de recomendar atividades em workflows cient{\'i}ficos. A se\c{c}{\~a}o \ref{CORRELATOS} apresenta os trabalhos da literatura correlata, a se\c{c}{\~a}o \ref{METODOLOGIA} apresenta a metodologia utilizada no trabalho, a se\c{c}{\~a}o 
+\ref{TECNICAS} explica brevemente as t{\'e}cnicas usadas pelos classificadores e regressores a se\c{c}{\~a}o \ref{EXPERIMENTOS} apresenta o resultado dos experimentos realizados. Por fim a se\c{c}{\~a}o \ref{CONCLUSOES} conclu{\'i} o artigo e apresenta poss{\'i}veis trabalhos futuros.
+
+
+\subsection{Sistemas de Recomenda\c{c}{\~a}o}\label{SISTEMASRECOMENDACAO}
+Sistemas de recomenda\c{c}{\~a}o t{\^e}m como objetivo recomendar itens que sejam interessantes aos usu{\'a}rios, formalizando: seja \(C\) o conjunto de todos os usu{\'a}rios, \(S\) o conjunto de todos os itens que podem ser recomendados, \(u\) a fun\c{c}{\~a}o de utilidade que metrifica o quanto um item \(s\) {\'e} {\'u}til para um determinado usu{\'a}rio \(c\), \(u:C \times S\rightarrow R\) onde \(R\) {\'e} um conjunto totalmente ordenado. Para cada usu{\'a}rio \(c \in C \) queremos escolher \(s^{'} \in S \) que maximize a fun\c{c}{\~a}o de utilidade 
+\begin{align}
+\forall c \in C,  \quad s_{c}^{'} =  \operatorname*{arg\,max}_{s \in S} u(c,s) \label{formalizar_recomendacao}
+\end{align}
+
+Em sistemas de recomenda\c{c}{\~a}o a fun\c{c}{\~a}o utilidade \(u\) n{\~a}o est{\'a} definida para todo o espa\c{c}o \(C \times S\), isso for\c{c}a os sistemas de recomenda\c{c}{\~a}o a extrapolar o espa\c{c}o conhecido \cite{Adomavicius2005}.
+
+Para solucionar esse problema foram propostas diferentes t{\'e}cnicas para recomendar itens, as quais \cite{Paiva2013} classificam em seis grupos. A primeira, \emph{Content-based}, recomenda itens similares a outros selecionados anteriormente pelo pr{\'o}prio usu{\'a}rio, suas limita\c{c}{\~o}es s{\~a}o: i) an{\'a}lise limitada do conte{\'u}do do item que ser{\'a} recomendado, geralmente h{\'a} falta de descri\c{c}{\~a}o sem{\^a}ntica do item; ii) superespecializa\c{c}{\~a}o quando o usu{\'a}rio recebe recomenda\c{c}{\~o}es similares demais as suas escolhas; e iii) novos usu{\'a}rios precisam avaliar um n{\'u}mero m{\'i}nimo de itens antes que o sistema possa recomendar itens para ele.
+
+A segunda, \emph{Collaborative Filter}, recomenda itens que j{\'a} foram selecionados por outros usu{\'a}rios \emph{similares}, tem como limita\c{c}{\~o}es: i) o problema de novos usu{\'a}rios (como identificar com quem eles s{\~a}o similares?); ii) novos itens somente ser{\~a}o recomendados ao passo que forem sendo avaliados por usu{\'a}rios; iii) dados esparsos, alguns poucos usu{\'a}rios costumam avaliar muitos itens e a maioria avalia poucos itens tornando a matriz de utilidade (usu{\'a}rios \(\times\) itens) esparsa, pois o n{\'u}mero de avalia\c{c}{\~o}es feitas tende a ser muito menor do que o n{\'u}mero de sugest{\~o}es a serem realizadas. Dessa forma, itens raros (que foram avaliados por poucos) dificilmente ser{\~a}o recomendados.
+
+A terceira, \emph{Hybrid approaches}, combina caracter{\'i}sticas das t{\'e}cnicas existentes tentando minimizar suas limita\c{c}{\~o}es. A quarta, \emph{Community-based}, {\'e} baseada em informa\c{c}{\~o}es da rede social (comunidade) do usu{\'a}rio. A recomenda\c{c}{\~a}o {\'e} realizada de acordo com a prefer{\^e}ncia dos colegas e amigos do usu{\'a}rio ao inv{\'e}s de prefer{\^e}ncias de desconhecidos, {\'e} um tipo de especializa\c{c}{\~a}o do filtro colaborativo herdando suas caracter{\'i}sticas.
+
+A quinta, \emph{Demographic}, utiliza atributos como regi{\~a}o, idade, idioma para recomendar, surgiu para tentar minimizar o problema de esparsidade e {\'e} uma especializa\c{c}{\~a}o do filtro colaborativo considerando que usu{\'a}rios com mesmos dados demogr{\'a}ficos podem ser considerados similares.
+
+A sexta, \emph{Knowledge-based}, recomenda itens de acordo com o dom{\'i}nio de aplica\c{c}{\~a}o, a fun\c{c}{\~a}o de similaridade estima quanto a descri\c{c}{\~a}o do problema {\'e} similar a solu\c{c}{\~a}o recomendada. Tem como limita\c{c}{\~a}o a necessidade de descri\c{c}{\~o}es sem{\^a}nticas (usando, por exemplo, ontologias) sobre o dom{\'i}nio, usu{\'a}rio e o problema.
+
+\subsection{Sistemas Gerenciadores de Workflow Cient{\'i}ficos}\label{SISTEMASGERENCIADORESWORKFLOWCIENTIFICO}
+Sistemas gerenciadores de \emph{workflows} cient{\'i}ficos s{\~a}o infraestruturas de \emph{software} que permitem a constru\c{c}{\~a}o, reutiliza\c{c}{\~a}o, captura de proveni{\^e}ncia e pesquisa de experimentos cient{\'i}ficos representados na forma de \emph{workflows} \cite{McPhillips2009}. Os \emph{workflows} possibilitam modelar e executar solu\c{c}{\~o}es computacionais para problemas cient{\'i}ficos, combinando dados e opera\c{c}{\~o}es sobre dados em estruturas configur{\'a}veis formadas por  atividades \cite{Garijo2014}.
+
+Para modelar \emph{workflows} cient{\'i}ficos h{\'a} v{\'a}rios paradigmas ou modelos (\emph{Model of Computation} - [MoC]), que representam a forma como os dados s{\~a}o trocados entre atividades e os tipos de opera\c{c}{\~o}es sobre dados. Neste trabalho ser{\~a}o abordados dois MoCs: \emph{dataflow} e \emph{control flow}, o primeiro, mais utilizado em \emph{workflows} cient{\'i}ficos, realiza transforma\c{c}{\~o}es sobre os dados, analisa/visualiza dados e elabora simula\c{c}{\~o}es, o segundo, mais utilizado em \emph{workflows} de neg{\'o}cio, enfatiza eventos, fluxogramas e sequ{\^e}ncias de atividades a serem desenvolvidas \cite{Ludascher2006}. Atualmente {\'e} comum encontrar sistemas gerenciadores de \emph{workflows} que combinem estes dois paradigmas.
+
+\emph{Workflows} cient{\'i}ficos tipicamente utilizam muitas atividades do tipo \emph{dataflow} e poucas do tipo \emph{control flow} \cite{Ludascher2006}, suas atividades podem ser classificadas pela suas estruturas, s{\~a}o denominados como \emph{subworkflows} quando formadas por v{\'a}rias atividades encadeadas e encapsuladas \cite{medeiros_woodss_2005}, denominadas \emph{atividade} quando constitu{\'i}das por uma {\'u}nica atividade \cite{Garijo2012} e \emph{Shim} quando funcionam como adaptadores/conectores, entre duas atividades incompat{\'i}veis sintaticamente \cite{Lin2009}.
+
+Durante as fases de constru\c{c}{\~a}o e execu\c{c}{\~a}o dos \emph{workflows} alguns sistemas gerenciadores permitem a captura da proveni{\^e}ncia dos dados, isto {\'e}, as fontes da informa\c{c}{\~a}o utilizada, entidades, processos envolvidos na constru\c{c}{\~a}o ou entrega de um artefato \cite{Zeng2011}. As quais, podem ser classificadas, segundo \cite{Lim2010}, nos seguintes tipos: i) \emph{prospective provenance} que modela a especifica\c{c}{\~a}o de um \emph{workflow}, funcionando como uma abstra\c{c}{\~a}o/receita do mesmo e pode ser capturada durante a constru\c{c}{\~a}o; e ii) \emph{retrospective provenance} que modela as execu\c{c}{\~o}es dos \emph{workflows}, quais tarefas foram executadas e quais transforma\c{c}{\~o}es sobre os dados ocorreram, esse tipo de proveni{\^e}ncia pode ser capturado durante a execu\c{c}{\~a}o do \emph{workflow}.
+
+A constru\c{c}{\~a}o de \emph{workflows} consiste na inclus{\~a}o de diferentes tipos de atividades, na conex{\~a}o destas atividades, na liga\c{c}{\~a}o entre os dados de entrada e as atividades bem como no preenchimento de alguns par{\^a}metros das atividades.
+
+Para auxiliar nessa constru\c{c}{\~a}o foram propostas t{\'e}cnicas para compor automaticamente ou recomendar atividades. A primeira consiste em definir o problema a ser modelado e o sistema gerenciador conecta automaticamente as atividades construindo \emph{workflows} para o usu{\'a}rio, essa t{\'e}cnica {\'e} recomendada para usu{\'a}rios que n{\~a}o conhecem detalhes espec{\'i}ficos do processo e/ou n{\~a}o desejam se envolver nas especificidades de como o \emph{workflow} ir{\'a} resolver o problema modelado. 
+
+A segunda ocorre durante a constru\c{c}{\~a}o manual das atividades e o sistema gerenciador sugere ao usu{\'a}rio algumas atividades que podem ser {\'u}teis para o \emph{workflow} em constru\c{c}{\~a}o. Esta sugest{\~a}o geralmente {\'e} baseada em medidas de similaridade ou buscando-se atividades em \emph{workflows} parecidos com o que est{\'a} sendo desenvolvido ou buscando-se atividades usadas por usu{\'a}rios com o mesmo perfil do usu{\'a}rio atual. A t{\'e}cnica de recomenda\c{c}{\~a}o {\'e} indicada para usu{\'a}rios mais experientes que desejam ter participa\c{c}{\~a}o ativa na constru\c{c}{\~a}o do \emph{workflow}.
+
+\subsection{Recomenda\c{c}{\~a}o em workflows cient{\'i}ficos}\label{RECOMENDACAO_WORKFLOWS_CIENTIFICOS}
+Construir um sistema de recomenda\c{c}{\~a}o para \emph{workflows} cient{\'i}ficos envolve duas principais tarefas, a primeira {\'e} maximizar a fun\c{c}{\~a}o de utilidade descrita pela equa\c{c}{\~a}o \eqref{formalizar_recomendacao}, em outras palavras recomendar itens que satisfa\c{c}am o usu{\'a}rio, e a segunda, resolver problemas espec{\'i}ficos do dom{\'i}nio, no caso deste projeto de mestrado, recomendar atividades para \emph{workflows} cient{\'i}ficos que apresentam as restri\c{c}{\~o}es de depend{\^e}ncia entre entrada e sa{\'i}da de atividades, depend{\^e}ncia sem{\^a}ntica entre atividades e ordem das atividades.
+
+A depend{\^e}ncia entre entrada e sa{\'i}da de atividades implica que o tipo de dado (inteiro, \emph{string}, \emph{boolean}) das sa{\'i}das da atividade anterior devem ser compat{\'i}veis com os tipos de dados das entradas da atividade a ser recomendada, por exemplo, a atividade \emph{A} tem como sa{\'i}da dois inteiros e uma \emph{string}, dessa forma qualquer outra atividade \emph{B}, a ser recomendada para completar o \emph{workflow} que cont{\'e}m \emph{A} deve ter como entrada dados compat{\'i}veis com estes tr{\^e}s tipos (ou com um subconjunto deles) ou ser{\'a} necess{\'a}ria a utiliza\c{c}{\~a}o de uma atividade do tipo \emph{Shim}.
+
+Conectar duas atividades por meio de compatibilidade de entrada e sa{\'i}da ou indiretamente, com uso de \emph{Shims}, n{\~a}o garante que o \emph{workflow} execute ou que o problema do usu{\'a}rio seja solucionado, isso ocorre em fun\c{c}{\~a}o da poss{\'i}vel incompatibilidade sem{\^a}ntica entre atividades, tomando novamente a atividade \emph{A}, suponha que a \emph{string} represente o nome de um gene, e a atividade a ser recomendada recebe como par{\^a}metro uma \emph{string} de conex{\~a}o com a base de dados. Assim, estas atividades n{\~a}o ser{\~a}o compat{\'i}veis.
+
+Al{\'e}m das depend{\^e}ncias {\'e} necess{\'a}rio conectar as atividades na ordem correta, ao contr{\'a}rio de sistemas de recomenda\c{c}{\~a}o de filmes, onde estes podem ser recomendados em ordens distintas sem afetar o resultado final da recomenda\c{c}{\~a}o, nessa {\'a}rea a ordem das atividades {\'e} relevante. Por exemplo, dadas duas atividades: uma que consulte um banco de dados e outra que atualize a informa\c{c}{\~a}o que a primeira consulta a ordem de execu\c{c}{\~a}o destas atividades trar{\'a} diferentes resultados.
+
+Essas caracter{\'i}sticas motivaram a cria\c{c}{\~a}o de t{\'e}cnicas espec{\'i}ficas para recomendar atividades em \emph{workflows} cient{\'i}ficos, como as citadas no se\c{c}{\~a}o de correlatos (\ref{CORRELATOS}), as quais consideram  valida\c{c}{\~a}o sint{\'a}tica (entrada e sa{\'i}da de atividades), frequ{\^e}ncia de uso de atividades, compara\c{c}{\~a}o de subgrafos, proveni{\^e}ncia de dados, uso de sem{\^a}ntica e \emph{itemsets} frequentes.
+
+\section{Trabalhos Correlatos}\label{CORRELATOS}
+A literatura correlata apresenta algumas t{\'e}cnicas para recomendar atividades em workflows cient{\'i}ficos, como usar a frequ{\^e}ncia de ocorr{\^e}ncia de pares de atividades como proposto nos trabalhos \cite{TELEA13, VINCA4Science07, Grafo12, diamantini_mining_2012, Zhang2011, Zhang2014}.
+
+A proveni{\^e}ncia (log de eventos) de execu\c{c}{\~a}o/modelagem como proposto em \cite{Shao2007, Shao2009, OLIVEIRA2008, Koop2008, Garijo2013, Yeo2013}. Compatibilidade entre entrada e sa{\'i}da de atividades do workflow como em \cite{Zhang35, Ayadi2007, Zhang2006}. Utilizando anota\c{c}{\~o}es suas m{\'e}tricas de similaridade \cite{Oliveira2009, Zhang2013}.
+
+Utilizar a confiabilidade entre autores e servi\c{c}os como em \cite{ReputationNet22}. Itemsets frequentes com em \cite{Tan2011, Wang2009} utilizam o algoritmo \emph{Apriori} para descobrir quais servi\c{c}os s{\~a}o utilizados em conjunto por quais usu{\'a}rios e assim gerar recomenda\c{c}{\~o}es.
+
+\section{Metodologia}\label{METODOLOGIA}
+O conjunto de dados para teste foi obtido do site myExperiment \cite{ROURE2015} e cont{\'e}m \(72\) workflows de bioinform{\'a}tica utilizados para teste dos experimentos da literatura correlata e os propostos por este artigo. Este conjunto {\'e} uma matriz \(M\) onde as linhas s{\~a}o os workflows e as colunas todas as atividades dispon{\'i}veis o elemento \(M_{i,j} = 0\) informa que o workflow \(i\) n{\~a}o cont{\'e}m a atividade \(j\) e elemento \(M_{i,j} = 1\) informa que o workflow \(i\) cont{\'e}m a atividade \(j\).
+
+Para testar as t{\'e}cnicas de recomenda\c{c}{\~a}o, o conjunto de dados foi dividido em \(90\%\) para treinamento e \(10\%\) para testes. A escolha dos diferentes par{\^a}metros foi efetuada de forma exaustiva selecionando diversos valores treinando os algoritmos e testando-os.
+
+Para as t{\'e}cnicas baseadas em classifica\c{c}{\~a}o ou regress{\~a}o o conjunto de dados tem uma diferencia\c{c}{\~a}o, uma 
+atividade foi removida de cada workflow e foram sugeridas outras \(59\) atividades (as mais frequentes do conjunto de dados) como poss{\'i}veis recomenda\c{c}{\~o}es e a atividade correta (a removida {\'e} sugerida como recomenda\c{c}{\~a}o TRUE). 
+
+Dessa forma, s{\~a}o adicionadas \(59\) linhas na matriz \(M\), cada uma representando uma poss{\'i}vel recomenda\c{c}{\~a}o, e uma nova coluna que informa se a sugest{\~a}o {\'e} correta ou n{\~a}o. Para evitar o desbalanceamento entre exemplos positivos e negativos optou-se por adicionar mais \(59\) linhas com a atividade correta. Neste conjunto de dados cada conjunto de \(118\) linhas adicionadas representa uma lista de atividades recomendadas.
+
+A resposta dos classificadores {\'e} bin{\'a}ria representando o resultado final da recomenda\c{c}{\~a}o. Enquanto que a resposta dos regressores {\'e} uma predi\c{c}{\~a}o num{\'e}rica dos atributos de acordo com alguns modelos de regress{\~a}o, nesse caso cada valor predito {\'e} utilizado como limiar, valores maiores s{\~a}o considerados \emph{TRUE} e valores menores que este limiar s{\~a}o considerados \emph{FALSE}. O melhor valor de limiar {\'e} selecionado por meio de testes e os valores preditos s{\~a}o convertidos para \emph{TRUE} ou \emph{FALSE}. 
+
+Cada t{\'e}cnica de recomenda\c{c}{\~a}o utilizada sugere ao usu{\'a}rio uma lista de algumas atividades da base de dados selecionadas de acordo com algum crit{\'e}rio seguidas por todas as outras atividades da base ordenadas alfabeticamente. Dessa forma, a atividade desejada (o alvo da recomenda\c{c}{\~a}o) ser{\'a} sempre encontrada e a m{\'e}trica n{\'u}mero de acertos n{\~a}o ser{\'a} utilizada. As m{\'e}tricas usadas como crit{\'e}rio de qualidade para definir o melhor sistema de recomenda\c{c}{\~a}o ser{\~a}o \(S@k\) e Mean Reciprocal Rank (MRR).
+
+\section{T{\'e}cnicas Utilizadas}\label{TECNICAS}
+O classificador KNN come\c{c}a com um conjunto de treinamento rotulado e outro de testes n{\~a}o rotulado (ambos com as mesmas dimens{\~o}es). Para cada inst{\^a}ncia do conjunto de teste o KNN encontra os k vizinhos mais pr{\'o}ximos do conjunto de treinamento, a inst{\^a}ncia {\'e} classificada na classe com maior n{\'u}mero de vizinhos pr{\'o}ximos \cite{MachineLearningwithR2013}.
+
+O classificador e/ou regressor CART tem um funcionamento padr{\~a}o ambos utilizam uma estrutura em {\'a}rvore para aprender e tomar decis{\~o}es para tal utiliza um n{\'o} raiz, diversos n{\'o}s de decis{\~a}o e os n{\'o}s folha. Cada dado a ser classificado inicia o fluxo de tomadas de decis{\~a}o pela raiz da {\'a}rvore, em cada n{\'o} de decis{\~a}o {\'e} elaborado um teste l{\'o}gico baseado em algum atributo a constru\c{c}{\~a}o das {\'a}rvores depende do algoritmo que est{\'a} sendo utilizado e do crit{\'e}rio de divis{\~a}o aplicado. O regressor CART usa a m{\'e}trica de impureza a soma residual ao quadrado \(\sum\limits_{i = 1}^{n}(y_{i} - f(x_{i}))^{2}\) ao inv{\'e}s do {\'i}ndice de Gini (ou ganho de informa\c{c}{\~a}o) cada n{\'o} folha ser{\'a} preenchido pela m{\'e}dia dos valores dos exemplos de treinamento atribu{\'i}dos naquela folha. Outros aspectos como constru\c{c}{\~a}o, poda e treinamento s{\~a}o id{\^e}nticos a {\'a}rvores de classifica\c{c}{\~a}o \cite{Connor2007}.
+
+
+Classificadores baseados em m{\'e}todos Bayesianos utilizam os dados treinados para calcular a probabilidade observada de cada classe baseada em valores de suas caracter{\'i}sticas. Esses classificadores s{\~a}o melhor aplicados em problemas onde a informa\c{c}{\~a}o de v{\'a}rios atributos pode ser considerada simultaneamente para gerar uma estimativa de probabilidades de sa{\'i}das. O algoritmo Naive Bayes, {\'e} um exemplo desses classificadores, {\'e} uma aplica\c{c}{\~a}o do teorema de Bayes adaptado para classifica\c{c}{\~a}o, assume algumas pr{\'e}-condi\c{c}{\~o}es ing{\^e}nuas sobre os dados como: i) independ{\^e}ncia de caracter{\'i}sticas; e ii) que todas as caracter{\'i}sticas s{\~a}o igualmente importantes. No mundo real essas pr{\'e} condi\c{c}{\~o}es s{\~a}o falhas mas ainda assim o algoritmo possu{\'i} um desempenho satisfat{\'o}rio \cite{MachineLearningwithR2013}.
+
+
+Redes neurais tem como inspira\c{c}{\~a}o o c{\'e}rebro humano, seus neur{\^o}nios e suas conex{\~o}es seu objetivo {\'e} modelar uma rela\c{c}{\~a}o de entradas e sa{\'i}das ponderadas que s{\~a}o definidas por v{\'a}rios n{\'o}s de processamento. Os quais s{\~a}o respons{\'a}veis por calcular a soma de entradas ponderadas e repassa-los para a fun\c{c}{\~a}o de ativa\c{c}{\~a}o que determina se um sinal ser{\'a} enviado (ou n{\~a}o) para o neur{\^o}nio seguinte ou para a sa{\'i}da da rede \cite{Haykin2007}.  Quando usados como classificador a resposta da camada de sa{\'i}da {\'e} a classifica\c{c}{\~a}o da inst{\^a}ncia, quando usados como regressor pode-se utilizar os pesos da rede, treinados por algum algoritmo de treinamento como o backpropagation, usando estes valores para predizer.
+
+Suport Vector Machines (SVM), nesse trabalho {\'e} utilizado o \emph{C-SVM}, {\'e} uma t{\'e}cnica que pode ser usada para classificar dados usando um hiperplano. O objetivo {\'e} escolher a posi\c{c}{\~a}o do hiperplano tal que permita formar parti\c{c}{\~o}es homog{\^e}neas de dados em ambos os lados da superf{\'i}cie de decis{\~a}o. {\'E} um problema de otimiza\c{c}{\~a}o que pode ser formulado \cite{Haykin2007} como 
+\begin{align}
+\max_{\alpha} \sum\limits_{i=1}^{N} \alpha_{i} - \frac{1}{2} \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{N} \alpha_{i}\alpha_{j}d_{i}d_{j}k(x_{i},x_{j})
+\end{align}
+para as seguintes restri\c{c}{\~o}es
+\begin{align}
+\sum\limits_{i=1}^{N} \alpha_{i}d_{i} = 0 \\
+0 \leq \alpha_{i} \leq C \\
+C > 0
+\end{align}
+onde \(\alpha\) s{\~a}o os multiplicadores de Lagrange, \(d\) s{\~a}o as sa{\'i}das esperadas do problema, \(x\) {\'e} o conjunto de dados de entrada, \(K\) {\'e} uma fun\c{c}{\~a}o de kernel e \(C\) {\'e} uma constante positiva definida pelo usu{\'a}rio.
+
+O SVR é uma adapatação do SVM para regress{\~a}o , nesse trabalho {\'e} utilizado o \emph{\(\epsilon\)-SVR}, tem um objetivo oposto ao classificador, enquanto o {\'u}ltimo tenta maximizar a margem (separando ao m{\'a}ximo os dados) o primeiro tem por objetivo aproximar os dados ao maximo dessa margem com uma dada toler{\^a}ncia para erros. Sendo formulado como um problema de otimiza\c{c}{\~a}o \cite{Haykin2007} como
+\begin{align}
+\min_{\alpha} \frac{1}{2} \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{N} \alpha_{i}\alpha^{*}_{i} - \alpha_{j}\alpha^{*}_{j} K(x_{i},x_{j}) - \sum\limits_{i=1}^{N} \alpha_{i}\alpha^{*}_{i}d_{i}
+\end{align}
+para as seguintes restri\c{c}{\~o}es
+\begin{align}
+-C \leq \alpha_{i} - \alpha^{*} \leq C \\
+ \sum\limits_{i=1}^{N} \alpha_{i} - \alpha^{*}_{i} = 0
+\end{align}
+onde \(\alpha, \alpha^{*}\) s{\~a}o os multiplicadores de Lagrange, \(d\) s{\~a}o as sa{\'i}das esperadas do problema, \(x\) {\'e} o conjunto de dados de entrada, \(K\) {\'e} uma fun\c{c}{\~a}o de kernel e \(C\) {\'e} uma constante positiva definida pelo usu{\'a}rio.
+
+O algoritmo \emph{Multivariate Adaptive Regression Splines}(MARS)  {\'e} uma generaliza\c{c}{\~a}o da regress{\~a}o linear por fun\c{c}{\~a}o degrau\cite{Hastie2009}. Para tal usa segmentos lineares de fun\c{c}{\~o}es com a seguinte estrutura:
+\begin{align}
+(x-t)_{+} &= \begin{cases}
+x-t, \mbox{se } x>t \\
+0,   \mbox{cc}
+\end{cases}
+\\
+(t-x)_{+} &= \begin{cases}
+t-x, \mbox{se } x<t \\
+0, cc
+\end{cases} 
+\end{align}
+A ideia {\'e} formar pares de fun\c{c}{\~o}es espelhos para cada vari{\'a}vel independente \(X_{j}\) com um n{\'o} para cada valor de \(x_{i,j}\) daquela vari{\'a}vel. O modelo de regress{\~a}o MARS tem o seguinte formato:
+\begin{align}
+f(X) = \beta_{0} + \sum\limits_{m=1}^{M}\beta_{m}h_{m}(X)
+\end{align}
+onde \(h_{m}(X)\) {\'e} uma fun\c{c}{\~a}o ou o produto de duas ou mais fun\c{c}{\~o}es, os coeficientes \(\beta_{m}\) s{\~a}o estimados pela minimiza\c{c}{\~a}o da soma do res{\'i}duo quadrado.
+
+A regress{\~a}o Binomial pode ser modelada como um \emph{modelo generalizado linear} que {\'e} constitu{\'i}do tem tr{\^e}s componentes: i) a distribui\c{c}{\~a}o da vari{\'a}vel dependente(neste caso binomial); ii) o preditor linear \(\alpha + \beta X = \frac{p}{1 - p} \); e iii) a fun\c{c}{\~a}o \emph{link} que relaciona a m{\'e}dia da distribui\c{c}{\~a}o com o preditor linear, no nosso caso {\'e} \(g(\mu) = \log(\frac{p}{1-p})\) \cite{Hastie2009}.
+
+No caso da regress{\~a}o binomial a vari{\'a}vel dependente \(Y\) segue uma distribui\c{c}{\~a}o normal e a fun\c{c}{\~a}o de link e o preditor s{\~a}o dados pela equa\c{c}{\~a}o \eqref{EQ_LINK_REGRESSOR}
+\begin{align}
+g(\mu) = \log_{e}\left( \frac{\pi}{1-\pi}\right) \\
+g(\mu) = \beta_{0} + \sum\limits_{j=1}^{p} \beta_{j}X_{j} \\
+\log_{e}\left( \frac{\pi}{1-\pi}\right)= \beta_{0} + \sum\limits_{j=1}^{p} \beta_{j}X_{j} \label{EQ_LINK_REGRESSOR}
+\end{align}
+onde \(\pi = \mu\) {\'e} a m{\'e}dia de \(Y\), \(p\) s{\~a}o as dimens{\~o}es dos dados, \(\beta\) os coeficientes de regress{\~a}o que ser{\~a}o estimados por m{\'a}xima verossimilhan\c{c}a e \(X\) os dados.
+
+\section{Experimentos}\label{EXPERIMENTOS}
+A Tabela \ref{TAB_RESULTADOS} exibe a compara\c{c}{\~a}o entre as diferentes t{\'e}cnicas propostas neste artigo e algumas t{\'e}cnicas da literatura correlata.
+
+As t{\'e}cnicas de classifica\c{c}{\~a}o CART, KNN, NNET, aleat{\'o}rio e Apriori (proposta em \cite{Tan2011, Wang2009}) obtiveram um desempenho muito baixo. Os tr{\^e}s classificadores n{\~a}o conseguiram convergir consequentemente n{\~a}o realizaram uma boa classifica\c{c}{\~a}o. Em rela\c{c}{\~a}o as outras duas t{\'e}cnicas o baixo desempenho da recomenda\c{c}{\~a}o aleat{\'o}ria {\'e} em virtude da ocorr{\^e}ncia de muitas atividades (\(280\)) fazendo com que a probabilidade de escolher a atividade correta seja pequena, o apriori n{\~a}o considera os seguintes fatores fundamentais: a ordem de atividades, entrada e sa{\'i}da destas e nem sem{\^a}ntica de atividades obtendo um baixo desempenho.
+
+A classifica\c{c}{\~a}o por NNET e os regressores: Binomial, CART, MARS e NNET apresentam um resultado superior em fun\c{c}{\~a}o das m{\'e}tricas \(S@5\) e \(S@10\) apresentarem atividades corretas dentre as primeiras posi\c{c}{\~o}es, inclusive o MRR destas {\'e} superior ao das t{\'e}cnicas anteriores. O uso de classificador e regressor SVM ocasionou a primeira melhoria consider{\'a}vel com resultados \(3\) vezes melhores nas m{\'e}tricas \(S@5 = 0.428\), \(S@10 \geq 0.714\) e uma melhoria consider{\'a}vel da m{\'e}trica \(MRR_{Class} = 0.2958\) e \(MRR_{Reg} = 0.3149\)
+
+Entre as t{\'e}cnicas classicas da literatura correlata, para dados: sem proveni{\^e}ncia; sem informa\c{c}{\~o}es de autores e confiabilidade e sem anota\c{c}{\~o}es sem{\^a}nticas pr{\'e}vias. Percebe-se uma primeira melhoria ao comparar a t{\'e}cnica de entrada e sa{\'i}da de atividades (propostas em \cite{TELEA13, VINCA4Science07, Grafo12, diamantini_mining_2012, Zhang2011, Zhang2014}) com a h{\'i}brida que considera tamb{\'e}m a frequ{\^e}ncia das mesmas, recomendar a atividade mais frequente para atividades que contenham a mesma assinatura apresenta resultados melhores. Ao acrescentar a informa\c{c}{\~a}o ontol{\'o}gica sobre o tipo de workflow em que as atividades est{\~a}o inseridas e ordenar a lista de recomenda\c{c}{\~a}o das atividades mais frequentes com este crit{\'e}rio obteve-se um resultado superior.
+
+Isso ocorre em duas situa\c{c}{\~o}es distintas, a primeira quando a atividade a ser recomendada {\'e} a primeira do workflow. Onde a t{\'e}cnica por frequ{\^e}ncia n{\~a}o {\'e} {\'u}til recomendando todas as poss{\'i}veis atividades e a segunda onde existe uma atividade anterior e suas poss{\'i}veis recomenda\c{c}{\~o}es por frequ{\^e}ncia tem um empate (duas atividades com mesma frequ{\^e}ncia). Em ambos os casos ao utilizar uma ontologia para ordenar as atividades que s{\~a}o do mesmo grupo ontol{\'o}gico obten-se resultados melhores nessas situa\c{c}{\~o}es.
+
+\begin{table}
+\centering
+\caption{Resultados das recomenda\c{c}{\~o}es.}
+\label{TAB_RESULTADOS}
+
+\begin{tabular}{|l|l|l|l|l|l|} \hline
+\textbf{T{\'e}cnica} & \textbf{\(S@5\)} & \textbf{\(S@10\)} & \textbf{\(S@100\)} & \textbf{\(S@280\)} & \textbf{MRR} \\ \hline
+\textbf{Classificadores} &&&&& \\ \hline
+CART 								&	0.000	&	0.000	&	0.000	&	1	&	0.0101	\\ \hline
+KNN 								&	0.000	&	0.000	&	0.143	&	1	&	0.0102	\\ \hline
+NAIVE 								&	0.000	&	0.000	&	0.000	&	1	&	0.0101	\\ \hline
+NNET 								&	0.143	&	0.143	&	0.143	&	1	&	0.1524	\\ \hline
+SVM 								&	0.428	&	0.714	&	1.000	&	1	&	0.2958	\\ \hline
+\textbf{Regressores} &&&&& \\ \hline
+Binomial 							&	0.000	&	0.285	&	0.571	&	1	&	0.277	\\ \hline
+CART 								&	0.000	&	0.285	&	0.428	&	1	&	0.0391	\\ \hline
+MARS 								&	0.000	&	0.285	&	0.428	&	1	&	0.0254	\\ \hline
+NNET 								&	0.143	&	0.143	&	0.143	&	1	&	0.1524	\\ \hline
+SVR 								&	0.428	&	0.857	&	1.000	&	1	&	0.3149	\\ \hline
+\textbf{Correlatos} &&&&& \\ \hline
+Aleatorio							&	0.000	&	0.000	&	0.000	&	1	&	0.0097	\\ \hline
+Apriori								&	0.000	&	0.000	&	0.143	&	1	&	0.0102	\\ \hline
+I/O									&	0.000	&	0.428	&	1.000	&	1	&	0.0562	\\ \hline
+Freq. I/O							&	0.428	&	0.714	&	1.000	&	1	&	0.2936	\\ \hline
+Freq. I/O Onto.						&	0.571	&	0.714	&	1.000	&	1	&	0.3174	\\ 
+\hline\end{tabular}
+\end{table}
+
+
+\section{Conclus{\~o}es}\label{CONCLUSOES}
+Este artigo apresentou como constribui\c{c}{\~o}es uma t{\'e}cnica h{\'i}brida para recomendar atividades em workflows cient{\'i}ficos baseada em frequ{\^e}ncia entrada e sa{\'i}da e ontologias, uma poss{\'i}vel modelagem do problema de recomenda\c{c}{\~a}o para ser solucionado por classificadores e regressores uma compara\c{c}{\~o}o entre diferentes t{\'e}cnicas de recomenda\c{c}{\~a}o de atividades em workflows cient{\'i}ficos para um mesmo conjunto de dados reais obtidos no reposit{\'o}rio myExperiment. 
+
+Os melhores algoritmos para realizar esta tarefa s{\~a}o SVM e Frequ{\^e}ncia com Ontologia eles obtiveram desempenhos muito pr{\'o}ximos, a desvantagem do SVM {\'e} o tempo de treinamento muito alto para ajustar os par{\^a}metros enquanto que a desvantagem do experimento por frequ{\^e}ncia e ontologia {\'e} a necessidade de conhecer o dom{\'i}nio de aplica\c{c}{\~a}o para aplicar e construir uma ontologia.
+
+Como poss{\'i}veis trabalhos futuros os autores pretendem utilizar outras variações de SVM como \emph{v-SVR},\emph{\(\epsilon\)-SVR} e \emph{v-SVM}. Classifica\c{c}{\~a}o multi-classe e um classificador misto que utilize dados dos outros classificadores como entrada.
+
+\section{Acknowledgments}
+Os autores agradecem a ag{\^e}ncia CAPES pelo financiamento do projeto.
+
+\bibliographystyle{abbrv}
+\bibliography{sigproc} 
+
+\balancecolumns
+
+\end{document}

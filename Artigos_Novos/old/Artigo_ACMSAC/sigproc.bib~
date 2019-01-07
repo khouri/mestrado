@@ -1,0 +1,3362 @@
+@ARTICLE{bowman:reasoning,
+	AUTHOR = "Mic Bowman and Saumya K. Debray and Larry L. Peterson",
+	TITLE = "Reasoning About Naming Systems",
+	JOURNAL = "ACM Trans. Program. Lang. Syst.",
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {795-825},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@ARTICLE{braams:babel,
+	AUTHOR = "Johannes Braams",
+	TITLE = "Babel, a Multilingual Style-Option System for Use with LaTeX's Standard Document Styles",
+	JOURNAL = {TUGboat},
+	VOLUME = {12},
+	NUMBER = {2},
+	PAGES = {291-301},
+	MONTH = "June",
+	YEAR = {1991}	}
+
+@INPROCEEDINGS{clark:pct,
+	AUTHOR = "Malcolm Clark",
+	TITLE = "Post Congress Tristesse",
+	BOOKTITLE = "TeX90 Conference Proceedings",
+	PAGES = "84-89",
+	ORGANIZATION = "TeX Users Group",
+	MONTH = "March", 
+	YEAR = {1991}	}
+
+@ARTICLE{herlihy:methodology,
+	AUTHOR = "Maurice Herlihy",
+	TITLE = "A Methodology for Implementing Highly Concurrent
+	Data Objects",
+	JOURNAL = {ACM Trans. Program. Lang. Syst.},
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {745-770},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@BOOK{Lamport:LaTeX,
+	AUTHOR = "Leslie Lamport",
+	TITLE = "LaTeX User's Guide and Document Reference Manual",
+	PUBLISHER = "Addison-Wesley Publishing Company",
+	ADDRESS = "Reading, Massachusetts",
+	YEAR = "1986"	}
+
+@BOOK{salas:calculus,
+	AUTHOR = "S.L. Salas and Einar Hille",
+	TITLE = "Calculus: One and Several Variable",
+	PUBLISHER = "John Wiley and Sons",
+	ADDRESS = "New York",
+	YEAR = "1978"	}
+
+
+
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF-8
+
+
+@Electronic{MYGRID,
+  Author                   = {myGRID, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.mygrid.org.uk/},
+  Year                     = {2014}
+}
+
+@Electronic{ptolemy2014,
+  Title                    = {Ptolemy Project heterogeneous modeling and design},
+  Author                   = {Ptolemy team developer},
+  Language                 = {English},
+  Url                      = {http://ptolemy.eecs.berkeley.edu/},
+  Year                     = {2014}
+}
+
+@InProceedings{Abel2011,
+  Title                    = {Analyzing User Modeling on Twitter for Personalized News Recommendations},
+  Author                   = {Abel, Fabian and Gao, Qi and Houben, Geert-Jan and Tao, Ke},
+  Booktitle                = {Proceedings of the 19th International Conference on User Modeling, Adaption, and Personalization},
+  Year                     = {2011},
+  Pages                    = {1--12},
+  Publisher                = {Springer-Verlag},
+  Series                   = {UMAP'11},
+
+  Numpages                 = {12},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2021855.2021857}
+}
+
+@Electronic{ACMDL,
+  Title                    = {ACM Digital Library},
+  Author                   = {ACMDL, team},
+  Language                 = {English},
+  Url                      = {http://dl.acm.org/},
+  Year                     = {2014}
+}
+
+@Article{Adamy,
+  Title                    = {Surface Reconstruction Using Umbrella Filters},
+  Author                   = {Udo Adamy and Joachim Giesen and Matthias John},
+  Journal                  = {Computational Geometry Theory and Applications},
+  Year                     = {2002},
+  Pages                    = {63--86},
+  Volume                   = {21}
+}
+
+@Article{ada00,
+  Title                    = {New Techniques for Topologically Correct Surface Reconstruction.},
+  Author                   = {U. Adamy and J. Giesen and M. John },
+  Journal                  = {Proceedings of the 11th IEEE Visualization 2000 Conference (VIS 2000).},
+  Year                     = {2000}
+}
+
+@Article{Adomavicius2005,
+  Title                    = {{Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions}},
+  Author                   = {Adomavicius, G and Tuzhilin, A},
+  Journal                  = {Knowledge and Data Engineering, IEEE Transactions on},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {734--749},
+  Volume                   = {17},
+
+  Doi                      = {10.1109/TKDE.2005.99}
+}
+
+@Article{alexa:03:computing,
+  Title                    = {Computing and rendering point set surfaces},
+  Author                   = {M. Alexa and J. Behr and D. Cohen-Or and S. Fleishman and D. Levin and C. Silva},
+  Journal                  = {IEEE Transactions on Visualization and Computer Graphics},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {3--15},
+  Volume                   = {9}
+}
+
+@Article{Biolchini2007,
+  Title                    = {Scientific research ontology to support systematic review in software engineering},
+  Author                   = {de Almeida Biolchini, Jorge Calmon and Mian, Paula Gomes and Natali, Ana Candida Cruz and Conte, Tayana Uch\^{o}a and Travassos, Guilherme Horta},
+  Journal                  = {Adv. Eng. Inform.},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {133--151},
+  Volume                   = {21},
+
+  Publisher                = {Elsevier Science Publishers B. V.}
+}
+
+@Article{althaus2000,
+  Title                    = {TSP-based curve reconstruction in polynomial time.},
+  Author                   = { E. Althaus and K. Mehlhorn },
+  Journal                  = {Symposium on Discrete Algorithms},
+  Year                     = {2000},
+  Pages                    = {686--695},
+  Volume                   = {2}
+}
+
+@InProceedings{Ambite28,
+  Title                    = {Automatic composition of aggregation workflows for transportation modeling},
+  Author                   = {Ambite, Jos{\'e} Luis and Weathers, Matthew},
+  Booktitle                = {Proceedings of the 2005 national conference on Digital government research},
+  Year                     = {2005},
+  Pages                    = {41--49},
+  Publisher                = {Digital Government Society of North America},
+  Series                   = {dg.o '05},
+
+  Acmid                    = {1065240},
+  Location                 = {Atlanta, Georgia},
+  Numpages                 = {9},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1065226.1065240}
+}
+
+@Article{Amentavoronoifiltering,
+  Title                    = {Surface Reconstruction by Voronoi Filtering},
+  Author                   = {Nina Amenta and Marsahll Bern},
+  Journal                  = {Discrete and Computational Geometry},
+  Year                     = {1999},
+  Pages                    = {481-504},
+  Volume                   = {22}
+}
+
+@Article{amenta98crust,
+  Title                    = {The Crust and the -Skeleton: Combinatorial Curve Reconstruction},
+  Author                   = {N. Amenta and M. Bern and D. Eppstein},
+  Journal                  = {Graphical models and image processing: GMIP},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {125-135},
+  Volume                   = {60},
+
+  Url                      = {citeseer.ist.psu.edu/amenta98crust.html}
+}
+
+@Article{Amentabeta,
+  Title                    = {The Crust and the $\beta-$Skeleton : Combinatorial Curve Reconstruction},
+  Author                   = {Nina Amenta and M Bern and D Eppstein},
+  Journal                  = {Graphical Models and Image Processing},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {125-135},
+  Volume                   = {60}
+}
+
+@Article{amenta98new,
+  Title                    = {A New {Voronoi}-Based Surface Reconstruction Algorithm},
+  Author                   = {Nina Amenta and Marshall Bern and Manolis Kamvysselis},
+  Journal                  = {Computer Graphics},
+  Year                     = {1998},
+  Number                   = {{Annual Conference Series}},
+  Pages                    = {415-421},
+  Volume                   = {32},
+
+  Url                      = {citeseer.ist.psu.edu/amenta98new.html}
+}
+
+@Article{Amentanewvoronoi,
+  Title                    = {A New {Voronoi}-Based Surface Reconstruction Algorithm},
+  Author                   = {Nina Amenta and Marshall Bern and Manolis Kamvysselis},
+  Journal                  = {Computer Graphics},
+  Year                     = {1998},
+  Number                   = {{Annual Conference Series}},
+  Pages                    = {415--421},
+  Volume                   = {32},
+
+  Url                      = {citeseer.nj.nec.com/amenta98new.html}
+}
+
+@InProceedings{amenta98,
+  Title                    = {Surface Reconstruction by Voronoi Filtering},
+  Author                   = {N. Amenta and M. W. Bern},
+  Booktitle                = {Symposium on Computational Geometry},
+  Year                     = {1998},
+  Pages                    = {39-48}
+}
+
+@Article{amenta99onepass,
+  Title                    = {One-Pass Delaunay Filtering for Homeomorphic 3{D} Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi},
+  Year                     = {1999},
+  Number                   = {CS-TR-99-08},
+  Volume                   = {1},
+
+  Url                      = {citeseer.ist.psu.edu/amenta99onepass.html}
+}
+
+@Article{amenta02simple,
+  Title                    = {A Simple Algorithm for Homeomorphic Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi and Tamal K. Dey and N. Leekha},
+  Journal                  = {International Journal of Computational Geometry and Applications},
+  Year                     = {2002},
+  Number                   = {1-2},
+  Pages                    = {125-141},
+  Volume                   = {12}
+}
+
+@Article{Amentacocone,
+  Title                    = {A Simple Algorithm for Homeomorphic Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi and Tamal K. Dey and N. Leekha},
+  Journal                  = {International Journal of Computational Geometry and Applications},
+  Year                     = {2002},
+  Number                   = {1-2},
+  Pages                    = {125-141},
+  Volume                   = {12},
+
+  Url                      = {citeseer.nj.nec.com/amenta00simple.html}
+}
+
+@Article{teste1,
+  Title                    = {A Simple Algorithm for Homeomorphic Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi and Tamal K. Dey and N. Leekha},
+  Journal                  = {International Journal of Computational Geometry and Applications},
+  Year                     = {2002},
+  Number                   = {1-2},
+  Pages                    = {125-141},
+  Volume                   = {12},
+
+  Publisher                = {World Scientific Publishing Co.}
+}
+
+@Article{teste2,
+  Title                    = {A Simple Algorithm for Homeomorphic Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi and Tamal K. Dey and N. Leekha},
+  Journal                  = {International Journal of Computational Geometry and Applications},
+  Year                     = {2002},
+  Number                   = {1-2},
+  Pages                    = {125-141},
+  Volume                   = {12},
+
+  Publisher                = {World Scientific Publishing Co.}
+}
+
+@Article{teste3,
+  Title                    = {A Simple Algorithm for Homeomorphic Surface Reconstruction},
+  Author                   = {Nina Amenta and Sunghee Choi and Tamal K. Dey and N. Leekha},
+  Journal                  = {International Journal of Computational Geometry and Applications},
+  Year                     = {2002},
+  Number                   = {1-2},
+  Pages                    = {125-141},
+  Volume                   = {12},
+
+  Publisher                = {World Scientific Publishing Co.}
+}
+
+@InProceedings{Amentapc,
+  Title                    = {The Power Crust},
+  Author                   = {Nina Amenta and Sunghee Choi and Ravi Kolluri},
+  Booktitle                = {6th ACM Symposium on Solid Modeling},
+  Year                     = {2001},
+  Series                   = {249-260}
+}
+
+@Article{Amentapcunmat,
+  Title                    = {The Power Crust, Unions of Balls, and the Medial Axis Transform},
+  Author                   = {Nina Amenta and Sunghee Choi and Ravi Kolluri},
+  Journal                  = {Computational Geometry: Theory and Applications},
+  Year                     = {2001},
+  Number                   = {2-3},
+  Pages                    = {127-153},
+  Volume                   = {19}
+}
+
+@Article{amenta01power,
+  Title                    = {The power crust, unions of balls, and the medial axis transform},
+  Author                   = {Nina Amenta and Sunghee Choi and Ravi Krishna Kolluri},
+  Journal                  = {Computational Geometry},
+  Year                     = {2001},
+  Number                   = {2-3},
+  Pages                    = {127-153},
+  Volume                   = {19},
+
+  Url                      = {citeseer.ist.psu.edu/amenta01power.html}
+}
+
+@InProceedings{Amentapolarballs,
+  Title                    = {Accurate and efficient unions of balls},
+  Author                   = {Nina Amenta and Ravi Krishna Kolluri},
+  Booktitle                = {Symposium on Computational Geometry},
+  Year                     = {2000},
+  Pages                    = {119-128},
+
+  Url                      = {citeseer.nj.nec.com/297220.html}
+}
+
+@InProceedings{aspert02:mesh,
+  Title                    = {MESH: Measuring Errors between Surfaces using the Hausdorff distance},
+  Author                   = {Nicolas Aspert and Diego Santa-Cruz and Touradj Ebrahimi},
+  Booktitle                = {Proc. of the IEEE International Conference in Multimedia and Expo (ICME) 2002},
+  Year                     = {2002},
+
+  Address                  = {Lausanne, Switzerland},
+  Month                    = aug,
+  Pages                    = {705-708},
+  Volume                   = {1},
+
+  Date                     = {August 26-29}
+}
+
+@InProceedings{Atkins200318,
+  Title                    = {Revolutionizing Science and Engineering Through Cyberinfrastructure},
+  Author                   = {Daniel E. Atkins and Kelvin K. Droegemeier and Stuart I. Feldman and Hector Garcia-molina and Michael L. Klein and David G. Messerschmitt and Paul Messina and Jeremiah P. Ostriker and Margaret H. Wright},
+  Year                     = {2003}
+}
+
+@Article{Attali,
+  Title                    = {$r$-Regular Shape Reconstruction from Unorganized Points},
+  Author                   = {D Attali},
+  Journal                  = {Computational Geometry Theory and Applications},
+  Year                     = {1998},
+  Note                     = {Elsevier},
+  Pages                    = {239-249},
+  Volume                   = {10}
+}
+
+@Article{Attene,
+  Title                    = {Automatic Surface Reconstruction from Point Sets in Space},
+  Author                   = {M. Attene and M. Spagnuolo},
+  Journal                  = {Computer Graphics Forum},
+  Year                     = {2000},
+  Number                   = {3},
+  Pages                    = {0-0(1)},
+  Volume                   = {19}
+}
+
+@InBook{Aurenhammer,
+  Title                    = {Voronoi diagrams},
+  Author                   = {Franz Aurenhammer and Rolf Klein},
+  Chapter                  = {XY},
+  Pages                    = {201-290},
+  Publisher                = {Elsevier Science Publishing},
+  Year                     = {2000},
+
+  _editor                  = {J Sack and G Urrutia}
+}
+
+@InProceedings{Ayadi2007,
+  Title                    = {{Resolving Scientific Service Interoperability With Schema Mapping}},
+  Author                   = {Ayadi, Nadia Yacoubi and Lacroix, Zoe},
+  Booktitle                = {2007 IEEE 7th International Symposium on BioInformatics and BioEngineering},
+  Year                     = {2007},
+  Month                    = oct,
+  Pages                    = {448--455},
+  Publisher                = {IEEE},
+
+  ISBN                     = {1-4244-1509-8},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4375600}
+}
+
+@Article{biscaro07,
+  Title                    = {A topological approach for surface reconstruction from sample points},
+  Author                   = {B\'{\i}scaro, Helton Hideraldo and Filho, Antonio Castelo and Nonato, Luis Gustavo and Ferreira de Oliveira, Maria Cristina},
+  Journal                  = {Vis. Comput.},
+  Year                     = {2007},
+  Number                   = {9},
+  Pages                    = {793--801},
+  Volume                   = {23},
+
+  Address                  = {Secaucus, NJ, USA},
+  Doi                      = {http://dx.doi.org/10.1007/s00371-007-0134-7},
+  ISSN                     = {0178-2789},
+  Publisher                = {Springer-Verlag New York, Inc.}
+}
+
+@MastersThesis{Biscaro,
+  Title                    = {Singular Half-Face Uma Estrutura de Dados Volum\'{e}trica},
+  Author                   = {Helton Hideraldo B\'{i}scaro},
+  School                   = { Universidade de S\~{a}o Paulo - Instituto de Ci\^encias Matem\'{a}ticas e Computa\c{c}\~{a}o},
+  Year                     = {2001}
+}
+
+@Misc{biscaro2001,
+  Title                    = { Singular Half-Face: Uma Estrutura de Dados Volum\'{e}trica.},
+
+  Author                   = {Helton Hideraldo B\'{i}scaro},
+  HowPublished             = {Disserta\c{c}\~{a}o de Mestrado, Universidade de S\~{a}o Paulo - Instituto de Ci\^encias Matem\'{a}ticas e Computa\c{c}\~{a}o.},
+  Year                     = {2001}
+}
+
+@Book{Babuska,
+  Title                    = {Modelling, Mesh Generation, and Adaptative Numerical Methods for Partial Equations},
+  Author                   = {Ivo Babuska and \emph{et al.}},
+  Publisher                = {IMA},
+  Year                     = {1995},
+  Series                   = {The IMA volumes in Mathematics and its Applications},
+  Volume                   = {75}
+}
+
+@InProceedings{Bajaj,
+  Title                    = {Automatic Reconstruction of Surfaces and Scalar Fields from 3D Scans},
+  Author                   = {C L Bajaj and Fausto Bernardini and G Xu},
+  Booktitle                = {Computer Graphics Proceedings},
+  Year                     = {1995},
+  Editor                   = {Annual Conference Series},
+  Series                   = {SIGGRAPH}
+}
+
+@Article{bajaj95automatic,
+  Title                    = {Automatic Reconstruction of Surfaces and Scalar Fields From $3$D Scans},
+  Author                   = {Chandrajit L. Bajaj and Fausto Bernardini and Guoliang Xu},
+  Journal                  = {Computer Graphics},
+  Year                     = {1995},
+  Number                   = {Annual Conference Series},
+  Pages                    = {109-118},
+  Volume                   = {29},
+
+  Url                      = {citeseer.ist.psu.edu/bajaj95automatic.html}
+}
+
+@Article{Bajaj94,
+  Title                    = {Arbitrary topology shape reconstruction from planar cross sections},
+  Author                   = {C L Bajaj and E J Coyle and K Lin},
+  Journal                  = {Graphical Model and Image Processing},
+  Year                     = {1996},
+  Number                   = {6},
+  Pages                    = {524-543},
+  Volume                   = {58}
+}
+
+@Article{Bajaj1,
+  Title                    = {Tetrahedral meshes from planar cross-sections},
+  Author                   = {C L Bajaj and E J Coyle and K N Lin},
+  Journal                  = {Comput Methods Applied Mechannical Enginnering},
+  Year                     = {1999},
+  Number                   = {179},
+  Pages                    = {31-52}
+}
+
+@Article{bajaj-surface,
+  Title                    = {Surface and 3D Triangular Meshes from Planar Cross Sections},
+  Author                   = {Chandrajit L. Bajaj and Edward J. Coyle and Kwun-Nan Lin},
+  Journal                  = {COMPUTER METHODS APPLYED MECHANICS ENGINEER},
+  Year                     = {1999},
+  Number                   = {179},
+  Pages                    = {266--286}
+}
+
+@InProceedings{Bajaj99singleresolution,
+  Title                    = {Single resolution compression of arbitrary triangular meshes with properties},
+  Author                   = {Chandrajit L Bajaj and Valerio Pascucci and Guozhong Zhuang},
+  Booktitle                = {In Data Compression Conference\9299 Conference Proceedings},
+  Year                     = {1999},
+  Pages                    = {247--256}
+}
+
+@Article{baraniuk07,
+  Title                    = {Compressive sensing},
+  Author                   = { Richard Baraniuk},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2007},
+  Number                   = {4},
+  Volume                   = {24},
+
+  ISSN                     = {1053-5888}
+}
+
+@Article{Bardinet,
+  Title                    = {A Parametric Deformable Model to Fit Unstructured 3D Data},
+  Author                   = {E Bardinet and L D Cohen and N Auache},
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {1998},
+  Number                   = {1},
+  Pages                    = {39-54},
+  Volume                   = {71}
+}
+
+@InProceedings{Barker2008,
+  Title                    = {{Scientific Workflow: A Survey and Research Directions}},
+  Author                   = {Barker, Adam and Van Hemert, Jano},
+  Year                     = {2008},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {746--753},
+  Publisher                = {Springer-Verlag},
+  Series                   = {PPAM'07},
+
+  Doi                      = {10.1145/2213836.2213899},
+  ISBN                     = {3-540-68105-1, 978-3-540-68105-2},
+  Shorttitle               = {Scientific Workflow},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1786194.1786281}
+}
+
+@Article{BarnesBollinger02,
+  Title                    = {Making Reuse Cost-Effective},
+  Author                   = {Bruce H. Barnes and Terry B. Bollinger},
+  Journal                  = {IEEE Software},
+  Year                     = {1991},
+  Number                   = {1},
+  Pages                    = {13-24},
+  Volume                   = {8},
+
+  Doi                      = {http://doi.ieeecomputersociety.org/10.1109/52.62928},
+  ISSN                     = {0740-7459},
+  Publisher                = {IEEE Computer Society}
+}
+
+@InProceedings{Bartocci30,
+  Title                    = {Enacting proactive workflows engine in e-science},
+  Author                   = {Bartocci, Ezio and Corradini, Flavio and Merelli, Emanuela},
+  Booktitle                = {Proceedings of the 6th international conference on Computational Science - Volume Part III},
+  Year                     = {2006},
+  Pages                    = {1012--1015},
+  Publisher                = {Springer-Verlag},
+  Series                   = {ICCS'06},
+
+  ISBN                     = {3-540-34383-0, 978-3-540-34383-7},
+  Location                 = {Reading, UK},
+  Numpages                 = {4}
+}
+
+@Misc{Becker09nesta,
+  Title                    = {NESTA: A Fast and Accurate First-Order Method for Sparse Recovery. SIAM J. on Imaging Sciences (under revision)},
+
+  Author                   = {Stephen Becker and J\E9r\F4me Bobin and Emmanuel J. Cand\E8s},
+  Year                     = {2009}
+}
+
+@InProceedings{Belhajjame2007,
+  Title                    = {{Semantic Replaceability of eScience Web Services}},
+  Author                   = {Belhajjame, Khalid},
+  Booktitle                = {Third IEEE International Conference on e-Science and Grid Computing (e-Science 2007)},
+  Year                     = {2007},
+  Pages                    = {449--456},
+  Publisher                = {IEEE},
+
+  ISBN                     = {0-7695-3064-8},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4426918}
+}
+
+@InProceedings{Belhajjame2011,
+  Title                    = {{Fostering Scientific Workflow Preservation through Discovery of Substitute Services}},
+  Author                   = {Belhajjame, Khalid and Goble, Carole and Soiland-Reyes, Stian and {De Roure}, Davide},
+  Booktitle                = {2011 IEEE Seventh International Conference on eScience},
+  Year                     = {2011},
+  Month                    = dec,
+  Pages                    = {97--104},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-1-4577-2163-2},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6123265}
+}
+
+@Article{Bergmann2014,
+  Title                    = {{Similarity assessment and efficient retrieval of semantic workflows}},
+  Author                   = {Bergmann, Ralph and Gil, Yolanda},
+  Journal                  = {Information Systems},
+  Year                     = {2014},
+
+  Month                    = mar,
+  Pages                    = {115--127},
+  Volume                   = {40},
+
+  Doi                      = {10.1016/j.is.2012.07.005},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0306437912001020}
+}
+
+@Misc{Bern,
+  Title                    = {Emerging challenges in computational topology},
+
+  Author                   = {M. Bern and D. Eppstein},
+  HowPublished             = {Report from the NSF-funded Workshop on Computational Topology, Miami Beach, FL, June 11-12, 1999},
+  Year                     = {1999},
+
+  Text                     = {M. Bern, D. Eppstein, and al. Emerging challenges in computational topology, 1999.},
+  Url                      = {citeseer.nj.nec.com/bern99emerging.html}
+}
+
+@InProceedings{Bernardini97sampling,
+  Title                    = {Sampling and Reconstructing Manifolds using Alpha-Shapes},
+  Author                   = {Fausto Bernardini and Chandrajit L. Bajaj},
+  Booktitle                = {Proc. 9th Canadian Conf. Computational Geometry},
+  Year                     = {1997},
+  Pages                    = {193-198},
+
+  Url                      = {citeseer.nj.nec.com/bernardini97sampling.html}
+}
+
+@Article{Bernardinibpa,
+  Title                    = {The Ball-Pivoting Algorithm for Surface Reconstruction},
+  Author                   = {F. Bernardini and J. Mittleman and H. Rushmeier and C. Silva and G. Taubin},
+  Journal                  = {IEEE Transactions on Visualization and Computer Graphics},
+  Year                     = {1999},
+  Number                   = {4},
+  Pages                    = {349--359},
+  Volume                   = {5},
+
+  Url                      = {citeseer.nj.nec.com/bernardini99ballpivoting.html}
+}
+
+@InProceedings{Eugenio38,
+  Title                    = {A tool for automatic generation of WS-BPEL compositions from OWL-S described services},
+  Author                   = {Bevilacqua, L. and Furno, A. and di Carlo, V.S. and Zimeo, Eugenio},
+  Booktitle                = {Software, Knowledge Information, Industrial Management and Applications (SKIMA), 2011 5th International Conference on},
+  Year                     = {2011},
+  Pages                    = {1-8},
+
+  Doi                      = {10.1109/SKIMA.2011.6090024}
+}
+
+@Electronic{Biocatalogue,
+  Title                    = {BioCatalogue: a universal catalogue of web services for the life sciences},
+  Author                   = {Bhagat, J. and Tanoh, F. and Nzuobontane, E. and Laurent, T. and Orlowski, J. and Roos, M. and Wolstencroft, K. and Aleksejevs, S. and Stevens, R. and Pettifer, S. and Lopez, R. and Goble, C.A},
+  Language                 = {English},
+  Month                    = {junho},
+  Url                      = {doi:10.1093/nar/gkq394},
+  Year                     = {2014}
+}
+
+@Book{Bloom,
+  Title                    = {Introduction to Implicit Surfaces},
+  Author                   = {Jules Bloomenthal and Chandrajit Bajaj and Jim Blinn and Marie-Paule Cani-Gascuel and Alyn Rockwood and Brian Wyvill and Geoff Wyvill},
+  Editor                   = {Brian A. Barsky},
+  Publisher                = {Morgam Kaufmann Publkishers},
+  Year                     = {1997},
+
+  ISBN                     = {1-55860-233-X}
+}
+
+@InProceedings{boissonnat98,
+  Title                    = {Shape Reconstruction from Planar Cross Sections},
+  Author                   = {J. D. Boissonnat},
+  Booktitle                = {Computer Vision, Graphics, and Image Processing},
+  Year                     = {1998},
+  Pages                    = {1--29},
+  Volume                   = {44}
+}
+
+@Article{Boissonnat,
+  Title                    = {Shape Reconstruction from planar cross-sections},
+  Author                   = {J D Boissonnat},
+  Journal                  = {Computational Vision Image},
+  Year                     = {1988},
+  Pages                    = {1-29},
+  Volume                   = {44}
+}
+
+@Article{boissonat2002,
+  Title                    = {Smooth surface reconstruction via natural neighbour interpolations of distance functions.},
+  Author                   = {J. D. Boissonnat and F. Cazals },
+  Journal                  = {Computational Geometry Theory and Applications.},
+  Year                     = {2002},
+  Pages                    = {185--203},
+  Volume                   = {22}
+}
+
+@Article{boissonnat1984,
+  Title                    = {Geometric structures for three-dimensional shape representation.},
+  Author                   = {Jean-Daniel Boissonnat},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {1984},
+  Number                   = {4},
+  Pages                    = {266--286},
+  Volume                   = {3},
+
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM Press}
+}
+
+@Article{Boissonnatzeroset,
+  Title                    = {Smooth Surface Reconstruction Via Natural Neighbour Interpolations of Distance Functions},
+  Author                   = {Jean-Daniel Boissonnat and Fred\E9ric Cazals},
+  Journal                  = {Computational Geometry Theory and Applications},
+  Year                     = {2002},
+
+  Optannote                = {http://elsevier.com/locate/comgeo},
+  Optpages                 = {185-203},
+  Optvolume                = {22}
+}
+
+@Article{CGALtriangulation,
+  Title                    = {Triangulations in CGAL},
+  Author                   = {Jean-Daniel Boissonnat and Olivier Devillers and Sylvain Pion and Monique Teillaud and Mariette Yvinec},
+  Journal                  = {Computational Geometry - Theory and Applications},
+  Year                     = {2002},
+  Pages                    = {5-19},
+  Volume                   = {22}
+}
+
+@InProceedings{Bomfim23,
+  Title                    = {Thoth: improving experiences reuses in the scientific environment through workflow management system},
+  Author                   = {Bomfim, E. and Oliveira, J. and de Souza, J.M. and Strauch, J.},
+  Booktitle                = {Computer Supported Cooperative Work in Design, 2005. Proceedings of the Ninth International Conference on},
+  Year                     = {2005},
+  Pages                    = {1164-1170 Vol. 2},
+  Volume                   = {2},
+
+  Doi                      = {10.1109/CSCWD.2005.194354}
+}
+
+@Article{candes06,
+  Title                    = {Robust uncertainty principles: Exact signal reconstruction from highly incomplete frequency information},
+  Author                   = {E. J. Cand\`{e}s and Justin Romberg and T. Tao},
+  Journal                  = { IEEE Trans. Inform. Theory},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {489--509},
+  Volume                   = {52}
+}
+
+@Article{candes06a,
+  Title                    = {Stable signal recovery from incomplete and inaccurate measurements},
+  Author                   = {E. J. Cand\`{e}s and Justin Romberg and T. Tao},
+  Journal                  = { Comm. Pure Appl. Math},
+  Year                     = {2006},
+  Number                   = {8},
+  Pages                    = {1207--1223},
+  Volume                   = {59}
+}
+
+@Article{candes06b,
+  Title                    = {Near-optimal signal recovery from random projections and universal encoding strategies?},
+  Author                   = {E. J. Cand\`{e}s and and T. Tao},
+  Journal                  = { IEEE Trans. Inform. Theory},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {5406--5445},
+  Volume                   = {52}
+}
+
+@Article{candes07,
+  Title                    = {An introduction to compressive sampling [A sensing/sampling paradigm that goes against the common knowledge in data acquisition]},
+  Author                   = {E. J. Cand\`{e}s and M. Wakin},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {21--30},
+  Volume                   = {25},
+
+  ISSN                     = {1053-5888}
+}
+
+@InProceedings{Grafo12,
+  Title                    = {Graph-based workflow recommendation: on improving business process modeling},
+  Author                   = {Cao, Bin and Yin, Jianwei and Deng, Shuiguang and Wang, Dongjing and Wu, Zhaohui},
+  Booktitle                = {Proceedings of the 21st ACM international conference on Information and knowledge management},
+  Year                     = {2012},
+  Pages                    = {1527--1531},
+  Publisher                = {ACM},
+  Series                   = {CIKM '12},
+
+  Acmid                    = {2398466},
+  Doi                      = {10.1145/2396761.2398466},
+  ISBN                     = {978-1-4503-1156-4},
+  Location                 = {Maui, Hawaii, USA},
+  Numpages                 = {5},
+  Url                      = {http://doi.acm.org/10.1145/2396761.2398466}
+}
+
+@InProceedings{Carr01,
+  Title                    = {Reconstruction and representation of 3D objects with radial basis functions},
+  Author                   = {J. C. Carr and R. K. Beatson and J. B. Cherrie and T. J. Mitchell and W. R. Fright and B. C. McCallum and T. R. Evans},
+  Booktitle                = {SIGGRAPH '01: Proceedings of the 28th annual conference on Computer graphics and interactive techniques},
+  Year                     = {2001},
+  Pages                    = {67--76},
+  Publisher                = {ACM Press},
+
+  Doi                      = {http://doi.acm.org/10.1145/383259.383266},
+  ISBN                     = {1-58113-374-X}
+}
+
+@InProceedings{KON08,
+  Title                    = {KON3: A Clinical Decision Support System, in Oncology Environment, Based on Knowledge Management},
+  Author                   = {Ceccarelli, M. and Donatiello, A. and Vitale, D.},
+  Booktitle                = {Tools with Artificial Intelligence, 2008. ICTAI 08. 20th IEEE International Conference on},
+  Year                     = {2008},
+  Pages                    = {206-210},
+  Volume                   = {2},
+
+  Doi                      = {10.1109/ICTAI.2008.46},
+  ISSN                     = {1082-3409}
+}
+
+@InProceedings{Montagnat2011,
+  Title                    = {{Scientific Workflow Reuse Through Conceptual Workflows on the Virtual Imaging Platform}},
+  Author                   = {Cerezo, Nadia and Montagnat, Johan},
+  Booktitle                = {Proceedings of the 6th Workshop on Workflows in Support of Large-scaleScience},
+  Year                     = {2011},
+  Pages                    = {1--10},
+  Publisher                = {ACM},
+  Series                   = {\{WORKS\} '11}
+}
+
+@Misc{cgal,
+  Title                    = { http://www.cgal.org (Acessado em 05/02/2004)CGAL - computational geometry algorithms library.},
+
+  Author                   = {CGAL},
+  Year                     = {2004}
+}
+
+@Article{Chandrasekaran1999,
+  Title                    = {What are ontologies, and why do we need them?},
+  Author                   = {Chandrasekaran, B. and Josephson, J.R. and Benjamins, V.R.},
+  Journal                  = {Intelligent Systems and their Applications, IEEE},
+  Year                     = {1999},
+
+  Month                    = {Jan},
+  Number                   = {1},
+  Pages                    = {20-26},
+  Volume                   = {14},
+
+  Doi                      = {10.1109/5254.747902}
+}
+
+@InProceedings{Fotouhi36,
+  Title                    = {Storing and Querying Scientific Workflow Provenance Metadata Using an RDBMS},
+  Author                   = {Chebotko, A. and Xubo Fei and Cui Lin and Shiyong Lu and Fotouhi, F.},
+  Booktitle                = {e-Science and Grid Computing, IEEE International Conference on},
+  Year                     = {2007},
+  Pages                    = {611-618},
+
+  Doi                      = {10.1109/E-SCIENCE.2007.70}
+}
+
+@InProceedings{noiselet10,
+  Title                    = {Image Compression Using the DCT and Noiselets: A New Algorithm and Its Rate Distortion Performance},
+  Author                   = {Chen, Zhuoyuan and Wen, Jiangtao and Yang, Shiqiang and Han, Yuxing and Villasenor, John D.},
+  Booktitle                = {DCC '10: Proceedings of the 2010 Data Compression Conference},
+  Year                     = {2010},
+
+  Address                  = {Washington, DC, USA},
+  Pages                    = {527},
+  Publisher                = {IEEE Computer Society},
+
+  Doi                      = {http://dx.doi.org/10.1109/DCC.2010.62},
+  ISBN                     = {978-0-7695-3994-2}
+}
+
+@InProceedings{curve_noisy,
+  Title                    = {Curve reconstruction from noisy samples},
+  Author                   = {Siu-Wing Cheng and Stefan Funke and Mordecai Golin and Piyush Kumar and Sheung-Hung Poon and Edgar Ramos},
+  Booktitle                = {Proceedings of the nineteenth annual symposium on Computational geometry},
+  Year                     = {2003},
+  Pages                    = {302--311},
+  Publisher                = {ACM Press},
+
+  Doi                      = {http://doi.acm.org/10.1145/777792.777838},
+  ISBN                     = {1-58113-663-3},
+  Location                 = {San Diego, California, USA}
+}
+
+@InProceedings{Chew,
+  Title                    = {Garanteed-quality mesh generation for curved surfaces},
+  Author                   = {L P Chew},
+  Booktitle                = {ACM Symposium on Computational Geometry},
+  Year                     = {1993},
+  Pages                    = {274-280}
+}
+
+@InProceedings{Chinthaka2009,
+  Title                    = {{CBR Based Workflow Composition Assistant}},
+  Author                   = {Chinthaka, Eran and Ekanayake, Jaliya and Leake, David and Plale, Beth},
+  Booktitle                = {2009 Congress on Services - I},
+  Year                     = {2009},
+  Month                    = jul,
+  Pages                    = {352--355},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-0-7695-3708-5},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5190678}
+}
+
+@InProceedings{Choi-delaunay,
+  Title                    = {Delaunay Triangulation Programs on Surface Data},
+  Author                   = {Sunghee Choi AND Nina Amenta },
+  Booktitle                = {The 13th ACM-SIAM Symposium on Discrete Algorithms},
+  Year                     = {2002},
+  Pages                    = {135-136}
+}
+
+@InProceedings{Chow97,
+  Title                    = {Optimized geometry compression for real-time rendering},
+  Author                   = {Mike M. Chow},
+  Booktitle                = {VIS '97: Proceedings of the 8th conference on Visualization '97},
+  Year                     = {1997},
+
+  Address                  = {Los Alamitos, CA, USA},
+  Pages                    = {347--ff.},
+  Publisher                = {IEEE Computer Society Press},
+
+  ISBN                     = {1-58113-011-2},
+  Location                 = {Phoenix, Arizona, United States}
+}
+
+@Article{noiselet01,
+  Title                    = {Noiselets},
+  Author                   = {R. Coifman and F. Geshwind and Y. Meyer},
+  Journal                  = {Applied and Computational Harmonic Analysis},
+  Year                     = {2001},
+  Pages                    = {27 -- 44},
+  Volume                   = {10}
+}
+
+@InProceedings{curless1996,
+  Title                    = {A Volumetric Method for Building Complex Models from Range Images.},
+  Author                   = {B. Curless and Levoy },
+  Booktitle                = {In Proceedings ACM SIGRAPH96.},
+  Year                     = {1996},
+  Pages                    = {303-312}
+}
+
+@InProceedings{Curless,
+  Title                    = {A volumetric method for building complex models from range images},
+  Author                   = {B Curless and Levoy M},
+  Booktitle                = {Siggraph},
+  Year                     = {1996},
+  Pages                    = {303-312}
+}
+
+@TechReport{Dance,
+  Title                    = {Delaunay Reconstruction from Multaxial Planar Cross-Sections},
+  Author                   = {C R Dance and R W Prager},
+  Institution              = {University of Cambridge - Department of Engineering},
+  Year                     = {1997},
+
+  Optannote                = {England},
+  Optkey                   = {CUED/F-INFENG/TR 273},
+  Optmonth                 = {Janeiro}
+}
+
+@Electronic{myExperiment,
+  Title                    = {myExperiment},
+  Author                   = {David De Roure, Carole Goble},
+  Language                 = {English},
+  Month                    = {junho},
+  Url                      = {http://www.myexperiment.org/},
+  Year                     = {2014}
+}
+
+@Article{Deelman2009,
+  Title                    = {{Workflows and e-Science: An overview of workflow system features and capabilities}},
+  Author                   = {Deelman, Ewa and Gannon, Dennis and Shields, Matthew and Taylor, Ian},
+  Journal                  = {Future Generation Computer Systems},
+  Year                     = {2009},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {528--540},
+  Volume                   = {25},
+
+  Doi                      = {10.1016/j.future.2008.06.012},
+  ISSN                     = {0167739X},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X08000861}
+}
+
+@InProceedings{GC95,
+  Title                    = {Geometry compression},
+  Author                   = {Deering, Michael},
+  Booktitle                = {SIGGRAPH '95: Proceedings of the 22nd annual conference on Computer graphics and interactive techniques},
+  Year                     = {1995},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {13--20},
+  Publisher                = {ACM},
+
+  Doi                      = {http://doi.acm.org/10.1145/218380.218391},
+  ISBN                     = {0-89791-701-4}
+}
+
+@Article{Deytopology,
+  Title                    = {Computational Topology},
+  Author                   = {T. Dey and H. Edelsbrunner and S. Guha},
+  Journal                  = {In Advances in Discrete and Computational Geometry (Contemporary mathematics 223)},
+  Year                     = {1999},
+  Pages                    = {109--143}
+}
+
+@Misc{Deysurvey,
+  Title                    = {Curve and Surface Reconstruction - http://www.cis.ohio-state.edu/~tamaldey/papers.html (acesso em 08/10/2003)},
+
+  Author                   = {Tamal K. Dey},
+  Year                     = {2002}
+}
+
+@Article{dey01robustness,
+  Title                    = {Robustness Issues in Surface Reconstruction},
+  Author                   = {Tamal K. Dey and Joachim Giesen and Wulue Zhao},
+  Journal                  = {Lecture Notes in Computer Science},
+  Year                     = {2001},
+  Pages                    = {658-663},
+  Volume                   = {2073},
+
+  Url                      = {citeseer.ist.psu.edu/476178.html}
+}
+
+@Article{Deyrobustness,
+  Title                    = {Robustness Issues in Surface Reconstruction},
+  Author                   = {Tamal K. Dey and Joachim Giesen and Wulue Zhao},
+  Journal                  = {Lecture Notes in Computer Science},
+  Year                     = {2001},
+  Pages                    = {658--663},
+  Volume                   = {2073},
+
+  Url                      = {citeseer.nj.nec.com/476178.html}
+}
+
+@InProceedings{dey03,
+  Title                    = {Tight cocone: a water-tight surface reconstructor},
+  Author                   = {Tamal K. Dey and Samrat Goswami},
+  Booktitle                = {Proceedings of the eighth ACM symposium on Solid modeling and applications},
+  Year                     = {2003},
+  Pages                    = {127--134},
+  Publisher                = {ACM Press},
+
+  Doi                      = {http://doi.acm.org/10.1145/781606.781627},
+  ISBN                     = {1-58113-706-0},
+  Location                 = {Seattle, Washington, USA}
+}
+
+@TechReport{Deytcocone,
+  Title                    = {Tight Cocone : A Water-tight Surface reconstruction},
+  Author                   = {Tamal K. Dey and Samrat Goswami},
+  Institution              = {The Ohio State University},
+  Year                     = {2002},
+  Month                    = {december},
+  Number                   = {OSU-CISRC-12/02-TR31}
+}
+
+@InProceedings{Deytcoconecgal,
+  Title                    = {Tight cocone and CGAL},
+  Author                   = {Tamal K. Dey and S. Goswami},
+  Booktitle                = {CGAL workshop},
+  Year                     = {2002},
+
+  Optaddress               = {Barcelona, Spain},
+  Optkey                   = {4 de Junho},
+  Optmonth                 = {Junho}
+}
+
+@Article{Dey99,
+  Title                    = {A simple provable algorithm for curve reconstruction},
+  Author                   = { T. K. Dey and P. Kumar },
+  Journal                  = {Proc. 10th. ACM-SIAM Symposium on Discrete Algorithms (SODA '99)},
+  Year                     = {1999},
+  Pages                    = {893-894}
+}
+
+@InProceedings{dey99curve,
+  Title                    = {Curve Reconstruction: Connecting Dots with Good Reason},
+  Author                   = {Tamal K. Dey and Kurt Mehlhorn and Edgar A. Ramos},
+  Booktitle                = {Symposium on Computational Geometry},
+  Year                     = {1999},
+  Pages                    = {197-206},
+
+  Url                      = {citeseer.ist.psu.edu/dey99curve.html}
+}
+
+@Book{Deza2009,
+  Title                    = {Encyclopedia of Distances},
+  Author                   = {Deza, Michel Marie and Deza, Elena},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2009},
+  Edition                  = {2ed},
+
+  Doi                      = {10.1007/978-3-642-00234-2_1}
+}
+
+@InProceedings{diamantini_mining_2012,
+  Title                    = {{Mining Usage Patterns from a Repository of Scientific Workflows}},
+  Author                   = {Diamantini, Claudia and Potena, Domenico and Storti, Emanuele},
+  Booktitle                = {Proceedings of the 27th Annual \{ACM\} Symposium on Applied Computing},
+  Year                     = {2012},
+  Pages                    = {152--157},
+  Publisher                = {ACM},
+  Series                   = {SAC '12},
+
+  ISBN                     = {978-1-4503-0857-1},
+  Url                      = {http://doi.acm.org/10.1145/2245276.2245307}
+}
+
+@Article{Dibben,
+  Title                    = {3D Mesh generation using bubble meshing for microwave applicators},
+  Author                   = {D C Dibben},
+  Journal                  = {IEEE T MAGN},
+  Year                     = {2000},
+
+  Month                    = {Julho},
+  Number                   = {4},
+  Pages                    = {1514-1518},
+  Volume                   = {36}
+}
+
+@Article{dibben2000,
+  Title                    = {3D Mesh generation using bubble meshing for microwave applicators},
+  Author                   = {D. C. Dibben},
+  Journal                  = {IEEE T MAGN 36:},
+  Year                     = {2000},
+  Pages                    = {1514-1518},
+  Volume                   = {4}
+}
+
+@PhdThesis{DigiampietriTese2007,
+  Title                    = {Gerenciamento de workflows cient\ED\ADficos em bioinform\E1tica},
+  Author                   = {Luciano Antonio Digiampietri},
+  School                   = {Unicamp},
+  Year                     = {2007}
+}
+
+@InProceedings{Digiampietri_BreSci2014b,
+  Title                    = {A Framework for Automatic Composition of Scientific Experiments: Achievements, Lessons Learned and Challenges},
+  Author                   = {Luciano Digiampietri and Jos\E9 de J\E9sus P\E9rez-Alc\E1zar and Caio Santiago and Guilherme Oliveira and Adilson Khouri and J\F4natas Ara\FAjo},
+  Booktitle                = {CSBC 2014 - VIII Brazilian e-Science workshop ({BrESci})},
+  Year                     = {2014},
+
+  Address                  = {Bras\EDlia - DF},
+  Month                    = {jul},
+
+  Days                     = {30-31}
+}
+
+@InProceedings{Digiampietri2014c,
+  Title                    = {A Framework for Automatic Composition of Scientific Experiments: Achievements, Lessons Learned and Challenges},
+  Author                   = {Luciano Digiampietri and Jose Perez-Alcazar and Caio Santiago and Guilherme Oliveira and Adilson Khouri and Jonatas Ara\FAjo},
+  Booktitle                = {SBSI 2014 (artigo submetido - em avalia\c{c}\~ao)},
+  Year                     = {2014}
+}
+
+@Article{Duarte_single-pixelimaging,
+  Title                    = {Single-pixel imaging via compressive sampling},
+  Author                   = {Marco F. Duarte and Mark A. Davenport and Dharmpal Takhar and Jason N. Laska and Ting Sun and Kevin F. Kelly and Richard G. Baraniuk},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2008}
+}
+
+@Article{Edelsbrunnermorse,
+  Title                    = {Surface Recosntruction by Wrapping Finite Point Set in Space},
+  Author                   = {Hebbert Edelsbrunner},
+  Journal                  = {Discrete and Computational Geometry. The Goodman-Pollack Festschrift},
+  Year                     = {2003},
+  Pages                    = {379-404},
+
+  Publisher                = {Springer-Verlag}
+}
+
+@Misc{Edelsbrunnerhp,
+  Title                    = {$\alpha$-shapes},
+
+  Author                   = {H Edelsbrunner},
+  HowPublished             = {http://www.alphashapes.org/alpha/},
+  Month                    = {novembro},
+  Year                     = {2002}
+}
+
+@Book{Edelsbrunner01,
+  Title                    = {Geometry and Topology for Mesh Generation, Cambridge},
+  Author                   = {H. Edelsbrunner},
+  Publisher                = {University Press},
+  Year                     = {2001}
+}
+
+@Book{Edelsbrunnerbook,
+  Title                    = {Geometry and Topology for Mesh Generation},
+  Author                   = {Herbert Edelsbrunner},
+  Publisher                = {Cambridge},
+  Year                     = {2001},
+  Series                   = {Cambridge Monographs on Applied and Computational Mathematics}
+}
+
+@InProceedings{Edelsbrunnersurvey,
+  Title                    = {Shape reconstruction with Delaunay complex},
+  Author                   = {Herbert Edelsbrunner},
+  Booktitle                = {LATIN'98: Theoretical Informatics},
+  Year                     = {1998},
+
+  Opteditor                = {C.L. Lucchesi, A. V. Moura},
+  Optseries                = {LNCS 1380}
+}
+
+@Article{edelsbrunner96wrapping,
+  Title                    = {Surface reconstruction by wrapping finite sets in space},
+  Author                   = {Herbert Edelsbrunner },
+  Journal                  = {Raindrop Geomagic, Inc.},
+  Year                     = {1996},
+  Number                   = {1},
+  Volume                   = {1}
+}
+
+@InProceedings{Edelsbrunner01hierarchical,
+  Title                    = {Hierarchical morse complexes for piecewise linear 2-manifolds},
+  Author                   = {Herbert Edelsbrunner and John Harer and Afra Zomorodian},
+  Booktitle                = {Symposium on Computational Geometry},
+  Year                     = {2001},
+  Pages                    = {70-79},
+
+  Url                      = {citeseer.nj.nec.com/edelsbrunner01hierarchical.html}
+}
+
+@Article{Edelsbrunner,
+  Title                    = {Three-Dimensional Alpha Shapes},
+  Author                   = {Herbert Edelsbrunner and Ernst P. M{\"{u}}cke},
+  Journal                  = {ACM Transactions on Graphics},
+  Year                     = {1994},
+  Number                   = {1},
+  Pages                    = {43 - 72},
+  Volume                   = {13}
+}
+
+@Article{edelsbrunner94threedimensional,
+  Title                    = {Three-Dimensional Alpha Shapes},
+  Author                   = {Herbert Edelsbrunner and Ernst P. M{\"{u}}cke},
+  Journal                  = {ACM Transactions on Graphics},
+  Year                     = {1994},
+  Number                   = {1},
+  Pages                    = {43-72},
+  Volume                   = {13}
+}
+
+@InProceedings{EdelsbrunnerShah,
+  Title                    = {Triangulating topological spaces},
+  Author                   = {H. Edelsbrunner and N. Shah},
+  Booktitle                = {Proc. 10th ACM Symp. Computational Geometry},
+  Year                     = {1994},
+  Pages                    = {285--292}
+}
+
+@Article{Ede83,
+  Title                    = {On the sahpe of a set of points in the plane},
+  Author                   = { H. Edelsdrunner and D.G. Kirkpatric },
+  Journal                  = {IEEE Transactions On Inforamtion Theory},
+  Year                     = {1983},
+  Pages                    = {551-559},
+  Volume                   = {29}
+}
+
+@InProceedings{Ezeife16,
+  Title                    = {PLWAP sequential mining: open source code},
+  Author                   = {C. I. Ezeife},
+  Booktitle                = {In Proceedings of the 1st International Workshop on Open Source Data Mining: Frequent Pattern Mining Implementations},
+  Year                     = {2005},
+  Pages                    = {26}
+}
+
+@PhdThesis{temp6,
+  Author                   = {f}
+}
+
+@Article{Fiannaca2014,
+  Title                    = {{An expert system hybrid architecture to support experiment management}},
+  Author                   = {Fiannaca, Antonino and {La Rosa}, Massimo and Rizzo, Riccardo and Urso, Alfonso and Gaglio, Salvatore},
+  Journal                  = {Expert Systems with Applications},
+  Year                     = {2014},
+
+  Month                    = mar,
+  Number                   = {4},
+  Pages                    = {1609--1621},
+  Volume                   = {41},
+
+  ISSN                     = {09574174},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0957417413006799}
+}
+
+@Book{Figueredo,
+  Title                    = {Introdu\E7\E3o \E0 Geometrica Computacional},
+  Author                   = {L H Figueiredo and P C P Carvalho},
+  Editor                   = {Instituto de Matem\E1tica Pura e Aplicada, Rio de Janeiro},
+  Year                     = {1991},
+  Series                   = {$18^o$ Col\F3quio Brasileiro de Matem\E1tica}
+}
+
+@Article{figueiredo1995,
+  Title                    = {Computational Morphology of Curves},
+  Author                   = {L. H. Figueiredo and J. Gomes Miranda},
+  Journal                  = {Visual Computer},
+  Year                     = {1995},
+  Pages                    = {105-112},
+  Volume                   = {11}
+}
+
+@Misc{Forman-combinatorial,
+  Title                    = {Combinatorial differential topology and geometry},
+
+  Author                   = {R. Forman},
+  Year                     = {para publica\E7\E3o},
+
+  Text                     = {R. Forman, Combinatorial differential topology and geometry, in New Perspectives in Algebraic Combinatorics (L. Billera, A. Bjorner, C. Greene, R. Simion, and R. Stanley, eds.), Cambridge University Press},
+  Url                      = {citeseer.nj.nec.com/257844.html}
+}
+
+@Article{Forman1,
+  Title                    = {Morse theory for cell complexes},
+  Author                   = {R Forman},
+  Journal                  = {Advances in Mathematics},
+  Year                     = {1998},
+  Number                   = {1},
+  Pages                    = {90-145},
+  Volume                   = {134}
+}
+
+@Article{Forman2,
+  Title                    = {Witten-Morse theory for cell complexes},
+  Author                   = {R Forman},
+  Journal                  = {Topology},
+  Year                     = {1998},
+  Number                   = {5},
+  Pages                    = {945-979},
+  Volume                   = {37}
+}
+
+@InCollection{fortune92,
+  Title                    = {Voronoi Diagrams and Delaunay Triangulations},
+  Author                   = {Fortune},
+  Booktitle                = {Computing in Euclidean Geometry, Edited by Ding-Zhu Du and Frank Hwang, World Scientific, Lecture Notes Series on Computing -- Vol. 1},
+  Year                     = {1992}
+}
+
+@Article{Garijo2014,
+  Title                    = {{Common motifs in scientific workflows: An empirical analysis}},
+  Author                   = {Garijo, Daniel and Alper, Pinar and Belhajjame, Khalid and Corcho, Oscar and Gil, Yolanda and Goble, Carole},
+  Journal                  = {Future Generation Computer Systems},
+  Year                     = {2014},
+
+  Month                    = jul,
+  Pages                    = {338--351},
+  Volume                   = {36},
+
+  Doi                      = {10.1016/j.future.2013.09.018},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X13001970}
+}
+
+@InProceedings{Garijo2012,
+  Title                    = {{Common motifs in scientific workflows: An empirical analysis}},
+  Author                   = {Garijo, Daniel and Alper, Pinar and Belhajjame, Khalid and Corcho, Oscar and Gil, Yolanda and Goble, Carole},
+  Booktitle                = {2012 IEEE 8th International Conference on E-Science},
+  Year                     = {2012},
+  Month                    = oct,
+  Pages                    = {1--8},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/eScience.2012.6404427},
+  Shorttitle               = {E-Science (e-Science), 2012 IEEE 8th International},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6404427}
+}
+
+@InProceedings{Garijo2012a,
+  Title                    = {{Common motifs in scientific workflows: An empirical analysis}},
+  Author                   = {Garijo, Daniel and Alper, Pinar and Belhajjame, Khalid and Corcho, Oscar and Gil, Yolanda and Goble, Carole},
+  Booktitle                = {2012 IEEE 8th International Conference on E-Science},
+  Year                     = {2012},
+  Month                    = oct,
+  Pages                    = {1--8},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/eScience.2012.6404427},
+  ISBN                     = {978-1-4673-4466-1},
+  Shorttitle               = {E-Science (e-Science), 2012 IEEE 8th International},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6404427}
+}
+
+@InProceedings{Garijo2013,
+  Title                    = {{Detecting Common Scientific Workflow Fragments Using Templates and Execution Provenance}},
+  Author                   = {Garijo, Daniel and Corcho, Oscar and Gil, Yolanda},
+  Booktitle                = {Proceedings of the Seventh International Conference on Knowledge Capture},
+  Year                     = {2013},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {33--40},
+  Publisher                = {ACM},
+  Series                   = {K-CAP '13},
+
+  Doi                      = {10.1145/2479832.2479848},
+  ISBN                     = {978-1-4503-2102-0},
+  Url                      = {http://doi.acm.org/10.1145/2479832.2479848}
+}
+
+@Article{giesen02,
+  Title                    = {Surface Reconstruction Based on a Dynamical System},
+  Author                   = {J. Giesen},
+  Journal                  = {Computational Geometry},
+  Year                     = {2002},
+  Volume                   = {21}
+}
+
+@Article{giesen1999,
+  Title                    = {Curve Reconstruction in Arbitrary Dimension and the Traveling Salesman Problem.},
+  Author                   = {J. Giesen },
+  Journal                  = {Lecture Notes in Computer Science},
+  Year                     = {1999},
+  Pages                    = {164-176},
+  Volume                   = {1568}
+}
+
+@InProceedings{Giesendynamical,
+  Title                    = {Surface reconstruction based on a dynamical system},
+  Author                   = {J. Giesen and M. John},
+  Booktitle                = {Eurographics},
+  Year                     = {2002},
+  Editor                   = {G. Drettakins and H.P. Siedel},
+  Volume                   = {21-3}
+}
+
+@InProceedings{Giesenflowcomplex,
+  Title                    = {The flow complex: a data structure for geometric modeling},
+  Author                   = {Joachim Giesen and Matthias John},
+  Booktitle                = {Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete algorithms},
+  Year                     = {2003},
+  Pages                    = {285--294},
+  Publisher                = {Society for Industrial and Applied Mathematics},
+
+  ISBN                     = {0-89871-538-5},
+  Location                 = {Baltimore, Maryland}
+}
+
+@Misc{giesen-how,
+  Title                    = {How to add facet attributes to Cgal's 3D geometric triangulations},
+
+  Author                   = {Joachim Giesen and Matthias John},
+  Year                     = {2002},
+
+  Url                      = {citeseer.ist.psu.edu/591777.html}
+}
+
+@Article{Goderis2009,
+  Title                    = {{Heterogeneous composition of models of computation}},
+  Author                   = {Goderis, Antoon and Brooks, Christopher and Altintas, Ilkay and Lee, Edward A. and Goble, Carole},
+  Journal                  = {Future Generation Computer Systems},
+  Year                     = {2009},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {552--560},
+  Volume                   = {25},
+
+  Doi                      = {10.1016/j.future.2008.06.014},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X08000915}
+}
+
+@MastersThesis{gois2004,
+  Title                    = { Reconstru\c{c}\~{a}o de superf\'{i}cies a partir de nuvens de pontos. -In Portuguese},
+  Author                   = {Jo\E3o Paulo Gois},
+  School                   = { Universidade de S\~{a}o Paulo - Instituto de Ci\^encias Matem\'{a}ticas e Computa\c{c}\~{a}o.},
+  Year                     = {2004}
+}
+
+@Book{Gomes04,
+  Title                    = {Fundamentos da Computa\E7\E3o Gr\E1fica},
+  Author                   = {Jonas Gomes and Luiz Velho},
+  Publisher                = {Instituto de Matem\E1tica Pura e Aplicada IMPA - In Portuguese.},
+  Year                     = {2004}
+}
+
+@Book{Goossens94,
+  Title                    = {The LaTeX Companion},
+  Author                   = {M. Goossens and F. Mittelbach and A. Samarin},
+  Publisher                = {Addison-Wesley},
+  Year                     = {1994}
+}
+
+@InProceedings{Gopi,
+  Title                    = {A Fast and Efficient Projection Based Approach for Surface Reconstruction},
+  Author                   = {M. Gopi and S. Krishnan},
+  Booktitle                = {proceedings of the $15^{th}$ Brazilian Symposium on Computer Graphics and Image Processing},
+  Year                     = {2002},
+  Pages                    = {179--186}
+}
+
+@InProceedings{Gopilocalizeddelaunay,
+  Title                    = {Surface Reconstruction Based on Lower Dimensional Localized Delaunay Triangulation},
+  Author                   = {M. Gopi and S. Krishnan and C. T. Silva},
+  Booktitle                = {Computer Graphics Forum (Eurographics 2000)},
+  Year                     = {2000},
+  Editor                   = {M. Gross and F. R. A. Hopgood},
+  Volume                   = {19(3)},
+
+  Url                      = {citeseer.nj.nec.com/gopi00surface.html}
+}
+
+@Book{Gross98,
+  Title                    = {Graph Theory and Its Applications},
+  Author                   = {J. Gross and J. Yellen},
+  Publisher                = {CRC Press, Boca Raton},
+  Year                     = {1998}
+}
+
+@Article{GI02,
+  Title                    = {Geometry images},
+  Author                   = {Gu, Xianfeng and Gortler, Steven J. and Hoppe, Hugues},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {2002},
+  Number                   = {3},
+  Pages                    = {355--361},
+  Volume                   = {21},
+
+  Address                  = {New York, NY, USA},
+  Doi                      = {http://doi.acm.org/10.1145/566654.566589},
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM}
+}
+
+@InProceedings{Gubala2006,
+  Title                    = {{Semantic Composition of Scientific Workflows Based on the Petri Nets Formalism}},
+  Author                   = {Gubala, Tomasz and Herezlak, Daniel and Bubak, Marian and Malawski, Maciej},
+  Booktitle                = {2006 Second IEEE International Conference on e-Science and Grid Computing (e-Science'06)},
+  Year                     = {2006},
+  Month                    = dec,
+  Pages                    = {12--12},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4030985}
+}
+
+@InProceedings{Sudipto2000,
+  Title                    = {ROCK: A Robust Clustering Algorithm for Categorical Attributes},
+  Author                   = {Sudipto Guha and Rajeev Rastogi and Kyuseok Shim},
+  Booktitle                = {In Proc.ofthe15thInt.Conf.onDataEngineering},
+  Year                     = {2000}
+}
+
+@Article{Guibas85,
+  Title                    = {Primitives for the manipulation of general subdivisions and the computation of Voronoi},
+  Author                   = {Guibas, Leonidas and Stolfi, Jorge},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {1985},
+  Number                   = {2},
+  Pages                    = {74--123},
+  Volume                   = {4},
+
+  Address                  = {New York, NY, USA},
+  Doi                      = {http://doi.acm.org/10.1145/282918.282923},
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM}
+}
+
+@InProceedings{TC98,
+  Title                    = {Real time compression of triangle mesh connectivity},
+  Author                   = { Stefan Gumhold and Wolfgang Strasser},
+  Booktitle                = {SIGGRAPH '98: Proceedings of the 25th annual conference on Computer graphics and interactive techniques},
+  Year                     = {1998},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {133--140},
+  Publisher                = {ACM},
+
+  Doi                      = {http://doi.acm.org/10.1145/280814.280836},
+  ISBN                     = {0-89791-999-8}
+}
+
+@Article{HalarisTheodoros01,
+  Title                    = {Reuse Concepts and a Reuse Support Repository},
+  Author                   = {John Halaris and Theodoros Geropoulos Spiros},
+  Journal                  = {Engineering of Computer-Based Systems, IEEE International Conference
+on the},
+  Year                     = {1996},
+  Pages                    = {27},
+  Volume                   = {0},
+
+  Doi                      = {http://doi.ieeecomputersociety.org/10.1109/ECBS.1996.494507},
+  ISBN                     = {0-8186-7355-9},
+  Publisher                = {IEEE Computer Society}
+}
+
+@Book{Hamilton1969,
+  Title                    = {Elements of Quaternions},
+  Author                   = {W.R. Hamilton},
+  Publisher                = {Chelsea Publishing Company},
+  Year                     = {1969 - The original was published in 1866},
+  Edition                  = {Third}
+}
+
+@Book{HanKamber2011,
+  Title                    = {Data Mining: Concepts and Techniques},
+  Author                   = {Han, Jiawei and Kamber, Micheline and Pei, Jian},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+  Year                     = {2011},
+  Edition                  = {3rd},
+
+  ISBN                     = {0123814790, 9780123814791}
+}
+
+@Book{Hine21,
+  Title                    = {New Infrastructures for Knowledge Production: Understanding E-science},
+  Author                   = {Hine, Christine M.},
+  Publisher                = {Information Resources Press},
+  Year                     = {2006},
+
+  ISBN                     = {1591407184}
+}
+
+@InProceedings{Hinton95,
+  Title                    = {Experiences with Olhoff's `Exact' Semi-analytical Algorithm},
+  Author                   = {E. Hinton and J. Sienz and S. M. B. Afonso},
+  Booktitle                = {First World Congress of Structural and Multidisciplinary Optimization (WCSMO-1)},
+  Year                     = {1995},
+  Editor                   = {N. Olhoff and G. I. N. Rozvany},
+  Pages                    = {41-46}
+}
+
+@Book{Hoffmann,
+  Title                    = {Geometric and Solid Modeling, An Introduction},
+  Author                   = {C M Hoffmann},
+  Publisher                = {Morgan Kaufmann},
+  Year                     = {1989}
+}
+
+@Misc{Hoppe_progressivemeshes,
+  Title                    = {Progressive Meshes},
+
+  Author                   = {Hugues Hoppe}
+}
+
+@Article{hope1992,
+  Title                    = {Surface reconstruction from unorganized points.},
+  Author                   = {H. Hoppe and T. DeRose and T. Duchamp and J. McDonald and W. Stuetzle },
+  Journal                  = {Computer Graphics.},
+  Year                     = {1992},
+  Number                   = {2},
+  Pages                    = {71-78},
+  Volume                   = {26}
+}
+
+@Article{Hoppe,
+  Title                    = {Surface reconstruction from unorganized points},
+  Author                   = {Hugues Hoppe and Tony DeRose and Tom Duchamp and John McDonald and Werner Stuetzle},
+  Journal                  = {Computer Graphics},
+  Year                     = {1992},
+  Number                   = {2},
+  Pages                    = {71--78},
+  Volume                   = {26},
+
+  Url                      = {citeseer.nj.nec.com/article/hoppe94surface.html}
+}
+
+@Article{Huang,
+  Title                    = {Combinatorial Manifold Reconstruction and Optimization from Unorganized Point Cloud with Arbitrary Topology},
+  Author                   = {J Huang and C H Menq},
+  Journal                  = {Computer-Aided Design},
+  Year                     = {2002},
+  Number                   = {34},
+  Pages                    = {149-165},
+  Volume                   = {1}
+}
+
+@InProceedings{Huang2006,
+  Title                    = {Evaluation of {PICO} as a Knowledge Representation for Clinical Questions},
+  Author                   = {Huang, Xiaoli and Lin, Jimmy and Demner-Fushman, Dina},
+  Booktitle                = {AMIA Annu Symp Proc.},
+  Year                     = {2006},
+  Pages                    = {359--363},
+  Publisher                = {American Medical Informatics Association}
+}
+
+@InProceedings{Huang2013,
+  Title                    = {{Enabling Data Recommendation in Scientific Workflow Based on Provenance}},
+  Author                   = {Huang, Xing and Lu, Tun and Ding, Xianghua and Gu, Ning},
+  Booktitle                = {2013 8th ChinaGrid Annual Conference},
+  Year                     = {2013},
+  Month                    = aug,
+  Pages                    = {117--122},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6623877}
+}
+
+@Book{Hungerford1966,
+  Title                    = {\'{A}lgebra /Thomas W. Hungerford.},
+  Author                   = {Thomas W. Hungerford},
+  Publisher                = {New York : Springer},
+  Year                     = {1996}
+}
+
+@Electronic{IEEEXPLORE,
+  Title                    = {IEEE Xplore Digital Library},
+  Author                   = {IEEE, team},
+  Language                 = {English},
+  Url                      = {http://ieeexplore.ieee.org/Xplore/home.jsp},
+  Year                     = {2014}
+}
+
+@InProceedings{Ionita2010,
+  Title                    = {{Automatic Generation of Functional Workflows Using a Semantic Specification}},
+  Author                   = {Ionita, Costin and Costan, Alexandru and Cristea, Valentin},
+  Booktitle                = {2010 International Conference on Complex, Intelligent and Software Intensive Systems},
+  Year                     = {2010},
+  Month                    = feb,
+  Pages                    = {496--501},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-1-4244-5917-9},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5447466}
+}
+
+@Book{Issacson,
+  Title                    = {Analysis of Numerical Methods},
+  Author                   = {E Isaacson and H B Keller},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {1966}
+}
+
+@InProceedings{Isenburg00,
+  Title                    = {Spirale Reversi: Reverse decoding of the Edgebreaker encoding},
+  Author                   = {Martin Isenburg and Jack Snoeyink},
+  Booktitle                = {12th Canadian Conference on Computational Geometry},
+  Year                     = {2000},
+  Pages                    = {247--256}
+}
+
+@InProceedings{collapse99,
+  Title                    = {Mesh collapse compression},
+  Author                   = {Martin Isenburg and Jack Snoeyink },
+  Booktitle                = {SCG '99: Proceedings of the fifteenth annual symposium on Computational geometry},
+  Year                     = {1999},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {419--420},
+  Publisher                = {ACM},
+
+  Doi                      = {http://doi.acm.org/10.1145/304893.305000},
+  ISBN                     = {1-58113-068-6},
+  Location                 = {Miami Beach, Florida, United States}
+}
+
+@Electronic{JCOLIBRI2014,
+  Author                   = {JCOLIBRI, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://gaia.fdi.ucm.es/research/colibri/jcolibri},
+  Year                     = {2014}
+}
+
+@InProceedings{Jiang11,
+  Title                    = {Application research on personalized recommendation in distance education},
+  Author                   = {Yuanyuan Jiang and Haisheng Zhan and Qiaoli Zhuang},
+  Booktitle                = {Computer Application and System Modeling (ICCASM), 2010 International Conference on},
+  Year                     = {2010},
+  Pages                    = {V13-357-V13-360},
+  Volume                   = {13},
+
+  Doi                      = {10.1109/ICCASM.2010.5622798}
+}
+
+@Article{Jin,
+  Title                    = {Generation of unstructured tetrahedral meshes by advancing front techinique},
+  Author                   = {H Jin and R I Tanner},
+  Journal                  = {International Journal of Numerical Methods in Enginnering},
+  Year                     = {1993},
+  Number                   = {36},
+  Pages                    = {1805-1823}
+}
+
+@Book{Jolliffe02,
+  Title                    = {Principal components analysis},
+  Author                   = {Ian T. Jolliffe},
+  Publisher                = {Springer Us},
+  Year                     = {2002},
+
+  ISBN                     = {9780387954424}
+}
+
+@InProceedings{Jones,
+  Title                    = {A new approach to the construction of surfaces from contour data},
+  Author                   = {M W Jones and M Chen},
+  Booktitle                = {Eurographics},
+  Year                     = {1994},
+  Number                   = {3},
+  Pages                    = {75-84},
+  Volume                   = {13}
+}
+
+@Book{Kahn95,
+  Title                    = {Topology: an Introduction to the Point-set and Algbraic Areas},
+  Author                   = {D.W. Kahn},
+  Publisher                = {Dover Publications},
+  Year                     = {1995}
+}
+
+@InProceedings{KaijunRen2006,
+  Title                    = {{A Semantic-based Meteorology Grid Service Registry, Discovery and Composition Framework}},
+  Author                   = {{Kaijun Ren} and {Nong Xiao} and {Junqiang Song} and {Weimin Zhang} and {Tao Chen}},
+  Booktitle                = {2006 Semantics, Knowledge and Grid, Second International Conference on},
+  Year                     = {2006},
+  Pages                    = {60--60},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5727697}
+}
+
+@Electronic{kepler2014,
+  Title                    = {Kepler your science. Enabled},
+  Author                   = {Kepler, Team Developer},
+  Language                 = {English},
+  Url                      = {https://kepler-project.org/},
+  Year                     = {2014}
+}
+
+@InProceedings{ProgressiveMC00,
+  Title                    = {Progressive geometry compression},
+  Author                   = {Khodakovsky, Andrei and Schr\"{o}der, Peter and Sweldens, Wim},
+  Booktitle                = {SIGGRAPH '00: Proceedings of the 27th annual conference on Computer graphics and interactive techniques},
+  Year                     = {2000},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {271--278},
+  Publisher                = {ACM Press/Addison-Wesley Publishing Co.},
+
+  Doi                      = {http://doi.acm.org/10.1145/344779.344922},
+  ISBN                     = {1-58113-208-5}
+}
+
+@InProceedings{Khouri2014,
+  Title                    = {Uma Revis\~ao Sistem\'atica Sobre Recomenda\c{c}\~ao de Atividades em Workflows},
+  Author                   = {Adilson Khouri and Luciano Digiampietri},
+  Booktitle                = {SBSI 2014 (artigo submetido - em avalia\c{c}\~ao)},
+  Year                     = {2014}
+}
+
+@InProceedings{King99,
+  Title                    = {Guaranteed 3.67V bit encoding of planar triangle graphs},
+  Author                   = {Davis King and Jarek Rossignac},
+  Booktitle                = {11TH CANADIAN CONFERENCE ON COMPUTATIONAL GEOMETRY (CCCG'\9299},
+  Year                     = {1999},
+  Pages                    = {146--149}
+}
+
+@Article{Kirkpatrick,
+  Title                    = {Framework for Computational Morphology - Computational Geometry},
+  Author                   = {D G Kirkpatric and J D Radke},
+  Journal                  = {Comput Methods Applied Mechannical Enginnering},
+  Year                     = {1985},
+  Pages                    = {217-245},
+
+  Editor                   = {G T Toussaint}
+}
+
+@TechReport{Kit02,
+  Title                    = {Procedures for Performing Systematic Reviews},
+  Author                   = {Kitchenham, Barbara},
+  Year                     = {2004},
+
+  Address                  = {Department of Computer Science, Keele University, UK},
+  Type                     = {Keele University. Technical Report TR/SE-0401},
+
+  Added-at                 = {2009-04-28T08:33:13.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2e48137ec01b6308876e05ab1ecdf4bc4/wiljami74},
+  Description              = {systematic literature review},
+  Interhash                = {75c82aef0bd6a41e833647512d5e78d6},
+  Intrahash                = {e48137ec01b6308876e05ab1ecdf4bc4},
+  Keywords                 = {systematic_literature_review},
+  Timestamp                = {2009-04-28T08:33:13.000+0200}
+}
+
+@Article{kobbelt:04survey,
+  Title                    = {A survey of point-based techniques in computer graphics.},
+  Author                   = {Leif Kobbelt and Mario Botsch},
+  Journal                  = {Computers {\&} Graphics},
+  Year                     = {2004},
+  Number                   = {6},
+  Pages                    = {801--814},
+  Volume                   = {28}
+}
+
+@InProceedings{kolluri-spectral,
+  Title                    = {Spectral Surface Reconstruction from Noisy Point Clouds},
+  Author                   = {Ravikrishna Kolluri and Jonathan Richard Shewchuk and James F. O'Brien},
+  Booktitle                = {Sigraph},
+  Year                     = {2004},
+  Pages                    = {11-22}
+}
+
+@Article{Koop2008,
+  Title                    = {{VisComplete: automating suggestions for visualization pipelines.}},
+  Author                   = {Koop, David and Scheidegger, Carlos E and Callahan, Steven P and Freire, Juliana and Silva, Cl\'{a}udio T},
+  Journal                  = {IEEE transactions on visualization and computer graphics},
+  Year                     = {2008},
+
+  Month                    = jan,
+  Number                   = {6},
+  Pages                    = {1691--8},
+  Volume                   = {14},
+
+  Doi                      = {10.1109/TVCG.2008.174},
+  ISSN                     = {1077-2626},
+  Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/18989027}
+}
+
+@InProceedings{Lacroix27,
+  Title                    = {SemanticBio: building conceptual scientific workflows over web services},
+  Author                   = {Lacroix, Zo{\'e} and M{\'e}nager, Herv{\'e}},
+  Booktitle                = {Proceedings of the Second international conference on Data Integration in the Life Sciences},
+  Year                     = {2005},
+  Pages                    = {296--299},
+  Publisher                = {Springer-Verlag},
+  Series                   = {DILS'05},
+
+  Acmid                    = {2156104},
+  Doi                      = {10.1007/11530084_26},
+  ISBN                     = {3-540-27967-9, 978-3-540-27967-9},
+  Location                 = {San Diego, CA},
+  Numpages                 = {4},
+  Url                      = {http://dx.doi.org/10.1007/11530084}
+}
+
+@InProceedings{Leng2010,
+  Title                    = {{Semantics Enhanced Composition Planner for Distributed Resources}},
+  Author                   = {Leng, Yan and El-Gayyar, Mahmoud and Cremers, Armin. B.},
+  Booktitle                = {2010 Ninth International Symposium on Distributed Computing and Applications to Business, Engineering and Science},
+  Year                     = {2010},
+  Month                    = aug,
+  Pages                    = {61--65},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5573302}
+}
+
+@InProceedings{Leng2010a,
+  Title                    = {{Semantics Enhanced Composition Planner for Distributed Resources}},
+  Author                   = {Leng, Yan and El-Gayyar, Mahmoud and Cremers, Armin. B.},
+  Booktitle                = {2010 Ninth International Symposium on Distributed Computing and Applications to Business, Engineering and Science},
+  Year                     = {2010},
+  Month                    = aug,
+  Pages                    = {61--65},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5573302}
+}
+
+@Article{Levin03,
+  Title                    = {Mesh-independent surface interpolation},
+  Author                   = {D. Levin },
+  Journal                  = {Geometric Modeling for Scientific Visualization},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {37--49},
+  Volume                   = {9}
+}
+
+@InProceedings{levoy00digital,
+  Title                    = {The Digital Michelangelo Project: 3{D} Scanning of Large Statues},
+  Author                   = {Marc Levoy and Kari Pulli and Brian Curless and Szymon Rusinkiewicz and David Koller and Lucas Pereira and Matt Ginzton and Sean Anderson and James Davis and Jeremy Ginsberg and Jonathan Shade and Duane Fulk},
+  Booktitle                = {Siggraph 2000, Computer Graphics Proceedings},
+  Year                     = {2000},
+  Editor                   = {Kurt Akeley},
+  Pages                    = {131--144},
+  Publisher                = {ACM Press / ACM SIGGRAPH / Addison Wesley Longman},
+
+  Url                      = {citeseer.ist.psu.edu/levoy00digital.html}
+}
+
+@MastersThesis{lewinermaster,
+  Title                    = {Constructing discrete {M}orse functions},
+  Author                   = {Thomas Lewiner},
+  School                   = {Department of Mathematics, PUC-Rio},
+  Year                     = {2002},
+
+  Url                      = {http://www-sop.inria.fr/geometrica/personnel/Thomas.Lewiner/Thesis.pdf}
+}
+
+@Article{lewiner2004,
+  Title                    = {Applications of Forman\B4s discrete Morse theory to topology visualization and mesh compression},
+  Author                   = {Thomas Lewiner and H\E9lio Lopes and Geovan Tavares},
+  Journal                  = {IEEE Transactions on Visualization and Computer Graphics (TVCG) },
+  Year                     = {2004},
+  Pages                    = {499--508.},
+  Volume                   = {10(5)}
+}
+
+@InProceedings{Lifschitz2011,
+  Title                    = {{Dealing with reusability and reproducibility for scientific workflows}},
+  Author                   = {Lifschitz, S. and Gomes, L. and Rehen, S. K.},
+  Booktitle                = {2011 IEEE International Conference on Bioinformatics and Biomedicine Workshops (BIBMW)},
+  Year                     = {2011},
+  Month                    = nov,
+  Pages                    = {625--632},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6112441}
+}
+
+@InProceedings{Lim2010,
+  Title                    = {{Prospective and Retrospective Provenance Collection in Scientific Workflow Environments}},
+  Author                   = {Lim, Chunhyeok and Lu, Shiyong and Chebotko, Artem and Fotouhi, Farshad},
+  Booktitle                = {2010 IEEE International Conference on Services Computing},
+  Year                     = {2010},
+  Month                    = jul,
+  Pages                    = {449--456},
+  Publisher                = {IEEE},
+  Series                   = {SCC '10},
+
+  Doi                      = {10.1109/SCC.2010.18},
+  Shorttitle               = {Services Computing (SCC), 2010 IEEE International},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5557202 http://dx.doi.org/10.1109/SCC.2010.18}
+}
+
+@Book{Lima,
+  Title                    = {Curso de An\E1lise Vol. 2},
+  Author                   = {Elon L Lima},
+  Publisher                = {Instituto de Matem\E1tica Pura e Aplicada IMPA},
+  Year                     = {1981}
+}
+
+@InProceedings{Lin2009,
+  Title                    = {{A Task Abstraction and Mapping Approach to the Shimming Problem in Scientific Workflows}},
+  Author                   = {Lin, Cui and Lu, Shiyong and Fei, Xubo and Pai, Darshan and Hua, Jing},
+  Booktitle                = {2009 IEEE International Conference on Services Computing},
+  Year                     = {2009},
+  Pages                    = {284--291},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {SCC '09},
+
+  Doi                      = {10.1109/SCC.2009.77},
+  Shorttitle               = {D-PROV},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5283946 http://dx.doi.org/10.1109/SCC.2009.77}
+}
+
+@InProceedings{Lin01,
+  Title                    = {The ANN-tree: An Index for Efficient Approximate Nearest Neighbor Search},
+  Author                   = {Lin, King-Ip and Yang, Congjun},
+  Booktitle                = {DASFAA '01: Proceedings of the 7th International Conference on Database Systems for Advanced Applications},
+  Year                     = {2001},
+
+  Address                  = {Washington, DC, USA},
+  Pages                    = {174--181},
+  Publisher                = {IEEE Computer Society},
+
+  ISBN                     = {0-7695-0996-7}
+}
+
+@Article{Lorensen,
+  Title                    = {Marching Cubes: A High Resolution 3d Surface Construction Algorithms},
+  Author                   = {W E Lorensen and H E Cline},
+  Journal                  = {ACM SIG. Comp. Graph.},
+  Year                     = {1987},
+  Pages                    = {163-169},
+  Volume                   = {21}
+}
+
+@InProceedings{SGI03,
+  Title                    = {Smooth geometry images},
+  Author                   = {Losasso, F. and Hoppe, H. and Schaefer, S. and Warren, J.},
+  Booktitle                = {SGP '03: Proceedings of the 2003 Eurographics/ACM SIGGRAPH symposium on Geometry processing},
+  Year                     = {2003},
+
+  Address                  = {Aire-la-Ville, Switzerland, Switzerland},
+  Pages                    = {138--145},
+  Publisher                = {Eurographics Association},
+
+  ISBN                     = {1-58113-687-0},
+  Location                 = {Aachen, Germany}
+}
+
+@Article{Ludascher2006,
+  Title                    = {Scientific workflow management and the Kepler system},
+  Author                   = {Ludascher, Bertram and Altintas, Ilkay and Berkley, Chad and Higgins, Dan and Jaeger, Efrat and Jones, Matthew and Lee, Edward A. and Tao, Jing and Zhao, Yang},
+  Journal                  = {Concurrency and Computation: Practice and Experience},
+  Year                     = {2006},
+  Number                   = {10},
+  Pages                    = {1039--1065},
+  Volume                   = {18},
+
+  Doi                      = {10.1002/cpe.994},
+  Publisher                = {John Wiley e Sons, Ltd.},
+  Url                      = {http://dx.doi.org/10.1002/cpe.994}
+}
+
+@InProceedings{Ludascher19,
+  Title                    = {Scientific Workflow Management and the Kepler System},
+  Author                   = {Bertram Ludascher and Ilkay Altintas and Chad Berkley and Dan Higgins and Efrat Jaeger and Matthew Jones and Edward A. Lee and Jing Tao and Yang Zhao},
+  Booktitle                = {Concurr. Comput. : Pract. Exper},
+  Year                     = {2005},
+  Pages                    = {2006}
+}
+
+@InProceedings{Yanhui2012,
+  Title                    = {An ontology-based approach to build conceptual data model},
+  Author                   = {Yanhui Lv and Chong Xie},
+  Booktitle                = {Fuzzy Systems and Knowledge Discovery (FSKD), 2012 9th International Conference on},
+  Year                     = {2012},
+  Month                    = {May},
+  Pages                    = {807-810}
+}
+
+@Book{Maliska,
+  Title                    = {Tranfer\EAnciade Calor e Mec\E2nica dos Fluidos Computacional},
+  Author                   = {Clovis R Maliska},
+  Publisher                = {LTC - Livros T\E9cnicos e Cient\EDficos Editora},
+  Year                     = {1995}
+}
+
+@Article{Marcum,
+  Title                    = {Unstructured grid generation using iterative point insertion and local reconnection},
+  Author                   = {D L Marcum and N P Weatherill},
+  Journal                  = {AIAA Journal},
+  Year                     = {1995},
+  Number                   = {32: (9)},
+  Pages                    = {1619-1625}
+}
+
+@Article{Marcun,
+  Title                    = {Unstructured Grid Generation Using Iterative Point Insertion and Local Reconnection},
+  Author                   = { David L. Marcum and Nigel P. Weatherill},
+  Journal                  = {AIAA Journal},
+  Year                     = {1995},
+  Number                   = {9},
+  Pages                    = {1619-1625},
+  Volume                   = {33}
+}
+
+@Book{Mas91,
+  Title                    = {A Basic Course in Algebric Topology},
+  Author                   = {W. S. Massey},
+  Publisher                = {Spring-Verlag, Graduate texts in Mathematics 127},
+  Year                     = {1991}
+}
+
+@Book{Mas67,
+  Title                    = {Algebric Topology: An Introduction},
+  Author                   = {W. S. Massey},
+  Publisher                = {Spring-Verlag, Graduate texts in Mathematics 56},
+  Year                     = {1967}
+}
+
+@Article{Mattiasson80,
+  Title                    = {Numerical Results from Large Deflection Beam and Frame Problems Analysed by Means of Elliptic Integrals},
+  Author                   = {K. Mattiasson},
+  Journal                  = {International Journal for Numerical Methods in Engineering},
+  Year                     = {1980},
+  Number                   = {1},
+  Pages                    = {145-153},
+  Volume                   = {17}
+}
+
+@Article{McPhillips2009,
+  Title                    = {{Scientific workflow design for mere mortals}},
+  Author                   = {McPhillips, Timothy and Bowers, Shawn and Zinn, Daniel and Lud\"{a}scher, Bertram},
+  Journal                  = {Future Generation Computer Systems},
+  Year                     = {2009},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {541--551},
+  Volume                   = {25},
+
+  Doi                      = {10.1016/j.future.2008.06.013},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X08000873}
+}
+
+@Article{Digiampietri25,
+  Title                    = {{WOODSS and the Web: Annotating and Reusing Scientific Workflows}},
+  Author                   = {C.B. Medeiros and J. Perez Alcazar and L. Digiampietri and G. Pastorello
+and A. Santanche and R. Torres and E. Madeira and E. Bacarin},
+  Journal                  = {ACM SIGMOD Record},
+  Year                     = {2005},
+  Number                   = {3},
+  Pages                    = {18--23},
+  Volume                   = {34}
+}
+
+@Article{medeiros_woodss_2005,
+  Title                    = {{\{WOODSS\} and the Web: Annotating and Reusing Scientific Workflows}},
+  Author                   = {Medeiros, C B and Perez-Alcazar, J and Digiampietri, L and {Pastorello Jr.}, G Z and Santanche, A and Torres, R S and Madeira, E and Bacarin, E},
+  Journal                  = {\{SIGMOD\} Rec.},
+  Year                     = {2005},
+  Number                   = {3},
+  Pages                    = {18--23},
+  Volume                   = {34},
+
+  Doi                      = {10.1145/1084805.1084810},
+  Shorttitle               = {\{WOODSS\} and the Web},
+  Url                      = {http://doi.acm.org/10.1145/1084805.1084810}
+}
+
+@InProceedings{Mederos,
+  Title                    = {Moving Least Squares Multiresolution Surface Approximation},
+  Author                   = {Boris Mederos and Luiz Velho and Luiz Henrique de Figueiredo},
+  Booktitle                = {SIBGRAPI 2003},
+  Year                     = {2003},
+
+  Location                 = {S\E3o Carlos-Brasil}
+}
+
+@Article{Mencl,
+  Title                    = {Graph-based surface reconstruction using structures in scattered point sets},
+  Author                   = {Enn Mencl and Hnn M\FCller},
+  Journal                  = {Computer Graphics International},
+  Year                     = {1998},
+  Pages                    = {298-311}
+}
+
+@Electronic{Mholline2014,
+  Author                   = {Mholline, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.mholline.lncc.br/},
+  Year                     = {2014}
+}
+
+@Booklet{Milnor,
+  Title                    = {Morse Theory},
+
+  Address                  = {Princenton University Press},
+  Author                   = {J Milnor},
+  Note                     = {Annals Mathematics Studies},
+  Year                     = {1963}
+}
+
+@Book{Milnor1963,
+  Title                    = {Morse Theory},
+  Author                   = {J.W. Milnor},
+  Publisher                = {Princeton University Press, Princeton, NY},
+  Year                     = {1963}
+}
+
+@Article{RESYGEN05,
+  Title                    = {RESYGEN: A Recommendation System Generator using domain-based heuristics},
+  Author                   = {Erick Ulisses Monfil-Contreras and Giner Alor-Hernández and Guillermo Cortes-Robles and Alejandro Rodriguez-Gonzalez and Israel Gonzalez-Carrasco},
+  Journal                  = {Expert Systems with Applications},
+  Year                     = {2013},
+  Number                   = {1},
+  Pages                    = {242 - 256},
+  Volume                   = {40},
+
+  ISSN                     = {0957-4174},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0957417412008718}
+}
+
+@MastersThesis{Moreira,
+  Title                    = {Desenvolvimento de um modelador para superf\'{\i}cies impl\'{\i}citas em $\mathbb{R}^3$},
+  Author                   = {Jos\E9 Geraldo Veloso Moreira},
+  School                   = { Universidade de S\~{a}o Paulo - Instituto de Ci\^encias Matem\'{a}ticas e Computa\c{c}\~{a}o},
+  Year                     = {1998}
+}
+
+@Article{NiMorseMesh2004,
+  Title                    = {Fair morse functions for extracting the topological structure of a surface mesh},
+  Author                   = {Xinlai Ni and Michael Garland and John C. Hart},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {613--622},
+  Volume                   = {23},
+
+  Address                  = {New York, NY, USA},
+  Doi                      = {http://doi.acm.org/10.1145/1015706.1015769},
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM Press}
+}
+
+@PhdThesis{Nonato,
+  Title                    = {Reconstru\E7\E3o de Variedades Volum\E9tricas a partir de Se\E7\F5es Bidimensionais},
+  Author                   = {Luis Gustavo Nonato},
+  School                   = {Pontif\EDcia Universidade Cat\F3lica do Rio de Janeiro},
+  Year                     = {1998}
+}
+
+@Article{Nonatoartigo,
+  Title                    = {A Novel Approach for Delaunay 3D Reconstruction with a comparative analysis in the Light of Applications},
+  Author                   = {Luis Gustavo Nonato and Rosane Minghim and Maria Cristina Fer Oliveira and Geovan Tavares},
+  Journal                  = {Computer Graphics Forum},
+  Year                     = {2001},
+  Number                   = {2},
+  Pages                    = {161- -174},
+  Volume                   = {20}
+}
+
+@Article{Ohtake03,
+  Title                    = {Multi-level partition of unity implicits},
+  Author                   = {Yutaka Ohtake and Alexander Belyaev and Marc Alexa and Greg Turk and Hans-Peter Seidel},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {463--470},
+  Volume                   = {22},
+
+  Doi                      = {http://doi.acm.org/10.1145/882262.882293},
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM Press}
+}
+
+@InProceedings{Oliveira2009,
+  Title                    = {{Using Ontologies to Support Deep Water Oil Exploration Scientific Workflows}},
+  Author                   = {de Oliveira, Daniel and Cunha, Luiz and Tomaz, Luiz and Pereira, Vinicius and Mattoso, Marta},
+  Booktitle                = {2009 Congress on Services - I},
+  Year                     = {2009},
+  Month                    = jul,
+  Pages                    = {364--367},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5190645}
+}
+
+@InCollection{OLIVEIRA2008,
+  Title                    = {Using Provenance to Improve Workflow Design},
+  Author                   = {de Oliveira, FredericoT. and Murta, Leonardo and Werner, Claudia and Mattoso, Marta},
+  Booktitle                = {Provenance and Annotation of Data and Processes},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2008},
+  Editor                   = {Freire, Juliana and Koop, David and Moreau, Luc},
+  Pages                    = {136-143},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {5272},
+
+  ISBN                     = {978-3-540-89964-8},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-89965-5\_15}
+}
+
+@MastersThesis{TOSTA15,
+  Title                    = {UM SISTEMA DE RECOMENDACAO PARA COMPOSICAO DE WORKFLOWS},
+  Author                   = {Frederico Tosta de Oliveira},
+  School                   = {UNIVERSIDADE FEDERAL DO RIO DE JANEIRO},
+  Year                     = {2010}
+}
+
+@Electronic{W3COWL2014,
+  Author                   = {OWL, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.w3.org/TR/owl-features/},
+  Year                     = {2014}
+}
+
+@InProceedings{Paiva2013,
+  Title                    = {{A Hierarchical Architecture for Ontology-Based Recommender Systems}},
+  Author                   = {de Paiva, Fabio Augusto Procopio and Costa, Jose Alfredo Ferreira and Silva, Claudio Rodrigues Muniz},
+  Booktitle                = {2013 BRICS Congress on Computational Intelligence and 11th Brazilian Congress on Computational Intelligence},
+  Year                     = {2013},
+  Month                    = sep,
+  Pages                    = {362--367},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/BRICS-CCI-CBIC.2013.67},
+  Shorttitle               = {Computational Intelligence and 11th Brazilian Cong},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6855876}
+}
+
+@InProceedings{Pajarola,
+  Title                    = {Large Scale Terrain Visualization Using The Restricted Quadtree Triangulation},
+  Author                   = {Renato B. Pajarola},
+  Booktitle                = {{IEEE} Visualization '98},
+  Year                     = {1998},
+  Editor                   = {David Ebert and Hans Hagen and Holly Rushmeier},
+  Pages                    = {19--26},
+
+  Url                      = {citeseer.nj.nec.com/pajarola98large.html}
+}
+
+@Misc{GoisCNMAC,
+  Title                    = {Reconstru\c{c}\~{a}o de superf\'{i}cies a partir de Conjuntos de Pontos em $\mathbb{R}^3$ Utilizando T\'ecnicas de Esculpimento com Triangula\c{c}\~{o}es de \emph{Delaunay} Tradicional e com Peso},
+
+  Author                   = {Jo\~ao Paulo Gois and Antonio Castelo and Luis Gustavo Nonato},
+  Year                     = {2003},
+
+  Text                     = {Submetido \E0 Revista TEMA - Tend\EAncias em Matem\E1tica Aplicada e Computacional}
+}
+
+@Electronic{PDDL4J2014,
+  Author                   = {PDDL4J, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://pddl4j.sourceforge.net/},
+  Year                     = {2014}
+}
+
+@Article{pkksurvey05,
+  Title                    = {Technologies for 3D mesh compression: A survey},
+  Author                   = {Peng, Jingliang and Kim, Chang-Su and Jay Kuo, C. -C.},
+  Journal                  = {J. Vis. Comun. Image Represent.},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {688--733},
+  Volume                   = {16},
+
+  Address                  = {Orlando, FL, USA},
+  Doi                      = {http://dx.doi.org/10.1016/j.jvcir.2005.03.001},
+  ISSN                     = {1047-3203},
+  Publisher                = {Academic Press, Inc.}
+}
+
+@Article{Petitjean,
+  Title                    = {Regular and non-Regular Points Sets: Properties and Reconstruction},
+  Author                   = {S Petitjean and E Boyer},
+  Journal                  = {Computational Geometry Theory and Applications},
+  Year                     = {2001},
+  Pages                    = {101-126},
+
+  _deonde                  = {Elvevier}
+}
+
+@PhdThesis{Piteri,
+  Title                    = {Gera\E7\E3o Autom\E1tica de Malhas Hier\E1rquico-Adaptativas em Dom\EDnios Bidiensionais e Tridimensionais},
+  Author                   = {Marco Antonio Piteri},
+  School                   = {Universidade T\E9cnica de Lisboa},
+  Year                     = {1998}
+}
+
+@TechReport{Treece,
+  Title                    = {Fast Surface and Volume Estimation from non-parallel cross-sections for freehand 3-D ultrasound},
+  Author                   = {G M Treece R W Prager and A H Gee and L Berman},
+  Institution              = {University of Cambridge - Department of Engineering},
+  Year                     = {1998},
+
+  Optannote                = {England},
+  Optkey                   = {CUED/F-INFENG/TR 326},
+  Optmonth                 = {Julho}
+}
+
+@Electronic{ProgrammableWeb,
+  Author                   = {ProgrammableWeb, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {https://www.programmableweb.com/},
+  Year                     = {2014}
+}
+
+@Electronic{Protege2014,
+  Author                   = {Protege, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://protege.stanford.edu/},
+  Year                     = {2014}
+}
+
+@InProceedings{Fahringer26,
+  Title                    = {A novel domain oriented approach for scientific grid workflow composition},
+  Author                   = {Qin, Jun and Fahringer, Thomas},
+  Booktitle                = {Proceedings of the 2008 ACM/IEEE conference on Supercomputing},
+  Year                     = {2008},
+  Pages                    = {21:1--21:12},
+  Publisher                = {IEEE Press},
+  Series                   = {SC '08},
+
+  Acmid                    = {1413392},
+  Articleno                = {21},
+  ISBN                     = {978-1-4244-2835-9},
+  Location                 = {Austin, Texas},
+  Numpages                 = {12},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1413370.1413392}
+}
+
+@InCollection{Ramm81,
+  Title                    = {Strategies for Tracing the Nonlinear Response Near Limit Points},
+  Author                   = {E. Ramm},
+  Booktitle                = {Nonlinear Finite Element Analysis in Structural Mechanics},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1981},
+  Editor                   = {W. Wunderlich and E. Stein and K. J. Bathe},
+  Pages                    = {63-89}
+}
+
+@InProceedings{Junqiang32,
+  Title                    = {A QSQL-Based Collaboration Framework to Support Automatic Service Composition and Workflow Execution},
+  Author                   = {Ren, Kaijun and Chen, Jinjun and Xiao, Nong and Zhang, Weimin and Song, Junqiang},
+  Booktitle                = {Proceedings of the 2008 The 3rd International Conference on Grid and Pervasive Computing - Workshops},
+  Year                     = {2008},
+  Pages                    = {87--92},
+  Series                   = {GPC-WORKSHOPS '08},
+
+  Acmid                    = {1381365},
+  Doi                      = {10.1109/GPC.WORKSHOPS.2008.24},
+  ISBN                     = {978-0-7695-3177-9},
+  Numpages                 = {6},
+  Url                      = {http://dx.doi.org/10.1109/GPC.WORKSHOPS.2008.24}
+}
+
+@InProceedings{Rodriguez,
+  Title                    = {Delaunay Surface Reconstruction from Scattered Points},
+  Author                   = {Az Rodriguez and J M Espadero and D L\F3pez and L Pastor},
+  Booktitle                = {Discrete Geometry for Computer Imagery},
+  Year                     = {1994},
+  Editor                   = {9th International Conference},
+  Series                   = {DGCI}
+}
+
+@Article{romberg08,
+  Title                    = {Imaging via Compressive Sampling [Introduction to compressive sampling and recovery via convex programming]},
+  Author                   = { Justin Romberg},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {14--20},
+  Volume                   = {25},
+
+  ISSN                     = {1053-5888}
+}
+
+@Article{Edgebreaker99,
+  Title                    = {Edgebreaker: Connectivity Compression for Triangle Meshes},
+  Author                   = {Rossignac, Jarek},
+  Journal                  = {IEEE Transactions on Visualization and Computer Graphics},
+  Year                     = {1999},
+  Number                   = {1},
+  Pages                    = {47--61},
+  Volume                   = {5},
+
+  Address                  = {Piscataway, NJ, USA},
+  Doi                      = {http://dx.doi.org/10.1109/2945.764870},
+  ISSN                     = {1077-2626},
+  Publisher                = {IEEE Educational Activities Department}
+}
+
+@Article{Rossignac99edgebreaker:connectivity,
+  Title                    = {Edgebreaker: Connectivity compression for triangle meshes},
+  Author                   = {Jarek Rossignac},
+  Journal                  = {IEEE Transactions on Visualization and Computer Graphics},
+  Year                     = {1999},
+  Pages                    = {47--61},
+  Volume                   = {5}
+}
+
+@Misc{ROURE2015,
+  Title                    = {myExperiment},
+
+  Author                   = {Roure, C. G.},
+  Year                     = {2015},
+
+  Url                      = {http://www.myexperiment.org/}
+}
+
+@InProceedings{Ruppert,
+  Title                    = {On the difficulty of tetrahedralizing 3-dimensional non-convex polyhedra},
+  Author                   = {Jim Ruppert and R Seidel R},
+  Year                     = {1989},
+  Organization             = {5th Annual ACM Symposium Comput Geom Proceedings},
+  Pages                    = {380-392}
+}
+
+@InProceedings{SadaouiSamiraYin04,
+  Title                    = {Generalization for component reuse},
+  Author                   = {Sadaoui, Samira and Yin, Pengzhou},
+  Booktitle                = {Proceedings of the 42nd annual Southeast regional conference},
+  Year                     = {2004},
+  Pages                    = {134--139},
+  Publisher                = {ACM},
+  Series                   = {ACM-SE 42},
+
+  Acmid                    = {986569},
+  Doi                      = {10.1145/986537.986569},
+  ISBN                     = {1-58113-870-9},
+  Location                 = {Huntsville, Alabama},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/986537.986569}
+}
+
+@InProceedings{Salayandia37,
+  Title                    = {Program synthesis from Workflow-Driven Ontologies},
+  Author                   = {Salayandia, L. and Roach, S. and Gates, A.Q.},
+  Booktitle                = {Fuzzy Information Processing Society, 2008. NAFIPS 2008. Annual Meeting of the North American},
+  Year                     = {2008},
+  Pages                    = {1-6},
+
+  Doi                      = {10.1109/NAFIPS.2008.4531306}
+}
+
+@Book{Samet,
+  Title                    = {The design and analysis of spatial data structures},
+  Author                   = {H. Samet},
+  Publisher                = {Addison-Wesley Longman Publishing Co., Inc.},
+  Year                     = {1990},
+
+  ISBN                     = {0-201-50255-0}
+}
+
+@Article{Sanchez2012,
+  Title                    = {{Ontology-based semantic similarity: A new feature-based approach}},
+  Author                   = {Sanchez, David and Batet, Montserrat and Isern, David and Valls, Aida},
+  Journal                  = {Expert Systems with Applications},
+  Year                     = {2012},
+
+  Month                    = jul,
+  Number                   = {9},
+  Pages                    = {7718--7728},
+  Volume                   = {39},
+
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0957417412000954}
+}
+
+@InProceedings{Sarvotham06sudocodes,
+  Title                    = {Sudocodes - Fast Measurement and Reconstruction of Sparse Signals},
+  Author                   = {Shriram Sarvotham and Dror Baron and Richard G. Baraniuk},
+  Booktitle                = {Proc. IEEE Int. Symposium on Information Theory (ISIT},
+  Year                     = {2006}
+}
+
+@Article{Klein,
+  Title                    = {Reconstruction and Simplification of Surfaces from Contours},
+  Author                   = {R Klein A Schilling and W Straber},
+  Journal                  = {Graphical Models},
+  Year                     = {2000},
+  Pages                    = {429-443},
+  Volume                   = {62}
+}
+
+@Article{schreiner,
+  Title                    = {Direct (Re)Meshing for Efficient Surface Processing},
+  Author                   = {John Schreiner and Carlos E. Scheidegger and Shachar Fleishman and Cl\E1udio T. Silva},
+  Journal                  = {Computer Graphics Forum},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {527--536},
+  Volume                   = {25}
+}
+
+@Book{CS09,
+  Title                    = {Compressive Sensing},
+  Author                   = {Adriana Schulz and Eduardo da Silva and Luiz Velho},
+  Publisher                = {27 Coloquio Brasileiro de Matematica - SBM},
+  Year                     = {2009},
+  Edition                  = {1}
+}
+
+@Electronic{ScienceDirect,
+  Title                    = {Science Direct},
+  Author                   = {Science Direct, team},
+  Language                 = {English},
+  Url                      = {http://www.sciencedirect.com/},
+  Year                     = {2014}
+}
+
+@Article{Sen:CS_DualPhoto:2009,
+  Title                    = {{Compressive Dual Photography}},
+  Author                   = {Pradeep Sen and Soheil Darabi},
+  Journal                  = {Computer Graphics Forum},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {609 -- 618},
+  Volume                   = {28},
+
+  Publisher                = {Eurographics}
+}
+
+@InProceedings{Shao2007,
+  Title                    = {{Storing and Discovering Critical Workflows from Log in Scientific Exploration}},
+  Author                   = {Shao, Qihong and Kinsy, Michel and Chen, Yi},
+  Booktitle                = {2007 IEEE Congress on Services (Services 2007)},
+  Year                     = {2007},
+  Month                    = jul,
+  Pages                    = {209--212},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4278799}
+}
+
+@Article{Shao2009,
+  Title                    = {{Efficiently discovering critical workflows in scientific explorations}},
+  Author                   = {Shao, Qihong and Sun, Peng and Chen, Yi},
+  Journal                  = {Future Generation Computer Systems},
+  Year                     = {2009},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {577--585},
+  Volume                   = {25},
+
+  ISSN                     = {0167739X},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X08000897}
+}
+
+@InProceedings{WISE24,
+  Title                    = {WISE: A Workflow Information Search Engine},
+  Author                   = {Shao, Qihong and Sun, Peng and Chen, Yi},
+  Booktitle                = {Proceedings of the 2009 IEEE International Conference on Data Engineering},
+  Year                     = {2009},
+  Pages                    = {1491--1494},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {ICDE '09},
+
+  Acmid                    = {1547349},
+  Doi                      = {10.1109/ICDE.2009.89},
+  ISBN                     = {978-0-7695-3545-6},
+  Numpages                 = {4},
+  Url                      = {http://dx.doi.org/10.1109/ICDE.2009.89}
+}
+
+@Article{sharf,
+  Title                    = {Competing Fronts for Coarse\BFto\BFFine Surface Reconstruction},
+  Author                   = {Andrei Sharf and Thomas Lewiner and Ariel Shamir and Leif Kobbelt and Daniel Cohen\BFOr},
+  Journal                  = {Computer Graphics Forum},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {389--398},
+  Volume                   = {25}
+}
+
+@InProceedings{lewiner-shamir-kobbelt-cohenor-eg06,
+  Title                    = {Competing fronts for coarse--to--fine surface reconstruction},
+  Author                   = {Andrei Sharf and Thomas Lewiner and Ariel Shamir and Leif Kobbelt and Daniel Cohen--Or},
+  Booktitle                = {Eurographics},
+  Year                     = {2006},
+
+  Address                  = {Vienna},
+  Month                    = {september},
+  Pages                    = {389--398},
+
+  Url                      = {http://www.mat.puc-rio.br/~tomlew/competing_fronts_eg.pdf}
+}
+
+@PhdThesis{Shewchuk,
+  Title                    = {Delaunay Refinement Mesh Generation},
+  Author                   = {Jonathan Richard Shewchuk},
+  School                   = {Scholl of Computer Science - Carnegie Mellon University},
+  Year                     = {1997}
+}
+
+@Article{Shewchuk96,
+  Title                    = {Adaptive Precision Floating-Point Arithmetic and Fast Robust Geometric Predicates},
+  Author                   = {Jonathan Richard Shewchuk},
+  Journal                  = {Discrete $\&$ Computational Geometry},
+  Year                     = {1996},
+  Pages                    = {305--363},
+  Volume                   = {18}
+}
+
+@PhdThesis{Sienz94,
+  Title                    = {Integrated Structural Modelling, Adaptative Analysis and Shape Optimization},
+  Author                   = {J. Sienz},
+  School                   = {University of Wales/Swansea},
+  Year                     = {1994}
+}
+
+@InProceedings{Silva2011,
+  Title                    = {{Scientific Workflow Composition in E-Science}},
+  Author                   = {Silva, Laryssa and Braga, Regina and Campos, Fernanda},
+  Booktitle                = {2011 25th Brazilian Symposium on Software Engineering},
+  Year                     = {2011},
+  Month                    = sep,
+  Pages                    = {273--282},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/SBES.2011.25},
+  ISBN                     = {978-1-4577-2187-8},
+  Shorttitle               = {Software Engineering (SBES), 2011 25th Brazilian S},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6065125}
+}
+
+@Article{Kitowski34,
+  Title                    = {Knowledge Evolution Supporting Automatic Workflow Composition},
+  Author                   = {Renata Slota and Joanna Zieba and Bartosz Kryza and Jacek Kitowski},
+  Journal                  = {2012 IEEE 8th International Conference on E-Science},
+  Year                     = {2006},
+  Pages                    = {37},
+  Volume                   = {0},
+
+  Doi                      = {http://doi.ieeecomputersociety.org/10.1109/E-SCIENCE.2006.97},
+  ISBN                     = {0-7695-2734-5},
+  Publisher                = {IEEE Computer Society}
+}
+
+@Electronic{Springer,
+  Title                    = {Springer Link},
+  Author                   = {Springer, team},
+  Language                 = {English},
+  Url                      = {http://link.springer.com/},
+  Year                     = {2014}
+}
+
+@Booklet{Resende,
+  Title                    = {Fundamentos de Geometria Computacional},
+
+  Address                  = {Recife},
+  Author                   = {P J Resende J Stolfi},
+  Note                     = {IBM/Brasil},
+  Year                     = {1994},
+
+  Annote                   = {207p},
+  Published                = {IX Escola de Computa\E7\E3o}
+}
+
+@Book{Stroustrup,
+  Title                    = {The C++ Programming Language},
+  Author                   = {Bjarne Stroustrup},
+  Publisher                = {Addison Wesley Pub},
+  Year                     = {2000},
+  Edition                  = {3}
+}
+
+@InProceedings{marks09,
+  Title                    = {Image Compression and Recovery through Compressive Sampling and Particle Swarm},
+  Author                   = {David Sturgill and Benjamin V. Ruitenbeek and Robert J. Marks-II},
+  Booktitle                = {IEEE International Conference on Systems, Man, and Cybernetics},
+  Year                     = {2009},
+
+  Address                  = {San Antonio, TX, USA},
+  Month                    = oct,
+  Pages                    = {1822--1826}
+}
+
+@Electronic{Subdue2014,
+  Author                   = {Subdue, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://ailab.wsu.edu/subdue/},
+  Year                     = {2014}
+}
+
+@Electronic{SWRL2014,
+  Author                   = {SWRL, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.w3.org/Submission/SWRL/},
+  Year                     = {2014}
+}
+
+@Article{Szymczak00anedgebreaker-based,
+  Title                    = {An edgebreaker-based efficient compression scheme for regular meshes},
+  Author                   = {Szymczak, Andrzej and King, Davis and Rossignac, Jarek},
+  Journal                  = {Comput. Geom. Theory Appl.},
+  Year                     = {2001},
+  Number                   = {1-2},
+  Pages                    = {53--68},
+  Volume                   = {20},
+
+  Address                  = {Amsterdam, The Netherlands, The Netherlands},
+  Doi                      = {http://dx.doi.org/10.1016/S0925-7721(01)00035-9},
+  ISSN                     = {0925-7721},
+  Publisher                = {Elsevier Science Publishers B. V.}
+}
+
+@InProceedings{ELEARNING09,
+  Title                    = {E-learning Recommendation System},
+  Author                   = {Huiyi Tan and Junfei Guo and Yong Li},
+  Booktitle                = {Computer Science and Software Engineering, 2008 International Conference on},
+  Year                     = {2008},
+  Pages                    = {430-433},
+  Volume                   = {5},
+
+  Doi                      = {10.1109/CSSE.2008.305}
+}
+
+@InProceedings{Tan2011,
+  Title                    = {{Providing Map and GPS Assistance to Service Composition in Bioinformatics}},
+  Author                   = {Tan, Wei and Zhang, Jia and Madduri, Ravi and Foster, Ian and {De Roure}, David and Goble, Carole},
+  Booktitle                = {2011 IEEE International Conference on Services Computing},
+  Year                     = {2011},
+  Month                    = jul,
+  Pages                    = {632--639},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/SCC.2011.122},
+  ISBN                     = {978-1-4577-0863-3},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009313 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009316}
+}
+
+@Misc{Taubin_3dgeometry,
+  Title                    = {3D Geometry Compression and Progressive Transmission},
+
+  Author                   = {Gabriel Taubin}
+}
+
+@Article{taubin98,
+  Title                    = {Geometric compression through topological surgery},
+  Author                   = {Gabriel Taubin and Jarek Rossignac},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {84--115},
+  Volume                   = {17},
+
+  Address                  = {New York, NY, USA},
+  Doi                      = {http://doi.acm.org/10.1145/274363.274365},
+  ISSN                     = {0730-0301},
+  Publisher                = {ACM}
+}
+
+@InProceedings{Teichmann,
+  Title                    = {Surface Reconstruction with Anisotropic Density-Scaled Alpha Shapes},
+  Author                   = {Marek Teichmann and Michael Capps},
+  Booktitle                = {{IEEE} Visualization '98},
+  Year                     = {1998},
+  Editor                   = {David Ebert and Hans Hagen and Holly Rushmeier},
+  Pages                    = {67--72},
+
+  Url                      = {citeseer.nj.nec.com/article/teichmann98surface.html}
+}
+
+@InProceedings{capps1998,
+  Title                    = {Surface reconstruction with anisotropic density-scaled alpha shapes},
+  Author                   = {Marek Teichmann and Michael Capps},
+  Booktitle                = {Proceedings of the conference on Visualization '98},
+  Year                     = {1998},
+  Pages                    = {67--72},
+  Publisher                = {IEEE Computer Society Press},
+
+  ISBN                     = {1-58113-106-2},
+  Location                 = {Research Triangle Park, North Carolina, United States}
+}
+
+@Booklet{Teixeira,
+  Title                    = {Introdu\E7\E3o aos Espa\E7os de Escala (EDPs em Processamento de Sinais)},
+
+  Address                  = {Rio de Janeiro-RJ},
+  Author                   = {Ralph Teixeira},
+  HowPublished             = {{$\rm 23^0$} Col\F3quio Brasileiro de Matem\E1tica},
+  Note                     = {Instituto de Matem\E1tica Pura e Aplicada},
+  Year                     = {2001}
+}
+
+@InProceedings{TELEA13,
+  Title                    = {vission: An Object Oriented Dataflow System for Simulation and Visualization},
+  Author                   = {Alexandru Telea and Jarke J. van Wijk},
+  Booktitle                = {PROCEEDINGS OF IEEE VISSYM},
+  Year                     = {1999},
+  Pages                    = {95--104}
+}
+
+@Article{Teng,
+  Title                    = {Unstructured mesh generation: Theory, practice, and perspectives},
+  Author                   = {S H Teng and C W Wong},
+  Journal                  = {International Journal of Computer Geometry},
+  Year                     = {2000},
+  Number                   = {3},
+  Pages                    = {227-266},
+  Volume                   = {10}
+}
+
+@InProceedings{MC98,
+  Title                    = {Triangle mesh compression},
+  Author                   = {C. Touma and C. Gotsman},
+  Booktitle                = {Proceedings of Graphics Interface},
+  Year                     = {1998},
+  Pages                    = {26--34}
+}
+
+@InProceedings{noiselet09,
+  Title                    = { On the incoherence of noiselet and Haar bases},
+  Author                   = {Tomas Tuma and Paul Hurley},
+  Booktitle                = {SAMPTA, conference on Sampling Theory and Applications},
+  Year                     = {2009},
+
+  Address                  = {Marseille, France}
+}
+
+@InProceedings{Umamaheswari2012,
+  Title                    = {Personalized ontology model - a survey},
+  Author                   = {Umamaheswari, B. and Patil, P.},
+  Booktitle                = {Hybrid Intelligent Systems (HIS), 2012 12th International Conference on},
+  Year                     = {2012},
+  Month                    = {Dec},
+  Pages                    = {348-353},
+
+  Doi                      = {10.1109/HIS.2012.6421359}
+}
+
+@InProceedings{Alex,
+  Title                    = {Beta-connection: An Approach to Generate Families of Models from Planar Sections},
+  Author                   = {Alex Jesus Quadros Vargas and Luis Gustavo Nonato and Maria Cristina de Oliveira and Rosane Minghin},
+  Booktitle                = {SIBGRAPI},
+  Year                     = {2002},
+  Pages                    = {187-194},
+
+  Optaddress               = {Fortaleza, Brasil}
+}
+
+@Article{Veltkamp,
+  Title                    = {The $\gamma -$neighborhood graph},
+  Author                   = {R C Veltkamp},
+  Journal                  = {Computational Geometry: Theory and Applications},
+  Year                     = {1992},
+  Pages                    = {227-246}
+}
+
+@Electronic{W3CSchooll,
+  Author                   = {W3School,Core Team},
+  Language                 = {English},
+  Month                    = {01},
+  Organization             = {W3C},
+  Url                      = {http://www.w3schools.com/},
+  Year                     = {2014}
+}
+
+@InProceedings{Wang2010,
+  Title                    = {{A Survey on Scientific-Workflow Techniques for E-science in Astronomy}},
+  Author                   = {Wang, Feng and Deng, Hui and Guo, Ling and Ji, Kaifan},
+  Booktitle                = {2010 International Forum on Information Technology and Applications},
+  Year                     = {2010},
+  Month                    = jul,
+  Pages                    = {417--420},
+  Publisher                = {IEEE},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/IFITA.2010.210},
+  Shorttitle               = {Information Technology and Applications (IFITA), 2},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634997}
+}
+
+@InProceedings{Wang2010a,
+  Title                    = {{A Survey on Scientific-Workflow Techniques for E-science in Astronomy}},
+  Author                   = {Wang, Feng and Deng, Hui and Guo, Ling and Ji, Kaifan},
+  Booktitle                = {2010 International Forum on Information Technology and Applications},
+  Year                     = {2010},
+  Month                    = jul,
+  Pages                    = {417--420},
+  Publisher                = {IEEE},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/IFITA.2010.210},
+  ISBN                     = {978-1-4244-7622-0},
+  Shorttitle               = {Information Technology and Applications (IFITA), 2},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634997}
+}
+
+@InProceedings{VINCA4Science07,
+  Title                    = {VINCA4Science: A Personal Workflow System for e-Science},
+  Author                   = {Jing Wang and Yanbo Han and Shuying Yan and Wanghu Chen and Guang Ji},
+  Booktitle                = {Internet Computing in Science and Engineering, 2008. ICICSE '08. International Conference on},
+  Year                     = {2008},
+  Pages                    = {444-451},
+
+  Doi                      = {10.1109/ICICSE.2008.20}
+}
+
+@InProceedings{Wang2009,
+  Title                    = {{Change Sequence Mining in Context-Aware Scientific Workflow}},
+  Author                   = {Wang, Yi and Cao, Jian and Li, Minglu},
+  Booktitle                = {2009 IEEE International Symposium on Parallel and Distributed Processing with Applications},
+  Year                     = {2009},
+  Pages                    = {635--640},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-0-7695-3747-4},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5207868}
+}
+
+@Electronic{WEKA2014,
+  Author                   = {WEKA, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.cs.waikato.ac.nz/ml/weka/},
+  Year                     = {2014}
+}
+
+@InProceedings{Witkin,
+  Title                    = {Using particles to sample and control implicit surfaces},
+  Author                   = {A. Witkin and P. Heckbert},
+  Year                     = {1994},
+  Organization             = {Siggraph},
+  Pages                    = {269-277}
+}
+
+@Electronic{WSBPEL2014,
+  Author                   = {WSBPEL, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://ode.apache.org/ws-bpel-20.html},
+  Year                     = {2014}
+}
+
+@Article{Madey29,
+  Title                    = {Improving the Reuse of ScientificWorkflows and Their By-products},
+  Author                   = {Xiaorong Xiang and Gregory Madey},
+  Journal                  = {2012 IEEE 19th International Conference on Web Services},
+  Year                     = {2007},
+  Pages                    = {792-799},
+  Volume                   = {0},
+
+  Doi                      = {http://doi.ieeecomputersociety.org/10.1109/ICWS.2007.107},
+  ISBN                     = {0-7695-2924-0},
+  Publisher                = {IEEE Computer Society}
+}
+
+@Electronic{XPDL2014,
+  Author                   = {XPDL, Core Team},
+  Language                 = {English},
+  Month                    = {10},
+  Url                      = {http://www.xpdl.org/},
+  Year                     = {2014}
+}
+
+@InProceedings{ReputationNet22,
+  Title                    = {ReputationNet: A Reputation Engine to Enhance ServiceMap by Recommending Trusted Services},
+  Author                   = {Jinhui Yao and Wei Tan and Nepal, S. and Shiping Chen and Jia Zhang and De Roure, D. and Goble, C.},
+  Booktitle                = {Services Computing (SCC), 2012 IEEE Ninth International Conference on},
+  Year                     = {2012},
+  Pages                    = {454-461},
+
+  Doi                      = {10.1109/SCC.2012.73}
+}
+
+@InProceedings{Yeo2013,
+  Title                    = {{Dataflow Oriented Similarity Matching for Scientific Workflows}},
+  Author                   = {Yeo, Philip and Abidi, Syed Sibte Raza},
+  Booktitle                = {2013 IEEE International Symposium on Parallel \& Distributed Processing, Workshops and Phd Forum},
+  Year                     = {2013},
+  Month                    = may,
+  Pages                    = {2091--2100},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6651115}
+}
+
+@Article{Lavrac33,
+  Title                    = {Automating Knowledge Discovery Workflow Composition Through Ontology-Based Planning},
+  Author                   = {Zakova, M. and Kremen, P. and Zelezny, F. and Lavrac, N.},
+  Journal                  = {Automation Science and Engineering, IEEE Transactions on},
+  Year                     = {2011},
+  Number                   = {2},
+  Pages                    = {253-264},
+  Volume                   = {8},
+
+  Doi                      = {10.1109/TASE.2010.2070838}
+}
+
+@InProceedings{Zeng2011,
+  Title                    = {{A Method to Mine Workflows from Provenance for Assisting Scientific Workflow Composition}},
+  Author                   = {Zeng, Reng and He, Xudong and van der Aalst, W.M.P.},
+  Booktitle                = {2011 IEEE World Congress on Services},
+  Year                     = {2011},
+  Month                    = jul,
+  Pages                    = {169--175},
+  Publisher                = {IEEE},
+
+  Doi                      = {10.1109/SERVICES.2011.55},
+  Shorttitle               = {Services (SERVICES), 2011 IEEE World Congress on},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6012709}
+}
+
+@InProceedings{Zhang2006,
+  Title                    = {{Ontology-Driven Composition and Validation of Scientific Grid Workflows in Kepler: a Case Study of Hyperspectral Image Processing}},
+  Author                   = {Zhang, Jianting},
+  Booktitle                = {2006 Fifth International Conference on Grid and Cooperative Computing Workshops},
+  Year                     = {2006},
+  Pages                    = {282--289},
+  Publisher                = {IEEE},
+
+  ISBN                     = {0-7695-2695-0},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4031563}
+}
+
+@InProceedings{Zhang35,
+  Title                    = {Ontology-Driven Composition and Validation of Scientific Grid Workflows in Kepler: a Case Study of Hyperspectral Image Processing},
+  Author                   = {Zhang, Jianting},
+  Booktitle                = {Proceedings of the Fifth International Conference on Grid and Cooperative Computing Workshops},
+  Year                     = {2006},
+  Pages                    = {282--289},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {GCCW '06},
+
+  Acmid                    = {1170664},
+  Doi                      = {10.1109/GCCW.2006.68},
+  ISBN                     = {0-7695-2695-0},
+  Numpages                 = {8},
+  Url                      = {http://dx.doi.org/10.1109/GCCW.2006.68}
+}
+
+@InProceedings{Zhang2014,
+  Title                    = {{A Community-Driven Workflow Recommendations and Reuse Infrastructure}},
+  Author                   = {Zhang, Jia and Lee, Chris and Xiao, Sean and Votava, Petr and Lee, Tsengdar J. and Nemani, Ramakrishna and Foster, Ian},
+  Booktitle                = {2014 IEEE 8th International Symposium on Service Oriented System Engineering},
+  Year                     = {2014},
+  Month                    = apr,
+  Pages                    = {162--172},
+  Publisher                = {IEEE},
+
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6830902}
+}
+
+@InProceedings{Zhang2011,
+  Title                    = {{Recommend-As-You-Go: A Novel Approach Supporting Services-Oriented Scientific Workflow Reuse}},
+  Author                   = {Zhang, Jia and Tan, Wei and Alexander, John and Foster, Ian and Madduri, Ravi},
+  Booktitle                = {2011 IEEE International Conference on Services Computing},
+  Year                     = {2011},
+  Month                    = jul,
+  Pages                    = {48--55},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-1-4577-0863-3},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009243}
+}
+
+@InProceedings{Zhang2013,
+  Title                    = {{Sesame: A new bioinformatics semantic workflow design system}},
+  Author                   = {Zhang, Lu and Wang, Yunsheng Yanyan Yunsheng Yanyan and Xuan, Pengfei and Duvall, Alexander and Lowe, Jonathan and Subramanian, Arvind and Srimani, Pradip K and Luo, Feng and Duan, Yongping},
+  Booktitle                = {2013 IEEE International Conference on Bioinformatics and Biomedicine},
+  Year                     = {2013},
+  Month                    = dec,
+  Pages                    = {504--508},
+  Publisher                = {IEEE},
+
+  ISBN                     = {978-1-4799-1309-1},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6732546}
+}
+
+@Article{Zhao,
+  Title                    = {Implicit Nonparametric Shape Reconstruction from Unorganized Points using a Variational Level Set Method},
+  Author                   = {H. Zhao and B. Merriman and S. Osher and M. Kang},
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {2000},
+  Pages                    = {295 - 313},
+  Volume                   = {60}
+}
+
+@Article{Zhao00,
+  Title                    = {Implicit Nonparametric Shape Reconstruction from Unorganized Points Using A Variational Level Set Method},
+  Author                   = { H. Zhao and B. Merriman and S. Osher and M. Kang },
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {2000},
+  Number                   = {60},
+  Pages                    = {295-313}
+}
+
+@InProceedings{Foster31,
+  Title                    = {Scientific Workflow Systems for 21st Century, New Bottle or New Wine},
+  Author                   = {Yong Zhao and Ian Foster},
+  Booktitle                = {IEEE Workshop on Scientific Workflows},
+  Year                     = {2008}
+}
+
+@InProceedings{ZhongLi2009,
+  Title                    = {{Analysis distances for similarity estimation by Fuzzy C-Mean algorithm}},
+  Author                   = {Zhong, Li and Jinsha, Yuan and Hong, Yang},
+  Booktitle                = {2009 International Conference on Machine Learning and Cybernetics},
+  Year                     = {2009},
+  Month                    = jul,
+  Pages                    = {582--587},
+  Publisher                = {IEEE},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/ICMLC.2009.5212575},
+  Shorttitle               = {Machine Learning and Cybernetics, 2009 Internation},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5212575}
+}
+
+@InProceedings{KMeansModified06,
+  Title                    = {A Printing Workflow Recommendation Tool--Exploiting Correlations between Highly Sparse Case Logs},
+  Author                   = {Ming Zhong and Tong Sun},
+  Booktitle                = {Machine Learning and Applications, 2006. ICMLA '06. 5th International Conference on},
+  Year                     = {2006},
+  Pages                    = {264-269},
+
+  Doi                      = {10.1109/ICMLA.2006.10}
+}
+
+@InProceedings{zwicker:02Pointshop,
+  Title                    = {Pointshop {3D}: an interactive system for point-based surface editing},
+  Author                   = {Matthias Zwicker and Mark Pauly and Oliver Knoll and Markus Gross},
+  Booktitle                = {Proceedings of ACM SIGGRAPH},
+  Year                     = {2002},
+  Pages                    = {322--329},
+  Publisher                = {ACM Press}
+}
+
+@Periodical{ACM03,
+  Title                    = {ACM Transactions on Software Engineering and Methodology (TOSEM)},
+  Year                     = {1997},
+
+  Editor                   = {S. Henninger},
+  Organization             = {TOSEM},
+  Volume                   = {6},
+
+  Abbr                     = {ACM Trans. Softw. Eng. Methodol.},
+  ISSN                     = {1049-331X},
+  Key                      = {{$\!\!$}},
+  Publisher                = {ACM}
+}
+
+@InProceedings{,
+}
+
+@InProceedings{,
+}
+
+@Article{temp1,
+}
+
+@Book{temp2,
+}
+
+@InBook{temp3,
+}
+
+@InProceedings{temp4,
+}
+
+@MastersThesis{temp7,
+}
+
+@TechReport{temp8,
+}
+
+@Misc{temp9,
+}
+
+@Misc{CGAL,
+  Title                    = {CGAL - Computational Geometry Algorithms Library},
+  HowPublished             = {http://www.cgal.org},
+  Year                     = {2003},
+
+  Key                      = {CGAL}
+}
+
+@article{Verbert2012,
+author = {Verbert, Katrien and Manouselis, Nikos and Ochoa, Xavier and Wolpers, Martin and Drachsler, Hendrik and Bosnic, Ivana and Member, Student and Duval, Erik},
+number = {4},
+pages = {318--335},
+title = {{Context-Aware Recommender Systems for Learning: A Survey and Future Challenges}},
+volume = {5},
+year = {2012}
+}
+
+@INPROCEEDINGS{Yujie2010,
+author={Zhang Yujie and Wang Licai},
+booktitle={Computer Science and Education (ICCSE), 2010 5th International Conference on},
+title={Some challenges for context-aware recommender systems},
+year={2010},
+month={Aug},
+pages={362-365},
+keywords={recommender systems;ubiquitous computing;context-aware recommender systems;contextual user preference elicitation;valid contexts discovery;viewing process;Classification algorithms;Collaboration;Context;Context modeling;Mobile communication;Recommender systems;challenges;context-aware recommender systems;personalization},
+doi={10.1109/ICCSE.2010.5593612},}
+
+@INPROCEEDINGS{Uschold95,
+    author = {Mike Uschold and Martin King},
+    title = {Towards a Methodology for Building Ontologies},
+    booktitle = {In Workshop on Basic Ontological Issues in Knowledge Sharing, held in conjunction with IJCAI-95},
+    year = {1995}
+}
+
+
+
+

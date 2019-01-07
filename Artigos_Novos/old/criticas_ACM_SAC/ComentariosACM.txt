@@ -1,0 +1,190 @@
+Dear Mr. Adilson Khouri:
+
+I am sorry to inform you that the following submission
+was not selected by the program committee to appear at
+SAC 2016:
+
+      An ontology and frequency-based approach to recommend
+           activities in scientific workflows
+
+The selection process was very competitive. Due to time
+and space limitations, we could only choose a small number
+of the submitted papers to appear on the program.  Nonetheless,
+I still hope you can attend the conference.
+
+I have enclosed the reviewer comments for your perusal.
+
+If you have any additional questions, please feel free
+to contact us.
+
+Best Regards,
+
+SAC CO-BIO 2016 Track Chairs
+
+
+============================================================================
+SAC 2016 Reviews for Submission #1871
+============================================================================
+
+Title: An ontology and frequency-based approach to recommend activities in scientific workflows
+
+Authors: adilson khouri and Luciano Digiampietri
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+          Technical Content and Accuracy: 4
+                Significance of the Work: 5
+Appropriate Title, Introduction, and Conclusion: 5
+                    Overall Organization: 5
+                 Appropriateness for SAC: 6
+          Style and Clarity of the Paper: 5
+          OVERALL RECOMMENDATION: 5
+                  Originality of Content: 5
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper presented a hybrid technique to recommend activities in scientific
+workflows based on frequency, input and output, and ontologies. It is claimed
+to outperform all the others solutions in all the evaluation metrics considered
+that do not include computing speed. It is weak in innovation except a good
+computing efficiency is also solved. The paper is instead more like a
+comparison between existing works (CART, KNN, NAIVE and SVM), although it is
+also valuable and interesting.
+
+In Table 1, SVR shall be SVM. What does NNET stand for?
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+          Technical Content and Accuracy: 6
+                Significance of the Work: 5
+Appropriate Title, Introduction, and Conclusion: 6
+                    Overall Organization: 5
+                 Appropriateness for SAC: 6
+          Style and Clarity of the Paper: 5
+                  Originality of Content: 6
+                  OVERALL RECOMMENDATION: 6
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper presents a hybrid technique to recommend activities in scientic
+workflows based on frequency, input and output, and ontologies. The results
+seem to improve the traditional systems.
+Some typewriting errors should be corrected
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+          Technical Content and Accuracy: 2
+                Significance of the Work: 1
+Appropriate Title, Introduction, and Conclusion: 2
+                    Overall Organization: 3
+                 Appropriateness for SAC: 1
+          Style and Clarity of the Paper: 2
+                  Originality of Content: 4
+                  OVERALL RECOMMENDATION: 2
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper uses a hybrid technique comprising classification to predict
+potential activities in scientific workflows and regression to rank those
+predicted activities. The authors test their approach of subsampled and
+simulated negative datasets from real workflows.
+
+In my opinion, this paper contains very little novelty -- it solely compares
+the efficiency of existing methods in predicting appropriate activities. It is
+unclear why the authors use a hybrid approach to first predict and then to
+rank. I doubt that it would be more CPU intensive to just regress the data
+directly, given the very small dataset used. This is particularly confusing
+since the score obtained with the SVM are lower than those obtained with the
+the SVR. The text does contain any reference to model validation (ex. Leave one
+out, or cross-validation) and the obtained results could therefore simply be
+due to overfitting of the large number of positive and “not sot negative”
+training instances. Additionally, the text is riddled with typos and
+grammatical errors and requires major editing.
+
+The way the data was generated leaves a number of answered questions and
+perhaps pitfalls in the experimental setup. Given that the dataset contained
+only 72 positive examples, the authors chose to oversample the data by creating
+59 negative examples, each containing a single different feature from the
+positive examples. Additionally, for each positive example, the authors added
+59 positive instanced to the dataset. The authors mentions that the number 59
+was selected based on “the distribution of of the frequencies of the
+activities on the dataset.” This statement is not clear nor convincing. How
+would the classification and regression behave with a higher number of errors
+in the negative examples and less copies of the positive examples? Also, given
+that different models overfit under different conditions and datasets, perhaps
+the SVR/SVM are simply overfitting the data.
+
+Finally, the authors could have completely omitted Section 5 (the references
+for the equations would have been sufficient) to explore how the approaches
+fair in terms of CPU time?
+
+============================================================================
+                            REVIEWER #4
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+          Technical Content and Accuracy: 2
+                Significance of the Work: 5
+Appropriate Title, Introduction, and Conclusion: 6
+                    Overall Organization: 4
+                 Appropriateness for SAC: 3
+          Style and Clarity of the Paper: 5
+                  Originality of Content: 5
+                  OVERALL RECOMMENDATION: 2
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The authors of the paper face one of the most important topics for scientists.
+The design of good workflows is critical for the success of the experiments
+because it avoids waste of time as well as of resources in general. Despite the
+relevance of the authors’ approach to solve the recommendation problem for
+the design of good workflows, the work is not carefully presented in the paper.
+
+Specifically there are parts of the text  that are not easily understandable
+because of the presence of English grammar inaccuracies. Moreover, the authors
+show that the SVM and the combination of the frequency and the ontology-based
+algorithms perform better with respect to the other techniques used and that
+they will use variations of the SVM in the future to improve the classification
+and the recommendation of activities.
+
+However they omit any discussion or comments on why the others show poor
+performance at least from a theoretical point of view. I think that they
+have to add comments and discussion on the "negative" results.
+Unfortunately these aspects have a negative impact on the possibility to
+accept this paper.

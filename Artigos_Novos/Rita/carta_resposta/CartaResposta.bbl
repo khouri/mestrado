@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bomfim2005}
+E.~Bomfim, J.~Oliveira, J.M. de~Souza, and J.~Strauch.
+\newblock Thoth: improving experiences reuses in the scientific environment
+  through workflow management system.
+\newblock In {\em Computer Supported Cooperative Work in Design, 2005.
+  Proceedings of the Ninth International Conference}, volume~2, pages
+  1164--1170 Vol. 2, 2005.
+
+\bibitem{Khouri2015}
+Adilson~Lopes Khouri and Luciano~Antonio Digiampietri.
+\newblock A systematic review about activities recommendation in workflows.
+\newblock In {\em 12{\textordfeminine} Confer{\^e}ncia Internacional sobre
+  Sistemas de Informa{\c{c}}{\~a}o e Gest{\~a}o de Tecnologia (CONTECSI)},
+  page~14, 2015.
+
+\bibitem{Leng2010}
+Yan Leng, Mahmoud El-Gayyar, and Armin.~B. Cremers.
+\newblock {Semantics Enhanced Composition Planner for Distributed Resources}.
+\newblock In {\em 2010 Ninth International Symposium on Distributed Computing
+  and Applications to Business, Engineering and Science}, pages 61--65. IEEE,
+  aug 2010.
+
+\bibitem{Aalst2011}
+Wil M.~P. van~der Aalst.
+\newblock {\em Process Mining - Discovery, Conformance and Enhancement of
+  Business Processes}.
+\newblock Springer, 2011.
+
+\bibitem{Wang2008}
+Jing Wang, Yanbo Han, Shuying Yan, Wanghu Chen, and Guang Ji.
+\newblock Vinca4science: A personal workflow system for e-science.
+\newblock In {\em Internet Computing in Science and Engineering, 2008. ICICSE
+  '08. International Conference on}, pages 444--451, 2008.
+
+\end{thebibliography}

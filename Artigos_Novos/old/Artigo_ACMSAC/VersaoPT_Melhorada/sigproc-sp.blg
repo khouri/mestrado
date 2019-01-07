@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sigproc-sp.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Warning--entry type for "Biocatalogue" isn't style-file defined
+--line 1343 of file sigproc.bib
+Warning--entry type for "myExperiment" isn't style-file defined
+--line 1957 of file sigproc.bib
+Warning--can't use both author and editor fields in Connor2007
+You've used 39 entries,
+            2118 wiz_defined-function locations,
+            755 strings with 12264 characters,
+and the built_in function-call counts, 17927 in all, are:
+= -- 1798
+> -- 906
+< -- 27
++ -- 357
+- -- 317
+* -- 1280
+:= -- 2753
+add.period$ -- 136
+call.type$ -- 39
+change.case$ -- 272
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 710
+empty$ -- 1350
+format.name$ -- 317
+if$ -- 3933
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 40
+newline$ -- 195
+num.names$ -- 80
+pop$ -- 326
+preamble$ -- 1
+purify$ -- 235
+quote$ -- 0
+skip$ -- 563
+stack$ -- 0
+substring$ -- 1103
+swap$ -- 277
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 148
+warning$ -- 1
+while$ -- 162
+width$ -- 41
+write$ -- 454
+(There were 3 warnings)

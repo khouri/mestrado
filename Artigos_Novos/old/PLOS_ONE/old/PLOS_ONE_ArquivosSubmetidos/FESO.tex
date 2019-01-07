@@ -1,0 +1,333 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+
+\documentclass[10pt]{article}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+\usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{plos2009}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+\usepackage{url}
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+
+\newcommand{\pedro}[1]{\textcolor{black}{#1}}
+\newcommand{\luciano}[1]{\textcolor{black}{#1}}
+
+%% END MACROS SECTION
+
+\begin{document}
+
+% Title must be 150 characters or less
+\begin{flushleft}
+{\Large
+\textbf{An ontology and frequency-based approach to	recommend activities in scientific workflows}
+}
+% Insert Author names, affiliations and corresponding author email.
+\\
+Adilson L. Khouri$^{1,\ast}$
+Luciano A. Digiampietri$^{2}$
+\\
+\bf{1} School of Arts, Sciences and Humanities, University of S\~{a}o Paulo, Brazil
+\\
+\bf{2} School of Arts, Sciences and Humanities, University of S\~{a}o Paulo, Brazil
+\\
+$\ast$ E-mail: Corresponding adilson.khouri.usp@gmail.com
+\end{flushleft}
+
+% Please keep the abstract between 250 and 300 words
+\section*{Abstract}
+The number of activities provided by scientific workflow management systems is large,
+which requires scientists to know many of them to take advantage of the reusability
+of these systems. To minimize this problem, the literature presents some techniques to recommend activities during the scientific workflow construction. This project specified and developed a hybrid activity recommendation system considering information on frequency, input and outputs of activities and ontological annotations. Additionally, this project presents a modeling of activities recommendation as a classification problem, tested using \(5\) classifiers; \(5\) regressors; a SVM classifier, which uses the results of other classifiers and
+regressors to recommend; and Rotation Forest , an ensemble of classifiers. The proposed technique was compared to other related techniques and to classifiers and regressors, using \(10\)-fold-cross-validation, achieving a MRR at least \(70\%\) greater than those obtained by other techniques.
+
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLoS ONE authors please skip this step. 
+% Author Summary not valid for PLoS ONE submissions.   
+%\section*{Author Summary}
+
+\section*{Introduction}\label{sec:intro}
+Uma das ferramentas para auxiliar no gerenciamento de experimentos cient{\'i}ficos s{\~a}o os sistemas gerenciadores de \emph{workflows}. \emph{Workflows cient{\'i}ficos} s{\~a}o processos estruturados e ordenados, constru{\'i}dos de forma manual, semi-autom{\'a}tica ou autom{\'a}tica que permitem solucionar problemas cient{\'i}ficos utilizando atividades, que podem ser: i) blocos de c{\'o}digo fonte; ii) servi\c{c}os; e iii) \emph{workflows} finalizados \cite{Wang2010}. Estes sistemas facilitam a cria\c{c}{\~a}o de novos experimentos, compartilhamento dos resultados e reutiliza\c{c}{\~a}o de atividades existentes.
+
+
+Dentro dos sistemas gerenciadores de \textit{workflow}, as atividades s{\~a}o tipicamente representadas como {\'i}cones gr{\'a}ficos com fun\c{c}{\~a}o \textit{drag and drop}. Desta forma {\'e} poss{\'i}vel construir experimentos computacionais arrastando {\'i}cones e preenchendo par{\^a}metros de entrada. A maioria destes sistemas fornecem conjuntos de atividades b{\'a}sicas que podem ser utilizadas em diferentes dom{\'i}nios, por exemplo, uma atividade que calcula o valor m{\'e}dio de um conjunto de dados, {\'e} aplic{\'a}vel em biologia, f{\'i}sica, astronomia e outras {\'a}reas. Por{\'e}m, h{\'a} uma pr{\'e}-condi\c{c}{\~a}o para se reutilizar e/ou criar \textit{workflows}: conhecer quais s{\~a}o as atividades dispon{\'i}veis.
+
+
+Atualmente h{\'a} um grande n{\'u}mero de atividades dispon{\'i}veis em reposit{\'o}rios como \emph{myExperiment} que armazena mais de \(2.500\) \emph{workflows} \cite{myExperiment} e \emph{BioCatalogue} que disponibiliza mais de \(2.464\) servi\c{c}os \cite{Biocatalogue}. O grande n{\'u}mero de atividades e o baixo reuso de algumas atividades e \emph{workflows} \cite{Wang2010} motivam a constru\c{c}{\~a}o de t{\'e}cnicas para recomendar atividades aos cientistas durante a composi\c{c}{\~a}o dos \emph{workflows}.
+
+
+Sistemas de recomenda\c{c}{\~a}o permitem aos cientistas aproveitar o poder de reutiliza\c{c}{\~a}o de workflows cient{\'i}ficos sem a necesidade de conhecer todas as atividades ou criar atividades com mesma funcionalidade. Esses sistemas funcionam como filtro de atividades recomendando para o usu{\'a}rio atividades que lhe sejam {\'u}teis. 
+
+
+Este artigo \cite{Uschold95} apresenta uma estrat{\'e}gia h{\'i}brida para recomendar atividades em workflows cient{\'i}ficos baseada em frequ{\^e}ncia de atividades em conjunto com uma ontologia de dom{\'i}nio (\emph{knowledge-base} h{\'i}brido, com MoC \emph{dataflow}) para conjuntos de dados sem proveni{\^e}ncia, sem dados de confiabilidade entre autores e sem anota\c{c}{\~o}es sem{\^a}nticas pr{\'e}vias. Al{\'e}m disso  sugere uma modelagem do problema de recomendar atividades em workflows cient{\'i}ficos para que seja solucionado por classificadores como: Suport Vector Machine (SVM), Naive Bayes (NB), K-Nearest-Neighbor (KNN), Classification and Regression Trees (CART) e Rede Neural (MLP). Tamb{\'e}m s{\~a}o utilizados os seguintes regressores como: Suport Vector Regression (SVR), CART, Rede Neural, Multivariate Adaptive Regression Splines (MARS) e regress{\~a}o binomial (RB). E uma compara\c{c}{\~a}o das solu\c{c}{\~o}es da literatura correlata com as propostas.
+
+
+O restante do artigo tem a seguinte estrutura na subse\c{c}{\~a}o \ref{SISTEMASRECOMENDACAO} s{\~a}o definidos os sistemas de recomenda\c{c}{\~a}o, seus problemas e desafios, as poss{\'i}veis solu\c{c}{\~o}es destes. Na subse\c{c}{\~a}o \ref{SISTEMASGERENCIADORESWORKFLOWCIENTIFICO} s{\~a}o apresentados os sistemas gerenciadores de workflows cient{\'i}ficos e os workflows cient{\'i}ficos. A subse\c{c}{\~a}o \ref{RECOMENDACAO_WORKFLOWS_CIENTIFICOS} apresenta os desafios de recomendar atividades em workflows cient{\'i}ficos. A se\c{c}{\~a}o \ref{CORRELATOS} apresenta os trabalhos da literatura correlata, a se\c{c}{\~a}o \ref{METODOLOGIA} apresenta a metodologia utilizada no trabalho, a se\c{c}{\~a}o 
+
+\ref{TECNICAS} explica brevemente as t{\'e}cnicas usadas pelos classificadores e regressores a se\c{c}{\~a}o \ref{EXPERIMENTOS} apresenta o resultado dos experimentos realizados. Por fim a se\c{c}{\~a}o \ref{CONCLUSOES} conclu{\'i} o artigo e apresenta poss{\'i}veis trabalhos futuros.
+
+
+% You may title this section "Methods" or "Models". 
+% "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
+% authors may use "Analysis" 
+\section*{Materials and Methods}\label{sec:method}
+Os \emph{workflows} foram obtidos no repositório \emph{myExperiment} \cite{ROURE2015}, por meio do \emph{software wget} \cite{wget2015}. Após efetuar o \emph{download} dos \(2481\) \emph{workflows} em formato \emph{xml}, foi utilizado o analisador de código \emph{Beautiful Soup} \cite{BeautifulSoup2015}, para organizar o conjunto de dados em uma base de dados relacional.
+
+Os dados foram usados em três estruturas distintas, um grafo usado para as técnicas da literatura correlata que consideram a ordem, uma matriz simples usada para as técnicas que não usam ordem das atividades. Uma matriz adaptada para modelar o problema como um problema de classificação (binária) e regressão.
+
+
+\subsection*{Grafo}
+
+
+
+% ---------------------------------------------------------------------------- %
+\subsection*{Matriz simples}
+Os \emph{workflows} da área de bioinformática (totalizando \(73\)) em conjunto com suas atividades (totalizando \(280\)) foram convertidos em uma matriz \(M_{i,j}\) em que cada linha \(i\) representa um \emph{workflow}, cada coluna \(j\) representa uma das \(280\) atividades e cada célula da matriz \(M\) representa a existência \(M_{i,j} = 1\), ou não \(M_{i,j} = 0\), da atividade da coluna \(j\) no \emph{workflow} \(i\). A tabela \ref{tabela_matriz_de_dados} apresenta um exemplo, fictício, de matriz \(M\). Para a realização dos testes, para cada linha da tabela \ref{tabela_matriz_de_dados} é removida uma atividade e é recomendada uma lista de possíveis atividades. O objetivo do sistema de recomendação é identificar corretamente qual a atividade está faltando no workflow (isto é, aquela que foi removida). 
+\begin{table}[htb]
+	\centering
+	\caption{Exemplo de matriz de entrada.}
+	\begin{tabular}{|c|c|c|c|c|}  \hline
+		\textbf{\emph{Workflow}} & \textbf{Ativ \(\mathbf{01}\)} & \textbf{Ativ \(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)} & \textbf{Ativ \(\mathbf{280}\)}  \\ \hline
+		01 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+		02 			  & 1 			  & 1 			  & \(\ldots\) 	  & 1  				\\ \hline
+		03 			  & 1 			  & 0 			  & \(\ldots\) 	  & 1  				\\ \hline
+		\(\vdots\) 		  			  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 		\\ \hline
+		73 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+	\end{tabular}
+	\label{tabela_matriz_de_dados}
+	\vspace{0.1cm}
+	%\source{\varAutorData}
+\end{table}
+
+\subsection*{Matriz adaptada}
+Para usar técnicas de classificação e regressão foram propostas algumas alterações no conjunto de dados original, descrito na tabela \ref{tabela_matriz_de_dados}, as quais podem ser visualizadas na tabela \ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}. Cada \emph{workflow} foi replicado \(118\) vezes. Destes, \(59\) são uma cópia idêntica ao original, enquanto que dos outros \(59\) foi removida uma mesma atividade para todos os \emph{workflows}, e foi adicionada uma nova atividade representando uma possível recomendação. Dessa forma, para cada \emph{workflow} original haverá \(59\) instâncias corretas e \(59\) instâncias incorretas e este tipo de informação será utilizada para treinar os classificadores ou regressores.
+\begin{table}[!htb]
+	\tiny
+	\centering
+	\caption{Exemplo de matriz de entrada para técnicas de classificação e regressão}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}  \hline
+		\textbf{\(\#\)} & \textbf{\emph{Workflow}} & \textbf{Ativ \(\mathbf{01}\)} & \textbf{Ativ \(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)}  & \textbf{Ativ \(\mathbf{279}\)} & \textbf{Ativ \(\mathbf{280}\)} & \textbf{Rótulo} \\ \hline
+		
+		1	&		01		 			   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		2	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		\(\vdots\)  &  \(\vdots\) 	   	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)\\ \hline
+		59	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+		1	&		01		 			   & 0 (removida) 		  & 1 (adicionada) &\(\ldots\)& 1 & 0	& F	\\ \hline
+		2	&		01 					   & 0 (removida)& 0 		  & \(\ldots\) 	  & 1 (adicionada) & 0& F	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\) & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+		59	&		01 					   & 0 (removida)			  & 0 			  & \(\ldots\) & 0 & 1 (adicionada)& F \\ \hline
+		&\(\vdots\) & & & & & & 																		\\ \hline
+		1	&		73		 			   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		2	&		73 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+		59	&		73 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+		1	&		73		 			   & 1 (adicionada) & 0 (removida)  & \(\ldots\) 	  & 1 & 0   		& F	\\ \hline
+		2	&		73 					   & 1 			  & 0 (removida)  & \(\ldots\)& 1 (adicionada) & 0  & F	\\ \hline
+		\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)	\\ \hline
+		59	&		73 					   & 1 			  & 0 (removida)  & \(\ldots\) 	  & 0 & 1 (adicionada) & F	\\ \hline
+	\end{tabular}
+	\label{tabela_matriz_de_dados_adapatada_classificacao_regressao}
+	\vspace{0.1cm}
+	%\source{\varAutorData}
+\end{table}
+
+A escolha de \(59\) atividades a serem recomendadas foi feita por duas razões. A primeira é selecionar as 59 atividades com maior frequência na base de dados. A segunda é a limitação computacional: replicar as \(280\) possíveis recomendações poderia ser inviável em termos de treinamento. Foram replicadas \(59\) instâncias de \emph{workflows} idênticas consideradas corretas, isto é com a atividade correta não removida, para garantir o balanceamento entre classes. A última alteração foi adicionar uma coluna indicando se a recomendação da atividade proposta é a correta, isto é, a pertencente ao respectivo \emph{workflow} (\emph{T}) ou não (\emph{F}).
+
+\subsection*{Data Storage \& Enrichment}\label{sec:enrich}
+s
+
+\subsection*{Analysis} \label{sec:analysis}
+s
+
+
+\newcommand{\boy}{\textordmasculine}
+% Results and Discussion can be combined.
+\section*{Results}\label{sec:result}
+A tabela \ref{tb_resultadosExperimentos} exibe os resultados de cada sistema recomendador usado. As técnicas que possuem a letra \emph{C} em subscrito são classificadores; as que possuem letra \emph{R} em subscrito são regressores; e as que não tem nada são da literatura correlata. Cada sistema efetua suas recomendações de acordo com seus diferentes critérios em uma lista inicial. Em seguida, as atividades não recomendadas são acrescentadas ao final da lista inicial. Dessa forma, a atividade correta sempre será encontrada, e o fator que diferencia os sistemas de recomendação é a posição em que as atividades ocupam na lista de atividades final que contém \(280\) posições.
+\bgroup
+\begin{table}[!htp]
+	\centering
+	%\tiny
+	\caption{Resultados dos sistemas de recomendação}
+	\begin{tabular}{|l|l|l|l|l|l|l|l|l|} \hline
+		\textbf{\(\mathbf{\#}\)} & \textbf{Técnica}&\textbf{S@1}&\textbf{S@5} & \textbf{S@10} & \textbf{S@50} & \textbf{S@100} & \textbf{S@280} & \textbf{MRR} \\ \hline
+		
+		1  & Aleatório				& 0,0037 & 0,0260 & 0,0280 & 0,0300 & 0,0400 & 1,0000 & 0.033 \\ \hline
+		2  & \emph{Apriori}			& 0,0037 & 0,0385 & 0,0559 & 0,0568 & 0,0570 & 1,0000 & 0,037 \\ \hline
+		3  & KNN\(_C\)				& 0,0037 & 0,0685 & 0,0959 & 0,5068 & 1,0000 & 1,0000 & 0,040 \\ \hline
+		4  & Rede neural\(_C\)		& 0,0137 & 0,1507 & 0,1781 & 0,8082 & 1,0000 & 1,0000 & 0,089 \\ \hline
+		5  & CART\(_C\)				& 0,0274 & 0,1233 & 0,3699 & 0,7671 & 1,0000 & 1,0000 & 0,113 \\ \hline
+		6  & CART\(_R\)    			& 0,1370 & 0,1370 & 0,2603 & 0,6164 & 1,0000 & 1,0000 & 0,114 \\ \hline
+		7  & Naive Bayes\(_C\)     	& 0,0274 & 0,1507 & 0,3425 & 0,6301 & 1,0000 & 1,0000 & 0,114 \\ \hline
+		8  & Binomial\(_R\) 		& 0,0822 & 0,1918 & 0,2055 & 0,8493 & 1,0000 & 1,0000 & 0,136 \\ \hline
+		9  & Rede neural\(_R\)     	& 0,1096 & 0,2603 & 0,2603 & 0,2603 & 1,0000 & 1,0000 & 0,154 \\ \hline
+		10 & MARS\(_R\)     		& 0,1233 & 0,2055 & 0,2192 & 0,7260 & 1,0000 & 1,0000 & 0,167 \\ \hline
+		11 & SVM\(_R\)     			& 0,1233 & 0,3151 & 0,4932 & 0,8493 & 1,0000 & 1,0000 & 0,238 \\ \hline
+		12 & FES           			& 0,1474 & 0,2603 & 0,3699 & 0,8671 & 1,0000 & 1,0000 & 0,196 \\ \hline
+		13 & SVM\(_C\)    			& 0,2425 & 0,4658 & 0,4932 & 0,7123 & 1,0000 & 1,0000 & 0,244 \\ \hline
+		14 & SVM composto\(_C\)		& 0,2515 & 0,4458 & 0,5232 & 0,7623 & 1,0000 & 1,0000 & 0,314 \\ \hline
+		15 & Rotation Forest\(_C\)  & 0,2925 & 0,4558 & 0,5432 & 0,7723 & 1,0000 & 1,0000 & 0,324 \\ \hline
+		16 & FESO          			& 0,3425 & 0,4658 & 0,5932 & 0,8123 & 1,0000 & 1,0000 & 0,334 \\ \hline
+	\end{tabular}
+	\label{tb_resultadosExperimentos}
+	\vspace{0.1cm}
+	%\source{\varAutorData}
+\end{table}
+\egroup
+
+O sistema baseado em \emph{Aleatoriedade} não precisou de treinamento. O algoritmo apenas selecionava aleatoriamente as atividades formando uma lista de atividades recomendadas. Esse sistema recomendou menos de \(3\%\) das atividades corretas entre as dez primeiras posições. A maioria das atividades corretas foram classificadas próximas a posição \(140\) que é a posição média das listas recomendadas. Os valores das métricas \(S@280 = 1\) e \(S@100 = 0,0400\) indicam que a maior parte dos itens corretos foi encontrado após a centésima posição. Esse sistema foi proposto como um marco de comparação.
+
+O sistema que usa a técnica \emph{Apriori} obteve seu melhor desempenho quando os parâmetros \emph{confiança} e \emph{suporte} foram definidos como \emph{sem limitação}, isto é, não foi estabelecido um valor de confiança ou suporte mínimo para considerar possíveis regras de associação criadas. Todas as regras foram consideradas válidas. Mesmo sem restringir esses valores, os resultados desse sistema foram superiores apenas ao sistema baseado em Aleatoriedade. Recomendando menos de \(6\%\) das atividades corretas entre as \(50\) primeiras posições, sua precisão ainda é baixa com valor de \(MRR = 0,037\). Os baixos resultados dessa técnica acontecem devido ao fato de desconsiderar a ordem das atividades durante a geração das regras e, consequentemente, da recomendação.
+
+O sistema baseado em \emph{KNN} foi treinado para diferentes valores do parâmetro \(k = [1:100]\) que representa o número de vizinhos mais próximos (de acordo com a distância Euclidiana) que serão considerados para classificar. Este sistema apresentou os melhores resultados de recomendação para o valor de \(k = 2\). Mesmo assim, menos de \(10\%\) dos itens corretos foram encontrados entre as dez primeiras posições da lista e \(50\%\) dos itens entre os \(50\) primeiros itens. De acordo com a métrica MRR, a posição média dos itens recomendados foi distante da primeira posição da lista \(MRR = 0,040\). Esses resultados indicam que classificar atividades de acordo com a distância entre grupos de vizinhos próximos não é uma abordagem adequada para o problema.
+
+O sistema que usa uma rede neural MLP como classificador teve uma melhoria de quase quatro vezes na métrica \(S@1\) de \(0,0037\) para \(0,0137\) em relação ao \emph{KNN}. Para o treinamento da rede foram usados os parâmetros: i) número de neurônios \(\eta\) (variando entre \(1:40\)); ii) taxa de aprendizagem \(\alpha\) (variando entre \(10^{-7}:10^{+1}\)); iii) duas camadas escondidas; e iv) arquitetura totalmente conectada. Os melhores resultados de classificação foram obtidos para \(\eta = 18\) e \(\alpha = 10^{-4}\) obtendo \(17\%\) de itens classificados entre as dez primeiras posições da lista, e \(80\%\) entre as \(50\) primeiras posições, o que representa uma melhoria de \(30\%\) em relação a técnica \emph{KNN}. O valor da métrica \(MRR = 0,089\) apresentou uma taxa duas vezes mais elevada que a do \emph{KNN}, esse aumento de precisão indica que o poder de generalizar da rede neural para solucionar problemas não lineares foi mais eficiente que a capacidade de generalização das técnicas anteriores.
+
+O sistema baseado em CART como classificador, que tem como característica tratar dados categóricos, apresentou um resultado superior ao da rede neural. O treinamento usou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini ou ganho de informação. O melhor resultado foi para \(gamma = 0\), \(\delta = 30\), \(cp = 10^{-3}\) e \(\xi = \) Ganho de informação. 
+
+Os resultados desse sistema foram aproximadamente duas vezes melhores que os da rede neural. Isso indica uma tendência de bons resultados para técnicas que lidem com dados categóricos por natureza. Essa melhoria indicou um aumento de \(26\%\) na métrica \(MRR\) que representa um aumento da precisão do sistema, além disso posicionou \(13\%\) dos itens procurados na primeira posição e \(26\%\) nas primeiras \(50\) posições.
+
+O sistema baseado em CART como regressor, teve seu melhor valor com os parâmetros \(gamma = 2\), \(\delta = 20\), \(cp = 10^{-5}\) e \(\xi = \) Ganho de informação. A recomendação que usou valores contínuos apresentou um resultado superior ao \(CART_{C}\) nas métricas \(S@1\) e \(S@5\) e um resultado inferior para \(S@10\) e \(S@50\), e a precisão geral (MRR) do \(CART_R\) foi levemente superior.
+
+O sistema baseado no classificador Naive Bayes obteve resultados muito próximos ao do regressor CART. O treinamento ocorreu modificando o atributo \emph{correção de Laplace} com valores entre \([0:100]\). O melhor resultado ocorreu para o valor zero obtendo \(34\%\) dos itens recomendados entre as dez primeiras posições e \(63\%\) entre as \(50\) primeiras posições. Em contrapartida, o valor de \(MRR\) não sofreu grande variação.
+
+O sistema baseado em regressor binomial apresentou melhoria em relação ao Naive Bayes e à rede neural (técnicas que apresentaram resultados próximos). O treinamento dessa técnica ocorre por máxima verossimilhança de um modelo generalizado linear aproximado por uma distribuição binomial. Os resultados para \(S@5\) e \(S@50\) foram superiores que das técnicas anteriores e o valor da métrica \(MRR\) melhorou em aproximadamente \(19\%\) em relação a técnica Naive Bayes. Isto indica que aproximar a variável dependente por uma distribuição binomial e estimar seus parâmetros por verossimilhança é uma ideia potencialmente interessante para tratar este problema.
+
+A rede neural como regressor, que utiliza o peso da rede neural como saída, foi treinada de forma análoga à rede neural usada como classificador. O melhor resultado foi obtido para os valores de \(\eta = 10\) e \(\alpha = 10^{-2}\) recomendando \(26\%\) dos itens corretos entre as dez primeiras posições da lista. A precisão do sistema (MRR) melhorou \(13\%\) em relação ao regressor binomial. Esses resultados indicam que usar um regressor ao invés de um classificador apresenta um resultado melhor para esse tipo de problema, quando solucionado com redes neurais.
+
+O sistema que usou o algoritmo MARS como regressor apresentou um resultado superior à rede neural (usada como regressor) em \(12,5\%\) na métrica \(S@1\), três vezes mais atividades recomendadas entre as \(50\) primeiras e um aumento de precisão geral (MRR) de \(8\%\). Esse resultado mostra que as curvas criadas pelas diversas funções conectadas do MARS obtiveram uma generalização melhor que da rede neural. O treinamento dos parâmetros foi por verossimilhança.
+
+O regressor SVM apresentou resultados duas vezes melhores que o algoritmo MARS para a medida S@10, pois em \(49\%\) das recomendações o item correto estava entre as dez primeiras posições da lista de recomendações. O valor de MRR também foi superior (\(42\%\)). O treinamento foi feito por otimização de margem com os valores de \(c = [10^{-7}:10^{2}]\) , \(\epsilon = [10^{-7}:10^{2}]\), valores de tolerância \(\beta = [10^{-7}:10^{2}]\), funções de \emph{kernel}: i) linear; ii) sigmoide; iii) polinomial; e iv) radial, os parâmetros do \emph{kernel} polinomial são: i) \(p = [1:10]\) que é a potência da função. Os melhores valores encontrados foram para \(c = 1\), \(\epsilon = 1\), \(\beta = 10^{-4}\), \emph{kernel} polinomial com \(p = 2\). Esse resultado é um indício que o problema não é linearmente separável, pois foi usada uma função de \emph{kernel} polinomial para mapear o problema em alta dimensão e projetá-lo novamente para uma dimensão mais baixa. Os autores acreditam que esta característica foi responsável pelo bom desempenho desse regressor.
+
+Dentre os sistemas propostos pela literatura, o sistema baseado em entrada, saída e frequência (FES) \cite{Wang2008} é o que apresenta os melhores resultados. Nos experimentos realizados, este sistema identificou o item correto entre as dez primeiras posições da lista de recomendação em \(37\%\) dos casos, e obteve um valor de \(MRR = 0,196\).
+
+O sistema baseado no algoritmo SVM para classificação foi o único classificador que superou os resultados dos regressores. Seu treinamento foi análogo ao SVM para regressão. Sua melhor execução foi para os valores \(c = 10^{-1}\), \(p = 10^{-4}\) e \emph{kernel} linear. Esta execução, para a métrica \(S@1\) foi \(64\%\) melhor que a da técnica FES e o valor da precisão geral (MRR) aumentou \(24\%\). Este resultado indica que a solução utilizando \emph{kernel} para mapeamento em alta dimensão é uma proposta eficiente no caso de classificadores.
+
+O sistema SVM composto, que executa sobre os resultados dos outros sistemas de recomendação, apresentou um desempenho superior ao SVM para classificação. Seu treinamento foi análogo ao do SVM\(_{C}\) e seu melhor desempenho foi para os parâmetros \(c = 10^{-2}\), \(p = 1\) e \emph{kernel polinomial}. Houve uma melhoria de \(3\%\) na métrica \(S@1\) e \(28\%\) na métrica \(MRR\), essa melhoria é em virtude do uso do resultado de outros classificadores em conjunto com a redução de esparsidade do conjunto de dados.
+
+O sistema utilizando \emph{Rotation Forest} apresentou o segundo melhor resultado, seu treinamento utilizou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini e ganho de informação; v) \(K = [1:10]\) como número de partições; vi) \(L = [1:10]\) como o número de classificadores; e vii) valores de corte \(0,25; 0,5; 0,75\). Essa melhoria foi em virtude de usar em conjunto uma técnica de classificação do tipo \emph{ensemble} e três limiares de corte, os quais foram estabelecidos para converter os valores numéricos (da média dos \(L\) classificadores) em valores binários.
+
+A técnica FESO, apresentou um resultado superior às demais. Este  considera o uso de frequência, entrada e saída e informações semânticas sobre as atividades. Em comparação com as demais técnicas seu resultado foi superior para todas as métricas calculadas, exceto \(S@50\) para algumas técnicas. Em relação à técnica FES, seu resultado foi superior. Em particular, parte dessa melhora é justificada pelos casos em que a atividade correta teria frequência zero no conjunto de treinamento, pois ela permite recomendar baseada na ontologia (usando as atividades que contenham a ontologia do novo \emph{workflow}). Além disso, para o caso em que há empate entre duas atividades com o critério de entrada e saída e a frequência a técnica proposta apresenta um fator a mais para ser utilizado como desempate.
+
+Algumas tendências observadas com esses resultados foram que aumentar a informação sobre dados na recomendação melhora o seu desempenho, como o resultado dos experimentos: 2, 12 e 14 mostram. Uma segunda tendência é que o classificador SVM foi o único que obteve um melhor resultado que os regressores, indicando que soluções por maximização de espaço entre dados em alta dimensão podem ser uma área de estudo promissora. Uma terceira tendência é o uso de classificadores compostos e \emph{ensembles}, os quais apresentaram resultados promissores. No caso do \emph{ensemble} há um indício que técnicas desse tipo, que usem limiares para converter os valores da média dos resultados do conjunto \(L\) em valores binários, têm resultados promissores na recomendação de atividades.
+
+
+% ---------------------------------------------------------------------------- %
+\section*{Related Work} \label{sec:rw}
+Para estabelecer o estado da arte os autores realizaram uma revisão sistemática \cite{Biochini} cujos resultados são sumarizados na figura \ref{graficorevisaosistematica}. Que permite afirmar que há diversos estudos sobre recomendação de atividades em workflows científicos. A maior parte destes estudos desconsidera uso de ontologias e/ou anotações semânticas e as técnicas mais usadas são baseadas em proveniência de informação.
+
+Os trabalhos de \citeonline{Shao2007} e \citeonline{Shao2009}, que consideram a mineração sequencial de atividades como \emph{itemsets} desconsideram a ordem das atividades e a semântica das mesmas. A proposta de \citeonline{TostaBraganholo2015} desconsidera apenas a semântica das atividades. Esta proposta de mestrado considera a ordem de atividades que é um fator importante na recomendação conforme visto no capítulo de conceitos fundamentais.
+
+Os trabalhos de \citeonline{Koop2008, Oliveira2008, Wang2009, Zhang2009, Tan2011, Cao2012, Diamantini2012, Garijo2013, Yeo2013} consideram a ordem das atividades, entrada e saída e proveniência dos dados. Suas limitações são a necessidade de dados de proveniência, pois nem todo SGWC armazena essas informações, além de desconsiderar informação semântica dos \emph{workflows} e atividades. Este projeto não necessita de informações de proveniência e considera a semântica da informação por meio de uma ontologia hierarquizada e validada por um especialista da área.
+
+O trabalho de \citeonline{Bomfim2005} usa apenas um mapeamento entre atividades e ontologia desconsiderando a entrada e saída, o que potencialmente gera recomendações ineficientes. Neste projeto são consideradas às entradas e saídas de cada atividade individualmente, além do uso de uma ontologia de domínio.
+
+\citeonline{Wang2008, Leng2010} desconsideram o uso de semântica das atividades e da frequência de suas ocorrências em pares. Nesse projeto de mestrado são considerados esses dois fatores.
+
+O trabalho de \citeonline{Yao2012} exige dados que permitam calcular a confiança dos usuários e dos seus \emph{workflows}. Repositórios como \emph{myExperiment} \cite{ROURE2015} não exigem dos usuários o preenchimento de todos os seus dados, de forma que grande parte das informações relacionadas a este aspecto não são preenchidas pelos usuários. Além disso, os autores desconsideram a semântica das atividades e \emph{workflows}. Este projeto de mestrado considera a semântica de \emph{workflows} e não necessita da informação sobre a confiança dos usuários.
+
+Os trabalhos de \citeonline{Telea1999, Oliveir2010} e \citeonline{Zhang2011} desconsideram o uso de semântica de dados para recomendar, o que é um limitante conforme discutido por \citeonline{CorchoGarijo2014, Soomro2015}. No presente mestrado, a frequência é considerada em conjunto com a ontologia de domínio.
+
+Os trabalhos de \citeonline{Zhang2014, Mohan2015, Cerezo2011} desconsideram o uso de uma ontologia hierarquizada e validada por um especialista. Dessa forma, a qualidade das anotações semânticas é questionável. Nesse projeto foi construída uma ontologia usando uma metodologia e esta foi validada por um especialista.
+
+Os trabalhos de \citeonline{CorchoGarijo2014, Soomro2015} consideram o uso de frequência e ontologia, como neste projeto, porém recomendam \emph{subworkflows} o que limita as recomendações de atividades. Apenas atividades usadas em fragmentos comuns de \emph{workflows} poderão ser recomendadas. Em outras palavras, se a atividade se encontra no ``meio'' de um \emph{subworkflow} esta nunca poderá ser recomendada individualmente. No presente mestrado, todas as atividades tem possibilidade de ser recomendadas, mesmo que no final da lista de recomendação. Além disso, apresenta uma recomendação mais abrangente, pois trata o caso de atividades simples, \emph{subworkflows} e \emph{Shims} (ver seção \ref{SEC_CONSTRUCAO_WORKFLOWS_CIENTIFICOS}).
+
+Neste mestrado o problema de recomendação de atividades foi também modelado como um problema de classificação e regressão, usando para isso \(5\) classificadores; \(5\) regressores; um classificador SVM composto (que usa o resultado dos outros classificadores e regressores para recomendar) e um \emph{ensemble} de classificadores (\emph{Rotation Forest}).
+
+A partir da figura \ref{fig:TecnicasPorQuantidade} é possível notar a existência de uma tendência no uso de técnicas baseadas em proveniência de dados, frequência e dependência da informação. A partir de \(2014\) a literatura começou a considerar estratégias híbridas que usam proveniência e algum tipo de informação semântica. No ano de \(2015\) foram publicados dois artigos propondo estratégias híbridas para recomendar que usam frequência e algum tipo de informação semântica para recomendar \emph{subworkflows}.
+
+A técnica baseada em proveniência de dados (mais utilizada na literatura) tem como vantagem considerar diversos dados históricos sobre um mesmo padrão de atividade. Por exemplo, para recomendar uma atividade em um \emph{workflow} que contenha a atividade~x, são considerados todos os \emph{workflows} que contenham x e suas atividades posteriores, a atividade com maior frequência é recomendada. Essa abordagem permite minimizar o efeito de \emph{outliers}. Como desvantagem, possui a necessidade de uma base de dados históricos relevantes, caso contrário, \emph{outliers} podem afetar o desempenho.
+
+A técnica baseada em frequência tem como vantagem a simplicidade na implementação e como principal desvantagem a necessidade de uma base de dados com pouca esparsidade no uso de atividades.
+
+A técnica baseada em dependência de informação tem como principal vantagem a facilidade de implementação. Como desvantagem, ela não leva em consideração a semântica dos dados das atividades. Por exemplo, uma \emph{string} que representa o nome de uma espécie de bactéria é considerada similar a uma \emph{string} que representa um CEP.
+
+Outra tendência observada é sobre a validação dos resultados. Não há uma metodologia amplamente utilizada entre os trabalhos analisados para validação. Muitos autores apenas executam a solução uma vez para ``mostrar'' que sua solução funciona. Não ocorrem testes com dados sintéticos ou reais, o que pode ser verificado na tabela \ref{tabResumoTecnicas} em que \(11\) artigos estão nessa situação (marcados na tabela como ``Elaborado um estudo de caso'').
+
+
+% ---------------------------------------------------------------------------- %
+\section*{Conclusion}\label{sec:conclusion}
+
+Este trabalho desenvolveu uma técnica híbrida para recomendar atividades em \emph{workflows} científicos, que usa compatibilidade sintática, frequência e ontologias de domínio para recomendar atividades, denominada FESO. Além disso, também modelou o problema de recomendação como um problema de regressão e classificação em inteligência artificial.
+
+A principal ideia do projeto foi acrescentar informações semânticas estruturadas para o sistema de recomendação. Conforme foi apresentado no capítulo de resultados (capítulo~\ref{CAP_COMPARACAO}), esta estratégia atingiu melhores resultados do que as outras técnicas implementadas, sendo que a medida MRR aumentou \(70\%\) em relação as outras estratégias.
+
+Para encontrar as técnicas da literatura correlata, foi realizada uma revisão sistemática (capítulo \ref{CAP_CORRELATOS}). Nessa revisão foram encontradas as técnicas, suas restrições, suas vantagens e as formas que foram validadas. O próximo passo foi implementá-las e compará-las com as soluções propostas neste mestrado, incluindo as soluções baseadas em classificadores e regressores. 
+
+Para realizar a comparação foi organizado um banco de dados relacional de \emph{workflows} e suas atividades. Também foi necessário estabelecer uma metodologia para comparar diferentes técnicas de recomendação de atividades para um mesmo conjunto de dados com as mesmas métricas de validação \(S@k\) e \(MRR\) (descritas na seção \ref{SEC_METRICAS_VALIDACAO}). 
+
+Ao comparar todas as técnicas, foram constatados determinados aspectos do conjunto de dados, como o fato das atividades não serem independentes; o problema não ser linearmente separável; e que técnicas de agrupamento não se mostraram adequadas para solucionar este problema. Com exceção do SVM, regressores apresentaram soluções mais precisas do que classificadores. Além disso, adicionar informação nos sistemas de recomendação melhorou a precisão destes. A seguir serão listadas as principais contribuições deste mestrado e potenciais trabalhos futuros.
+
+
+% ---------------------------------------------------------------------------- %
+\section*{Acknowledgments}
+Os autores agradecem a ag{\^e}ncia CAPES pelo financiamento do projeto.
+
+
+%\section*{References}
+% The bibtex filename
+\bibliography{refs}
+
+\section*{Figure Legends}
+%\begin{figure}[!ht]
+	%\includegraphics[width=0.4\textwidth]{figure06.tiff}
+%	\caption{ {\bf Results of systematic review, number of papers for each technique.} }
+%	\label{fig:TecnicasPorQuantidade}
+%\end{figure}
+
+
+%\section*{Tables}
+%s
+
+
+\end{document}

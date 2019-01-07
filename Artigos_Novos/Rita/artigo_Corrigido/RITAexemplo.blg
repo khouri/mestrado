@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: RITAexemplo.aux
+The style file: abbrv.bst
+Database file #1: referenciasNovas.bib
+"{" immediately follows a field name---line 17 of file referenciasNovas.bib
+ :   Month                    = {may},\textbf
+ :                                           {}
+I'm skipping whatever remains of this entry
+Warning--entry type for "Biocatalogue2015" isn't style-file defined
+--line 111 of file referenciasNovas.bib
+Warning--entry type for "wget2015" isn't style-file defined
+--line 1931 of file referenciasNovas.bib
+Warning--entry type for "BeautifulSoup2015" isn't style-file defined
+--line 1951 of file referenciasNovas.bib
+Warning--empty journal in Soomro2015
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            675 strings with 9469 characters,
+and the built_in function-call counts, 12011 in all, are:
+= -- 1194
+> -- 598
+< -- 20
++ -- 234
+- -- 207
+* -- 829
+:= -- 1835
+add.period$ -- 87
+call.type$ -- 27
+change.case$ -- 183
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 473
+empty$ -- 907
+format.name$ -- 207
+if$ -- 2644
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 21
+newline$ -- 133
+num.names$ -- 56
+pop$ -- 229
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 406
+stack$ -- 0
+substring$ -- 749
+swap$ -- 195
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 1
+while$ -- 107
+width$ -- 29
+write$ -- 300
+(There was 1 error message)

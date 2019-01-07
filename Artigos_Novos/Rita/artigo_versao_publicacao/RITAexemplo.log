@@ -1,0 +1,418 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.29)  18 DEC 2017 19:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**RITAexemplo.tex
+(./RITAexemplo.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./RITA.cls
+Document Class: RITA 2002/07/30 v0.2 Artigo para a Revista RITA
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@brazilian = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(./RITAexemplo.aux)
+\openout1 = `RITAexemplo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 29.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen107
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 30.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[4]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[7]
+Package epstopdf Info: Source file: <./pics/recomendacaofreqontologia.eps>
+(epstopdf)                    date: 2017-06-16 17:11:45
+(epstopdf)                    size: 62762 bytes
+(epstopdf)             Output file: <./pics/recomendacaofreqontologia-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-06-16 17:19:51
+(epstopdf)                    size: 11425 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pics/recomendacaofreqont
+ologia-eps-converted-to.pdf ./pics/recomendacaofreqontologia.eps>
+(epstopdf)             \includegraphics on input line 150.
+Package epstopdf Info: Output file is already uptodate.
+
+<./pics/recomendacaofreqontologia-eps-converted-to.pdf, id=36, 734.745pt x 511.
+9125pt>
+File: ./pics/recomendacaofreqontologia-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use ./pics/recomendacaofreqontologia-eps-converted-to.pdf>
+Package pdftex.def Info: ./pics/recomendacaofreqontologia-eps-converted-to.pdf 
+used on input line 150.
+(pdftex.def)             Requested size: 220.42519pt x 153.57494pt.
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[8 <./pics/recomendacaofreqontologia-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./pics/ontologia.eps>
+(epstopdf)                    date: 2017-06-16 17:12:45
+(epstopdf)                    size: 44614 bytes
+(epstopdf)             Output file: <./pics/ontologia-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-16 17:14:09
+(epstopdf)                    size: 10857 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pics/ontologia-eps-conve
+rted-to.pdf ./pics/ontologia.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<./pics/ontologia-eps-converted-to.pdf, id=48, 479.7925pt x 775.89874pt>
+File: ./pics/ontologia-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./pics/ontologia-eps-converted-to.pdf>
+Package pdftex.def Info: ./pics/ontologia-eps-converted-to.pdf used on input li
+ne 185.
+(pdftex.def)             Requested size: 143.93884pt x 232.77141pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 200.
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[9]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[10 <./pics/ontologia-eps-converted-to.pdf>]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[12]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[13]
+Underfull \vbox (badness 2142) has occurred while \output is active []
+
+
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[14] (./RITAexemplo.bbl
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[15]
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[16])
+Overfull \hbox (1.90002pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+
+Overfull \vbox (6.7799pt too high) has occurred while \output is active []
+
+
+[17] (./RITAexemplo.aux) ) 
+Here is how much of TeX's memory you used:
+ 2347 strings out of 493013
+ 31811 string characters out of 6135682
+ 107212 words of memory out of 5000000
+ 5844 multiletter control sequences out of 15000+600000
+ 40016 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,11n,25p,1259b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/
+ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on RITAexemplo.pdf (17 pages, 208110 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

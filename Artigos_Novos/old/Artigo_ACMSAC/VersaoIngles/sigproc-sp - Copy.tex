@@ -1,0 +1,324 @@
+% This is "sig-alternate.tex" V2.1 April 2013
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.5) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V2.0 - May 2012
+
+\documentclass{sig-alternate-05-2015}
+  \pdfpagewidth=8.5truein
+  \pdfpageheight=11truein
+
+\hyphenation{ge-nomes}
+
+\begin{document}
+
+% Copyright
+\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+
+% DOI
+\doi{http://dx.doi.org/xx.xxxx/xxxxxxx.xxxxxxx}
+
+% ISBN
+\isbn{978-1-4503-3739-7/16/04}
+
+%Conference
+%\conferenceinfo{PLDI '13}{June 16--19, 2013, Seattle, WA, USA}
+
+\acmPrice{\$15.00}
+
+%
+% --- Author Metadata here ---
+\conferenceinfo{SAC'16,}{ April 4-8, 2016, Pisa, Italy}
+\CopyrightYear{2016} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{An ontology and frequency-based approach to recommend activities in scientific workflows}
+
+\numberofauthors{2} 
+
+\author{
+% \alignauthor
+% Adilson Khouri\titlenote{Adilson Lopes Khouri.}\\
+       % \affaddr{Universidade de São Paulo}\\
+       % \affaddr{1000 Av. Arlindo Béttio}\\
+       % \affaddr{São Paulo, Brazil}\\
+       % \email{adilson.khouri.usp@gmail.com}
+% \alignauthor
+% Luciano Digiampietri\titlenote{Luciano Antonio Digiampietri.}\\
+       % \affaddr{Universidade de São Paulo}\\
+       % \affaddr{1000 Av. Arlindo Béttio}\\
+       % \affaddr{São Paulo, Brazil}\\
+       % \email{digiampietri@usp.br}
+}
+
+\maketitle
+\begin{abstract}
+Nowadays there are several systems to help scientists in their daily activities. One type of these systems are the Scientific Workflow Management Systems which helps scientists to model, execute, store and share their experiments. In order to provide a more efficient and helpful experience for the user, these systems typically contains some kind of recommender system.
+This paper presents a novel hybrid approach to recommend activities in scientific workflows is based on activities frequency and domain ontology.
+The recommendation problem was treated as a classification problem and as a regression problem. The validation considered the use of real workflows from the myExperiment repository and the results obtained by the proposed approach were compared with the ones obtained by the most used approaches.
+The results showed the proposed approach overcomes the traditional ones in all the evaluation metrics considered.
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.4}{Information Systems Applications}{Recommender Systems}
+%A category including the fourth, optional field follows...
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+% Retirados de http://www.acm.org/about/class/1998
+\terms{Algorithms, Experimentation}
+
+\keywords{Activities recommendation; Ontology based recommendation; Scientific Workflows; Artificial Intelligence; Recommender systems}
+
+\section{Introduction}\label{INTRODUCAO}
+Nowadays, Scientific Workflow Management Systems (SWMS) are being increasingly adopted as a tool for helping scientists in the modelling, execution, storing, and sharing of their experiments. Scientific workflows are representations of structured processes, built manually, semi-automatically or automatically in order to solve scientific problems. The building blocks of these workflows are called activities, which can be: i) source code; ii) services; and iii) \emph{finalized workflows}~\cite{Wang2010}. More then just helping scientists in the creation and execution of their experiments, these systems also stimulate the reuse of existing activities.
+
+In the majority of the SWMS, activities are represented graphically as icons and the system has drag and drop functions. Thus, anyone can build computational experiments dragging icons and filling input parameters. Most of these systems provide sets of basic activities that can be used in different domains, for example, an activity which calculates the average value of a dataset is applicable in biology, physics, astronomy, and other areas. But there is a pre-condition for creating workflows: to know what are the available activities.
+
+Currently, there are a large number of activities available in repositories such as \emph{myExperiment} which stores more than 2,500 workflows~\cite{myExperiment} and \emph{BioCatalogue} that provides more than 2,464 services~\cite{Biocatalogue}. This great amount of activities and the low reuse of most of the activities and workflows~\cite{Wang2010} motivated the development of techniques to recommend activities to scientists during the workflows composition.
+
+Recommender systems aims to suggest items (products, books, movies, activities, etc.) that will be useful for the users. In the scientific experiment context, recommender system allow the scientists to take advantage of the activities reuse in scientific workflows without the need of knowing a great number of activities, avoiding the creation of activities similar to the ones already available.
+
+This paper presents a hybrid approach to recommend scientific workflows activities based on frequency and the use of a domain ontology (\emph{knowledge base} combined with MoC dataflow).
+In this approach the recommendation problem was treated as both: a classification problem and a regression problem. Different classifiers were tests, such as Support Vector Machine (SVM), Naive Bayes (NB), K-Nearest-Neighbour (KNN), Classification and Regression Trees (CART), and Multi Layer Perceptron Neural Network (MLP). And the regression was obtained by different function generators, such as Support Vector Regression (SVR), CART, Neural Network, Multivariate Adaptive Regression Splines (MARS), and Binomial Regression (RB). These different methods were evaluated using real workflow data from myExperiments and the results were compared with the most used approaches in the related literature.
+
+The rest of this paper is organized as follows. Section~\ref{basicconcepts} presents the concepts used in this work. Section~\ref{CORRELATOS} summarizes related work. Section~\ref{METODOLOGIA} presents the methodology used. Section~\ref{TECNICAS} contains a brief description of the classifiers and regression algorithms used as the basis for the proposed approach. Section~\ref{EXPERIMENTOS} presents and discusses the results. Finally, Section~\ref{CONCLUSOES} contains the conclusions and future work.
+
+
+\section{Basic concepts}\label{basicconcepts}
+
+\subsection{Recommender systems}\label{SISTEMASRECOMENDACAO}
+Recommender systems aims to recommend items that are interesting to users. Given a set \(C\) of all users, a set of all items that can be recommended \(S\), the function \(u\) which assigns the utility of the item \(s\) to the user \(c\), \(u:C \times S\rightarrow R\) where \(R\) is a fully sorted set. For each user \(c \in C \) the recommender wants to choose \(s^{'} \in S \) which maximizes the utility function:
+\begin{align}
+\forall c \in C,  \quad s_{c}^{'} =  \operatorname*{arg\,max}_{s \in S} u(c,s) \label{formalizar_recomendacao}
+\end{align}
+
+In recommender systems, the utility function \(u\) is not defined for the entire space \(C \times S\), thus, the recommender systems must extrapolate the known space~\cite{Adomavicius2005}.
+
+In order to solve this problem, different techniques were proposed to recommend items. Paiva et al.~\cite{Paiva2013} classified them in six groups. The first, \emph{Content-based}, recommends items similar to others previously selected by the user. Its limitations are: i) limited analysis of the item content that will be recommended (usually there are no semantic description of the item); ii) super-specialization: it occurs when the users receive recommendations too similar to their choices; and iii) new users must evaluate a minimum number of items before the system can recommend items for them.
+
+The second, \emph{Collaborative Filter} recommends items that have been selected by \emph{similar} users. Its limitations are: i) new user problem (there are no useful information available to identify the users similar); ii) new items are only recommended when they were evaluated by users; iii) sparse data: few users often evaluate many items and most of the users evaluate few items, therefore, the matrix (users \(\times\) items) is sparse. Thus, rare items (which were evaluated by few) are unlikely to be recommended.
+
+The third, \emph{Hybrid approach}, combines features of existing techniques trying to minimize their limitations.
+
+The fourth, \emph{Community-based}, is based on information from the user social network (community). The recommendation is carried out according to the preferences of the users's friends and colleagues rather than preference of unknowns. It is a type of specialization of collaborative filter inheriting its features.
+
+The fifth, \emph{Demographic}, uses attributes such as region, age, and language for the recommendation. It was created to try to minimize the sparsity problem and is a specialization of the collaborative filter, and assumes that users with the same demographic characteristics may be considered similar.
+
+The sixth, \emph{Knowledge-based}, recommends items according to the application domain. The similarity is calculated considering semantic characteristics of the items. Its main limitation is the need for semantic descriptions (using, for example, ontologies) about the domain, items, and users.
+
+\subsection{Scientific Workflow Management Systems}\label{SISTEMASGERENCIADORESWORKFLOWCIENTIFICO}
+Scientific Workflow Management Systems are software infrastructures which allow the construction, execution, reuse, and provenance storage of scientific experiments represented as workflows~\cite{McPhillips2009}. Workflows allow the modelling and the computational execution of scientific problems by combining data and operations on data in configurable structures composed of activities~\cite{Garijo2014}.
+
+There are different paradigms to model scientific workflows (called \emph{Models of Computation} - [MoC]), which represents how data is exchanged between activities and the types of operations on data available and/or allowed. This paper discusses two MoCs: \emph{dataflow} and \emph{control flow}. The first, most widely used in scientific workflows, performs transformations on the data, provides data visualizations, and prepares simulations. The second, most used in business process workflows, emphasizes events, flowcharts and sequence of activities to be developed \cite{Ludascher2006}. It is common to find workflow management systems that combine these two paradigms.
+
+In scientific workflows, typically, there are an intense use of \emph{dataflow} elements and few \emph{control flow} elements~\cite{Ludascher2006}. The workflows elements can be be classified according to their structures, they are called \emph{subworkflows} when composed of several chained activities and encapsulated~\cite{medeiros_woodss_2005}, called \emph{activity}, if they correspond to a single activity~\cite{Garijo2012}, and \emph{Shim}, if they act as adapters/connectors between two activities that are syntactically incompatible~\cite{Lin2009}.
+
+During the construction and execution of workflows, some management systems allow the capture of provenance data~\cite{ Zeng2011}. According to Lim et al.~\cite{Lim2010} such provenance can be classified in two types: i) \emph{provenance prospective}, which can be captured during the workflow construction and models the specification of a workflow; and ii) \emph{retrospective provenance}, which models the execution of workflows, i.e., what tasks were performed, and what transformations on the data occurred. This information is captured in runtime.
+
+The workflow construction (or composition) corresponds to the inclusion of activities, the connection between these activities, the link between the input data and activities, as well as, the filling of some activities' parameters.
+
+To assist in this construction, some composition approaches were proposed. The automatic composition approaches define the problem to be modeled and the management system automatically creates an workflow which ``solves'' the input problem, connecting the activities automatically for the user. This approach is recommended for users who do not know specific details of the process and/or are not concerned about how the workflow will solve the input problem. The approach based on the recommendation of activities is used during the composition of workflows and the management system suggests to the user some activities that can be useful for the workflow under construction. This suggestion is usually based on similarity measures, for example, seeking for activities in similar workflows, or seeking for activities used by users with the same profile of the current user. The recommendation technique is suitable for more expert users who want to participate in the workflow construction.
+
+\subsection{Recommendation of activities in workflows}\label{RECOMENDACAO_WORKFLOWS_CIENTIFICOS}
+There are two main tasks that must be considered by recommender systems in SWMS. 
+The first is to maximize the utility function described in the equation \eqref{formalizar_recomendacao}, in other words, recommend items that meet the users' needs. The second address domain-specific problems, in the context of this paper, recommending activities for scientific workflows. There are constrains about the connections between activities' input and output (only compatible data types can be connected), semantic dependency between activities, and some control flow restrictions (some activities must be executed before others).
+
+The dependence between activities' input and output requires the compatibility between the data types: the data type from the output of the previous activity must be compatible with the input of the activity to be recommended, for example, if  activity \emph{a} produces as output a number, only activities which receives a number as input parameters should be recommend to follow the activity \emph{a} in the workflow.
+
+The connection of two activities considering only the compatibility of the data types of outputs and inputs does not guarantee the workflow will run correctly or the user's problem will be solved. This happens due to the possible of semantic mismatch between activities. For example, if activity \emph{a} produces as output a number corresponding to a temperature and activity \emph{b} receives as input a number corresponding to a gene id, the data type (number) is the same, but, semantically, these two activities are not compatible.
+
+Besides the syntactic (data type) and semantic compatibilities, it is necessary to connect the activities in the correct order. Unless in movies or books recommender systems, in the activities recommender systems the order of the items is important. For example, given two activities over a database: the first update a register, and the second queries the database (querying the updated register). The order in which these activities will be executed will alter the results produced.
+
+These characteristics led to the development of specific approaches to recommend activities in scientific workflows. These approaches will be described in the next section~\ref{CORRELATOS}.
+
+
+\section{Related work}\label{CORRELATOS}
+The related literature presents some approaches to recommend activities in scientific workflows. One of the most common is the use of the frequency of the occurrence of a pair of activities~\cite{TELEA13, VINCA4Science07, Grafo12, diamantini_mining_2012, Zhang2011, Zhang2014}.
+Other approaches area based on data provenance~\cite{Shao2007, Shao2009, OLIVEIRA2008, Koop2008, Garijo2013, Yeo2013}. Compatibility between workflow activities' inputs and outputs is the base of some related work~\cite{Zhang35, Ayadi2007, Zhang2006}. Other works use semantic annotation for helping the recommendation~\cite{Oliveira2009, Zhang2013}.
+
+Some recent approaches uses the reliability between users and services to improve the recommendation process~\cite{ReputationNet22}. Association rules, such as  \emph{Apriori} algorithm are also used to identify the frequent itemsets~\cite{Tan2011, Wang2009} and, thus, the items (activities or services) that will be recommended.
+
+The present work aims to use artificial intelligence techniques to take advantage of the main characteristics of the approaches proposed in the literature.
+
+\section{Material and methods}\label{METODOLOGIA}
+The data used in the test ad validation of the approach was obtained from the myExperiment~\cite{ROURE2015} repository  and contains 72 bioinformatics workflows. The data was organized as a matrix \(M\), where lines represent workflows and columns represent all the activities available. The element \(M_{i, j} = 0\) means that the workflow represented by the line \(i\) does not contains the activity \(j\), and the element \(M_ {i, j} = 1\) indicates that the workflow from line \(i\) contains the activity \(j\).
+
+To test the recommendation techniques, the dataset was divided into two sets: \(90\%\) of the data for training set and \(10\%\) for the testing set.
+
+In  order to treat the recommendation problem as a classification or regression problem the dataset was transformed. Since a binary classifier expects to receive a set of positive and negative examples in order to learn how to classify, the following steps were performed. All the dataset will receive a new column (called \emph{class}) to indicate if the respective line corresponds to a correct (real) workflow or not. Initially, all the lines will receive the value \emph{TRUE}, i.e., they correspond to correct workflows. Each of the lines (workflows) will become 60 lines: one line will stay intact and, for the others, one specific activity will be removed (choose randomly for each workflow), and one activity will be added (one different activity for each one of the 59 lines remaining), the added activity will be one of the 59 most frequent activities in the original dataset that were not present in the current workflow. These new 59 lines will have the value \emph{FALSE} in the column that represents the class. Thus, for a given workflow, only one representation will be considered a positive instance an the other 59 will be considered negative. The value 59 was chosen based on the distribution of the frequencies of the activities in the dataset. 
+
+In order to deal with the unbalanced training dataset, a oversampling technique was performed. Therefore, for each original line from the dataset, 59 new lines were created as negative instance (as presented) and 59 copies of the positive instance were created.
+
+Given a workflow without one of its activities, the classifiers produces binary results indicating which should be the corresponding workflow(s) (from which it is possible to identify the recommended activity). On the other hand, the results of the regression are numbers and its values can be used to rank the recommend activities or a threshold can be used to verify if an activity should or not be recommend.
+
+Since recommender systems expects to receive a sorted list of recommended activities, whenever two activities receives the same rank, the following tiebreaker is used: the activities most frequently used in the original dataset come first. If two activities still have the same rank, then they are sorted alphabetically in the result.
+
+Two metrics were used to evaluate the approach and compare it with related one: \emph{S@k}, which measures the percentage of correct items among the $k$ fist positions of the recommender system resulting list of activities, and \emph{Mean Reciprocal Rank} (MRR), which measures the average position of the correct item in the resulting list.
+
+\section{Classification and regression}\label{TECNICAS}
+This section summarizes the main concept used by each of the classifiers and function regression algorithms used.
+
+The KNN classifier starts with a training set of labeled elements and a unlabeled set of elements that will be classified. For each instance of the unlabeled elements the KNN finds the k nearest neighbors of the training set, the instance is classified in the class which has the most close neighbors~\cite{MachineLearningwithR2013}.
+
+The Classification And Regression Tree (CART) use a binnary tree structure to learn and make decisions. This tree is organized as a root node, a number of decision nodes, and leaf nodes. Each element to be classified starts the decision-making flow through the root of the tree, each decision node performs a logical test based on some attribute. When the element reaches a leaf it will receive the respective classification. The construction of the tree depends on the algorithm that is being used and the applied division criterion. The CART regressor uses the residual mean deviance\(\sum\limits_{i = 1}^{n}(y_{i} - f(x_{i}))^{2}\) instead of the Gini index (or information gain) and each leaf node will be filled with the average value of the training examples represented by the leaf. Other aspects such as construction, pruning and training are identical to traditional tree classifiers~\cite{Connor2007}.
+
+Classifiers based on Bayesian methods use training data to calculate the observed probability in each class based on the values of their features. These classifiers present better results when applied to problems where the information of various attributes may be considered simultaneously to estimate the output probabilities. The Naive Bayes algorithm is an example of these classifiers, it is an application of Bayes' theorem adapted to classification, taking some naive preconditions on data such as: i) independence among the characteristics; and ii) that all the features are equally important. In the real world, these preconditions are flawed, even thus, the algorithm presents satisfactory performance~\cite{MachineLearningwithR2013}.
+
+Neural networks (NNs) are inspired by the human brain, its neurons, and their connections. They goal is to model a relationship of weighted inputs and outputs that are defined by multiple processing nodes, which are responsible for calculating the sum of weighted inputs and transfers them to the activation function that determines whether a signal will be sent (or not) to the following neuron or the output of the network~\cite{Haykin2007}. When NNs are used as  classifiers, the response of the output layer is the instance classification, when they are used as regressors. The network weights can be used to produced the resulting value.
+
+Support Vector Machines (SVM) are techniques that can be used to classify data using a hyperplane. The goal is to choose the optimum separation hyperplane in order to separate individuals from different classes. It corresponds to an optimization problem that can be formulated in the following way~\cite{Haykin2007}:
+\begin{align}
+\max_{\alpha} \sum\limits_{i=1}^{N} \alpha_{i} - \frac{1}{2} \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{N} \alpha_{i}\alpha_{j}d_{i}d_{j}k(x_{i},x_{j})
+\end{align}
+with the following constrains
+\begin{align}
+\sum\limits_{i=1}^{N} \alpha_{i}d_{i} = 0 \\
+0 \leq \alpha_{i} \leq C \\
+C > 0
+\end{align}
+where \(\alpha\) are the Lagrange multipliers, \(d\) are the expected outputs, \(x\) is the input dataset, \(K\) is a kernel function, and \(C\) is given positive constant.
+
+The SVR is an adaption of the SVM for regression, in this work we used the \emph{\(\epsilon\)-SVR}. It has an opposite goal when compared with the classifier: while the latter tries to maximize the separation (of instances belonging to different classes), the first aims to approximate the elements, with a given tolerance for mistakes. It can be  formulated as an optimization problem in the following way~\cite{Haykin2007}:
+\begin{align}
+\min_{\alpha} \frac{1}{2} \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{N} \alpha_{i}\alpha^{*}_{i} - \alpha_{j}\alpha^{*}_{j} K(x_{i},x_{j}) - \sum\limits_{i=1}^{N} \alpha_{i}\alpha^{*}_{i}d_{i}
+\end{align}
+with the following constrains:
+\begin{align}
+-C \leq \alpha_{i} - \alpha^{*} \leq C \\
+ \sum\limits_{i=1}^{N} \alpha_{i} - \alpha^{*}_{i} = 0
+\end{align}
+where \(\alpha, \alpha^{*}\) are the Lagrange multipliers, \(d\) are the expected outputs, \(x\) is the input dataset, \(K\) is a kernel function, and \(C\) is given positive constant.
+
+The \emph{Multivariate Adaptive Regression Splines}(MARS) is a non-parametric regression technique that can be seen as a generalization of the linear regression~\cite{Hastie2009}. It uses linear segments of functions, and have the following structure:
+\begin{align}
+(x-t)_{+} &= \begin{cases}
+x-t, \mbox{se } x>t \\
+0,   \mbox{cc}
+\end{cases}
+\\
+(t-x)_{+} &= \begin{cases}
+t-x, \mbox{se } x<t \\
+0, cc
+\end{cases} 
+\end{align}
+The idea is to construct pairs of mirrored functions for each independent variable \(X_{j}\) with a node corresponding to each value \(x_{i,j}\) of the respective variable. MARS regression model has the following function:
+\begin{align}
+f(X) = \beta_{0} + \sum\limits_{m=1}^{M}\beta_{m}h_{m}(X)
+\end{align}
+where \(h_{m}(X)\) is a function or the product of two or more functions; the \(\beta_{m}\) coefficients are estimated by the minimization of the residual squared mean deviance.
+
+The Binomial Regression can be modeled as a \emph{generalized linear model}, and is composed of three components: i) the distribution of the dependent variable (in this case, binomial); ii) the linear predictor \(\alpha + \beta X = \frac{p}{1 - p} \); and iii) the \emph{link} function, which relates the mean of the distribution with the linear predictor, in our case it is: \(g(\mu) = \log(\frac{p}{1-p})\) \cite{Hastie2009}.
+
+The dependent variable \(Y\), in the binomial regression, follows a normal distribution and the link function and the predictor are showed in equation~\eqref{EQ_LINK_REGRESSOR}.
+\begin{align}
+g(\mu) = \log_{e}\left( \frac{\pi}{1-\pi}\right) \\
+g(\mu) = \beta_{0} + \sum\limits_{j=1}^{p} \beta_{j}X_{j} \\
+\log_{e}\left( \frac{\pi}{1-\pi}\right)= \beta_{0} + \sum\limits_{j=1}^{p} \beta_{j}X_{j} \label{EQ_LINK_REGRESSOR}
+\end{align}
+where \(\pi = \mu\) is the mean of \(Y\), \(p\) corresponds to the data dimension, \(\beta\) are the regression coefficients and they are estimated using the maximum likelihood, and \(X\) is the input dataset.
+
+\section{Results}\label{EXPERIMENTOS}
+A Tabela \ref{TAB_RESULTADOS} exibe a comparação entre as diferentes técnicas propostas neste artigo e algumas técnicas da literatura correlata.
+
+As técnicas de classificação CART, KNN, NNET, aleatório e Apriori (proposta em \cite{Tan2011, Wang2009}) obtiveram um desempenho muito baixo. Os três classificadores não conseguiram convergir consequentemente não realizaram uma boa classificação. Em relação as outras duas técnicas o baixo desempenho da recomendação aleatória é em virtude da ocorrência de muitas atividades (\(280\)) fazendo com que a probabilidade de escolher a atividade correta seja pequena, o apriori não considera os seguintes fatores fundamentais: a ordem de atividades, entrada e saída destas e nem semântica de atividades obtendo um baixo desempenho.
+
+A classificação por NNET e os regressores: Binomial, CART, MARS e NNET apresentam um resultado superior em função das métricas \(S@5\) e \(S@10\) apresentarem atividades corretas dentre as primeiras posições, inclusive o MRR destas é superior ao das técnicas anteriores. O uso de classificador e regressor SVM ocasionou a primeira melhoria considerável com resultados \(3\) vezes melhores nas métricas \(S@5 = 0.428\), \(S@10 \geq 0.714\) e uma melhoria considerável da métrica \(MRR_{Class} = 0.2958\) e \(MRR_{Reg} = 0.3149\)
+
+Entre as técnicas classicas da literatura correlata, para dados: sem proveniência; sem informações de autores e confiabilidade e sem anotações semânticas prévias. Percebe-se uma primeira melhoria ao comparar a técnica de entrada e saída de atividades (propostas em \cite{TELEA13, VINCA4Science07, Grafo12, diamantini_mining_2012, Zhang2011, Zhang2014}) com a híbrida que considera também a frequência das mesmas, recomendar a atividade mais frequente para atividades que contenham a mesma assinatura apresenta resultados melhores. Ao acrescentar a informação ontológica sobre o tipo de workflow em que as atividades estão inseridas e ordenar a lista de recomendação das atividades mais frequentes com este critério obteve-se um resultado superior.
+
+Isso ocorre em duas situações distintas, a primeira quando a atividade a ser recomendada é a primeira do workflow. Onde a técnica por frequência não é útil recomendando todas as possíveis atividades e a segunda onde existe uma atividade anterior e suas possíveis recomendações por frequência tem um empate (duas atividades com mesma frequência). Em ambos os casos ao utilizar uma ontologia para ordenar as atividades que são do mesmo grupo ontológico obten-se resultados melhores nessas situações.
+
+\begin{table}
+\centering
+\caption{Resultados das recomendações.}
+\label{TAB_RESULTADOS}
+
+\begin{tabular}{|l|l|l|l|l|l|} \hline
+\textbf{Técnica} & \textbf{\(S@5\)} & \textbf{\(S@10\)} & \textbf{\(S@100\)} & \textbf{\(S@280\)} & \textbf{MRR} \\ \hline
+\textbf{Classificadores} &&&&& \\ \hline
+CART 								&	0.000	&	0.000	&	0.000	&	1	&	0.0101	\\ \hline
+KNN 								&	0.000	&	0.000	&	0.143	&	1	&	0.0102	\\ \hline
+NAIVE 								&	0.000	&	0.000	&	0.000	&	1	&	0.0101	\\ \hline
+NNET 								&	0.143	&	0.143	&	0.143	&	1	&	0.1524	\\ \hline
+SVM 								&	0.428	&	0.714	&	1.000	&	1	&	0.2958	\\ \hline
+\textbf{Regressores} &&&&& \\ \hline
+Binomial 							&	0.000	&	0.285	&	0.571	&	1	&	0.277	\\ \hline
+CART 								&	0.000	&	0.285	&	0.428	&	1	&	0.0391	\\ \hline
+MARS 								&	0.000	&	0.285	&	0.428	&	1	&	0.0254	\\ \hline
+NNET 								&	0.143	&	0.143	&	0.143	&	1	&	0.1524	\\ \hline
+SVR 								&	0.428	&	0.857	&	1.000	&	1	&	0.3149	\\ \hline
+\textbf{Correlatos} &&&&& \\ \hline
+Aleatorio							&	0.000	&	0.000	&	0.000	&	1	&	0.0097	\\ \hline
+Apriori								&	0.000	&	0.000	&	0.143	&	1	&	0.0102	\\ \hline
+I/O									&	0.000	&	0.428	&	1.000	&	1	&	0.0562	\\ \hline
+Freq. I/O							&	0.428	&	0.714	&	1.000	&	1	&	0.2936	\\ \hline
+Freq. I/O Onto.						&	0.571	&	0.714	&	1.000	&	1	&	0.3174	\\ 
+\hline\end{tabular}
+\end{table}
+
+
+\section{Conclusões}\label{CONCLUSOES}
+Este artigo apresentou como constribuições uma técnica híbrida para recomendar atividades em workflows científicos baseada em frequência entrada e saída e ontologias, uma possível modelagem do problema de recomendação para ser solucionado por classificadores e regressores uma comparaçõo entre diferentes técnicas de recomendação de atividades em workflows científicos para um mesmo conjunto de dados reais obtidos no repositório myExperiment. 
+
+Os melhores algoritmos para realizar esta tarefa são SVM e Frequência com Ontologia eles obtiveram desempenhos muito próximos, a desvantagem do SVM é o tempo de treinamento muito alto para ajustar os parâmetros enquanto que a desvantagem do experimento por frequência e ontologia é a necessidade de conhecer o domínio de aplicação para aplicar e construir uma ontologia.
+
+Como possíveis trabalhos futuros os autores pretendem utilizar outras variações de SVM como \emph{v-SVR},\emph{\(\epsilon\)-SVR} e \emph{v-SVM}. Classificação multi-classe e um classificador misto que utilize dados dos outros classificadores como entrada.
+
+\section{Acknowledgments}
+Os autores agradecem a agência CAPES pelo financiamento do projeto.
+
+\bibliographystyle{abbrv}
+\bibliography{sigproc} 
+
+\balancecolumns
+
+\end{document}

@@ -1,0 +1,916 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.23)  16 JUN 2017 18:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.tex
+(./INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
+(./doublecol-new.cls
+
+LaTeX Warning: You have requested document class `doublecol-new',
+               but the document class provides `singlecol'.
+
+Document Class: singlecol 1998/05/05 v1.3y Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen102
+\epsfframethickness=\dimen103
+\epsfrsize=\dimen104
+\epsftmp=\dimen105
+\epsftsize=\dimen106
+\epsfxsize=\dimen107
+\epsfysize=\dimen108
+\pspoints=\dimen109
+) (/usr/share/texlive/texmf-dist/tex/latex/endnotes/endnotes.sty
+\c@endnote=\count79
+\endnotesep=\dimen110
+\@enotes=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen111
+\extrarowheight=\dimen112
+\NC@list=\toks14
+\extratabsurround=\skip41
+\backup@length=\skip42
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count80
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.sty
+
+LaTeX Warning: inputting `leqno.clo' instead of obsolete `leqno.sty'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 2016/12/29 v1.2a Standard LaTeX option (left equation numbers)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count81
+\calc@Bcount=\count82
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count83
+\calc@Cskip=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen115
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count84
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count85
+\leftroot@=\count86
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count87
+\DOTSCASE@=\count88
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count89
+\c@MaxMatrixCols=\count90
+\dotsspace@=\muskip10
+\c@parentequation=\count91
+\dspbrk@lvl=\count92
+\tag@help=\toks16
+\row@=\count93
+\column@=\count94
+\maxfields@=\count95
+\andhelp@=\toks17
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\markwidth=\dimen124
+\blth=\dimen125
+\marklength=\dimen126
+\markdistance=\dimen127
+\trimwidth=\dimen128
+\trimheight=\dimen129
+\auxaaa=\dimen130
+\auxbbb=\dimen131
+\auxccc=\dimen132
+\auxddd=\dimen133
+\t@abstract=\box28
+\t@receivedname=\box29
+\temptbox=\box30
+\tempdime=\dimen134
+\t@bio=\box31
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/theorem.sty
+Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks20
+\theorem@bodyfont=\toks21
+\theorempreskipamount=\skip49
+\theorempostskipamount=\skip50
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/thp.sty
+File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
+))
+\c@part=\count96
+\c@section=\count97
+\c@subsection=\count98
+\c@subsubsection=\count99
+\c@paragraph=\count100
+\c@subparagraph=\count101
+\mathindent=\dimen135
+\mathindent=\dimen136
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
+\@tempboxb=\box32
+\boxH=\box33
+\boxHrunin=\box34
+\temptbox=\box35
+\temptboxA=\box36
+\tempdime=\dimen137
+\tempdimeA=\dimen138
+\rboxh=\dimen139
+\rboxw=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2016/06/28 v3.2 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count105
+\c@dblbotnumber=\count106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup10
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+\c@lemma=\count107
+\c@algorithm=\count108
+\c@definition=\count109
+\c@question=\count110
+\c@remark=\count111
+\c@scheme=\count112
+\c@case=\count113
+
+(./INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.aux)
+\openout1 = `INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.
+aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen143
+\scratchbox=\box37
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen144
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (3.0pt too wide) in paragraph at lines 151--151
+ []  
+ []
+
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 151--151
+ [][]|  
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 154--155
+\OT1/cmr/m/n/10 The number of research projects using intensive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\OT1/cmr/m/n/10 available in repositories such as myExperiment
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 156--157
+\OT1/cmr/m/n/10 workflows and BioCatalogue (BioCatalogue (2015)).
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[]\OT1/cmr/m/n/10 This paper presents a hybrid approach for
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 base ontology for data sets without provenance
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 Trees, and Neural Network (MLP). The following
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 164--166
+\OT1/cmr/m/it/10 and Methods \OT1/cmr/m/n/10 the data source, selected sample a
+re
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+
+]
+\openout3 = `INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.
+ent'.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 180--181
+\OT1/cmr/m/it/10 subworkflows \OT1/cmr/m/n/10 which limits the recommendations 
+of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\OT1/cmr/m/n/10 (myExperiment (2015)) repository, through the
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 183--184
+\OT1/cmr/m/n/10 program wget (Scrivano(2015)). After downloading
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 183--184
+\OT1/cmr/m/n/10 (BeautifulSoup (2015)) code analyzer was used to
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 185--186
+[]\OT1/cmr/m/n/10 The data were stored in a simple matrix used
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 185--186
+\OT1/cmr/m/n/10 for techniques that do not use the order of the
+ []
+
+
+LaTeX Warning: Reference `tabela_matriz_de_dados_adapatada_classificacao_regres
+sao' on page 3 undefined on input line 209.
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 209--237
+\OT1/cmr/m/n/10 recommendations might be impractical in terms of
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 209--237
+\OT1/cmr/m/n/10 workflows considered correct, i.e. with the correct
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[3]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 2229) in paragraph at lines 239--240
+\OT1/cmr/m/n/10 The 10-fold-cross-validation technique was used to
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 239--240
+\OT1/cmr/m/n/10 dataset is divided into 10 subsets (\OT1/cmr/m/it/10 folds\OT1/
+cmr/m/n/10 ) and ten
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Package epstopdf Info: Source file: <./pics/recomendacaofreqontologia.eps>
+(epstopdf)                    date: 2017-06-16 17:11:45
+(epstopdf)                    size: 62762 bytes
+(epstopdf)             Output file: <./pics/recomendacaofreqontologia-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-06-16 17:19:51
+(epstopdf)                    size: 11425 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pics/recomendacaofreqont
+ologia-eps-converted-to.pdf ./pics/recomendacaofreqontologia.eps>
+(epstopdf)             \includegraphics on input line 303.
+Package epstopdf Info: Output file is already uptodate.
+
+<./pics/recomendacaofreqontologia-eps-converted-to.pdf, id=25, 734.745pt x 511.
+9125pt>
+File: ./pics/recomendacaofreqontologia-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use ./pics/recomendacaofreqontologia-eps-converted-to.pdf>
+Package pdftex.def Info: ./pics/recomendacaofreqontologia-eps-converted-to.pdf 
+used on input line 303.
+(pdftex.def)             Requested size: 220.42519pt x 153.57494pt.
+
+Underfull \hbox (badness 2689) in paragraph at lines 307--308
+\OT1/cmr/m/n/10 the dataset of workflows), the output and input
+ []
+
+Package epstopdf Info: Source file: <./pics/ontologia.eps>
+(epstopdf)                    date: 2017-06-16 17:12:45
+(epstopdf)                    size: 44614 bytes
+(epstopdf)             Output file: <./pics/ontologia-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-16 17:14:09
+(epstopdf)                    size: 10857 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pics/ontologia-eps-conve
+rted-to.pdf ./pics/ontologia.eps>
+(epstopdf)             \includegraphics on input line 313.
+Package epstopdf Info: Output file is already uptodate.
+<./pics/ontologia-eps-converted-to.pdf, id=26, 479.7925pt x 775.89874pt>
+File: ./pics/ontologia-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./pics/ontologia-eps-converted-to.pdf>
+Package pdftex.def Info: ./pics/ontologia-eps-converted-to.pdf used on input li
+ne 313.
+(pdftex.def)             Requested size: 143.93884pt x 232.77141pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/cmr/m/n/10 4| \OT1/cmr/m/it/10 author
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[4 <./pics/recomendacaofreqontologia-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+[]\OT1/cmr/m/n/10 To understand the recommendation training
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 336--337
+[]\OT1/cmr/m/n/10 The activities are annotated with the same
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 336--337
+\OT1/cmr/m/n/10 it is possible that there is at least one activity
+ []
+
+
+Overfull \hbox (10.54367pt too wide) in paragraph at lines 345--368
+[][]
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 5592) in paragraph at lines 372--373
+\OT1/cmr/m/n/10 The algorithm only randomly selected activities,
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 374--375
+\OT1/cmr/m/n/10 less than $6%$ of correct activities between the $50$
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[5 <./pics/ontologia-eps-converted-to.pdf>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 5667) in paragraph at lines 376--377
+[]\OT1/cmr/m/n/10 The \OT1/cmr/m/it/10 KNN \OT1/cmr/m/n/10 based approach has b
+een trained
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 376--377
+\OT1/cmr/m/n/10 1 to 100) which represents the number of nearest
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 1348) in paragraph at lines 421--422
+\OT1/cmr/m/n/10 results when compared with the Naive Bayes and
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 1796) in paragraph at lines 423--424
+[]\OT1/cmr/m/n/10 The approach which uses a neural network as
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 425--426
+\OT1/cmr/m/n/10 created by the various connected functions of the
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/cmr/m/n/10 6| \OT1/cmr/m/it/10 author
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[6]
+Underfull \hbox (badness 1270) in paragraph at lines 433--434
+[]\OT1/cmr/m/n/10 The composed SVM system, which recommends
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 433--434
+\OT1/cmr/m/n/10 approaches, achieved better results than the SVM.
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 1424) in paragraph at lines 437--438
+\OT1/cmr/m/n/10 the use of frequency, input, output, and semantic
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Underfull \hbox (badness 1173) in paragraph at lines 439--440
+[]\OT1/cmr/m/n/10 We were able to identify some trends in these
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 439--440
+\OT1/cmr/m/n/10 results were. Increasing information on data in
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 439--440
+\OT1/cmr/m/n/10 the recommendation improves their recommenders
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 448--449
+\OT1/cmr/m/n/10 the data set were verified, such as the fact that
+ []
+
+
+Overfull \hbox (46.6696pt too wide) in paragraph at lines 469--470
+[]\OT1/cmr/m/n/10 BeautifulSoup; http://www.crummy.com/software/BeautifulSoup/ 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[]\OT1/cmr/m/n/10 BioCatalogue: a universal catalogue of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+\OT1/cmr/m/n/10 web services for the life sciences;
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 489--491
+[]\OT1/cmr/m/n/10 Bomfim E, Oliveira J, de Souza JM, Strauch J.
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 489--491
+\OT1/cmr/m/n/10 2005 'Computer Supported Cooperative Work in
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 501--503
+[]\OT1/cmr/m/n/10 Cao B, Yin J, Deng S, Wang D, Wu Z. 2012
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 514.
+
+Underfull \hbox (badness 1281) in paragraph at lines 536--538
+[]\OT1/cmr/m/n/10 Garijo D, Corcho O, Gil Y. 2013 'Proceedings of
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+\OT1/cmr/m/n/10 Conference on Information and Knowledge
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 587--589
+[]\OT1/cmr/m/n/10 Leng Y, El-Gayyar M, Cremers AB. 2010 'Ninth
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 587--589
+\OT1/cmr/m/n/10 and Applications to Business, Engineering and
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
+\OT1/cmr/m/n/10 PARA COMPOSIO DE WORKFLOWS.;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
+\OT1/cmr/m/n/10 UNIVERSIDADE FEDERAL DO RIO DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
+[]\OT1/cmr/m/n/10 Introduction to GNU Wget;
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 671--673
+\OT1/cmr/m/n/10 Semantics in Pattern-Based Scientific Workflow
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 719--721
+[]\OT1/cmr/m/n/10 Wang Y, Cao J, Li M. 2009 'IEEE International
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 766--768
+\OT1/cmr/m/n/10 Workflow Recommendation Technique for Process
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 779--781
+[]\OT1/cmr/m/n/10 Zhang J, Tan W, Alexander J, Foster I, Madduri
+ []
+
+
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/cmr/m/n/10 8| \OT1/cmr/m/it/10 author
+ []
+
+
+Overfull \hbox (3.33333pt too wide) has occurred while \output is active
+|[][]
+ []
+
+[8] (./INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICATIONS.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3715 strings out of 494902
+ 49315 string characters out of 6179891
+ 131008 words of memory out of 5000000
+ 6896 multiletter control sequences out of 15000+600000
+ 16997 words of font info for 67 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 39i,16n,26p,1184b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on INTERNATIONAL_JOURNAL_OF_BIOINFORMATICS_RESEARCH_AND_APPLICAT
+IONS.pdf (8 pages, 273627 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
