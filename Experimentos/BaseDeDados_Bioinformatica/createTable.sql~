@@ -1,0 +1,88 @@
+﻿
+CREATE TABLE usuarios (
+        id serial PRIMARY KEY,
+        nome text,
+        email text,
+	pais text,
+	cidade text,
+	cod int	UNIQUE
+);
+
+CREATE TABLE amigos (
+        id serial PRIMARY KEY,
+        cod_usuario int,
+        cod_amigo int
+);
+
+
+CREATE TABLE grupos(
+        id serial PRIMARY KEY,
+        cod_grupo int UNIQUE
+);
+
+
+CREATE TABLE usuario_grupos(
+        id serial PRIMARY KEY,
+        cod_grupo int,
+        cod_usuario int
+);
+
+
+CREATE TABLE favoritos(
+        id serial PRIMARY KEY,
+        cod_workflow_favorito int,
+        cod_usuario int
+);
+
+
+CREATE TABLE usuarios_favoritos(
+        id serial PRIMARY KEY,
+        cod_workflow_favorito int,
+        cod_usuario int
+);
+
+CREATE TABLE sistema_gerenciador_workflows_cientificos(
+        id serial PRIMARY KEY,
+        nomeSGWC text,
+        mime_type text,
+        homepage text,
+        arquivo text
+);
+
+CREATE TABLE workflows(
+        id serial PRIMARY KEY,
+        nome text,
+        chave_SGWC int,
+        cod_workflow int,
+        rating float,
+        citacoes int,
+        visualizacoes int,
+        downloads int
+);
+
+CREATE TABLE tags(
+        id serial PRIMARY KEY,
+        cod_tag int,
+        nome_tag text
+);
+
+CREATE TABLE workflows_tags(
+        id serial PRIMARY KEY,
+        cod_tag int,
+        cod_workflow int
+);
+
+CREATE TABLE workflows_atividades(
+        id serial PRIMARY KEY,
+        cod_atividade int,
+        cod_workflow int
+);
+
+CREATE TABLE atividades(
+        id serial PRIMARY KEY,
+        cod_atividade int,
+        nome_atividade text
+);
+
+
+

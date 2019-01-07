@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  
+  <meta name="google-site-verification" content="3hq0Cfhw5_-EaaNMum0ETX847sTl7jeQ3ZNAla4a6UQ" />
+  
+  <title>myExperiment &#45; Sessions</title>
+  
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link href="/stylesheets/reset-fonts-grids.css?1347446800" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/base-min.css?1202402252" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/acts_as_taggable_stylesheet.css?1214908649" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/star_rating.css?1231340673" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/gadgets.css?1368023353" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/misc_skinning.css?1385562298" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/pagination.css?1384342751" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/styles.css?1396520465" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/prototype.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1344248678" type="text/javascript"></script>
+<script src="/javascripts/boxover.js?1202402251" type="text/javascript"></script>
+<script src="/javascripts/tabs.js?1368023353" type="text/javascript"></script>
+<script src="/javascripts/folds.js?1363079434" type="text/javascript"></script>
+<script src="/javascripts/widgets/tooltip.js?1204280800" type="text/javascript"></script>
+<script src="/javascripts/application.js?1368023353" type="text/javascript"></script>
+
+  
+  
+
+
+
+
+
+
+  </head>
+<body>
+
+
+
+<div id="doc2" class="yui-t4">
+
+  
+    <div id="hd">
+      <div id="myexp_header">
+        <div class="logo">
+          
+            <a href="/"><img alt="Logo" src="/images/logo.png?1244649969" /></a>
+          
+        </div>
+        <div id="site_info_links" class="links">
+          
+            <a href="http://wiki.myexperiment.org/">About</a> |
+<a href="/feedback">Give us Feedback</a> |
+<a href="http://wiki.myexperiment.org/index.php/Papers">Publications</a>
+          
+        </div>
+        <div id="user_links">
+            <span class="icon"><a href="http://www.myexperiment.org/session/new?return_to=%2Fsession%2Fnew%3Freturn_to%3D%252Fworkflows%252F202%252Freviews%252Fnew"><img alt="Login" src="/images/famfamfam_silk/door_in.png?1202402239" /> Log in</a></span> |
+  <span class="icon"><a href="http://www.myexperiment.org/users/new"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> Register</a></span>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+      <div id="myexp_tabs">
+        
+          <ul class="tabnav">
+  
+    <li >
+      <a href="/home">Home</a>    </li>
+  
+    <li >
+      <a href="/users">Users</a>    </li>
+  
+    <li >
+      <a href="/groups">Groups</a>    </li>
+  
+    <li >
+      <a href="/workflows">Workflows</a>    </li>
+  
+    <li >
+      <a href="/files">Files</a>    </li>
+  
+    <li >
+      <a href="/packs">Packs</a>    </li>
+  
+</ul>
+
+        
+      </div>
+      <div id="myexp_searchbar">
+        <script type="text/javascript">
+  function redirectToNew() {
+    var klass = $("new_object_type").value;
+  
+    if (klass == "Workflow")
+      location.href = "/workflows/new";
+  
+    if (klass == "File")
+      location.href = "/files/new";
+  
+    if (klass == "Pack")
+      location.href = "/packs/new";
+  
+    if (klass == "Group")
+      location.href = "/groups/new";
+  
+    if (klass == "Message")
+      location.href = "/messages/new";
+  
+    if (klass == "Runner")
+      location.href = "/runners/new";
+  
+    if (klass == "Experiment")
+      location.href = "/experiments/new";
+  
+    if (klass == "Job")
+      location.href = "/jobs/new";
+  
+  }
+</script>
+
+
+<div id="new_object">
+  <form onsubmit="redirectToNew(); return false;">
+    <select id="new_object_type">
+      
+        
+        <option value="Workflow" >New Workflow</option>
+      
+        
+        <option value="File" >New File</option>
+      
+        
+        <option value="Pack" >New Pack</option>
+      
+        
+        <option value="Group" >New Group</option>
+      
+        
+        
+        
+        
+    </select>
+    <input name="commit" type="submit" value="GO" />
+  </form>
+</div>
+
+        <div id="search">
+  <form action="/search" method="get">
+    <input id="query" name="query" style="padding: 0.1em;" type="text" />
+    <select id="type" name="type"><option value="all">All</option>
+<option value="users">Users</option>
+<option value="groups">Groups</option>
+<option value="workflows">Workflows</option>
+<option value="files">Files</option>
+<option value="packs">Packs</option></select>
+    <input name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Searching...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" type="submit" value="Search" />
+  </form>
+</div>
+
+      </div>
+    </div>
+  
+
+
+  
+    <div id="bd">
+      <div id="myexp_breadcrumbs_bar">
+        <table>
+	<tr>
+		<td>
+			<ul class="breadcrumb_list">
+				<li><a href="/home">Home</a></li>
+        <li>Log in</li>
+			</ul>
+		</td>
+		<td style="text-align: right; padding-left: 1em;">
+			
+		</td>
+	</tr>
+</table>
+
+
+      </div>
+      <div id="myexp_content">
+        
+
+
+        <h1>Log in</h1>
+
+	<br/>
+	<center>
+		<div class="new-session-sign-in">
+			
+
+<div class="myexperiment_gadget">
+    
+  <div class="header">
+    <p>Log in / Register</p>
+  </div>
+  
+  <div class="contents">
+    <form action="/session" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="Yhf58KXtkZw91D0JPXONHu1CF3tLM3FVFTQpzar+dhc=" /></div>
+      <input id="return_to" name="return_to" type="hidden" value="/workflows/202/reviews/new" />
+      <div class="box1">
+		  	<p class="label">
+	        Username or Email:
+		  	</p>
+			  <p>
+		    	<input class="field" id="session_username" name="session[username]" style="width: 140px;" type="text" />
+			  </p>
+	      <p class="label">
+					Password:
+				</p>
+		  	<p>
+	      	<input class="field" id="session_password" name="session[password]" style="width: 140px;" type="password" />
+		  	</p>
+		  	<p class="label">
+	      	Remember me: <input id="session_remember_me" name="session[remember_me]" type="checkbox" value="1" />
+	      </p>
+	  	</div>
+	  
+	  	<p><b>OR</b></p>
+            
+    	<div class="box1" style="margin-bottom: 0.4em;">
+		  	<p class="label">
+	         Use OpenID:
+		  	</p>
+		  	<p>
+	        <input class="field" id="openid_url" name="openid_url" size="17" style="width: 130px;" type="text" />
+					<br/>
+					<span style="font-size: 77%; color: #333333;">(eg: name.myopenid.com)</span>
+	      </p>
+  		</div>
+	    
+	    <p>
+	      <input name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Logging in...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" type="submit" value="Log in" />
+	    </p>
+	  
+    </form>
+    
+    <p style="margin-top: 0.6em; line-height: 1.3em; font-size: 93%;">
+      <b>Need an account?</b><br />
+      <b><a href="http://www.myexperiment.org/users/new">Click here to register</a></b>
+    </p>
+		
+		<p style="margin-top: 0.6em; font-size: 93%;">
+			<b><a href="/users/forgot_password">Forgot Password?</a></b>
+		</p>
+  </div>
+  
+</div>
+
+
+
+		</div>
+	</center>
+        <script language="javascript">
+          function focusUsername() {
+            document.getElementById('session[username]').focus();
+          }
+
+          if (window.addEventListener){
+            window.addEventListener('load', focusUsername, false); 
+          } else if (window.attachEvent){
+            window.attachEvent('onload', focusUsername);
+          }
+        </script>
+
+
+      </div>
+    </div>
+  
+
+
+  
+              <div id="ft">
+          <p class="copyright">
+	Copyright &#169; 2007 - 2012
+	<a href="http://www.manchester.ac.uk/" target="_blank">The University of Manchester</a>
+	and
+	<a href="http://www.soton.ac.uk/" target="_blank">University of Southampton</a>
+</p>
+
+<div>
+	<table>
+		<tr>
+			<td class="left">
+				<p><a href="/">Front Page</a></p>
+				<p><a href="/home">Home</a></p>
+				<p><a href="/users/invite">Invite people to myExperiment</a></p>
+        <p><a href="http://wiki.myexperiment.org/index.php/Help">Help pages</a></p>
+			</td>
+			<td class="middle">
+				<p><a href="http://wiki.myexperiment.org/" target="_blank">About Us</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Main_Page" target="_blank">News and Events</a></p>
+				<p><a href="http://lists.nongnu.org/mailman/listinfo/myexperiment-discuss" target="_blank">Mailing List</a></p>
+				<p><a href="/feedback" target="_blank">Contact Us</a></p>
+				<p><a href="/mashup/api">Developers</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Papers" target="_blank">Publications</a></p>
+				<br/>
+			</td>
+			<td class="middle">
+				<p><a href="http://www.taverna.org.uk/" target="_blank">Taverna Workflow Workbench</a></p>
+				<p><a href="http://www.mygrid.org.uk" target="_blank">myGrid</a></p>
+				<p><a href="http://www.biocatalogue.org" target="_blank">BioCatalogue</a></p>
+				<p><a href="http://www.microsoft.com/mscorp/tc/trident.mspx" target="_blank">Trident</a></p>
+				<p><a href="/google" target="_blank">Google Coop Search</a></p>
+			</td>
+			<td class="right">
+				<p><a href="http://www.epsrc.ac.uk/" target="_blank">EPSRC</a></p>
+				<p><a href="http://jisc.ac.uk/" target="_blank">JISC</a></p>
+				<p><a href="http://www.microsoft.com" target="_blank">Microsoft</a></p>
+        <p style="height=0; border-bottom: 1px dotted #999999"></p>
+				<p>Powered by:</p>
+				<a href="http://www.rubyonrails.com" target="_blank"><img alt="Rails" src="/images/rails.png?1323174488" /></a>
+				
+				<p style="margin-top: 0.2em;">
+					Icons:
+					<br/>
+					<b><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set 1.3</a></b>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+        </div>
+      <br class="clearer"/>
+      
+
+
+  
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1498417-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+
+</body>
+</html>
+

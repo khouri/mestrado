@@ -1,0 +1,19 @@
+
+#abre session como usuario root do postgres
+sudo su - postgres
+
+#Abre o terminal do postgres
+psql -d postgres -U postgres
+
+#Altera a senha do usuario postgres para habilitar o pgadmin
+alter user postgres with password 'martelo';
+
+#Nesse ponto se tudo der certo aparece a msg ALTER ROLE printada na tela
+
+#sai do psql
+\q
+
+#desloga do usuario postgres
+exit
+
+

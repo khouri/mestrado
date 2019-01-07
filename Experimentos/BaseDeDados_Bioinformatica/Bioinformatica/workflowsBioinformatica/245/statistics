@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  
+  <meta name="google-site-verification" content="3hq0Cfhw5_-EaaNMum0ETX847sTl7jeQ3ZNAla4a6UQ" />
+  
+  <title>myExperiment &#45; Workflows</title>
+  
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link href="/stylesheets/reset-fonts-grids.css?1347446800" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/base-min.css?1202402252" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/acts_as_taggable_stylesheet.css?1214908649" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/star_rating.css?1231340673" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/gadgets.css?1368023353" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/misc_skinning.css?1385562298" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/pagination.css?1384342751" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/styles.css?1396520465" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/prototype.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1344248678" type="text/javascript"></script>
+<script src="/javascripts/boxover.js?1202402251" type="text/javascript"></script>
+<script src="/javascripts/tabs.js?1368023353" type="text/javascript"></script>
+<script src="/javascripts/folds.js?1363079434" type="text/javascript"></script>
+<script src="/javascripts/widgets/tooltip.js?1204280800" type="text/javascript"></script>
+<script src="/javascripts/application.js?1368023353" type="text/javascript"></script>
+
+  
+  
+
+
+
+
+
+
+  </head>
+<body>
+
+
+
+<div id="doc2" class="yui-t4">
+
+  
+    <div id="hd">
+      <div id="myexp_header">
+        <div class="logo">
+          
+            <a href="/"><img alt="Logo" src="/images/logo.png?1244649969" /></a>
+          
+        </div>
+        <div id="site_info_links" class="links">
+          
+            <a href="http://wiki.myexperiment.org/">About</a> |
+<a href="/feedback">Give us Feedback</a> |
+<a href="http://wiki.myexperiment.org/index.php/Papers">Publications</a>
+          
+        </div>
+        <div id="user_links">
+            <span class="icon"><a href="http://www.myexperiment.org/session/new?return_to=%2Fworkflows%2F245%2Fstatistics"><img alt="Login" src="/images/famfamfam_silk/door_in.png?1202402239" /> Log in</a></span> |
+  <span class="icon"><a href="http://www.myexperiment.org/users/new"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> Register</a></span>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+      <div id="myexp_tabs">
+        
+          <ul class="tabnav">
+  
+    <li >
+      <a href="/home">Home</a>    </li>
+  
+    <li >
+      <a href="/users">Users</a>    </li>
+  
+    <li >
+      <a href="/groups">Groups</a>    </li>
+  
+    <li id="selected_tabnav">
+      <a href="/workflows">Workflows</a>    </li>
+  
+    <li >
+      <a href="/files">Files</a>    </li>
+  
+    <li >
+      <a href="/packs">Packs</a>    </li>
+  
+</ul>
+
+        
+      </div>
+      <div id="myexp_searchbar">
+        <script type="text/javascript">
+  function redirectToNew() {
+    var klass = $("new_object_type").value;
+  
+    if (klass == "Workflow")
+      location.href = "/workflows/new";
+  
+    if (klass == "File")
+      location.href = "/files/new";
+  
+    if (klass == "Pack")
+      location.href = "/packs/new";
+  
+    if (klass == "Group")
+      location.href = "/groups/new";
+  
+    if (klass == "Message")
+      location.href = "/messages/new";
+  
+    if (klass == "Runner")
+      location.href = "/runners/new";
+  
+    if (klass == "Experiment")
+      location.href = "/experiments/new";
+  
+    if (klass == "Job")
+      location.href = "/jobs/new";
+  
+  }
+</script>
+
+
+<div id="new_object">
+  <form onsubmit="redirectToNew(); return false;">
+    <select id="new_object_type">
+      
+        
+        <option value="Workflow" selected>New Workflow</option>
+      
+        
+        <option value="File" >New File</option>
+      
+        
+        <option value="Pack" >New Pack</option>
+      
+        
+        <option value="Group" >New Group</option>
+      
+        
+        
+        
+        
+    </select>
+    <input name="commit" type="submit" value="GO" />
+  </form>
+</div>
+
+        <div id="search">
+  <form action="/search" method="get">
+    <input id="query" name="query" style="padding: 0.1em;" type="text" />
+    <select id="type" name="type"><option value="all">All</option>
+<option value="users">Users</option>
+<option value="groups">Groups</option>
+<option value="workflows">Workflows</option>
+<option value="files">Files</option>
+<option value="packs">Packs</option></select>
+    <input name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Searching...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" type="submit" value="Search" />
+  </form>
+</div>
+
+      </div>
+    </div>
+  
+
+
+  
+    <div id="bd">
+      <div id="myexp_breadcrumbs_bar">
+        <table>
+	<tr>
+		<td>
+			<ul class="breadcrumb_list">
+				<li><a href="/home">Home</a></li>
+        
+
+
+  <li><a href="/workflows">Workflows</a></li>
+
+
+
+
+			</ul>
+		</td>
+		<td style="text-align: right; padding-left: 1em;">
+			
+		</td>
+	</tr>
+</table>
+
+
+      </div>
+      <div id="myexp_content">
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="sectionIcons">
+	<li><span class="icon"><a href="/workflows/245"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> Back to the Workflow</a></span></li>
+</ul>
+
+Workflow Statistics: <a href="#" onclick="Effect.toggle(&quot;contributable_box&quot;,'blind',{duration:0.3});; return false;">tRNAscan<img alt="Expand" src="/images/folds/unfold.png?1202402232" style="margin-left: 0.3em; vertical-align: middle;" /></a>
+</h1>
+
+<div id="contributable_box" style="display: none; margin: 1em 0 1em 0;">
+ 
+
+            
+    <div class="resource_list_item ">
+
+      <div class="avatar_panel">
+        <div class="workflow_type_box">
+          <a href="/content_types/1">Taverna 1</a>
+        </div>
+        <span class="owner">Original Uploader</span>
+        <div class="avatar" style="width: 66px">
+	<a href="http://www.myexperiment.org/users/925"><img alt="394?size=60x60" class="framed" src="/pictures/show/394?size=60x60" title="Hamish McWilliam" /></a>
+	<span style="display:block;margin-top:2px;text-align:center;">
+		
+			<img alt="Gb" src="/images/famfamfam_flags/gb.png?1202402235" style="vertical-align:middle; margin-right: 0.3em;" title="header=[] body=[&lt;b&gt;Location: &lt;/b&gt;Cambridge, United Kingdom] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		
+		
+		
+			<a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+		
+		
+		
+		
+	</span>
+</div>
+
+        
+      </div>
+
+      <div class="main_panel">
+
+        <div class="actions">
+          <span class="icon"><a href="/workflows/245"><img alt="Show" src="/images/famfamfam_silk/zoom.png?1202402239" /> View</a></span>
+                      <span class="icon"><a href="/workflows/245/download"><img alt="Download" src="/images/redmond_studio/arrow-down_16.png?1202402234" /> Download (v1)</a></span>
+            
+          
+          
+        </div>
+                  <a name="tRNAscan"></a>
+
+          <p class="title">
+            <span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>
+            
+            <a href="/workflows/245" title="tRNAscan">tRNAscan</a>
+            <span style="font-weight:normal;">
+              (1)
+            </span>
+          </p>
+
+          <p>
+            <b>Created:</b> 28/06/08 @ 09:57:33            
+          </p>
+
+          
+            <p>
+              <b>Credits:</b>
+              
+                
+                  <span class="icon"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> </span>
+                
+                <a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+              
+            </p>
+          
+
+          
+            <p>
+              <b>Attributions:</b>
+              
+                                  
+                    <span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>
+                  
+                  <a href="http://www.myexperiment.org/workflows/232">Sequence_or_ID_or_GI</a>
+                
+              
+            </p>
+          
+
+          
+            <p><b>License: </b><a href="/licenses/3">Creative Commons Attribution 3.0 Unported License</a></p>
+          
+
+          <div class="desc">
+                          <div class="preview">
+                <a href="/workflows/245"><img alt="Thumb" class="framed_nospace" src="/workflows/245/previews/thumb" /></a>
+              </div>
+                                                    Search a nucleotide sequence for tRNA genes using the tRNAscan-SE tool (see http://wiki.bioinformatics.org/TRNAscan-SE).
+
+This workflow uses the tRNAscan service at VBI PathPort (see http://pathport.vbi.vt.edu/services/#predict_7).
+                      </div>
+
+          <p>
+            <a href="/workflows/245#ratings"><b>Rating: </b>0.0 / 5 (0 ratings)</a> |
+            <a href="/workflows/245#versions"><b>Versions: </b>1</a> |
+            <a href="/workflows/245#reviews"><b>Reviews: </b>0</a> |
+            <a href="/workflows/245#comments"><b>Comments: </b>0</a> |
+            <a href="/workflows/245#citations"><b>Citations: </b>0</a>
+          </p>
+
+          <p>
+            <b>Viewed:</b> 199 times |
+            <b>Downloaded:</b> 81 times
+          </p>
+
+          
+            <a href="/workflows/245#tags"><p><b>Tags</b> (6):</p></a>
+            <div style="display:inline;" class="tags_onesize"><div class="hTagcloud">
+  <ul class="popularity">
+    <li><a href="http://www.myexperiment.org/tags/39" class="vvvv-popular">bioinformatics</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/780" class="popular">nucleotide sequence</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/861" class="popular">nucleotide sequence annotation</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/514" class="popular">tRNA</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/860" class="popular">trnascan</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/859" class="popular">trnascan-se</a></li>
+  </ul>
+</div>
+</div>
+          
+              </div>
+    </div>
+  
+
+</div>
+
+<center>
+	<div class="box_standout" style="width: 400px; text-align: center; margin-top: 2em;">
+		<table>
+			<tr>
+				<th>Viewings</th>
+				<th style="padding-left: 3em;">Downloads</th>
+			</tr>
+			<tr>
+				<td style="text-align: left; vertical-align: top;">
+					Total: <b>835</b>
+				</td>
+				<td style="text-align: left; vertical-align: top; padding-left: 3em;">
+					Total: <b>1106</b>
+				</td>
+	    </tr>
+			<tr>
+				<td style="text-align: left; vertical-align: top;">
+					From myExperiment: <b>199</b>
+					<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Viewings made by following links to this Workflow from the myExperiment website.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+					<ul style="margin-top: 0.3em; margin-bottom: 0em;">
+						<li>
+							Members: <b>18</b>
+						</li>
+						<li>
+							Anonymous: <b>181</b>
+						</li>
+					</ul>
+				</td>
+				<td style="text-align: left; vertical-align: top; padding-left: 3em;">
+					From myExperiment: <b>81</b>
+					<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Downloads made by following links to this Workflow from the myExperiment website.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+					<ul style="margin-top: 0.3em; margin-bottom: 0em;">
+						<li>
+							Members: <b>4</b>
+						</li>
+						<li>
+							Anonymous: <b>77</b>
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: left; vertical-align: top;">
+					External accesses: <b>636</b>
+					<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Viewings made by accessing this Workflow via direct links and API.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+				</td>
+				<td style="text-align: left; vertical-align: top; padding-left: 3em;">
+					External accesses: <b>1025</b>
+					<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Downloads made by accessing this Workflow via external applications (like Taverna), direct links and API.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+				</td>
+			</tr>
+		</table>
+	</div>
+</center>
+
+      </div>
+    </div>
+  
+
+
+  
+              <div id="ft">
+          <p class="copyright">
+	Copyright &#169; 2007 - 2012
+	<a href="http://www.manchester.ac.uk/" target="_blank">The University of Manchester</a>
+	and
+	<a href="http://www.soton.ac.uk/" target="_blank">University of Southampton</a>
+</p>
+
+<div>
+	<table>
+		<tr>
+			<td class="left">
+				<p><a href="/">Front Page</a></p>
+				<p><a href="/home">Home</a></p>
+				<p><a href="/users/invite">Invite people to myExperiment</a></p>
+        <p><a href="http://wiki.myexperiment.org/index.php/Help">Help pages</a></p>
+			</td>
+			<td class="middle">
+				<p><a href="http://wiki.myexperiment.org/" target="_blank">About Us</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Main_Page" target="_blank">News and Events</a></p>
+				<p><a href="http://lists.nongnu.org/mailman/listinfo/myexperiment-discuss" target="_blank">Mailing List</a></p>
+				<p><a href="/feedback" target="_blank">Contact Us</a></p>
+				<p><a href="/mashup/api">Developers</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Papers" target="_blank">Publications</a></p>
+				<br/>
+			</td>
+			<td class="middle">
+				<p><a href="http://www.taverna.org.uk/" target="_blank">Taverna Workflow Workbench</a></p>
+				<p><a href="http://www.mygrid.org.uk" target="_blank">myGrid</a></p>
+				<p><a href="http://www.biocatalogue.org" target="_blank">BioCatalogue</a></p>
+				<p><a href="http://www.microsoft.com/mscorp/tc/trident.mspx" target="_blank">Trident</a></p>
+				<p><a href="/google" target="_blank">Google Coop Search</a></p>
+			</td>
+			<td class="right">
+				<p><a href="http://www.epsrc.ac.uk/" target="_blank">EPSRC</a></p>
+				<p><a href="http://jisc.ac.uk/" target="_blank">JISC</a></p>
+				<p><a href="http://www.microsoft.com" target="_blank">Microsoft</a></p>
+        <p style="height=0; border-bottom: 1px dotted #999999"></p>
+				<p>Powered by:</p>
+				<a href="http://www.rubyonrails.com" target="_blank"><img alt="Rails" src="/images/rails.png?1323174488" /></a>
+				
+				<p style="margin-top: 0.2em;">
+					Icons:
+					<br/>
+					<b><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set 1.3</a></b>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+        </div>
+      <br class="clearer"/>
+      
+
+
+  
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1498417-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+
+</body>
+</html>
+

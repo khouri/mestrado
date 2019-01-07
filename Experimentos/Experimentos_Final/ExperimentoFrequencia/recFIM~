@@ -1,0 +1,901 @@
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 0-------------------------------------
+
+0rem: namespace
+0rem: sequencedatabase
+0rem: sequencedatabase
+0rem: bioinformaticsprograms
+0rem: sequencedatabase
+0rem: sequencedatabase
+0rem: bioinformaticsprograms
+0rem: removefirstcharacter
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+ant: proteinsequences
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  8
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 1-------------------------------------
+
+1rem: ddbjaccession
+1rem: searchparallel
+1rem: uniprotaccession
+1rem: searchparallel
+1rem: ddbjaccession
+1rem: hsapiensgeneensembl
+1rem: stringconstant
+1rem: runesummary
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+reco: searchsimple
+reco: searchparam
+reco: searchparallel
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+ant: getfastauniprotentry
+reco: searchsimple
+reco: searchparam
+reco: searchparallel
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: requestxml
+ant: requestxml
+ant: requestxml
+ant: requestxml
+ant: requestxml
+ant: requestxml
+ant: requestxml
+ant: requestxml
+S@5 = 0.25, S@10 = 0.25, MRR = 2.0, Número de acertos = 2, Total de tentativas =  8
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 2-------------------------------------
+
+2rem: pdbid
+2rem: getnucleotidefasta
+2rem: getresult
+2rem: parametersxml
+2rem: runwublast
+2rem: makedatabaselist
+2rem: runfasta
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: nucid
+ant: nucid
+ant: nucid
+ant: nucid
+ant: nucid
+ant: nucid
+ant: nucid
+
+ant: parametersxml
+ant: parametersxml
+ant: parametersxml
+ant: parametersxml
+ant: parametersxml
+ant: parametersxml
+ant: parametersxml
+reco: ncbiesearch
+reco: runefetchms
+
+ant: jobid
+ant: jobid
+ant: jobid
+ant: jobid
+ant: jobid
+ant: jobid
+ant: jobid
+reco: checkstatus
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runncbiblast
+reco: runwublast
+reco: runclustalw
+reco: runinterproscan
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: inputdatalist
+ant: inputdatalist
+ant: inputdatalist
+ant: inputdatalist
+ant: inputdatalist
+ant: inputdatalist
+ant: inputdatalist
+reco: runfasta
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 1.0, Número de acertos = 2, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 3-------------------------------------
+
+3rem: makefastaprogramlist
+3rem: runncbiblast
+3rem: makedatabaselist
+3rem: runclustalw
+3rem: runinterproscan
+3rem: runinterproscan
+3rem: runclustalw
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runclustalw
+reco: runinterproscan
+reco: runwublast
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runclustalw
+reco: runinterproscan
+reco: runwublast
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runclustalw
+reco: runinterproscan
+reco: runwublast
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runclustalw
+reco: runinterproscan
+reco: runwublast
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runclustalw
+reco: runinterproscan
+reco: runwublast
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 1.5, Número de acertos = 4, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 4-------------------------------------
+
+4rem: sequencealignment
+4rem: runblastpgp
+4rem: formatlistfordbfetch
+4rem: blastfilecomparer
+4rem: msa
+4rem: jobparams
+4rem: unpackxmlresult
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+reco: runclustalw
+reco: runphobius
+reco: runkalign
+reco: runmafft
+reco: runscanps
+reco: runmuscle
+reco: runtcoffee
+reco: runmaxsprout
+reco: runcensor
+
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+reco: formatlistfordbfetch
+
+ant: blastddbj
+ant: blastddbj
+ant: blastddbj
+ant: blastddbj
+ant: blastddbj
+ant: blastddbj
+ant: blastddbj
+reco: textblastout
+reco: blastsimplifier
+reco: blastreport
+
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+reco: msa
+reco: sss
+reco: ebiinterproscantmhmmsignalp
+reco: ebiphobius
+reco: parametersxml
+reco: fastajobparams
+reco: jobparams
+
+ant: blastprogram
+ant: blastprogram
+ant: blastprogram
+ant: blastprogram
+ant: blastprogram
+ant: blastprogram
+ant: blastprogram
+reco: buildqblastputurl
+reco: qblastput
+reco: jobparams
+
+ant: getxmlresult
+ant: getxmlresult
+ant: getxmlresult
+ant: getxmlresult
+ant: getxmlresult
+ant: getxmlresult
+ant: getxmlresult
+reco: decodexmlresult
+reco: unpackxmlresult
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.75, Número de acertos = 4, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 5-------------------------------------
+
+5rem: sss
+5rem: sequenceorid
+5rem: ebiphobius
+5rem: moleculetype
+5rem: gettextresult
+5rem: getalignment
+5rem: gioption
+
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+reco: fastajobparams
+reco: msa
+reco: phylogenetictree
+reco: sss
+reco: parametersxml
+reco: jobparams
+
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+reco: sss
+reco: nucleotideorftranslation
+reco: ebiwublast
+reco: qblastput
+reco: sequenceorid
+reco: getorf
+reco: sequence
+reco: issequence
+reco: fetchdata
+reco: seqret
+reco: inputdata
+
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+ant: email
+reco: fastajobparams
+reco: msa
+reco: phylogenetictree
+reco: sss
+reco: parametersxml
+reco: jobparams
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: runwublast
+ant: runwublast
+ant: runwublast
+ant: runwublast
+ant: runwublast
+ant: runwublast
+ant: runwublast
+reco: gethitidlist
+reco: gettextresult
+reco: getxmlresult
+reco: polljob
+reco: jobid
+
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+S@5 = 0.42857142857142855, S@10 = 0.42857142857142855, MRR = 2.6666666666666665, Número de acertos = 3, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 6-------------------------------------
+
+6rem: searchdatabase
+6rem: getalignment
+6rem: getalignment
+6rem: unpackresult
+6rem: structureorid
+6rem: fetchdata
+6rem: addangle
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+reco: ebikalignpolljob
+reco: getalignment
+reco: kalignjobid
+
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+ant: runkalign
+reco: ebikalignpolljob
+reco: getalignment
+reco: kalignjobid
+
+ant: getresult
+ant: getresult
+ant: getresult
+ant: getresult
+ant: getresult
+ant: getresult
+ant: getresult
+reco: parametersxml
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+ant: sequenceorid
+reco: ebiinterproscantmhmmsignalp
+reco: ebiphobius
+reco: tmapsingleseq
+reco: getorf
+reco: nucleotideorftranslation
+reco: ebiwublast
+reco: qblastput
+reco: sss
+reco: tmap
+reco: sequence
+reco: sequenceorid
+reco: issequence
+reco: fetchdata
+reco: seqret
+reco: inputdata
+
+ant: splitintosequences
+ant: splitintosequences
+ant: splitintosequences
+ant: splitintosequences
+ant: splitintosequences
+ant: splitintosequences
+ant: splitintosequences
+reco: addangle
+S@5 = 0.42857142857142855, S@10 = 0.42857142857142855, MRR = 3.5, Número de acertos = 4, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 7-------------------------------------
+
+7rem: ebincbiblast
+7rem: queryseq
+7rem: ebiwublast
+7rem: buildqblastputurl
+7rem: extractaccver
+7rem: structure
+7rem: ebipicrsequencetoid
+
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+reco: ebiwublast
+reco: ebifasta
+reco: ebincbiblast
+reco: ebiinterproscan
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+ant: askforemail
+reco: ebiwublast
+reco: ebifasta
+reco: ebincbiblast
+reco: ebiinterproscan
+
+ant: blastdatabase
+ant: blastdatabase
+ant: blastdatabase
+ant: blastdatabase
+ant: blastdatabase
+ant: blastdatabase
+ant: blastdatabase
+
+ant: xpathfromtext
+ant: xpathfromtext
+ant: xpathfromtext
+ant: xpathfromtext
+ant: xpathfromtext
+ant: xpathfromtext
+ant: xpathfromtext
+reco: extractaccver
+reco: extractdes
+reco: extractseq
+reco: sequencexml
+
+ant: usestructure
+ant: usestructure
+ant: usestructure
+ant: usestructure
+ant: usestructure
+ant: usestructure
+ant: usestructure
+reco: structure
+
+ant: sequence
+ant: sequence
+ant: sequence
+ant: sequence
+ant: sequence
+ant: sequence
+ant: sequence
+reco: picrinputparams
+reco: parametersxml
+reco: wsarrayofdataxml
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.5, Número de acertos = 4, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 8-------------------------------------
+
+8rem: getupiforsequence
+8rem: formatlistfordbfetch
+8rem: getentryfromsrs
+8rem: runcensor
+8rem: getfastafromgi
+8rem: unwrapresult
+8rem: database
+
+ant: picrinputparams
+ant: picrinputparams
+ant: picrinputparams
+ant: picrinputparams
+ant: picrinputparams
+ant: picrinputparams
+ant: picrinputparams
+reco: getupiforsequence
+
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+ant: idlist
+reco: formatlistfordbfetch
+
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+ant: buildinterpromatchesuniparcurl
+reco: getentryfromsrs
+
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+ant: contentslist
+reco: runblastpgp
+reco: runkalign
+reco: runmafft
+reco: runscanps
+reco: runmuscle
+reco: runtcoffee
+reco: runmaxsprout
+reco: runphobius
+reco: runclustalw
+
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+ant: sequenceoridorgi
+reco: getfastafromgi
+reco: isgi
+reco: sequenceorid
+
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+ant: findbinaryinteractions
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.0, Número de acertos = 4, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 9-------------------------------------
+
+9rem: getproteinfasta
+9rem: ndproteinstructure
+9rem: paramsxml
+9rem: runinterproscan
+9rem: genscansplitter
+9rem: inputlisttextin
+9rem: removeduplicatestrings
+
+ant: proteinid
+ant: proteinid
+ant: proteinid
+ant: proteinid
+ant: proteinid
+ant: proteinid
+ant: proteinid
+reco: getproteingbseqxml
+reco: getproteinfasta
+reco: getproteininsdseqxml
+reco: getproteintinyseqxml
+
+ant: ndproteinid
+ant: ndproteinid
+ant: ndproteinid
+ant: ndproteinid
+ant: ndproteinid
+ant: ndproteinid
+ant: ndproteinid
+
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+ant: NULLLLA
+
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+ant: contentlist
+reco: runmpsrch
+reco: runncbiblast
+reco: runwublast
+reco: runclustalw
+reco: runinterproscan
+
+ant: genscan
+ant: genscan
+ant: genscan
+ant: genscan
+ant: genscan
+ant: genscan
+ant: genscan
+
+ant: id
+ant: id
+ant: id
+ant: id
+ant: id
+ant: id
+ant: id
+reco: object
+
+ant: flattenlist
+ant: flattenlist
+ant: flattenlist
+ant: flattenlist
+ant: flattenlist
+ant: flattenlist
+ant: flattenlist
+reco: flattenlist
+reco: mergestringlisttostring
+reco: buildfastaseq
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 2.5, Número de acertos = 2, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+End!
+

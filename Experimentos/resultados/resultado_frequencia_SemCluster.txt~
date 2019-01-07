@@ -1,0 +1,13 @@
+semente = 100
+
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  8
+S@5 = 0.25, S@10 = 0.25, MRR = 2.0, Número de acertos = 2, Total de tentativas =  8
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 1.0, Número de acertos = 2, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 1.5, Número de acertos = 4, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.75, Número de acertos = 4, Total de tentativas =  7
+S@5 = 0.42857142857142855, S@10 = 0.42857142857142855, MRR = 2.6666666666666665, Número de acertos = 3, Total de tentativas =  7
+S@5 = 0.42857142857142855, S@10 = 0.42857142857142855, MRR = 3.5, Número de acertos = 4, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.5, Número de acertos = 4, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 0.0, Número de acertos = 4, Total de tentativas =  7
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 2.5, Número de acertos = 2, Total de tentativas =  7
+

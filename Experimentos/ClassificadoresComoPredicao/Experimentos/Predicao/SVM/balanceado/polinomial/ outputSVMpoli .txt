@@ -1,0 +1,6 @@
+         valoresDeTestes
+matrizTmp  F  T
+        0 66  0
+        1  4 70
+[1] "c:  10 coef  10 degree 10"
+[1] "---

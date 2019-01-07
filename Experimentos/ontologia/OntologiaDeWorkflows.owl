@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/toasty/ontologies/2015/1/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/toasty/ontologies/2015/1/untitled-ontology-7">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Alinhamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anotação_de_Genes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BLAST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classificação_em_famílias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clustal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comparação_de_Sequências"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dali_Lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interação_binária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kalign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MPsrch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mafft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mapeamento_de_sequencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pair_Wise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pesquisa_de_sequências_compostas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prediçao_de_estruturas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smith_Waterman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snap_Dragons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tcofee"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alinhamento"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anotação_de_Genes"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BLAST"/>
+        <Class IRI="#Pair_Wise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classificação_em_famílias"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clustal"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comparação_de_Sequências"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dali_Lite"/>
+        <Class IRI="#Pair_Wise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAST"/>
+        <Class IRI="#Pair_Wise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interação_binária"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kalign"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MPsrch"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mafft"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mapeamento_de_sequencias"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+        <Class IRI="#Alinhamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscle"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pair_Wise"/>
+        <Class IRI="#Alinhamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pesquisa_de_sequências_compostas"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prediçao_de_estruturas"/>
+        <Class IRI="#Experimentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smith_Waterman"/>
+        <Class IRI="#Pair_Wise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snap_Dragons"/>
+        <Class IRI="#Prediçao_de_estruturas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tcofee"/>
+        <Class IRI="#Multiple_sequence_alignmente"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

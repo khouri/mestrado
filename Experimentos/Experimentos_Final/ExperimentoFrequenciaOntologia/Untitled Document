@@ -1,0 +1,2335 @@
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 0-------------------------------------
+
+removidas
+namespace
+sequencedatabase
+sequencedatabase
+bioinformaticsprograms
+sequencedatabase
+sequencedatabase
+removefirstcharacter
+
+0 - Chave:  searchsimple Próximas: vectororiginpredictionreport (1); 
+1 - Chave:  getfastaddbjentry Próximas: searchsimple (1); 
+2 - Chave:  ddbjaccession Próximas: getfastaddbjentry (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (2); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (2); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchparallel (2); searchsimple (1); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (6); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  database Próximas: blastddbj (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchparam (1); searchparallel (2); 
+49 - Chave:  searchparallel Próximas: blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  bioinformaticsparameter Próximas: searchparam (1); searchparallel (2); 
+52 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+56 - Chave:  queryseq Próximas: blastddbj (1); 
+57 - Chave:  getfastaddbjentry Próximas: searchparam (1); searchparallel (1); 
+58 - Chave:  program Próximas: parametersxml (1); blastddbj (1); 
+59 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+62 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+63 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+64 - Chave:  run Próximas: parametersxml (1); 
+65 - Chave:  unpacktextresult Próximas: textresult (3); 
+66 - Chave:  getfastauniprotentry Próximas: searchparallel (1); searchsimple (1); 
+67 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+68 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+69 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+70 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (2); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (2); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchparallel (2); searchsimple (1); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (6); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  database Próximas: blastddbj (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchparam (1); searchparallel (2); 
+49 - Chave:  searchparallel Próximas: blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  bioinformaticsparameter Próximas: searchparam (1); searchparallel (2); 
+52 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+56 - Chave:  queryseq Próximas: blastddbj (1); 
+57 - Chave:  getfastaddbjentry Próximas: searchparam (1); searchparallel (1); 
+58 - Chave:  program Próximas: parametersxml (1); blastddbj (1); 
+59 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+62 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+63 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+64 - Chave:  run Próximas: parametersxml (1); 
+65 - Chave:  unpacktextresult Próximas: textresult (3); 
+66 - Chave:  getfastauniprotentry Próximas: searchparallel (1); searchsimple (1); 
+67 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+68 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+69 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+70 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (2); 
+2 - Chave:  sequenceorid Próximas: inputdata (2); issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  askforsequence Próximas: ebiinterproscan (1); 
+5 - Chave:  jobparams Próximas: runinterproscan (2); 
+6 - Chave:  ebiinterproscan Próximas: interproscantextresult (1); interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+7 - Chave:  emailaddress Próximas: jobparams (2); ebiinterproscan (1); ebincbiblast (1); 
+8 - Chave:  inputdata Próximas: contentlist (2); 
+9 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+10 - Chave:  fetchdata Próximas: sequence (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  splitintosequences Próximas: addangle (1); 
+13 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+14 - Chave:  isrunning Próximas: failiftrue (1); 
+15 - Chave:  checkstatusworkflow Próximas: status (2); 
+16 - Chave:  unpackxmlresult Próximas: interproscanxmlresult (2); 
+17 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (2); 
+18 - Chave:  askforemail Próximas: ebiinterproscan (1); 
+19 - Chave:  translationtable Próximas: getorf (1); 
+20 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+21 - Chave:  run Próximas: parametersxml (1); 
+22 - Chave:  getresult Próximas: parametersxml (2); 
+23 - Chave:  email Próximas: parametersxml (1); 
+24 - Chave:  checkstatus Próximas: isdone (4); jobstatus (2); status (2); 
+25 - Chave:  job Próximas: checkstatus (2); 
+26 - Chave:  gettextresult Próximas: unpacktextresult (2); 
+27 - Chave:  runinterproscan Próximas: ebiinterproscanpolljob (2); getxmlresult (2); gettextresult (2); jobid (4); checkstatusworkflow (2); poll (2); 
+28 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+29 - Chave:  unpacktextresult Próximas: interproscantextresult (2); 
+30 - Chave:  getstatus Próximas: parametersxml (1); 
+31 - Chave:  jobstatus Próximas: jobstatus (1); 
+32 - Chave:  seqret Próximas: sequence (1); 
+33 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+34 - Chave:  poll Próximas: bytetostring (2); 
+35 - Chave:  contentxml Próximas: runinterproscan (2); 
+36 - Chave:  addangle Próximas: fastalist (1); 
+37 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+38 - Chave:  jobid Próximas: parametersxml (1); checkstatus (2); 
+39 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+40 - Chave:  contentlist Próximas: runinterproscan (2); 
+41 - Chave:  isdone Próximas: success (2); failiffalse (2); 
+42 - Chave:  getxmlresult Próximas: unpackxmlresult (2); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (2); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (2); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchparallel (2); searchsimple (1); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (6); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  database Próximas: blastddbj (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchparam (1); searchparallel (2); 
+49 - Chave:  searchparallel Próximas: blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  bioinformaticsparameter Próximas: searchparam (1); searchparallel (2); 
+52 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+56 - Chave:  queryseq Próximas: blastddbj (1); 
+57 - Chave:  getfastaddbjentry Próximas: searchparam (1); searchparallel (1); 
+58 - Chave:  program Próximas: parametersxml (1); blastddbj (1); 
+59 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+62 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+63 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+64 - Chave:  run Próximas: parametersxml (1); 
+65 - Chave:  unpacktextresult Próximas: textresult (3); 
+66 - Chave:  getfastauniprotentry Próximas: searchparallel (1); searchsimple (1); 
+67 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+68 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+69 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+70 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (2); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (2); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchparallel (2); searchsimple (1); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (6); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  database Próximas: blastddbj (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchparam (1); searchparallel (2); 
+49 - Chave:  searchparallel Próximas: blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  bioinformaticsparameter Próximas: searchparam (1); searchparallel (2); 
+52 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+56 - Chave:  queryseq Próximas: blastddbj (1); 
+57 - Chave:  getfastaddbjentry Próximas: searchparam (1); searchparallel (1); 
+58 - Chave:  program Próximas: parametersxml (1); blastddbj (1); 
+59 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+62 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+63 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+64 - Chave:  run Próximas: parametersxml (1); 
+65 - Chave:  unpacktextresult Próximas: textresult (3); 
+66 - Chave:  getfastauniprotentry Próximas: searchparallel (1); searchsimple (1); 
+67 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+68 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+69 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+70 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (2); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (2); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchparallel (2); searchsimple (1); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (6); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  database Próximas: blastddbj (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchparam (1); searchparallel (2); 
+49 - Chave:  searchparallel Próximas: blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  bioinformaticsparameter Próximas: searchparam (1); searchparallel (2); 
+52 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+56 - Chave:  queryseq Próximas: blastddbj (1); 
+57 - Chave:  getfastaddbjentry Próximas: searchparam (1); searchparallel (1); 
+58 - Chave:  program Próximas: parametersxml (1); blastddbj (1); 
+59 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+62 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+63 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+64 - Chave:  run Próximas: parametersxml (1); 
+65 - Chave:  unpacktextresult Próximas: textresult (3); 
+66 - Chave:  getfastauniprotentry Próximas: searchparallel (1); searchsimple (1); 
+67 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+68 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+69 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+70 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 1-------------------------------------
+
+removidas
+bioinformaticsprograms
+ddbjaccession
+searchparallel
+uniprotaccession
+searchparallel
+hsapiensgeneensembl
+removeduplicatestrings
+
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (3); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (1); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchsimple (2); searchparallel (2); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+31 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+32 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+33 - Chave:  poll Próximas: bytetostring (2); 
+34 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+35 - Chave:  ebiwublast Próximas: blastreport (1); 
+36 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+37 - Chave:  sequencetype Próximas: parametersxml (1); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  isdone Próximas: success (6); 
+40 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+41 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+42 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+43 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+44 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+45 - Chave:  bytetostring Próximas: result (3); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (2); 
+51 - Chave:  searchparallel Próximas: extractposition (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (2); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (3); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (1); searchparallel (2); 
+69 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+72 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+77 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  parsemobydatasimpleannotatedjpegimage Próximas: annotations (1); 
+1 - Chave:  getdragonsimpleannotatedimages Próximas: parsemobydatasimpleannotatedjpegimage (1); getjpegfromannotatedimage (1); 
+2 - Chave:  parsemobydatajpegimage Próximas: decodebase64tobyte (1); 
+3 - Chave:  object Próximas: getdragonsimpleannotatedimages (1); 
+4 - Chave:  namespace Próximas: object (1); 
+5 - Chave:  decodebase64tobyte Próximas: images (1); 
+6 - Chave:  id Próximas: object (1); 
+7 - Chave:  getjpegfromannotatedimage Próximas: parsemobydatajpegimage (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (3); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (1); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchsimple (2); searchparallel (2); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+31 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+32 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+33 - Chave:  poll Próximas: bytetostring (2); 
+34 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+35 - Chave:  ebiwublast Próximas: blastreport (1); 
+36 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+37 - Chave:  sequencetype Próximas: parametersxml (1); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  isdone Próximas: success (6); 
+40 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+41 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+42 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+43 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+44 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+45 - Chave:  bytetostring Próximas: result (3); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (2); 
+51 - Chave:  searchparallel Próximas: extractposition (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (2); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (3); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (1); searchparallel (2); 
+69 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+72 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+77 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+searchsimple
+searchparallel
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (3); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (1); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchsimple (2); searchparallel (2); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+31 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+32 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+33 - Chave:  poll Próximas: bytetostring (2); 
+34 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+35 - Chave:  ebiwublast Próximas: blastreport (1); 
+36 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+37 - Chave:  sequencetype Próximas: parametersxml (1); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  isdone Próximas: success (6); 
+40 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+41 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+42 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+43 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+44 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+45 - Chave:  bytetostring Próximas: result (3); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (2); 
+51 - Chave:  searchparallel Próximas: extractposition (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (2); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (3); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (1); searchparallel (2); 
+69 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+72 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+77 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (3); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (1); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchsimple (2); searchparallel (2); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+31 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+32 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+33 - Chave:  poll Próximas: bytetostring (2); 
+34 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+35 - Chave:  ebiwublast Próximas: blastreport (1); 
+36 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+37 - Chave:  sequencetype Próximas: parametersxml (1); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  isdone Próximas: success (6); 
+40 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+41 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+42 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+43 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+44 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+45 - Chave:  bytetostring Próximas: result (3); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (2); 
+51 - Chave:  searchparallel Próximas: extractposition (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (2); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (3); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (1); searchparallel (2); 
+69 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+72 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+77 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+searchsimple
+searchparallel
+0 - Chave:  speciesfilter Próximas: blastfilecomparer (1); 
+1 - Chave:  program Próximas: blastddbj (1); 
+2 - Chave:  chromosomefilter Próximas: blastfilecomparer (1); 
+3 - Chave:  blastfilecomparer Próximas: comparedoutput (1); 
+4 - Chave:  blastddbj Próximas: blastfilecomparer (1); blastoutput (1); 
+5 - Chave:  query Próximas: blastddbj (1); 
+6 - Chave:  database Próximas: blastddbj (1); 
+recomendadas
+0 - Chave:  splitstringintostringlistbyregularexpression Próximas: markpathwaybyobjects (1); 
+1 - Chave:  convertlistofkeggidsinto1elementlistoflists Próximas: flattenlist (1); getpathwaysbycompounds (1); 
+2 - Chave:  bget Próximas: keggbget (1); 
+3 - Chave:  bgetin Próximas: convertlistofkeggidsinto1elementlistoflists (1); bget (1); 
+4 - Chave:  flattenlist Próximas: markpathwaybyobjects (1); removeduplicatestrings (1); 
+5 - Chave:  removeduplicatestrings Próximas: splitstringintostringlistbyregularexpression (1); 
+6 - Chave:  markpathwaybyobjects Próximas: getimagefromurl (1); 
+7 - Chave:  getimagefromurl Próximas: keggpathways (1); 
+8 - Chave:  getpathwaysbycompounds Próximas: flattenlist (1); 
+recomendadas
+markpathwaybyobjects
+removeduplicatestrings
+S@5 = 0.42857142857142855, S@10 = 0.42857142857142855, MRR = 1.0, Número de acertos = 3, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 2-------------------------------------
+
+removidas
+stringconstant
+getresult
+parametersxml
+runwublast
+makedatabaselist
+runfasta
+genscansplitter
+
+0 - Chave:  isgi Próximas: failifgi (1); failifsequenceorid (1); 
+1 - Chave:  fetchbatch Próximas: sequences (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequence (1); 
+3 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+4 - Chave:  xpathfromtext Próximas: extractaccver (1); extractdes (1); extractseq (1); sequencexml (1); 
+5 - Chave:  checkforsrserror Próximas: interpromatches (1); 
+6 - Chave:  isstructure Próximas: failifidentifer (1); failifstructure (1); 
+7 - Chave:  seqret Próximas: sequence (1); 
+8 - Chave:  getfastafromgi Próximas: sequence (1); 
+9 - Chave:  runefetchms Próximas: xpathfromtext (1); 
+10 - Chave:  extractaccver Próximas: flattenlist (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  buildinterpromatchesuniparcurl Próximas: getentryfromsrs (1); 
+13 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+14 - Chave:  addangle Próximas: fastalist (1); 
+15 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+16 - Chave:  structureorid Próximas: isstructure (1); fetchdata (1); usestructure (1); 
+17 - Chave:  extractdes Próximas: flattenlist (1); 
+18 - Chave:  database Próximas: fetchbatch (1); 
+19 - Chave:  getentryfromsrs Próximas: checkforsrserror (1); 
+20 - Chave:  mergestringlisttostring Próximas: sequencefasta (1); 
+21 - Chave:  sequenceoridorgi Próximas: getfastafromgi (1); isgi (1); sequenceorid (1); 
+22 - Chave:  splitintosequences Próximas: addangle (1); 
+23 - Chave:  fetchdata Próximas: structure (1); sequence (1); 
+24 - Chave:  buildfastaseq Próximas: flattenlist (1); 
+25 - Chave:  gi Próximas: parametersxml (1); 
+26 - Chave:  uniparcid Próximas: buildinterpromatchesuniparcurl (1); 
+27 - Chave:  extractseq Próximas: flattenlist (1); 
+28 - Chave:  usestructure Próximas: structure (1); 
+29 - Chave:  parametersxml Próximas: runefetchms (1); 
+30 - Chave:  flattenlist Próximas: buildfastaseq (3); flattenlist (1); mergestringlisttostring (1); 
+recomendadas
+0 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+1 - Chave:  program Próximas: searchsimple (1); blastddbj (1); 
+2 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+3 - Chave:  sequenceorid Próximas: inputdata (3); qblastput (1); 
+4 - Chave:  contentslist Próximas: runblastpgp (1); 
+5 - Chave:  askforsequence Próximas: ebincbiblast (1); 
+6 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+7 - Chave:  jobparams Próximas: runncbiblast (2); runblastpgp (1); 
+8 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+9 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+10 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+11 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+12 - Chave:  blastprogram Próximas: jobparams (2); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  emailaddress Próximas: jobparams (3); 
+14 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+15 - Chave:  inputdata Próximas: contentlist (2); contentslist (1); 
+16 - Chave:  getproteinfasta Próximas: sequence (1); 
+17 - Chave:  queryseq Próximas: blastddbj (1); 
+18 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+19 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+22 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+23 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+24 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+25 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+26 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+27 - Chave:  bytetostring Próximas: result (2); 
+28 - Chave:  searchdatabase Próximas: jobparams (3); qblastput (1); 
+29 - Chave:  askforemail Próximas: ebincbiblast (1); 
+30 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+31 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+32 - Chave:  paramsxml Próximas: runncbiblast (2); 
+33 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+34 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+35 - Chave:  selectprogram Próximas: ebincbiblast (1); 
+36 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+37 - Chave:  job Próximas: checkstatus (2); 
+38 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); status (2); 
+39 - Chave:  gettextresult Próximas: unpacktextresult (3); 
+40 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+41 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+42 - Chave:  searchparam Próximas: blastreportddbj (1); 
+43 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+44 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+45 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+46 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+47 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+48 - Chave:  unpacktextresult Próximas: textresult (3); 
+49 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+50 - Chave:  makeprogramlist Próximas: selectprogram (1); 
+51 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+52 - Chave:  poll Próximas: bytetostring (2); 
+53 - Chave:  selectdatabase Próximas: ebincbiblast (1); 
+54 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+55 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+56 - Chave:  contentxml Próximas: runncbiblast (2); 
+57 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+58 - Chave:  jobid Próximas: checkstatus (3); 
+59 - Chave:  sequence Próximas: wsarrayofdataxml (2); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  contentlist Próximas: runncbiblast (2); 
+62 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+63 - Chave:  isdone Próximas: success (4); 
+64 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+65 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+66 - Chave:  getxmlresult Próximas: unpackxmlresult (3); 
+recomendadas
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (2); 
+2 - Chave:  sequenceorid Próximas: inputdata (2); issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  askforsequence Próximas: ebiinterproscan (1); 
+5 - Chave:  jobparams Próximas: runinterproscan (2); 
+6 - Chave:  ebiinterproscan Próximas: interproscantextresult (1); interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+7 - Chave:  emailaddress Próximas: jobparams (2); ebiinterproscan (1); ebincbiblast (1); 
+8 - Chave:  inputdata Próximas: contentlist (2); 
+9 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+10 - Chave:  fetchdata Próximas: sequence (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  splitintosequences Próximas: addangle (1); 
+13 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+14 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+15 - Chave:  checkstatusworkflow Próximas: status (2); 
+16 - Chave:  unpackxmlresult Próximas: interproscanxmlresult (2); 
+17 - Chave:  bytetostring Próximas: txtresult (2); 
+18 - Chave:  askforemail Próximas: ebiinterproscan (1); 
+19 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+20 - Chave:  translationtable Próximas: getorf (1); 
+21 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+22 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+23 - Chave:  checkstatus Próximas: isdone (4); jobstatus (2); status (2); 
+24 - Chave:  job Próximas: checkstatus (2); 
+25 - Chave:  gettextresult Próximas: unpacktextresult (2); 
+26 - Chave:  runinterproscan Próximas: ebiinterproscanpolljob (2); getxmlresult (2); gettextresult (2); jobid (4); checkstatusworkflow (2); poll (2); 
+27 - Chave:  searchparam Próximas: blastreportddbj (1); 
+28 - Chave:  sequencedatabase Próximas: searchparam (1); 
+29 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+30 - Chave:  unpacktextresult Próximas: interproscantextresult (2); 
+31 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+32 - Chave:  seqret Próximas: sequence (1); 
+33 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+34 - Chave:  poll Próximas: bytetostring (2); 
+35 - Chave:  contentxml Próximas: runinterproscan (2); 
+36 - Chave:  addangle Próximas: fastalist (1); 
+37 - Chave:  jobid Próximas: checkstatus (2); 
+38 - Chave:  sequence Próximas: wsarrayofdataxml (2); 
+39 - Chave:  contentlist Próximas: runinterproscan (2); 
+40 - Chave:  isdone Próximas: success (2); failiffalse (2); 
+41 - Chave:  getxmlresult Próximas: unpackxmlresult (2); 
+recomendadas
+0 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+1 - Chave:  program Próximas: searchsimple (1); blastddbj (1); 
+2 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+3 - Chave:  sequenceorid Próximas: inputdata (3); qblastput (1); 
+4 - Chave:  contentslist Próximas: runblastpgp (1); 
+5 - Chave:  askforsequence Próximas: ebincbiblast (1); 
+6 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+7 - Chave:  jobparams Próximas: runncbiblast (2); runblastpgp (1); 
+8 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+9 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+10 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+11 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+12 - Chave:  blastprogram Próximas: jobparams (2); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  emailaddress Próximas: jobparams (3); 
+14 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+15 - Chave:  inputdata Próximas: contentlist (2); contentslist (1); 
+16 - Chave:  getproteinfasta Próximas: sequence (1); 
+17 - Chave:  queryseq Próximas: blastddbj (1); 
+18 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+19 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+22 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+23 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+24 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+25 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+26 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+27 - Chave:  bytetostring Próximas: result (2); 
+28 - Chave:  searchdatabase Próximas: jobparams (3); qblastput (1); 
+29 - Chave:  askforemail Próximas: ebincbiblast (1); 
+30 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+31 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+32 - Chave:  paramsxml Próximas: runncbiblast (2); 
+33 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+34 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+35 - Chave:  selectprogram Próximas: ebincbiblast (1); 
+36 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+37 - Chave:  job Próximas: checkstatus (2); 
+38 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); status (2); 
+39 - Chave:  gettextresult Próximas: unpacktextresult (3); 
+40 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+41 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+42 - Chave:  searchparam Próximas: blastreportddbj (1); 
+43 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+44 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+45 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+46 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+47 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+48 - Chave:  unpacktextresult Próximas: textresult (3); 
+49 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+50 - Chave:  makeprogramlist Próximas: selectprogram (1); 
+51 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+52 - Chave:  poll Próximas: bytetostring (2); 
+53 - Chave:  selectdatabase Próximas: ebincbiblast (1); 
+54 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+55 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+56 - Chave:  contentxml Próximas: runncbiblast (2); 
+57 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+58 - Chave:  jobid Próximas: checkstatus (3); 
+59 - Chave:  sequence Próximas: wsarrayofdataxml (2); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  contentlist Próximas: runncbiblast (2); 
+62 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+63 - Chave:  isdone Próximas: success (4); 
+64 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+65 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+66 - Chave:  getxmlresult Próximas: unpackxmlresult (3); 
+recomendadas
+0 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+1 - Chave:  program Próximas: searchsimple (1); blastddbj (1); 
+2 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+3 - Chave:  sequenceorid Próximas: inputdata (3); qblastput (1); 
+4 - Chave:  contentslist Próximas: runblastpgp (1); 
+5 - Chave:  askforsequence Próximas: ebincbiblast (1); 
+6 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+7 - Chave:  jobparams Próximas: runncbiblast (2); runblastpgp (1); 
+8 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+9 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+10 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+11 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+12 - Chave:  blastprogram Próximas: jobparams (2); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  emailaddress Próximas: jobparams (3); 
+14 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+15 - Chave:  inputdata Próximas: contentlist (2); contentslist (1); 
+16 - Chave:  getproteinfasta Próximas: sequence (1); 
+17 - Chave:  queryseq Próximas: blastddbj (1); 
+18 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+19 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+22 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+23 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+24 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+25 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+26 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+27 - Chave:  bytetostring Próximas: result (2); 
+28 - Chave:  searchdatabase Próximas: jobparams (3); qblastput (1); 
+29 - Chave:  askforemail Próximas: ebincbiblast (1); 
+30 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+31 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+32 - Chave:  paramsxml Próximas: runncbiblast (2); 
+33 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+34 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+35 - Chave:  selectprogram Próximas: ebincbiblast (1); 
+36 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+37 - Chave:  job Próximas: checkstatus (2); 
+38 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); status (2); 
+39 - Chave:  gettextresult Próximas: unpacktextresult (3); 
+40 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+41 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+42 - Chave:  searchparam Próximas: blastreportddbj (1); 
+43 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+44 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+45 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+46 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+47 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+48 - Chave:  unpacktextresult Próximas: textresult (3); 
+49 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+50 - Chave:  makeprogramlist Próximas: selectprogram (1); 
+51 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+52 - Chave:  poll Próximas: bytetostring (2); 
+53 - Chave:  selectdatabase Próximas: ebincbiblast (1); 
+54 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+55 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+56 - Chave:  contentxml Próximas: runncbiblast (2); 
+57 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+58 - Chave:  jobid Próximas: checkstatus (3); 
+59 - Chave:  sequence Próximas: wsarrayofdataxml (2); 
+60 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+61 - Chave:  contentlist Próximas: runncbiblast (2); 
+62 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+63 - Chave:  isdone Próximas: success (4); 
+64 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+65 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+66 - Chave:  getxmlresult Próximas: unpackxmlresult (3); 
+recomendadas
+0 - Chave:  selectfastaprogram Próximas: ebifasta (1); 
+1 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+2 - Chave:  askforsequence Próximas: ebifasta (1); 
+3 - Chave:  askforemail Próximas: ebifasta (1); 
+4 - Chave:  makefastaprogramlist Próximas: selectfastaprogram (1); 
+5 - Chave:  selectdatabase Próximas: ebifasta (1); 
+6 - Chave:  ebifasta Próximas: fastareport (1); 
+recomendadas
+0 - Chave:  blast Próximas: blastout (1); 
+1 - Chave:  ginumber Próximas: getnucleotidefasta (1); 
+2 - Chave:  genscansplitter Próximas: blast (1); cds (1); genscanreport (1); peptides (1); 
+3 - Chave:  swiss Próximas: blast (1); 
+4 - Chave:  genscan Próximas: genscansplitter (1); 
+5 - Chave:  repeatmasker Próximas: genscan (1); repeatmaskerreport (1); 
+6 - Chave:  getnucleotidefasta Próximas: repeatmasker (1); 
+7 - Chave:  blastp Próximas: blast (1); 
+recomendadas
+genscansplitter
+S@5 = 0.14285714285714285, S@10 = 0.14285714285714285, MRR = 0.0, Número de acertos = 1, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 3-------------------------------------
+
+removidas
+makefastaprogramlist
+runncbiblast
+makedatabaselist
+runclustalw
+runinterproscan
+runinterproscan
+runinterproscan
+
+0 - Chave:  runfasta Próximas: gettextresult (1); getxmlresult (1); getids (1); jobid (1); pollfastajob (1); 
+1 - Chave:  checkstatus Próximas: isdone (1); jobstatus (1); 
+2 - Chave:  fastajobparams Próximas: runfasta (1); 
+3 - Chave:  jobid Próximas: checkstatus (1); 
+4 - Chave:  getxmlresult Próximas: unpackxmlresult (1); 
+5 - Chave:  inputdatalist Próximas: runfasta (1); 
+6 - Chave:  unpacktextresult Próximas: fastatextresult (1); 
+7 - Chave:  unpackxmlresult Próximas: fastaxmlresult (1); 
+8 - Chave:  fastaprogram Próximas: fastajobparams (1); 
+9 - Chave:  gettextresult Próximas: unpacktextresult (1); 
+10 - Chave:  sequenceorid Próximas: inputdata (1); 
+11 - Chave:  getids Próximas: hitidlist (1); 
+12 - Chave:  inputdata Próximas: inputdatalist (1); 
+13 - Chave:  isdone Próximas: success (1); 
+14 - Chave:  email Próximas: fastajobparams (1); 
+15 - Chave:  database Próximas: fastajobparams (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  makeprogramlist Próximas: selectprogram (1); 
+2 - Chave:  paramsxml Próximas: runncbiblast (2); 
+3 - Chave:  contentlist Próximas: runwublast (2); 
+4 - Chave:  decodetextresult Próximas: textresult (2); 
+5 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+6 - Chave:  databases Próximas: parametersxml (1); 
+7 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+8 - Chave:  getstatus Próximas: parametersxml (1); 
+9 - Chave:  emailaddress Próximas: jobparams (3); 
+10 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+11 - Chave:  blastprogram Próximas: jobparams (2); buildqblastputurl (1); qblastput (1); 
+12 - Chave:  job Próximas: checkstatus (2); 
+13 - Chave:  askforsequence Próximas: ebiwublast (1); 
+14 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+15 - Chave:  email Próximas: parametersxml (1); 
+16 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+17 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+18 - Chave:  contentslist Próximas: runblastpgp (1); 
+19 - Chave:  inputdata Próximas: contentlist (2); contentslist (1); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+22 - Chave:  searchdatabase Próximas: jobparams (3); qblastput (1); 
+23 - Chave:  isrunning Próximas: failiftrue (1); 
+24 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+25 - Chave:  jobid Próximas: parametersxml (1); checkstatus (3); 
+26 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+27 - Chave:  unpackxmlresult Próximas: xmlresult (1); 
+28 - Chave:  selectdatabase Próximas: ebiwublast (1); 
+29 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+30 - Chave:  runncbiblast Próximas: nestedworkflow (2); poll (2); jobid (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  getproteinfasta Próximas: sequence (1); 
+38 - Chave:  isdone Próximas: success (4); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (1); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+42 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+43 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+44 - Chave:  bytetostring Próximas: result (3); 
+45 - Chave:  searchparam Próximas: blastreportddbj (1); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (3); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+51 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (1); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (1); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+69 - Chave:  jobparams Próximas: runwublast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+72 - Chave:  getids Próximas: hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); 
+77 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+78 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+79 - Chave:  askforemail Próximas: ebiwublast (1); 
+recomendadas
+runncbiblast
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  makeprogramlist Próximas: selectprogram (1); 
+2 - Chave:  paramsxml Próximas: runncbiblast (2); 
+3 - Chave:  contentlist Próximas: runwublast (2); 
+4 - Chave:  decodetextresult Próximas: textresult (2); 
+5 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+6 - Chave:  databases Próximas: parametersxml (1); 
+7 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+8 - Chave:  getstatus Próximas: parametersxml (1); 
+9 - Chave:  emailaddress Próximas: jobparams (3); 
+10 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+11 - Chave:  blastprogram Próximas: jobparams (2); buildqblastputurl (1); qblastput (1); 
+12 - Chave:  job Próximas: checkstatus (2); 
+13 - Chave:  askforsequence Próximas: ebiwublast (1); 
+14 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+15 - Chave:  email Próximas: parametersxml (1); 
+16 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+17 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+18 - Chave:  contentslist Próximas: runblastpgp (1); 
+19 - Chave:  inputdata Próximas: contentlist (2); contentslist (1); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+22 - Chave:  searchdatabase Próximas: jobparams (3); qblastput (1); 
+23 - Chave:  isrunning Próximas: failiftrue (1); 
+24 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+25 - Chave:  jobid Próximas: parametersxml (1); checkstatus (3); 
+26 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+27 - Chave:  unpackxmlresult Próximas: xmlresult (1); 
+28 - Chave:  selectdatabase Próximas: ebiwublast (1); 
+29 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+30 - Chave:  runncbiblast Próximas: nestedworkflow (2); poll (2); jobid (2); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (2); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  getproteinfasta Próximas: sequence (1); 
+38 - Chave:  isdone Próximas: success (4); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (1); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+42 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+43 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+44 - Chave:  bytetostring Próximas: result (3); 
+45 - Chave:  searchparam Próximas: blastreportddbj (1); 
+46 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+47 - Chave:  sequenceorid Próximas: inputdata (3); qblastput (1); 
+48 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+49 - Chave:  gethitidlist Próximas: hitidlist (2); 
+50 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+51 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+52 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (1); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+55 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  getresult Próximas: parametersxml (1); 
+58 - Chave:  queryseq Próximas: blastddbj (1); 
+59 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+60 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+61 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+62 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+63 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+64 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+65 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+66 - Chave:  run Próximas: parametersxml (1); 
+67 - Chave:  unpacktextresult Próximas: textresult (1); 
+68 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+69 - Chave:  jobparams Próximas: runwublast (2); runblastpgp (1); 
+70 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+71 - Chave:  makedatabaselist Próximas: selectdatabase (1); 
+72 - Chave:  getids Próximas: hitids (1); 
+73 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+74 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); status (2); 
+75 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+76 - Chave:  selectprogram Próximas: ebiwublast (1); 
+77 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+78 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+79 - Chave:  askforemail Próximas: ebiwublast (1); 
+recomendadas
+0 - Chave:  unpackoutput Próximas: clustalwoutput (2); 
+1 - Chave:  clustalwphylogenetictree Próximas: clustalwtree (1); 
+2 - Chave:  unpackguidetreeresult Próximas: clustalwguidetree (1); 
+3 - Chave:  unpacknjtree Próximas: clustalwnjtree (2); 
+4 - Chave:  runclustalw Próximas: ebiclustalw2polljob (3); getnjtreeresult (2); getoutput (2); getphyliptreeresult (2); jobid (3); getalignmentresult (1); getguidetreeresult (1); getoutputresult (1); 
+5 - Chave:  inputdata Próximas: contentslist (2); contentlist (1); 
+6 - Chave:  sequences Próximas: inputdata (1); clustalwalignment (1); 
+7 - Chave:  contentlist Próximas: runclustalw (1); 
+8 - Chave:  sequencealignment Próximas: inputdata (2); 
+9 - Chave:  unpackoutputresult Próximas: clustalwoutput (1); 
+10 - Chave:  isdone Próximas: success (3); 
+11 - Chave:  getoutput Próximas: unpackoutput (2); 
+12 - Chave:  getoutputresult Próximas: unpackoutputresult (1); 
+13 - Chave:  getguidetreeresult Próximas: unpackguidetreeresult (1); 
+14 - Chave:  checkstatus Próximas: isdone (3); jobstatus (3); 
+15 - Chave:  contentslist Próximas: runclustalw (2); 
+16 - Chave:  unpackphyliptree Próximas: clustalwphyliptree (2); 
+17 - Chave:  clustalwalignment Próximas: clustalwphylogenetictree (1); clustalwalignment (1); 
+18 - Chave:  emailaddress Próximas: jobparams (3); clustalwalignment (1); clustalwphylogenetictree (1); 
+19 - Chave:  getalignmentresult Próximas: unpackalignmentresult (1); 
+20 - Chave:  getnjtreeresult Próximas: unpacknjtree (2); 
+21 - Chave:  jobid Próximas: checkstatus (3); 
+22 - Chave:  unpackalignmentresult Próximas: clustalwalignment (1); 
+23 - Chave:  getphyliptreeresult Próximas: unpackphyliptree (2); 
+24 - Chave:  jobparams Próximas: runclustalw (3); 
+recomendadas
+runclustalw
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  ebiinterproscan Próximas: interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+5 - Chave:  emailaddress Próximas: ebiinterproscan (1); ebincbiblast (1); 
+6 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+7 - Chave:  fetchdata Próximas: sequence (1); 
+8 - Chave:  fastastring Próximas: splitintosequences (1); 
+9 - Chave:  splitintosequences Próximas: addangle (1); 
+10 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+11 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+12 - Chave:  checkstatusworkflow Próximas: status (1); 
+13 - Chave:  isrunning Próximas: failiftrue (1); 
+14 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (1); 
+15 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+16 - Chave:  translationtable Próximas: getorf (1); 
+17 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+18 - Chave:  run Próximas: parametersxml (1); 
+19 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+20 - Chave:  getresult Próximas: parametersxml (2); 
+21 - Chave:  email Próximas: parametersxml (1); 
+22 - Chave:  checkstatus Próximas: isdone (1); status (1); 
+23 - Chave:  job Próximas: checkstatus (1); 
+24 - Chave:  runinterproscan Próximas: checkstatusworkflow (1); poll (1); jobid (1); 
+25 - Chave:  searchparam Próximas: blastreportddbj (1); 
+26 - Chave:  sequencedatabase Próximas: searchparam (1); 
+27 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+28 - Chave:  getstatus Próximas: parametersxml (1); 
+29 - Chave:  jobstatus Próximas: jobstatus (1); 
+30 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+31 - Chave:  seqret Próximas: sequence (1); 
+32 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+33 - Chave:  poll Próximas: bytetostring (1); 
+34 - Chave:  contentxml Próximas: runinterproscan (1); 
+35 - Chave:  addangle Próximas: fastalist (1); 
+36 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+37 - Chave:  jobid Próximas: parametersxml (1); 
+38 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+39 - Chave:  isdone Próximas: failiffalse (1); 
+recomendadas
+runinterproscan
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  ebiinterproscan Próximas: interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+5 - Chave:  emailaddress Próximas: ebiinterproscan (1); ebincbiblast (1); 
+6 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+7 - Chave:  fetchdata Próximas: sequence (1); 
+8 - Chave:  fastastring Próximas: splitintosequences (1); 
+9 - Chave:  splitintosequences Próximas: addangle (1); 
+10 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+11 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+12 - Chave:  checkstatusworkflow Próximas: status (1); 
+13 - Chave:  isrunning Próximas: failiftrue (1); 
+14 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (1); 
+15 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+16 - Chave:  translationtable Próximas: getorf (1); 
+17 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+18 - Chave:  run Próximas: parametersxml (1); 
+19 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+20 - Chave:  getresult Próximas: parametersxml (2); 
+21 - Chave:  email Próximas: parametersxml (1); 
+22 - Chave:  checkstatus Próximas: isdone (1); status (1); 
+23 - Chave:  job Próximas: checkstatus (1); 
+24 - Chave:  runinterproscan Próximas: checkstatusworkflow (1); poll (1); jobid (1); 
+25 - Chave:  searchparam Próximas: blastreportddbj (1); 
+26 - Chave:  sequencedatabase Próximas: searchparam (1); 
+27 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+28 - Chave:  getstatus Próximas: parametersxml (1); 
+29 - Chave:  jobstatus Próximas: jobstatus (1); 
+30 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+31 - Chave:  seqret Próximas: sequence (1); 
+32 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+33 - Chave:  poll Próximas: bytetostring (1); 
+34 - Chave:  contentxml Próximas: runinterproscan (1); 
+35 - Chave:  addangle Próximas: fastalist (1); 
+36 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+37 - Chave:  jobid Próximas: parametersxml (1); 
+38 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+39 - Chave:  isdone Próximas: failiffalse (1); 
+recomendadas
+runinterproscan
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  ebiinterproscan Próximas: interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+5 - Chave:  emailaddress Próximas: ebiinterproscan (1); ebincbiblast (1); 
+6 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+7 - Chave:  fetchdata Próximas: sequence (1); 
+8 - Chave:  fastastring Próximas: splitintosequences (1); 
+9 - Chave:  splitintosequences Próximas: addangle (1); 
+10 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+11 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+12 - Chave:  checkstatusworkflow Próximas: status (1); 
+13 - Chave:  isrunning Próximas: failiftrue (1); 
+14 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (1); 
+15 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+16 - Chave:  translationtable Próximas: getorf (1); 
+17 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+18 - Chave:  run Próximas: parametersxml (1); 
+19 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+20 - Chave:  getresult Próximas: parametersxml (2); 
+21 - Chave:  email Próximas: parametersxml (1); 
+22 - Chave:  checkstatus Próximas: isdone (1); status (1); 
+23 - Chave:  job Próximas: checkstatus (1); 
+24 - Chave:  runinterproscan Próximas: checkstatusworkflow (1); poll (1); jobid (1); 
+25 - Chave:  searchparam Próximas: blastreportddbj (1); 
+26 - Chave:  sequencedatabase Próximas: searchparam (1); 
+27 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+28 - Chave:  getstatus Próximas: parametersxml (1); 
+29 - Chave:  jobstatus Próximas: jobstatus (1); 
+30 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+31 - Chave:  seqret Próximas: sequence (1); 
+32 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+33 - Chave:  poll Próximas: bytetostring (1); 
+34 - Chave:  contentxml Próximas: runinterproscan (1); 
+35 - Chave:  addangle Próximas: fastalist (1); 
+36 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+37 - Chave:  jobid Próximas: parametersxml (1); 
+38 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+39 - Chave:  isdone Próximas: failiffalse (1); 
+recomendadas
+runinterproscan
+S@5 = 0.7142857142857143, S@10 = 0.7142857142857143, MRR = 0.0, Número de acertos = 5, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 4-------------------------------------
+
+removidas
+runclustalw
+sequencealignment
+runblastpgp
+formatlistfordbfetch
+blastfilecomparer
+msa
+paramsxml
+
+0 - Chave:  checkstatus Próximas: isdone (1); jobstatus (1); 
+1 - Chave:  unpackalignmentresult Próximas: clustalwalignment (1); 
+2 - Chave:  jobid Próximas: checkstatus (1); 
+3 - Chave:  getalignmentresult Próximas: unpackalignmentresult (1); 
+4 - Chave:  jobparams Próximas: runclustalw (1); 
+5 - Chave:  contentlist Próximas: runclustalw (1); 
+6 - Chave:  runclustalw Próximas: ebiclustalw2polljob (1); getalignmentresult (1); getguidetreeresult (1); getoutputresult (1); jobid (1); 
+7 - Chave:  unpackoutputresult Próximas: clustalwoutput (1); 
+8 - Chave:  emailaddress Próximas: jobparams (1); 
+9 - Chave:  getguidetreeresult Próximas: unpackguidetreeresult (1); 
+10 - Chave:  inputdata Próximas: contentlist (1); 
+11 - Chave:  isdone Próximas: success (1); 
+12 - Chave:  unpackguidetreeresult Próximas: clustalwguidetree (1); 
+13 - Chave:  sequences Próximas: inputdata (1); 
+14 - Chave:  getoutputresult Próximas: unpackoutputresult (1); 
+recomendadas
+runclustalw
+0 - Chave:  checkstatus Próximas: isdone (1); jobstatus (1); 
+1 - Chave:  unpackalignmentresult Próximas: clustalwalignment (1); 
+2 - Chave:  jobid Próximas: checkstatus (1); 
+3 - Chave:  getalignmentresult Próximas: unpackalignmentresult (1); 
+4 - Chave:  jobparams Próximas: runclustalw (1); 
+5 - Chave:  contentlist Próximas: runclustalw (1); 
+6 - Chave:  runclustalw Próximas: ebiclustalw2polljob (1); getalignmentresult (1); getguidetreeresult (1); getoutputresult (1); jobid (1); 
+7 - Chave:  unpackoutputresult Próximas: clustalwoutput (1); 
+8 - Chave:  emailaddress Próximas: jobparams (1); 
+9 - Chave:  getguidetreeresult Próximas: unpackguidetreeresult (1); 
+10 - Chave:  inputdata Próximas: contentlist (1); 
+11 - Chave:  isdone Próximas: success (1); 
+12 - Chave:  unpackguidetreeresult Próximas: clustalwguidetree (1); 
+13 - Chave:  sequences Próximas: inputdata (1); 
+14 - Chave:  getoutputresult Próximas: unpackoutputresult (1); 
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (1); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (1); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (4); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (1); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  inputdata Próximas: contentlist (4); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+22 - Chave:  searchdatabase Próximas: jobparams (4); qblastput (1); 
+23 - Chave:  isrunning Próximas: failiftrue (1); 
+24 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+25 - Chave:  jobid Próximas: parametersxml (1); checkstatus (4); 
+26 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+27 - Chave:  unpackxmlresult Próximas: xmlresult (2); 
+28 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+29 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (3); nestedworkflow (1); poll (1); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (1); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (5); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (2); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+42 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+43 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+44 - Chave:  bytetostring Próximas: result (2); 
+45 - Chave:  searchparam Próximas: blastreportddbj (1); 
+46 - Chave:  sequenceorid Próximas: inputdata (4); qblastput (1); 
+47 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+48 - Chave:  gethitidlist Próximas: hitidlist (2); 
+49 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+50 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+51 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (2); 
+52 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+55 - Chave:  getresult Próximas: parametersxml (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  queryseq Próximas: blastddbj (1); 
+58 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+59 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+60 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+61 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+62 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+63 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+64 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+65 - Chave:  run Próximas: parametersxml (1); 
+66 - Chave:  unpacktextresult Próximas: textresult (2); 
+67 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+68 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); 
+69 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+70 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+71 - Chave:  getids Próximas: hitidlist (2); 
+72 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+73 - Chave:  checkstatus Próximas: isdone (4); jobstatus (4); status (1); 
+74 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+75 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+76 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+77 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+78 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  isgi Próximas: failifgi (1); failifsequenceorid (1); 
+1 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequence (1); 
+2 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+3 - Chave:  xpathfromtext Próximas: extractaccver (1); extractdes (1); extractseq (1); sequencexml (1); 
+4 - Chave:  stringconstant Próximas: seqret (3); 
+5 - Chave:  checkforsrserror Próximas: interpromatches (1); 
+6 - Chave:  isstructure Próximas: failifidentifer (1); failifstructure (1); 
+7 - Chave:  seqret Próximas: seq (1); sequence (1); 
+8 - Chave:  getfastafromgi Próximas: sequence (1); 
+9 - Chave:  runefetchms Próximas: xpathfromtext (1); 
+10 - Chave:  extractaccver Próximas: flattenlist (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  buildinterpromatchesuniparcurl Próximas: getentryfromsrs (1); 
+13 - Chave:  addangle Próximas: fastalist (1); 
+14 - Chave:  structureorid Próximas: isstructure (1); fetchdata (1); usestructure (1); 
+15 - Chave:  extractdes Próximas: flattenlist (1); 
+16 - Chave:  getentryfromsrs Próximas: checkforsrserror (1); 
+17 - Chave:  mergestringlisttostring Próximas: sequencefasta (1); 
+18 - Chave:  sequenceoridorgi Próximas: getfastafromgi (1); isgi (1); sequenceorid (1); 
+19 - Chave:  splitintosequences Próximas: addangle (1); 
+20 - Chave:  fetchdata Próximas: structure (1); sequence (1); 
+21 - Chave:  buildfastaseq Próximas: flattenlist (1); 
+22 - Chave:  gi Próximas: parametersxml (1); 
+23 - Chave:  uniparcid Próximas: buildinterpromatchesuniparcurl (1); 
+24 - Chave:  extractseq Próximas: flattenlist (1); 
+25 - Chave:  usestructure Próximas: structure (1); 
+26 - Chave:  parametersxml Próximas: runefetchms (1); 
+27 - Chave:  flattenlist Próximas: buildfastaseq (3); flattenlist (1); mergestringlisttostring (1); 
+recomendadas
+0 - Chave:  flattenimagelist Próximas: outputplot (1); 
+1 - Chave:  emma Próximas: plot (1); 
+2 - Chave:  createfasta Próximas: seqret (1); 
+3 - Chave:  hsapiensgeneensembl Próximas: getuniquehomolog (3); 
+4 - Chave:  getrnsequence Próximas: createfasta (1); 
+5 - Chave:  gethssequence Próximas: createfasta (1); 
+6 - Chave:  seqret Próximas: emma (1); 
+7 - Chave:  plot Próximas: flattenimagelist (1); 
+8 - Chave:  getuniquehomolog Próximas: gethssequence (1); getmmsequence (1); getrnsequence (1); hsapids (1); mmusids (1); rnorids (1); 
+9 - Chave:  getmmsequence Próximas: createfasta (1); 
+recomendadas
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (1); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (1); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (4); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (1); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+18 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+19 - Chave:  inputdata Próximas: contentlist (4); 
+20 - Chave:  ginumber Próximas: blastsimplifier (1); 
+21 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+22 - Chave:  searchdatabase Próximas: jobparams (4); qblastput (1); 
+23 - Chave:  isrunning Próximas: failiftrue (1); 
+24 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+25 - Chave:  jobid Próximas: parametersxml (1); checkstatus (4); 
+26 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+27 - Chave:  unpackxmlresult Próximas: xmlresult (2); 
+28 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+29 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+30 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (3); nestedworkflow (1); poll (1); 
+31 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+32 - Chave:  poll Próximas: bytetostring (1); 
+33 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+34 - Chave:  ebiwublast Próximas: blastreport (1); 
+35 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+36 - Chave:  sequencetype Próximas: parametersxml (1); 
+37 - Chave:  isdone Próximas: success (5); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (2); 
+40 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+41 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+42 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+43 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+44 - Chave:  bytetostring Próximas: result (2); 
+45 - Chave:  searchparam Próximas: blastreportddbj (1); 
+46 - Chave:  sequenceorid Próximas: inputdata (4); qblastput (1); 
+47 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+48 - Chave:  gethitidlist Próximas: hitidlist (2); 
+49 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+50 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+51 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (2); 
+52 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+53 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+54 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+55 - Chave:  getresult Próximas: parametersxml (1); 
+56 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+57 - Chave:  queryseq Próximas: blastddbj (1); 
+58 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+59 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+60 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+61 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+62 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+63 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+64 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+65 - Chave:  run Próximas: parametersxml (1); 
+66 - Chave:  unpacktextresult Próximas: textresult (2); 
+67 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+68 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); 
+69 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+70 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+71 - Chave:  getids Próximas: hitidlist (2); 
+72 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+73 - Chave:  checkstatus Próximas: isdone (4); jobstatus (4); status (1); 
+74 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+75 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+76 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+77 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+78 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+S@5 = 0.14285714285714285, S@10 = 0.14285714285714285, MRR = 0.0, Número de acertos = 1, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 5-------------------------------------
+
+removidas
+jobparams
+unpackxmlresult
+sss
+sequenceorid
+ebiphobius
+moleculetype
+ndproteinstructure
+
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+0 - Chave:  stproteinid Próximas: stproteinstructure (1); 
+1 - Chave:  ndproteinid Próximas: ndproteinstructure (1); 
+2 - Chave:  boxshade Próximas: alignmentpretty (1); 
+3 - Chave:  ndproteinstructure Próximas: ndproteinstructure (1); mustang (1); 
+4 - Chave:  stproteinstructure Próximas: stproteinstructure (1); mustang (1); 
+5 - Chave:  mustang Próximas: alignmentoverlay (1); alignmentmsf (1); boxshade (1); 
+recomendadas
+ndproteinstructure
+S@5 = 0.14285714285714285, S@10 = 0.14285714285714285, MRR = 0.0, Número de acertos = 1, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 6-------------------------------------
+
+removidas
+gettextresult
+getalignment
+gioption
+searchdatabase
+getalignment
+getalignment
+getproteinfasta
+
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+0 - Chave:  extractentries Próximas: uniparcentrieslist (1); 
+1 - Chave:  id Próximas: getproteinfasta (1); 
+2 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+3 - Chave:  searchsimple Próximas: blastreport (1); 
+4 - Chave:  program Próximas: searchsimple (1); 
+5 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+6 - Chave:  database Próximas: searchsimple (1); 
+7 - Chave:  fetchbatch Próximas: extractentries (1); uniparcentries (1); 
+8 - Chave:  getproteinfasta Próximas: searchsimple (1); proteinsequence (1); 
+recomendadas
+getproteinfasta
+S@5 = 0.14285714285714285, S@10 = 0.14285714285714285, MRR = 0.0, Número de acertos = 1, Total de tentativas =  7
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 7-------------------------------------
+
+removidas
+unpackresult
+structureorid
+fetchdata
+addangle
+ebincbiblast
+queryseq
+
+recomendadas
+0 - Chave:  isgi Próximas: failifgi (1); failifsequenceorid (1); 
+1 - Chave:  fetchbatch Próximas: sequences (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequence (1); 
+3 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+4 - Chave:  xpathfromtext Próximas: extractaccver (1); extractdes (1); extractseq (1); sequencexml (1); 
+5 - Chave:  stringconstant Próximas: seqret (3); 
+6 - Chave:  checkforsrserror Próximas: interpromatches (1); 
+7 - Chave:  seqret Próximas: seq (1); sequence (1); 
+8 - Chave:  getfastafromgi Próximas: sequence (1); 
+9 - Chave:  runefetchms Próximas: xpathfromtext (1); 
+10 - Chave:  extractaccver Próximas: flattenlist (1); 
+11 - Chave:  buildinterpromatchesuniparcurl Próximas: getentryfromsrs (1); 
+12 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+13 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+14 - Chave:  extractdes Próximas: flattenlist (1); 
+15 - Chave:  database Próximas: fetchbatch (1); 
+16 - Chave:  getentryfromsrs Próximas: checkforsrserror (1); 
+17 - Chave:  mergestringlisttostring Próximas: sequencefasta (1); 
+18 - Chave:  sequenceoridorgi Próximas: getfastafromgi (1); isgi (1); sequenceorid (1); 
+19 - Chave:  fetchdata Próximas: sequence (1); 
+20 - Chave:  buildfastaseq Próximas: flattenlist (1); 
+21 - Chave:  gi Próximas: parametersxml (1); 
+22 - Chave:  uniparcid Próximas: buildinterpromatchesuniparcurl (1); 
+23 - Chave:  extractseq Próximas: flattenlist (1); 
+24 - Chave:  parametersxml Próximas: runefetchms (1); 
+25 - Chave:  flattenlist Próximas: buildfastaseq (3); flattenlist (1); mergestringlisttostring (1); 
+recomendadas
+recomendadas
+0 - Chave:  isgi Próximas: failifgi (1); failifsequenceorid (1); 
+1 - Chave:  fetchbatch Próximas: sequences (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequence (1); 
+3 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+4 - Chave:  xpathfromtext Próximas: extractaccver (1); extractdes (1); extractseq (1); sequencexml (1); 
+5 - Chave:  stringconstant Próximas: seqret (3); 
+6 - Chave:  checkforsrserror Próximas: interpromatches (1); 
+7 - Chave:  seqret Próximas: seq (1); sequence (1); 
+8 - Chave:  getfastafromgi Próximas: sequence (1); 
+9 - Chave:  runefetchms Próximas: xpathfromtext (1); 
+10 - Chave:  extractaccver Próximas: flattenlist (1); 
+11 - Chave:  buildinterpromatchesuniparcurl Próximas: getentryfromsrs (1); 
+12 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+13 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+14 - Chave:  extractdes Próximas: flattenlist (1); 
+15 - Chave:  database Próximas: fetchbatch (1); 
+16 - Chave:  getentryfromsrs Próximas: checkforsrserror (1); 
+17 - Chave:  mergestringlisttostring Próximas: sequencefasta (1); 
+18 - Chave:  sequenceoridorgi Próximas: getfastafromgi (1); isgi (1); sequenceorid (1); 
+19 - Chave:  fetchdata Próximas: sequence (1); 
+20 - Chave:  buildfastaseq Próximas: flattenlist (1); 
+21 - Chave:  gi Próximas: parametersxml (1); 
+22 - Chave:  uniparcid Próximas: buildinterpromatchesuniparcurl (1); 
+23 - Chave:  extractseq Próximas: flattenlist (1); 
+24 - Chave:  parametersxml Próximas: runefetchms (1); 
+25 - Chave:  flattenlist Próximas: buildfastaseq (3); flattenlist (1); mergestringlisttostring (1); 
+recomendadas
+0 - Chave:  params Próximas: runinterproscan (2); 
+1 - Chave:  sequenceorid Próximas: inputdata (2); 
+2 - Chave:  askforsequence Próximas: ebiinterproscan (1); 
+3 - Chave:  jobparams Próximas: runinterproscan (2); 
+4 - Chave:  ebiinterproscan Próximas: interproscantextresult (1); 
+5 - Chave:  emailaddress Próximas: jobparams (2); 
+6 - Chave:  inputdata Próximas: contentlist (2); 
+7 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+8 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+9 - Chave:  checkstatusworkflow Próximas: status (2); 
+10 - Chave:  isrunning Próximas: failiftrue (1); 
+11 - Chave:  unpackxmlresult Próximas: interproscanxmlresult (2); 
+12 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (2); 
+13 - Chave:  askforemail Próximas: ebiinterproscan (1); 
+14 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+15 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+16 - Chave:  run Próximas: parametersxml (1); 
+17 - Chave:  getresult Próximas: parametersxml (2); 
+18 - Chave:  email Próximas: parametersxml (1); 
+19 - Chave:  checkstatus Próximas: isdone (4); jobstatus (2); status (2); 
+20 - Chave:  job Próximas: checkstatus (2); 
+21 - Chave:  gettextresult Próximas: unpacktextresult (2); 
+22 - Chave:  runinterproscan Próximas: ebiinterproscanpolljob (2); getxmlresult (2); gettextresult (2); jobid (4); checkstatusworkflow (2); poll (2); 
+23 - Chave:  searchparam Próximas: blastreportddbj (1); 
+24 - Chave:  sequencedatabase Próximas: searchparam (1); 
+25 - Chave:  unpacktextresult Próximas: interproscantextresult (2); 
+26 - Chave:  getstatus Próximas: parametersxml (1); 
+27 - Chave:  jobstatus Próximas: jobstatus (1); 
+28 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+29 - Chave:  poll Próximas: bytetostring (2); 
+30 - Chave:  contentxml Próximas: runinterproscan (2); 
+31 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+32 - Chave:  jobid Próximas: parametersxml (1); checkstatus (2); 
+33 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+34 - Chave:  contentlist Próximas: runinterproscan (2); 
+35 - Chave:  isdone Próximas: success (2); failiffalse (2); 
+36 - Chave:  getxmlresult Próximas: unpackxmlresult (2); 
+recomendadas
+recomendadas
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  6
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 8-------------------------------------
+
+removidas
+ebiwublast
+buildqblastputurl
+extractaccver
+structure
+ebipicrsequencetoid
+getupiforsequence
+
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  getstatus Próximas: parametersxml (1); 
+9 - Chave:  emailaddress Próximas: jobparams (5); 
+10 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+11 - Chave:  blastprogram Próximas: jobparams (4); 
+12 - Chave:  job Próximas: checkstatus (2); 
+13 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+14 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+15 - Chave:  email Próximas: parametersxml (1); 
+16 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+17 - Chave:  contentslist Próximas: runblastpgp (1); 
+18 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+19 - Chave:  ginumber Próximas: blastsimplifier (1); 
+20 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+21 - Chave:  searchdatabase Próximas: jobparams (5); 
+22 - Chave:  isrunning Próximas: failiftrue (1); 
+23 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+24 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+25 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+26 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+27 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+28 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+29 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+30 - Chave:  poll Próximas: bytetostring (2); 
+31 - Chave:  ebiwublast Próximas: blastreport (1); 
+32 - Chave:  sequencetype Próximas: parametersxml (1); 
+33 - Chave:  isdone Próximas: success (5); 
+34 - Chave:  getproteinfasta Próximas: sequence (1); 
+35 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+36 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+37 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+38 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+39 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+40 - Chave:  bytetostring Próximas: result (3); 
+41 - Chave:  searchparam Próximas: blastreportddbj (1); 
+42 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+43 - Chave:  sequenceorid Próximas: inputdata (5); 
+44 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+45 - Chave:  gethitidlist Próximas: hitidlist (2); 
+46 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+47 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+48 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+49 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+50 - Chave:  getresult Próximas: parametersxml (1); 
+51 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+52 - Chave:  queryseq Próximas: blastddbj (1); 
+53 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+54 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+55 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+56 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+57 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+58 - Chave:  run Próximas: parametersxml (1); 
+59 - Chave:  unpacktextresult Próximas: textresult (3); 
+60 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+61 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+62 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+63 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+64 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+65 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+66 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+67 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+68 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+69 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+70 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+71 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  usestructure Próximas: structure (1); 
+1 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+2 - Chave:  fastastring Próximas: splitintosequences (1); 
+3 - Chave:  stringconstant Próximas: seqret (3); 
+4 - Chave:  structureorid Próximas: isstructure (1); fetchdata (1); usestructure (1); 
+5 - Chave:  getentryfromsrs Próximas: checkforsrserror (1); 
+6 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+7 - Chave:  uniparcid Próximas: buildinterpromatchesuniparcurl (1); 
+8 - Chave:  seqret Próximas: seq (1); 
+9 - Chave:  fetchdata Próximas: structure (1); 
+10 - Chave:  checkforsrserror Próximas: interpromatches (1); 
+11 - Chave:  addangle Próximas: fastalist (1); 
+12 - Chave:  database Próximas: fetchbatch (1); 
+13 - Chave:  fetchbatch Próximas: sequences (1); 
+14 - Chave:  isstructure Próximas: failifidentifer (1); failifstructure (1); 
+15 - Chave:  buildinterpromatchesuniparcurl Próximas: getentryfromsrs (1); 
+16 - Chave:  splitintosequences Próximas: addangle (1); 
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  6
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 9-------------------------------------
+
+removidas
+formatlistfordbfetch
+getentryfromsrs
+runcensor
+getfastafromgi
+unwrapresult
+database
+
+0 - Chave:  searchsimple Próximas: blastreport (2); 
+1 - Chave:  program Próximas: searchsimple (2); 
+2 - Chave:  database Próximas: searchsimple (2); 
+3 - Chave:  getproteinfasta Próximas: searchsimple (2); proteinsequence (2); 
+4 - Chave:  id Próximas: getproteinfasta (2); 
+recomendadas
+0 - Chave:  isgi Próximas: failifgi (1); failifsequenceorid (1); 
+1 - Chave:  fetchbatch Próximas: sequences (1); 
+2 - Chave:  sequenceorid Próximas: issequence (1); fetchdata (1); seqret (1); sequence (1); 
+3 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+4 - Chave:  xpathfromtext Próximas: extractaccver (1); extractdes (1); extractseq (1); sequencexml (1); 
+5 - Chave:  stringconstant Próximas: seqret (3); 
+6 - Chave:  isstructure Próximas: failifidentifer (1); failifstructure (1); 
+7 - Chave:  seqret Próximas: seq (1); sequence (1); 
+8 - Chave:  getfastafromgi Próximas: sequence (1); 
+9 - Chave:  runefetchms Próximas: xpathfromtext (1); 
+10 - Chave:  extractaccver Próximas: flattenlist (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+13 - Chave:  addangle Próximas: fastalist (1); 
+14 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+15 - Chave:  structureorid Próximas: isstructure (1); fetchdata (1); usestructure (1); 
+16 - Chave:  extractdes Próximas: flattenlist (1); 
+17 - Chave:  database Próximas: fetchbatch (1); 
+18 - Chave:  mergestringlisttostring Próximas: sequencefasta (1); 
+19 - Chave:  sequenceoridorgi Próximas: getfastafromgi (1); isgi (1); sequenceorid (1); 
+20 - Chave:  splitintosequences Próximas: addangle (1); 
+21 - Chave:  fetchdata Próximas: structure (1); sequence (1); 
+22 - Chave:  buildfastaseq Próximas: flattenlist (1); 
+23 - Chave:  gi Próximas: parametersxml (1); 
+24 - Chave:  extractseq Próximas: flattenlist (1); 
+25 - Chave:  usestructure Próximas: structure (1); 
+26 - Chave:  parametersxml Próximas: runefetchms (1); 
+27 - Chave:  flattenlist Próximas: buildfastaseq (3); flattenlist (1); mergestringlisttostring (1); 
+recomendadas
+recomendadas
+recomendadas
+recomendadas
+0 - Chave:  contentxml Próximas: runncbiblast (2); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (2); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (2); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (2); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  email Próximas: parametersxml (1); 
+16 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+17 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+18 - Chave:  contentslist Próximas: runblastpgp (1); 
+19 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+20 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+21 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+22 - Chave:  isrunning Próximas: failiftrue (1); 
+23 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+24 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+25 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+26 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+27 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+28 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+29 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (4); nestedworkflow (2); poll (2); 
+30 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+31 - Chave:  poll Próximas: bytetostring (2); 
+32 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+33 - Chave:  ebiwublast Próximas: blastreport (1); 
+34 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+35 - Chave:  sequencetype Próximas: parametersxml (1); 
+36 - Chave:  isdone Próximas: success (6); 
+37 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+38 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+39 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+40 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+41 - Chave:  database Próximas: searchsimple (1); 
+42 - Chave:  bytetostring Próximas: result (3); 
+43 - Chave:  searchparam Próximas: blastreportddbj (1); 
+44 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+45 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+46 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+47 - Chave:  gethitidlist Próximas: hitidlist (2); 
+48 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+49 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+50 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+51 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+52 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+53 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+54 - Chave:  getresult Próximas: parametersxml (1); 
+55 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+56 - Chave:  program Próximas: searchsimple (1); parametersxml (1); 
+57 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+58 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+59 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+60 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (2); 
+61 - Chave:  run Próximas: parametersxml (1); 
+62 - Chave:  unpacktextresult Próximas: textresult (3); 
+63 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+64 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+65 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+66 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+67 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+68 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+69 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (2); 
+70 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+71 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+72 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+73 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+74 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  6
+
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+--------------------------------------Validação: 10-------------------------------------
+
+removidas
+getproteinfasta
+ndproteinstructure
+paramsxml
+runinterproscan
+genscansplitter
+removeduplicatestrings
+
+0 - Chave:  extractentries Próximas: uniparcentrieslist (1); 
+1 - Chave:  id Próximas: getproteinfasta (1); 
+2 - Chave:  idlist Próximas: formatlistfordbfetch (1); 
+3 - Chave:  searchsimple Próximas: blastreport (1); 
+4 - Chave:  program Próximas: searchsimple (1); 
+5 - Chave:  formatlistfordbfetch Próximas: fetchbatch (1); 
+6 - Chave:  database Próximas: searchsimple (1); 
+7 - Chave:  fetchbatch Próximas: extractentries (1); uniparcentries (1); 
+8 - Chave:  getproteinfasta Próximas: searchsimple (1); proteinsequence (1); 
+recomendadas
+getproteinfasta
+0 - Chave:  stproteinid Próximas: stproteinstructure (1); 
+1 - Chave:  ndproteinid Próximas: ndproteinstructure (1); 
+2 - Chave:  boxshade Próximas: alignmentpretty (1); 
+3 - Chave:  ndproteinstructure Próximas: ndproteinstructure (1); mustang (1); 
+4 - Chave:  stproteinstructure Próximas: stproteinstructure (1); mustang (1); 
+5 - Chave:  mustang Próximas: alignmentoverlay (1); alignmentmsf (1); boxshade (1); 
+recomendadas
+ndproteinstructure
+0 - Chave:  contentxml Próximas: runncbiblast (1); 
+1 - Chave:  ebincbiblast Próximas: ncbiblastreport (1); 
+2 - Chave:  makeprogramlist Próximas: selectprogram (2); 
+3 - Chave:  paramsxml Próximas: runncbiblast (1); 
+4 - Chave:  contentlist Próximas: runwublast (2); runncbiblast (2); 
+5 - Chave:  decodetextresult Próximas: textresult (2); 
+6 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+7 - Chave:  databases Próximas: parametersxml (1); 
+8 - Chave:  buildqblastputurl Próximas: qblastput (1); 
+9 - Chave:  getstatus Próximas: parametersxml (1); 
+10 - Chave:  emailaddress Próximas: jobparams (5); 
+11 - Chave:  uniprotaccession Próximas: getfastauniprotentry (5); 
+12 - Chave:  blastprogram Próximas: jobparams (4); buildqblastputurl (1); qblastput (1); 
+13 - Chave:  job Próximas: checkstatus (1); 
+14 - Chave:  askforsequence Próximas: ebiwublast (1); ebincbiblast (1); 
+15 - Chave:  blastddbj Próximas: blastsimplifier (1); blastreport (1); 
+16 - Chave:  email Próximas: parametersxml (1); 
+17 - Chave:  qblastjobid Próximas: buildqblastgeturl (1); 
+18 - Chave:  searchsimple Próximas: extractposition (2); blastreports (1); blastreportddbj (1); 
+19 - Chave:  contentslist Próximas: runblastpgp (1); 
+20 - Chave:  inputdata Próximas: contentlist (4); contentslist (1); 
+21 - Chave:  ginumber Próximas: blastsimplifier (1); 
+22 - Chave:  ddbjaccession Próximas: getfastaddbjentry (3); 
+23 - Chave:  searchdatabase Próximas: jobparams (5); qblastput (1); 
+24 - Chave:  isrunning Próximas: failiftrue (1); 
+25 - Chave:  bioinformaticsprogram Próximas: searchsimple (3); searchparallel (4); 
+26 - Chave:  jobid Próximas: parametersxml (1); checkstatus (5); 
+27 - Chave:  extractqblastjobid Próximas: qblastjobid (1); 
+28 - Chave:  unpackxmlresult Próximas: xmlresult (3); 
+29 - Chave:  selectdatabase Próximas: ebiwublast (1); ebincbiblast (1); 
+30 - Chave:  extractposition Próximas: positionblastreportddbj (4); 
+31 - Chave:  runncbiblast Próximas: ebincbiblastjobpoll (2); getxmlresult (2); gettextresult (2); getids (2); jobid (3); nestedworkflow (1); poll (1); 
+32 - Chave:  decodexmlresult Próximas: xmlresult (2); 
+33 - Chave:  poll Próximas: bytetostring (1); 
+34 - Chave:  blastdatabase Próximas: buildqblastputurl (1); 
+35 - Chave:  ebiwublast Próximas: blastreport (1); 
+36 - Chave:  querysequence Próximas: buildqblastputurl (1); 
+37 - Chave:  sequencetype Próximas: parametersxml (1); 
+38 - Chave:  getproteinfasta Próximas: sequence (1); 
+39 - Chave:  isdone Próximas: success (6); 
+40 - Chave:  gettextresult Próximas: decodetextresult (2); unpacktextresult (3); 
+41 - Chave:  runwublast Próximas: gethitidlist (2); gettextresult (2); getxmlresult (2); polljob (2); jobid (2); 
+42 - Chave:  proteinsequences Próximas: removefirstcharacter (1); 
+43 - Chave:  removefirstcharacter Próximas: splitstringintolist (1); 
+44 - Chave:  database Próximas: searchsimple (1); blastddbj (1); 
+45 - Chave:  bytetostring Próximas: result (2); 
+46 - Chave:  searchparam Próximas: blastreportddbj (1); 
+47 - Chave:  runblastpgp Próximas: ebiblastpgppolljob (1); getxmlresult (1); gettextresult (1); getids (1); jobid (1); 
+48 - Chave:  sequenceorid Próximas: inputdata (5); qblastput (1); 
+49 - Chave:  parametersxml Próximas: getstatus (1); parametersxml (2); isrunning (1); jobstatus (1); run (1); jobstatuspoll (1); jobid (1); getresult (1); bytetostring (1); 
+50 - Chave:  gethitidlist Próximas: hitidlist (2); 
+51 - Chave:  sequencedatabase Próximas: searchsimple (2); searchparallel (4); searchparam (1); 
+52 - Chave:  searchparallel Próximas: extractposition (2); blastreportddbj (2); 
+53 - Chave:  getxmlresult Próximas: decodexmlresult (2); unpackxmlresult (3); 
+54 - Chave:  qblastget Próximas: extractqblaststatus (1); qblastresult (1); ncbiqblastresult (1); 
+55 - Chave:  bioinformaticsparameter Próximas: searchparallel (4); searchparam (1); 
+56 - Chave:  buildqblastgeturl Próximas: qblastget (1); 
+57 - Chave:  blastsimplifier Próximas: splitbynewline (1); simplifiedreport (1); 
+58 - Chave:  getresult Próximas: parametersxml (1); 
+59 - Chave:  queryseq Próximas: blastddbj (1); 
+60 - Chave:  getfastaddbjentry Próximas: searchsimple (1); searchparam (1); searchparallel (1); 
+61 - Chave:  program Próximas: searchsimple (1); parametersxml (1); blastddbj (1); 
+62 - Chave:  jobstatuspoll Próximas: jobstatus (1); 
+63 - Chave:  qblastput Próximas: extractqblastjobid (1); qblastget (1); ncbiqblastjobid (1); 
+64 - Chave:  splitbynewline Próximas: getproteinfasta (1); 
+65 - Chave:  extractqblaststatus Próximas: isdone (1); qblaststatus (1); 
+66 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+67 - Chave:  run Próximas: parametersxml (1); 
+68 - Chave:  unpacktextresult Próximas: textresult (3); 
+69 - Chave:  getfastauniprotentry Próximas: searchsimple (2); searchparallel (3); 
+70 - Chave:  jobparams Próximas: runwublast (2); runncbiblast (2); runblastpgp (1); 
+71 - Chave:  regex Próximas: concatenatetwostrings (1); splitstringintolist (1); 
+72 - Chave:  makedatabaselist Próximas: selectdatabase (2); 
+73 - Chave:  getids Próximas: hitidlist (2); hitids (1); 
+74 - Chave:  concatenatetwostrings Próximas: searchsimple (1); 
+75 - Chave:  checkstatus Próximas: isdone (5); jobstatus (5); status (1); 
+76 - Chave:  splitstringintolist Próximas: concatenatetwostrings (1); 
+77 - Chave:  selectprogram Próximas: ebiwublast (1); ebincbiblast (1); 
+78 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+79 - Chave:  biologicalsequencedatabase Próximas: searchsimple (1); 
+80 - Chave:  askforemail Próximas: ebiwublast (1); ebincbiblast (1); 
+recomendadas
+0 - Chave:  getorf Próximas: fastastringtofastalist (1); translatedorfs (1); 
+1 - Chave:  params Próximas: runinterproscan (1); 
+2 - Chave:  sequenceorid Próximas: inputdata (2); issequence (1); fetchdata (1); seqret (1); sequenceorid (1); getorf (1); nucleotideorftranslation (1); 
+3 - Chave:  minimumorflength Próximas: getorf (1); 
+4 - Chave:  askforsequence Próximas: ebiinterproscan (1); 
+5 - Chave:  jobparams Próximas: runinterproscan (2); 
+6 - Chave:  ebiinterproscan Próximas: interproscantextresult (1); interproscanresultxml (1); interproscanresulttext (1); interproscanjobid (1); 
+7 - Chave:  emailaddress Próximas: jobparams (2); ebiinterproscan (1); ebincbiblast (1); 
+8 - Chave:  inputdata Próximas: contentlist (2); 
+9 - Chave:  nucleotideorftranslation Próximas: ebincbiblast (1); translatedorflist (1); 
+10 - Chave:  fetchdata Próximas: sequence (1); 
+11 - Chave:  fastastring Próximas: splitintosequences (1); 
+12 - Chave:  splitintosequences Próximas: addangle (1); 
+13 - Chave:  wsarrayofdataxml Próximas: contentxml (1); 
+14 - Chave:  bioinformaticsparameter Próximas: searchparam (1); 
+15 - Chave:  checkstatusworkflow Próximas: status (1); 
+16 - Chave:  isrunning Próximas: failiftrue (1); 
+17 - Chave:  unpackxmlresult Próximas: interproscanxmlresult (2); 
+18 - Chave:  bytetostring Próximas: xmlresult (1); tabresult (1); txtresult (1); 
+19 - Chave:  askforemail Próximas: ebiinterproscan (1); 
+20 - Chave:  uniprotaccession Próximas: getfastauniprotentry (1); 
+21 - Chave:  translationtable Próximas: getorf (1); 
+22 - Chave:  fastastringtofastalist Próximas: translatedorflist (1); 
+23 - Chave:  getfastauniprotentry Próximas: searchparam (1); 
+24 - Chave:  run Próximas: parametersxml (1); 
+25 - Chave:  getresult Próximas: parametersxml (2); 
+26 - Chave:  email Próximas: parametersxml (1); 
+27 - Chave:  checkstatus Próximas: isdone (3); jobstatus (2); status (1); 
+28 - Chave:  job Próximas: checkstatus (1); 
+29 - Chave:  gettextresult Próximas: unpacktextresult (2); 
+30 - Chave:  runinterproscan Próximas: ebiinterproscanpolljob (2); getxmlresult (2); gettextresult (2); jobid (3); checkstatusworkflow (1); poll (1); 
+31 - Chave:  searchparam Próximas: blastreportddbj (1); 
+32 - Chave:  sequencedatabase Próximas: searchparam (1); 
+33 - Chave:  ebincbiblast Próximas: ebiinterproscan (1); ncbiblastjobid (1); ncbiblastresulttext (1); 
+34 - Chave:  unpacktextresult Próximas: interproscantextresult (2); 
+35 - Chave:  getstatus Próximas: parametersxml (1); 
+36 - Chave:  jobstatus Próximas: jobstatus (1); 
+37 - Chave:  bioinformaticsprograms Próximas: searchparam (1); 
+38 - Chave:  seqret Próximas: sequence (1); 
+39 - Chave:  issequence Próximas: failifidentifer (1); failifsequence (1); 
+40 - Chave:  poll Próximas: bytetostring (1); 
+41 - Chave:  contentxml Próximas: runinterproscan (1); 
+42 - Chave:  addangle Próximas: fastalist (1); 
+43 - Chave:  parametersxml Próximas: isrunning (1); status (1); parametersxml (3); getstatus (1); run (1); jobstatus (1); jobid (1); getresult (2); bytetostring (2); 
+44 - Chave:  jobid Próximas: parametersxml (1); checkstatus (2); 
+45 - Chave:  sequence Próximas: parametersxml (1); wsarrayofdataxml (1); 
+46 - Chave:  contentlist Próximas: runinterproscan (2); 
+47 - Chave:  isdone Próximas: success (2); failiffalse (1); 
+48 - Chave:  getxmlresult Próximas: unpackxmlresult (2); 
+recomendadas
+runinterproscan
+0 - Chave:  blast Próximas: blastout (1); 
+1 - Chave:  ginumber Próximas: getnucleotidefasta (1); 
+2 - Chave:  genscansplitter Próximas: blast (1); cds (1); genscanreport (1); peptides (1); 
+3 - Chave:  swiss Próximas: blast (1); 
+4 - Chave:  genscan Próximas: genscansplitter (1); 
+5 - Chave:  repeatmasker Próximas: genscan (1); repeatmaskerreport (1); 
+6 - Chave:  getnucleotidefasta Próximas: repeatmasker (1); 
+7 - Chave:  blastp Próximas: blast (1); 
+recomendadas
+genscansplitter
+0 - Chave:  splitstringintostringlistbyregularexpression Próximas: markpathwaybyobjects (1); 
+1 - Chave:  convertlistofkeggidsinto1elementlistoflists Próximas: flattenlist (1); getpathwaysbycompounds (1); 
+2 - Chave:  bget Próximas: keggbget (1); 
+3 - Chave:  bgetin Próximas: convertlistofkeggidsinto1elementlistoflists (1); bget (1); 
+4 - Chave:  flattenlist Próximas: markpathwaybyobjects (1); removeduplicatestrings (1); 
+5 - Chave:  removeduplicatestrings Próximas: splitstringintostringlistbyregularexpression (1); 
+6 - Chave:  markpathwaybyobjects Próximas: getimagefromurl (1); 
+7 - Chave:  getimagefromurl Próximas: keggpathways (1); 
+8 - Chave:  getpathwaysbycompounds Próximas: flattenlist (1); 
+recomendadas
+markpathwaybyobjects
+removeduplicatestrings
+S@5 = 0.8333333333333334, S@10 = 0.8333333333333334, MRR = 0.2, Número de acertos = 5, Total de tentativas =  6
+
+---------------------------------------------------------------------------------------
+
+
+End!
+

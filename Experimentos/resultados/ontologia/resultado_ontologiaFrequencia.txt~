@@ -1,0 +1,14 @@
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 1.0, Número de acertos = 2, Total de tentativas =  7
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.7142857142857143, S@10 = 0.7142857142857143, MRR = 0.0, Número de acertos = 5, Total de tentativas =  7
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 0.0, Número de acertos = 2, Total de tentativas =  7
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.0, S@10 = 0.0, MRR = NaN, Número de acertos = 0, Total de tentativas =  7
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 0.5, Número de acertos = 2, Total de tentativas =  7
+
+Recomendação por ontologia de workflow e frequencia
+Sem clusterização
+Sem redução de dimensões

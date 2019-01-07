@@ -1,0 +1,7 @@
+Execute na seguinte ordem:
+
+Parte01.sql
+Parte02.sql
+Parte03.sql
+Parte04.sql
+Parte05.sql

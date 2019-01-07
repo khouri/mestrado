@@ -1,0 +1,15 @@
+
+S@5 = 0.7142857142857143, S@10 = 0.7142857142857143, MRR = 1.2, Número de acertos = 5, Total de tentativas =  6
+Score = 1.0 
+
+S@5 = 0.5, S@10 = 0.5, MRR = 0.0, Número de acertos = 4, Total de tentativas =  8
+S@5 = 0.25, S@10 = 0.25, MRR = 0.0, Número de acertos = 2, Total de tentativas =  8
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 1.0, Número de acertos = 4, Total de tentativas =  6
+S@5 = 0.8571428571428571, S@10 = 0.8571428571428571, MRR = 1.0, Número de acertos = 6, Total de tentativas =  6
+S@5 = 0.8571428571428571, S@10 = 0.8571428571428571, MRR = 0.8333333333333334, Número de acertos = 6, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 1.5, Número de acertos = 4, Total de tentativas =  6
+
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 0.5, Número de acertos = 2, Total de tentativas =  7
+S@5 = 0.5714285714285714, S@10 = 0.5714285714285714, MRR = 1.25, Número de acertos = 4, Total de tentativas =  5
+S@5 = 0.2857142857142857, S@10 = 0.2857142857142857, MRR = 0.5, Número de acertos = 2, Total de tentativas =  7
+

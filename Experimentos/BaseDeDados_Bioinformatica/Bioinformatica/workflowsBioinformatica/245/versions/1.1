@@ -1,0 +1,1646 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  
+  <meta name="google-site-verification" content="3hq0Cfhw5_-EaaNMum0ETX847sTl7jeQ3ZNAla4a6UQ" />
+  
+  <title>myExperiment &#45; Workflows &#45; tRNAscan (Hamish McWilliam) [Taverna 1 Workflow]</title>
+  <link rel="alternate" href="http://www.myexperiment.org/workflows/245/versions/1?format=rdf" type="application/rdf+xml" title="RDF+XML" />
+  <link rel="alternate" href="http://www.myexperiment.org/workflows/245/versions/1?format=xml" type="application/xml" title="REST XML" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link href="/stylesheets/reset-fonts-grids.css?1347446800" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/base-min.css?1202402252" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/acts_as_taggable_stylesheet.css?1214908649" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/star_rating.css?1231340673" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/gadgets.css?1368023353" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/misc_skinning.css?1385562298" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/pagination.css?1384342751" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/styles.css?1396520465" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/prototype.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1323174488" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1344248678" type="text/javascript"></script>
+<script src="/javascripts/boxover.js?1202402251" type="text/javascript"></script>
+<script src="/javascripts/tabs.js?1368023353" type="text/javascript"></script>
+<script src="/javascripts/folds.js?1363079434" type="text/javascript"></script>
+<script src="/javascripts/application.js?1368023353" type="text/javascript"></script>
+
+  
+  
+
+
+
+
+
+
+  </head>
+<body>
+
+
+
+<div id="doc2" class="yui-t4">
+
+  
+    <div id="hd">
+      <div id="myexp_header">
+        <div class="logo">
+          
+            <a href="/"><img alt="Logo" src="/images/logo.png?1244649969" /></a>
+          
+        </div>
+        <div id="site_info_links" class="links">
+          
+            <a href="http://wiki.myexperiment.org/">About</a> |
+<a href="/feedback">Give us Feedback</a> |
+<a href="http://wiki.myexperiment.org/index.php/Papers">Publications</a>
+          
+        </div>
+        <div id="user_links">
+            <span class="icon"><a href="http://www.myexperiment.org/session/new?return_to=%2Fworkflows%2F245%2Fversions%2F1.html"><img alt="Login" src="/images/famfamfam_silk/door_in.png?1202402239" /> Log in</a></span> |
+  <span class="icon"><a href="http://www.myexperiment.org/users/new"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> Register</a></span>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+      <div id="myexp_tabs">
+        
+          <ul class="tabnav">
+  
+    <li >
+      <a href="/home">Home</a>    </li>
+  
+    <li >
+      <a href="/users">Users</a>    </li>
+  
+    <li >
+      <a href="/groups">Groups</a>    </li>
+  
+    <li id="selected_tabnav">
+      <a href="/workflows">Workflows</a>    </li>
+  
+    <li >
+      <a href="/files">Files</a>    </li>
+  
+    <li >
+      <a href="/packs">Packs</a>    </li>
+  
+</ul>
+
+        
+      </div>
+      <div id="myexp_searchbar">
+        <script type="text/javascript">
+  function redirectToNew() {
+    var klass = $("new_object_type").value;
+  
+    if (klass == "Workflow")
+      location.href = "/workflows/new";
+  
+    if (klass == "File")
+      location.href = "/files/new";
+  
+    if (klass == "Pack")
+      location.href = "/packs/new";
+  
+    if (klass == "Group")
+      location.href = "/groups/new";
+  
+    if (klass == "Message")
+      location.href = "/messages/new";
+  
+    if (klass == "Runner")
+      location.href = "/runners/new";
+  
+    if (klass == "Experiment")
+      location.href = "/experiments/new";
+  
+    if (klass == "Job")
+      location.href = "/jobs/new";
+  
+  }
+</script>
+
+
+<div id="new_object">
+  <form onsubmit="redirectToNew(); return false;">
+    <select id="new_object_type">
+      
+        
+        <option value="Workflow" selected>New Workflow</option>
+      
+        
+        <option value="File" >New File</option>
+      
+        
+        <option value="Pack" >New Pack</option>
+      
+        
+        <option value="Group" >New Group</option>
+      
+        
+        
+        
+        
+    </select>
+    <input name="commit" type="submit" value="GO" />
+  </form>
+</div>
+
+        <div id="search">
+  <form action="/search" method="get">
+    <input id="query" name="query" style="padding: 0.1em;" type="text" />
+    <select id="type" name="type"><option value="all">All</option>
+<option value="users">Users</option>
+<option value="groups">Groups</option>
+<option value="workflows">Workflows</option>
+<option value="files">Files</option>
+<option value="packs">Packs</option></select>
+    <input name="commit" onclick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='Searching...';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" type="submit" value="Search" />
+  </form>
+</div>
+
+      </div>
+    </div>
+  
+
+
+  
+    <div id="bd">
+      <div id="myexp_breadcrumbs_bar">
+        <table>
+	<tr>
+		<td>
+			<ul class="breadcrumb_list">
+				<li><a href="/home">Home</a></li>
+        
+
+
+  <li><a href="/workflows">Workflows</a></li>
+
+
+
+  
+    <li>tRNAscan</li>
+  
+
+
+			</ul>
+		</td>
+		<td style="text-align: right; padding-left: 1em;">
+			
+		</td>
+	</tr>
+</table>
+
+
+      </div>
+      <div id="myexp_content">
+        
+
+
+        
+
+<ul class="sectionIcons">
+  
+    <li><span class="icon"><a href="http://www.myexperiment.org/workflows/245/download/trnascan_2072.xml?version=1"><img alt="Download Workflow (for version 1)" src="/images/redmond_studio/arrow-down_16.png?1202402234" /> Download Workflow</a></span></li>
+    
+  
+		
+		</ul>
+
+<h1 class="contribution_title">
+	Workflow Entry: tRNAscan
+</h1>
+
+<div class="contribution_aftertitle">
+	<b>Created at:</b> 28/06/08 @ 09:57:33
+	
+</div>
+<div class="contribution_mini_nav">
+	|
+	<a href="#license">License</a>
+	|
+	<a href="#credits">Credits (1)</a>
+	|
+	<a href="#attributions">Attributions (1)</a>
+	|
+	<a href="#tags">Tags <span id='mini_nav_tag_link'>(6)</span></a>
+	|
+	<a href="#featured_in_packs">Featured in Packs (2)</a>
+	|
+	<a href="#ratings">Ratings (0)</a>
+	|
+	<a href="#attributed_by">Attributed By (0)</a>
+	|
+	<a href="#favourited_by">Favourited By (0)</a>
+	|
+	<br/>
+	|
+	<a href="#citations">Citations (0)</a>
+	|
+  <a href="#version_history">Version History</a>
+  |
+	
+	<a href="#reviews">Reviews (0)</a>
+	|
+	<a href="#comments">Comments (0)</a>
+	|
+</div>
+
+
+<div class="contribution_left_box">
+	
+	<div class="contribution_version_box">
+
+    <script type="text/javascript">
+  function showVersion(form) {
+    var url = $("resource_versions").value;
+		location.href = url;
+		form.submit
+  }
+</script>
+
+<div class="contribution_version_selector_box">
+
+  <table>
+    <tbody>
+      <tr>
+        <td class="heading" style="vertical-align: top;">
+          <img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This box shows version 1 for this entry] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />          <span>Version 1 </span>
+          <span class="count_text">(of 1)</span>
+          <a name="versions"></a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+      
+  <div id="version_info_box" style="color: #666666;  font-size: 85%; margin: 0.6em 0.5em 0.2em 0.5em; border-top: 1px solid #DDDDDD; padding-top: 0.4em;">
+    <p style="text-align: center;">
+      <b>Version created on:</b>
+      <span>28/06/08 @ 09:57:33</span>
+      
+        <b>by:</b>
+        <span><a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a></span>
+      
+      
+    </p>
+    
+    
+  </div>
+  
+  
+
+</div>
+
+
+
+		
+		
+		<div class="contribution_version_inner_box">
+			<p>
+				<b>Title:</b>
+				<span class="title">tRNAscan</span>
+			</p>
+			
+			<p>
+				<b>Type:</b>
+				<a href="/content_types/1">Taverna 1</a>
+			</p>
+			
+			<br/>
+			
+			<h3>
+				<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This section shows the preview of this version of the Workflow (click on the image to expand)] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+				Preview
+			</h3>
+			
+			
+				<p style="font-size: 85%; font-weight: normal; margin-bottom: 0.5em; text-align: center;">
+					 (Click on the image to get the full size)
+				</p>
+				<div class="contribution_preview" style="width: 100%;">
+					<center>
+						<a href="/workflows/245/versions/1/previews/full" onclick="window.open(this.href);return false;"><img alt="Medium" src="/workflows/245/versions/1/previews/medium" /></a>
+					</center>
+				</div>
+				
+			
+			
+			<br/>
+			
+			
+				<ul class="sectionIcons">
+					<li style="margin-left: 0;"><span class="icon"><a href="/workflows/245/versions/1/previews/svg"><img alt="Picture" src="/images/famfamfam_silk/picture.png?1202402239" /> Download Scalable Diagram (SVG)</a></span></li>
+				</ul>
+			
+			
+			<br/>
+			
+			<h3>
+				<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This section shows the overall description for this version of the Workflow] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+				Description
+			</h3>
+			
+			
+				<div class="contribution_description">
+					<p>
+Search a nucleotide sequence for tRNA genes using the tRNAscan-SE tool (see <a href="http://wiki.bioinformatics.org/TRNAscan-SE">http://wiki.bioinformatics.org/TRNAscan-SE</a>).
+</p>
+
+<p>
+This workflow uses the tRNAscan service at VBI PathPort (see <a href="http://pathport.vbi.vt.edu/services/#predict_7">http://pathport.vbi.vt.edu/services/#predict_7</a>).
+</p>
+
+				</div>
+				
+			
+			
+			<br/>
+			
+      
+
+        <h3>
+          <img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This section provides links to the different downloads for this version of the Workflow] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+          Download
+        </h3>
+        
+        
+
+          <br />
+
+          <ul class="sectionIcons">
+            <li style="margin-left: 0;"><span class="icon"><a href="http://www.myexperiment.org/workflows/245/download/trnascan_2072.xml?version=1"><img alt="Download Workflow (for version 1)" src="/images/redmond_studio/applications_16.png?1202402234" /> Download Workflow</a></span></li>
+          </ul>
+          
+
+        
+        
+        <br/>
+        
+      
+
+			<h3>
+				<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This section provides options for running this version of the Workflow] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+        Run
+			</h3>
+				
+			
+        
+          <div style="margin: 0 0.5em;">
+	<h4>
+		Run this Workflow in the Taverna Workbench...
+	</h4>
+	
+	<div class="option_box">
+		
+		<p style="text-align: center;">
+			<b>Option 1:</b>
+		</p>
+		
+		<p style="font-size: 93%; text-align: center;">
+			Copy and paste this link into File > 'Open workflow location...'<br/>
+			<a href="http://www.myexperiment.org/workflows/245/download?version=1">http://www.myexperiment.org/workflows/245/download?version=1</a><br/>
+			<small>[ <a href="#" onclick="Effect.toggle(&quot;run_taverna_more_box&quot;,'blind',{duration:0.3});; return false;">More Info<img alt="Expand" src="/images/folds/unfold.png?1202402232" style="margin-left: 0.3em; vertical-align: middle;" /></a> ]</small>
+		</p>
+		
+		<div id="run_taverna_more_box" style="display: none;">
+			<p style="font-size: 85%; margin-top: 0.5em; text-align: center;">
+				Taverna is available from <a href="http://taverna.sourceforge.net/" onclick="window.open(this.href);return false;">http://taverna.sourceforge.net/</a>
+			</p>
+			
+			<p style="text-align: center; margin-top: 0.5em; font-size: 85%;">
+				If you are having problems downloading it in Taverna, you may need to provide your username and password in the URL so that Taverna can access the Workflow: <br/>
+				
+					<b>Replace <font color="#990000">http://</font> in the link above with <font color="#990000">http://yourusername:yourpassword@</font></b>
+				
+			</p>
+		</div>
+	
+	</div>
+	
+	
+</div>
+				
+        
+			
+		
+			<br/>
+			
+			<h3>
+				<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This section shows the internal components of this workflow version] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+				Workflow Components
+			</h3>
+			
+			
+        
+          
+
+	
+		
+		<!-- Sources -->
+		
+		<div class="fold">
+			<div class="foldTitle">
+		    Inputs (2)
+			</div>
+		  <div class="foldContent" style="display: none;">
+				
+					<table class="simple">
+					  <tr>
+					    <th>Name</th>
+					    <th>Description</th>
+					  </tr>
+					
+						
+						  <tr>
+						    <td><b>Sequence_or_ID_or_GI</b></td>
+						    <td>Input nucleotide sequence to search for tRNA genes. This can be one of:
+
+  - Actual sequence (fasta format recommended)
+  - Entry identifier in database:identifer format (e.g. EMBL:AB005233)
+  - NCBI GI number (e.g. 2264305)</td>
+						  </tr>
+						
+						  <tr>
+						    <td><b>Sequence_origin</b></td>
+						    <td>The tRNAscan tool needs to know the type of tRNA signature to search for (e.g. Eukaryotic tRNAs).
+
+Possible values are:
+  - Eukaryotic tRNAs
+  - Bacterial tRNAs
+  - Eukaryotic tRNAs
+  - Archaeal tRNAs
+  - Mitochondrial/Chloroplast tRNAs
+  - General tRNAs</td>
+						  </tr>
+						
+					</table>
+				
+			</div>
+		</div>
+		
+		<!-- Processors -->
+		
+		<div class="fold">
+			<div class="foldTitle">
+		    Processors (2)
+			</div>
+		  <div class="foldContent" style="display: none;">
+				
+					<table class="simple">
+					  <tr>
+					    <th>Name</th>
+							<th>Type</th>
+					    <th>Description</th>
+					  </tr>
+					
+						
+						  <tr>
+						    <td><b>getTRNA</b></td>
+								<td>arbitrarywsdl</td>
+						    <td>Run tRNAscan.</td>
+						  </tr>
+						
+						  <tr>
+						    <td><b>Sequence_or_ID_or_GI</b></td>
+								<td>workflow</td>
+						    <td>Get a fasta formated sequence for one of:
+
+1. Actual sequence in an EMBOSS supported format (see http://emboss.sourceforge.net/docs/themes/SequenceFormats.html#in).
+
+2. Sequence entry identifer in database:identifer format. Retreived using EBI&#39;s WSDbfetch service (see http://www.ebi.ac.uk/Tools/webservices/services/dbfetch).
+
+3. An NCBI GI number. Retrived using NCBI&#39;s eUtils web service (see http://www.ncbi.nlm.nih.gov/entrez/query/static/eutils_help.html)</td>
+						  </tr>
+						
+					</table>
+				
+			</div>
+		</div>
+		
+		<!-- Beanshells -->
+    
+    <div class="fold">
+      <div class="foldTitle">
+        Beanshells (3)
+      </div>
+      <div class="foldContent" style="display: none;">
+        
+          <table class="simple">
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Inputs</th>
+              <th>Outputs</th>
+            </tr>
+          
+            
+              <tr>
+                <td><b>Build_fasta_seq</b></td>
+                <td></td>
+                <td>
+                  
+                    
+                      accver
+                      <hr />
+                    
+                      des
+                      <hr />
+                    
+                      seq
+                      
+                    
+                  
+                </td>
+                <td>
+                  
+                    
+                      fasta_seq
+                      
+                    
+                  
+                </td>
+              </tr>
+            
+              <tr>
+                <td><b>Is_sequence</b></td>
+                <td>Return true if the input is a sequence or false if the input is a sequence identifer (e.g. uniprot:wap_rat).</td>
+                <td>
+                  
+                    
+                      sequence
+                      
+                    
+                  
+                </td>
+                <td>
+                  
+                    
+                      is_sequence
+                      
+                    
+                  
+                </td>
+              </tr>
+            
+              <tr>
+                <td><b>Is_GI</b></td>
+                <td>Is the input a GI number?</td>
+                <td>
+                  
+                    
+                      gi_id_seq
+                      
+                    
+                  
+                </td>
+                <td>
+                  
+                    
+                      is_gi
+                      
+                    
+                  
+                </td>
+              </tr>
+            
+          </table>
+        
+      </div>
+    </div>
+    
+    <!-- Sinks -->
+		
+		<div class="fold">
+			<div class="foldTitle">
+		    Outputs (1)
+			</div>
+		  <div class="foldContent" style="display: none;">
+				
+					<table class="simple">
+					  <tr>
+					    <th>Name</th>
+					    <th>Description</th>
+					  </tr>
+					
+						
+						  <tr>
+						    <td><b>tRNAscan_output</b></td>
+						    <td>The tRNAscan result in the DAS XML format (see http://www.biodas.org/documents/spec.html).</td>
+						  </tr>
+						
+					</table>
+				
+			</div>
+		</div>
+		
+		<!-- Links -->
+		
+		<div class="fold">
+			<div class="foldTitle">
+		    Links (4)
+			</div>
+		  <div class="foldContent" style="display: none;">
+				
+					<table class="simple">
+					  <tr>
+					    <th>Source</th>
+					    <th>Sink</th>
+					  </tr>
+					
+						
+						  <tr>
+						    <td>Sequence_or_ID_or_GI</td>
+						    <td>Sequence_or_ID_or_GI:Sequence_or_ID_or_GI</td>
+						  </tr>
+						
+						  <tr>
+						    <td>Sequence_or_ID_or_GI:Sequence</td>
+						    <td>getTRNA:in0</td>
+						  </tr>
+						
+						  <tr>
+						    <td>Sequence_origin</td>
+						    <td>getTRNA:in1</td>
+						  </tr>
+						
+						  <tr>
+						    <td>getTRNA:getTRNAReturn</td>
+						    <td>tRNAscan_output</td>
+						  </tr>
+						
+					</table>
+				
+			</div>
+		</div>
+		
+		<!-- Coordinations -->
+		
+		<div class="fold">
+			<div class="foldTitle">
+		    Coordinations (0)
+			</div>
+		  <div class="foldContent" style="display: none;">
+				
+					<p class="none_text">None</p>
+				
+			</div>
+		</div>
+	
+	
+
+
+        
+			
+		</div>
+	
+	</div>
+	
+</div>
+
+<div class="contribution_right_box">
+	<div class="contribution_section_box" style= "font-size: 100%; padding: 0.7em 0.9em; font-weight: bold;">
+		<p><img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[The type of workflow system that this Workflow is designed for.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" /> Workflow Type</p>
+    <p><a href="/content_types/1">Taverna 1</a></p>
+	</div>
+	
+	<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[The Original Uploader is the person who uploaded/created this Workflow on myExperiment, and who manages it on myExperiment.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Original Uploader
+	</p>
+	<p>
+		<center>
+			<div class="avatar" style="width: 66px">
+	<a href="http://www.myexperiment.org/users/925"><img alt="394?size=60x60" class="framed" src="/pictures/show/394?size=60x60" title="Hamish McWilliam" /></a>
+	<span style="display:block;margin-top:2px;text-align:center;">
+		
+			<img alt="Gb" src="/images/famfamfam_flags/gb.png?1202402235" style="vertical-align:middle; margin-right: 0.3em;" title="header=[] body=[&lt;b&gt;Location: &lt;/b&gt;Cambridge, United Kingdom] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		
+		
+		
+			<a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+		
+		
+		
+		
+	</span>
+</div>
+
+		</center>
+	</p>
+</div>
+
+
+    
+	
+	
+
+<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[This specifies what rights users have when they download and use this Workflow.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		License
+		<a name="license"></a>
+	</p>
+
+  
+
+    
+    
+    
+    
+    
+
+
+    
+
+    <!--
+
+    <rdf:RDF xmlns="http://creativecommons.org/ns#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+       <dc:title>tRNAscan</dc:title>
+       <dc:date>2008-06-28 09:57:33 UTC</dc:date>
+       <dc:description>&lt;p&gt;
+Search a nucleotide sequence for tRNA genes using the tRNAscan-SE tool (see &lt;a href=&quot;http://wiki.bioinformatics.org/TRNAscan-SE&quot;&gt;http://wiki.bioinformatics.org/TRNAscan-SE&lt;/a&gt;).
+&lt;/p&gt;
+
+&lt;p&gt;
+This workflow uses the tRNAscan service at VBI PathPort (see &lt;a href=&quot;http://pathport.vbi.vt.edu/services/#predict_7&quot;&gt;http://pathport.vbi.vt.edu/services/#predict_7&lt;/a&gt;).
+&lt;/p&gt;
+</dc:description>
+       <dc:creator><Agent>
+          <dc:title><a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a></dc:title>
+       </Agent></dc:creator>
+       <dc:rights><Agent>
+          <dc:title><a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a></dc:title>
+       </Agent></dc:rights>
+       <dc:type rdf:resource="http://purl.org/dc/dcmitype/Data" />
+       <dc:source rdf:resource="http://www.myexperiment.org/workflows/245/versions/1.html"/>
+       <license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+    </Work>
+
+    <License rdf:about="http://creativecommons.org/licenses/by/3.0/">
+      <permits rdf:resource="http://creativecommons.org/ns#Reproduction" />  <permits rdf:resource="http://creativecommons.org/ns#Distribution" />  <requires rdf:resource="http://creativecommons.org/ns#Notice" />  <requires rdf:resource="http://creativecommons.org/ns#Attribution" />  <permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+    </License>
+
+    </rdf:RDF>
+
+    -->
+
+  
+
+  <div class="contribution_currentlicense">
+    <p>
+      
+        All versions of this Workflow are
+      
+      
+        licensed under: <br/><br/><a rel="Copyright" href="http://www.myexperiment.org/licenses/3" title="Creative Commons Attribution 3.0 Unported License"><img src="/images/by.png" /></a>
+      
+    </p>
+  </div>
+	
+</div>
+
+	
+	<div class="contribution_section_box">
+	
+	<p class="heading" style="margin-bottom: 0; padding-bottom: 0;">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Which people/groups get the credit for this Workflow?] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Credits <span class="count_text">(1)</span>
+		<a name="credits"></a>
+	</p>
+	<span style="font-size: 85%; color: #666666; display: block; padding: 0.3em 0.5em 0 0.5em; margin: 0; line-height: 1em;">(People/Groups)</span>
+	
+		<div style="font-size: 85%;">
+			<ul class="items">
+				
+					<li>
+						
+							
+								<span class="icon"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> </span> 
+							
+							<a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+						
+					</li>
+				
+			</ul>
+		</div>
+	
+	
+	
+	<p class="heading" style="margin-bottom: 0; padding-bottom: 0;">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[What other Workflows/Files is this one based on?] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Attributions <span class="count_text">(1)</span>
+		<a name="attributions"></a>
+	</p>
+	<span style="font-size: 85%; color: #666666; display: block; padding: 0.3em 0.5em 0 0.5em; margin: 0; line-height: 1em;">(Workflows/Files)</span>
+	
+		<div style="font-size: 85%;">
+			<p>
+				<ul class="items">
+					
+						<li>
+							
+								
+									
+										<span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span> 
+									 
+									<a href="http://www.myexperiment.org/workflows/232">Sequence_or_ID_or_GI</a>
+								
+						  
+						</li>
+					
+				</ul>
+			</p>
+		</div>
+	
+	
+	
+	
+</div>
+
+	
+  
+
+
+	<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[The tags for this Workflow entry.&lt;br/&gt;Note(1): if this Workflow has many versions, the tags apply to ALL versions in this entry.&lt;br/&gt;Note(2): the size of the tags show how popular they are on myExperiment.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Tags <span id="tags_box_header_tag_count_span" class="count_text">(6)</span>
+		<a name="tags"></a>
+	</p>
+
+	<script type="text/javascript">
+  function showAllTags() {
+    Element.show('all_tags');
+	  Element.hide('user_tags');
+	  return false;
+  }
+  
+  function showUsersTags() {
+  	Element.hide('all_tags');
+	  Element.show('user_tags');
+	  return false;
+  }
+	
+	function flip_tags_mode()
+	{
+		if( $('toggle_tags_mode').checked )
+		  showUsersTags();
+	  else
+		  showAllTags();
+	}
+</script>
+
+<div id="tags_inner_box">
+	
+		<div class="box_currentuser_specific" style="padding: 0.3em 0.2em; margin: 0.6em 0.4em;">
+		  <label for="toggle_tags_mode" style="font-size: 85%; font-weight: bold;"><input id="toggle_tags_mode" name="toggle_tags_mode" onclick="flip_tags_mode();" style="margin-right: 0.3em;" type="checkbox" value="1" />Original Uploader tags</label>
+		</div>
+		<div id="all_tags">
+			
+				<div class="hTagcloud">
+  <ul class="popularity">
+    <li><a href='http://www.myexperiment.org/tags/39' class='vvvv-popular'>bioinformatics</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/780' class='popular'>nucleotide sequence</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/861' class='popular'>nucleotide sequence annotation</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/514' class='popular'>tRNA</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/860' class='popular'>trnascan</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/859' class='popular'>trnascan-se</a></li>
+  </ul>
+</div>
+
+			
+		</div>
+		<div id="user_tags"  style="display: none;">
+			
+				<div class="hTagcloud">
+  <ul class="popularity">
+    <li><a href='http://www.myexperiment.org/tags/39' class='vvvv-popular'>bioinformatics</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/780' class='popular'>nucleotide sequence</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/861' class='popular'>nucleotide sequence annotation</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/514' class='popular'>tRNA</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/860' class='popular'>trnascan</a></li>
+<li> | </li>
+    <li><a href='http://www.myexperiment.org/tags/859' class='popular'>trnascan-se</a></li>
+  </ul>
+</div>
+
+			
+		</div>
+	
+</div>
+	
+	
+	
+	
+		<p><small><b><a href="http://www.myexperiment.org/session/new">Log in</a></b> to add Tags</small></p>
+	
+</div>
+
+																											 
+	
+<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[All the Groups that this item has been shared with] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Shared with Groups <span class="count_text">(0)</span>
+	</p>
+	
+		<p class="none_text">None</p>
+	
+</div>
+	
+	<div class="contribution_section_box" id="in_packs_box">
+  
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[All the Packs that this item (or versions of this item [[if available]]) is referred to in] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Featured In Packs  <span class="count_text">(2)</span>
+		<a name="featured_in_packs"></a>
+	</p>
+	
+		<div style="font-size: 85%;">
+			<ul class="items">
+				
+					<li>
+						
+							<span class="none_text">Private pack</span>
+						
+					</li>
+				
+					<li>
+						
+							<span class="none_text">Private pack</span>
+						
+					</li>
+				
+			</ul>
+		</div>
+	
+	
+	
+		<p><small><b><a href="http://www.myexperiment.org/session/new">Log in</a></b> to add to one of your Packs</small></p>
+	
+</div>
+
+	
+	<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[How does this Workflow rate overall?] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Ratings <font class="count_text">(0)</font>
+	  <a name="ratings"></a>
+	</p>
+	
+	<div id="ratings_inner">
+		<center>
+	
+		<div style="margin: 0.2em 0;">
+	<p style="font-size: 85%; font-weight: bold;">
+	  Current:
+	</p>
+	<p style="font-size: 123.1%; font-weight: bold; padding-bottom: 0.2em; line-height: 1;">
+		0.0 / 5
+	</p>
+	<p style="font-size: 85%; padding-top: 0.2em; line-height: 1;">
+		(0 ratings)
+	</p>
+</div>
+
+		<p><small><b><a href="http://www.myexperiment.org/session/new">Log in</a></b> to rate and see breakdown of ratings</small></p>
+	
+</center>
+	</div>
+	
+	
+</div>
+
+	
+	<div class="contribution_section_box">
+	
+	<p class="heading" style="margin-bottom: 0; padding-bottom: 0;">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Shows files and workflows that have attributed this Workflow.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Attributed By <span class="count_text">(0)</span>
+	  <a name="attributed_by"></a>
+	</p>
+	<span style="font-size: 85%; color: #666666; display: block; padding: 0.3em 0.5em 0 0.5em; margin: 0; line-height: 1em;">(Workflows/Files)</span>
+	
+		
+		<p class="none_text">None</p>
+	
+	
+</div>
+
+	
+	
+<div class="contribution_section_box">
+	<p class="heading">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[The users who have added this Workflow to their favourites] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Favourited By <font class="count_text">(0)</font>
+		<a name="favourited_by"></a>
+	</p>
+	
+	
+		<p class="none_text">No one</p>
+	
+	
+	
+</div>
+	
+	
+
+<div class="contribution_section_box">
+	<p class="heading" style="margin-bottom: 0.3em;">
+		<img alt="Information" src="/images/famfamfam_silk/information.png?1202402239" style="vertical-align:middle;" title="header=[] body=[Viewing / download counts are grand totals for this Workflow.&lt;br/&gt;Click &#39;see breakdown&#39; to view details.] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		Statistics
+	</p>
+	
+	<div class="stats_box"> 
+		<p style="font-size: 85%;">
+  835 viewings
+</p>
+
+	<p style="font-size: 85%;">
+	  1106 downloads
+	</p>
+
+<p style="margin-top: 0.2em;">
+	<small>[ <a href="http://www.myexperiment.org/workflows/245/statistics">see breakdown</a> ]</small>
+</p>
+		
+		<div class="fold" style="padding-top: 0.6em;">
+			<div class="foldTitle">More</div>
+			<div class="foldContent" style="display: none; text-align: left;">
+				
+					<p>
+						<a href="#credits">1 credit</a> <!-- won't work for type=='group'; needs anchor called '#group_creditations' -->
+					</p>
+					
+					<p>
+						<a href="#attributions">1 attribution</a>
+					</p>
+				
+				
+				
+					<p>
+			      <a href="#tags">6 tags</a>
+			    </p>
+				
+				
+				
+					<p>
+			      <a href="#favourited_by">0 favourites</a>
+			    </p>
+				
+				
+				
+					<p>
+			      <a href="#ratings">0 ratings</a>
+			    </p>
+				
+				
+				
+					<p>
+						<a href="#citations">0 citations</a>
+			    </p>
+				
+				
+				
+					<p>
+			      <a href="#reviews">0 reviews</a>
+			    </p>
+				
+				
+				
+			    <p>
+			    	<a href="#comments">0 comments</a>
+			    </p>
+				
+			</div>
+		</div>
+		
+		
+		
+		
+	</div>
+</div>
+
+</div>
+
+<div class="clearer">&nbsp;</div>
+
+<!-- BEGIN tabs -->
+	
+<br/>
+
+<div id="tabsContainer" class="tabsContainer"></div>
+
+<div class="tabContainer">
+  <div class="tabTitle">Citations (0)</div>
+  <div class="tabContent">
+
+    <a name="citations"></a>
+    
+      <p><i>None</i></p>
+    
+		
+		<br/>
+
+    
+
+  </div>
+</div>
+
+
+<div class="tabContainer">
+  <div class="tabTitle">Version History</div>
+  <div class="tabContent">
+    <a name="version_history"></a>
+    <p>In chronological order:</p>
+
+<ol class="version_history">
+  
+    <li>
+      <div class="title">
+        <a href="/workflows/245/versions/1">tRNAscan</a>
+      </div>
+      <div class="metadata">
+
+        <p>
+          Created
+          
+            by <a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+          
+          on Saturday 28 June 2008 @ 09:57:33 (UTC)
+        </p>
+
+        
+
+        
+      </div>
+    </li>
+  
+</ol>
+
+
+  </div>
+</div>
+
+
+
+<!-- END tabs -->
+
+<br/>
+<br/>
+
+<div id="ratingsBox">
+	<h2>
+	<span class="icon"><img alt="Reviews" src="/images/famfamfam_silk/report.png?1202402239" /> </span>	<span style="vertical-align: middle;"><a href="/workflows/245/reviews">Reviews</a></span>
+	<span class="count_text" style="vertical-align: middle;">(0)</span>
+</h2>
+
+<div class="reviewsBox">
+
+	
+		<p><i>No reviews yet</i></p>
+		<a name="reviews"></a>
+		<p style="margin-top: 0.6em;">
+			<strong><a href="http://www.myexperiment.org/workflows/245/reviews/new">Be the first to review!</a></strong>
+		</p>
+	
+	
+</div>
+
+</div>
+
+<br/>
+<br/>
+
+<div id="commentsBox">
+	<script src="/javascripts/ckeditor/ckeditor.js?1363079434" type="text/javascript"></script>
+<script src="/javascripts/widgets/tooltip.js?1204280800" type="text/javascript"></script>
+
+<h2>
+	<span class="icon"><img alt="Comments" src="/images/famfamfam_silk/comments.png?1202402239" /> </span>	<span style="vertical-align: middle;">Comments</span>
+	<span class="count_text" style="vertical-align: middle;">(0)</span>
+</h2>
+
+<ul class="sectionIcons">
+  <li><span class="icon"><a href="http://www.myexperiment.org/workflows/245/comments/timeline"><img alt="Timeline" src="/images/famfamfam_silk/timeline_marker.png?1202402239" /> View Timeline</a></span></li>
+</ul>
+
+<div class="commentsBox">
+	
+	
+		<p><i>No comments yet</i></p>
+		<a name="comments"></a>
+		
+			<p style="margin-top: 0.6em;"><strong><a href="http://www.myexperiment.org/session/new">Log in</a> to make a comment </strong></p>
+		
+	
+	
+	<br/>
+	
+	
+
+</div>
+
+
+</div>
+
+<!-- Other workflows that use a service this workflow users -->
+
+<br />
+<br />
+
+<h2>
+	<span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>	<span style="vertical-align: middle;">Other workflows that use similar services</span>
+	<span class="count_text" style="vertical-align: middle;">(45)</span>
+</h2>
+
+
+  <p><i>Only the first 2 workflows that use similar services are shown</i>.   <a href="/workflows?filter=WSDL_ENDPOINT%3D%28%22http%3A%2F%2Feutils.ncbi.nlm.nih.gov%2Fentrez%2Feutils%2Fsoap%2Feutils.wsdl%22+OR+%22http%3A%2F%2Fwww.ebi.ac.uk%2FTools%2Fwebservices%2Fwsdl%2FWSDbfetch.wsdl%22+OR+%22http%3A%2F%2Fpathport.vbi.vt.edu%2Fservices%2Fwsdls%2Ftrnascan.wsdl%22%29">View all workflows that use these services</a>.</p>
+  <br />
+
+
+
+  
+
+
+
+
+
+
+	
+
+            
+    <div class="resource_list_item ">
+
+      <div class="avatar_panel">
+        <div class="workflow_type_box">
+          <a href="/content_types/1">Taverna 1</a>
+        </div>
+        <span class="owner">Original Uploader</span>
+        <div class="avatar" style="width: 66px">
+	<a href="http://www.myexperiment.org/users/925"><img alt="394?size=60x60" class="framed" src="/pictures/show/394?size=60x60" title="Hamish McWilliam" /></a>
+	<span style="display:block;margin-top:2px;text-align:center;">
+		
+			<img alt="Gb" src="/images/famfamfam_flags/gb.png?1202402235" style="vertical-align:middle; margin-right: 0.3em;" title="header=[] body=[&lt;b&gt;Location: &lt;/b&gt;Cambridge, United Kingdom] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		
+		
+		
+			<a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+		
+		
+		
+		
+	</span>
+</div>
+
+        
+      </div>
+
+      <div class="main_panel">
+
+        <div class="actions">
+          <span class="icon"><a href="/workflows/231"><img alt="Show" src="/images/famfamfam_silk/zoom.png?1202402239" /> View</a></span>
+                      <span class="icon"><a href="/workflows/231/download"><img alt="Download" src="/images/redmond_studio/arrow-down_16.png?1202402234" /> Download (v2)</a></span>
+            
+          
+          
+        </div>
+                  <a name="NCBI_QBLAST"></a>
+
+          <p class="title">
+            <span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>
+            
+            <a href="/workflows/231" title="NCBI_QBLAST">NCBI_QBLAST</a>
+            <span style="font-weight:normal;">
+              (2)
+            </span>
+          </p>
+
+          <p>
+            <b>Created:</b> 07/06/08 @ 15:05:00            
+              |	<b>Last updated:</b> 07/06/08 @ 17:11:36            
+          </p>
+
+          
+            <p>
+              <b>Credits:</b>
+              
+                
+                  <span class="icon"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> </span>
+                
+                <a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+              
+            </p>
+          
+
+          
+
+          
+            <p><b>License: </b><a href="/licenses/3">Creative Commons Attribution 3.0 Unported License</a></p>
+          
+
+          <div class="desc">
+                          <div class="preview">
+                <a href="/workflows/231"><img alt="Thumb" class="framed_nospace" src="/workflows/231/previews/thumb" /></a>
+              </div>
+                                                    Perform an NCBI BLAST sequence similarity search using NCBI's QBLAST service (see http://www.ncbi.nlm.nih.gov/BLAST/Doc/urlapi.html). The query sequence, database to search and BLAST program to use are inputs, the other parameters for the search are allowed to default.
+                      </div>
+
+          <p>
+            <a href="/workflows/231#ratings"><b>Rating: </b>0.0 / 5 (0 ratings)</a> |
+            <a href="/workflows/231#versions"><b>Versions: </b>2</a> |
+            <a href="/workflows/231#reviews"><b>Reviews: </b>0</a> |
+            <a href="/workflows/231#comments"><b>Comments: </b>0</a> |
+            <a href="/workflows/231#citations"><b>Citations: </b>0</a>
+          </p>
+
+          <p>
+            <b>Viewed:</b> 262 times |
+            <b>Downloaded:</b> 129 times
+          </p>
+
+          
+            <a href="/workflows/231#tags"><p><b>Tags</b> (5):</p></a>
+            <div style="display:inline;" class="tags_onesize"><div class="hTagcloud">
+  <ul class="popularity">
+    <li><a href="http://www.myexperiment.org/tags/39" class="vvvv-popular">bioinformatics</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/49" class="vv-popular">BLAST</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/335" class="v-popular">ncbi</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/336" class="popular">ncbi blast</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/802" class="popular">sequence similarity search</a></li>
+  </ul>
+</div>
+</div>
+          
+              </div>
+    </div>
+  
+            
+    <div class="resource_list_item ">
+
+      <div class="avatar_panel">
+        <div class="workflow_type_box">
+          <a href="/content_types/1">Taverna 1</a>
+        </div>
+        <span class="owner">Original Uploader</span>
+        <div class="avatar" style="width: 66px">
+	<a href="http://www.myexperiment.org/users/925"><img alt="394?size=60x60" class="framed" src="/pictures/show/394?size=60x60" title="Hamish McWilliam" /></a>
+	<span style="display:block;margin-top:2px;text-align:center;">
+		
+			<img alt="Gb" src="/images/famfamfam_flags/gb.png?1202402235" style="vertical-align:middle; margin-right: 0.3em;" title="header=[] body=[&lt;b&gt;Location: &lt;/b&gt;Cambridge, United Kingdom] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]" />
+		
+		
+		
+			<a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+		
+		
+		
+		
+	</span>
+</div>
+
+        
+      </div>
+
+      <div class="main_panel">
+
+        <div class="actions">
+          <span class="icon"><a href="/workflows/232"><img alt="Show" src="/images/famfamfam_silk/zoom.png?1202402239" /> View</a></span>
+                      <span class="icon"><a href="/workflows/232/download"><img alt="Download" src="/images/redmond_studio/arrow-down_16.png?1202402234" /> Download (v1)</a></span>
+            
+          
+          
+        </div>
+                  <a name="Sequence_or_ID_or_GI"></a>
+
+          <p class="title">
+            <span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>
+            
+            <a href="/workflows/232" title="Sequence_or_ID_or_GI">Sequence_or_ID_or_GI</a>
+            <span style="font-weight:normal;">
+              (1)
+            </span>
+          </p>
+
+          <p>
+            <b>Created:</b> 07/06/08 @ 16:58:14            
+          </p>
+
+          
+            <p>
+              <b>Credits:</b>
+              
+                
+                  <span class="icon"><img alt="User" src="/images/famfamfam_silk/user.png?1202402239" /> </span>
+                
+                <a href="http://www.myexperiment.org/users/925" title="header=[] body=[Hamish McWilliam] cssheader=[boxoverTooltipHeader] cssbody=[boxoverTooltipBody] delay=[200]">Hamish McWilliam</a>
+              
+            </p>
+          
+
+          
+            <p>
+              <b>Attributions:</b>
+              
+                                  
+                    <span class="icon"><img alt="Workflow" src="/images/redmond_studio/applications_16.png?1202402234" /> </span>
+                  
+                  <a href="http://www.myexperiment.org/workflows/225">Structure_or_ID</a>
+                
+              
+            </p>
+          
+
+          
+            <p><b>License: </b><a href="/licenses/3">Creative Commons Attribution 3.0 Unported License</a></p>
+          
+
+          <div class="desc">
+                          <div class="preview">
+                <a href="/workflows/232"><img alt="Thumb" class="framed_nospace" src="/workflows/232/previews/thumb" /></a>
+              </div>
+                                                    Get a sequence in fasta format given one of:
+
+
+
+
+An NCBI GI number (e.g. 75251068).
+An entry identifier in database:identifier format (e.g. uniprot:Q96247).
+
+
+3. A sequence entry in a format supported by EMBOSS seqret.
+                      </div>
+
+          <p>
+            <a href="/workflows/232#ratings"><b>Rating: </b>0.0 / 5 (0 ratings)</a> |
+            <a href="/workflows/232#versions"><b>Versions: </b>1</a> |
+            <a href="/workflows/232#reviews"><b>Reviews: </b>0</a> |
+            <a href="/workflows/232#comments"><b>Comments: </b>0</a> |
+            <a href="/workflows/232#citations"><b>Citations: </b>0</a>
+          </p>
+
+          <p>
+            <b>Viewed:</b> 157 times |
+            <b>Downloaded:</b> 91 times
+          </p>
+
+          
+            <a href="/workflows/232#tags"><p><b>Tags</b> (9):</p></a>
+            <div style="display:inline;" class="tags_onesize"><div class="hTagcloud">
+  <ul class="popularity">
+    <li><a href="http://www.myexperiment.org/tags/39" class="vvvv-popular">bioinformatics</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/813" class="popular">dbfetch</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/138" class="vv-popular">ebi</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/840" class="popular">efetch</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/839" class="popular">fasta format</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/603" class="popular">gi</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/335" class="v-popular">ncbi</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/841" class="popular">sequence identifier</a></li>
+<li> | </li>
+    <li><a href="http://www.myexperiment.org/tags/819" class="popular">sequence retrieval</a></li>
+  </ul>
+</div>
+</div>
+          
+              </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+<div class="box_standout" style="margin: 1.5em 3em; padding: 0.7em 1.5em">
+  <p style="float: right"><a href="http://wiki.myexperiment.org/index.php/Linked_Data">What is this?</a></p>
+  <p style="float: left; font-size: 120%; font-weight: bold">Linked Data</p>
+  <div style="clear: both"></div>
+  <p><b>Non-Information Resource URI:</b> <a href="http://www.myexperiment.org/workflows/245/versions/1">http://www.myexperiment.org/workflows/245/versions/1</a></p>
+  <br>
+  <p style="font-size: 110%; font-weight: bold">Alternative Formats</p>
+  <div style="width: 33%; float: left; text-align: center"><a href="http://www.myexperiment.org/workflows/245/versions/1?format=html"><img src="/images/html_icon.png?1277997644" alt="HTML" /></a></div>
+  <div style="width: 33%; float: left; text-align: center"><a href="http://www.myexperiment.org/workflows/245/versions/1?format=rdf"><img src="/images/rdf_icon.png?1277997644" alt="RDF" /></a></div>
+  <div style="width: 33%; float: left; text-align: center"><a href="http://www.myexperiment.org/workflows/245/versions/1?format=xml"><img src="/images/xml_icon.png?1277997644" alt="XML" /></a></div>
+  <div style="clear: both"></div>
+</div>
+
+
+
+<!-- OpenURL context object -->
+
+<span class="Z3988" title="url_ver=Z39.88-2004&amp;url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&amp;ctx_ver=Z39.88-2004&amp;ctx_tim=2014-09-05T15%3A49%3A29%2B01%3A00&amp;ctx_id=&amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;rft.title=tRNAscan&amp;rft.date=2008-06-28&amp;rft.au=Hamish+McWilliam&amp;rft.genre=unknown&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc"></span>
+
+
+      </div>
+    </div>
+  
+
+
+  
+              <div id="ft">
+          <p class="copyright">
+	Copyright &#169; 2007 - 2012
+	<a href="http://www.manchester.ac.uk/" target="_blank">The University of Manchester</a>
+	and
+	<a href="http://www.soton.ac.uk/" target="_blank">University of Southampton</a>
+</p>
+
+<div>
+	<table>
+		<tr>
+			<td class="left">
+				<p><a href="/">Front Page</a></p>
+				<p><a href="/home">Home</a></p>
+				<p><a href="/users/invite">Invite people to myExperiment</a></p>
+        <p><a href="http://wiki.myexperiment.org/index.php/Help">Help pages</a></p>
+			</td>
+			<td class="middle">
+				<p><a href="http://wiki.myexperiment.org/" target="_blank">About Us</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Main_Page" target="_blank">News and Events</a></p>
+				<p><a href="http://lists.nongnu.org/mailman/listinfo/myexperiment-discuss" target="_blank">Mailing List</a></p>
+				<p><a href="/feedback" target="_blank">Contact Us</a></p>
+				<p><a href="/mashup/api">Developers</a></p>
+				<p><a href="http://wiki.myexperiment.org/index.php/Papers" target="_blank">Publications</a></p>
+				<br/>
+			</td>
+			<td class="middle">
+				<p><a href="http://www.taverna.org.uk/" target="_blank">Taverna Workflow Workbench</a></p>
+				<p><a href="http://www.mygrid.org.uk" target="_blank">myGrid</a></p>
+				<p><a href="http://www.biocatalogue.org" target="_blank">BioCatalogue</a></p>
+				<p><a href="http://www.microsoft.com/mscorp/tc/trident.mspx" target="_blank">Trident</a></p>
+				<p><a href="/google" target="_blank">Google Coop Search</a></p>
+			</td>
+			<td class="right">
+				<p><a href="http://www.epsrc.ac.uk/" target="_blank">EPSRC</a></p>
+				<p><a href="http://jisc.ac.uk/" target="_blank">JISC</a></p>
+				<p><a href="http://www.microsoft.com" target="_blank">Microsoft</a></p>
+        <p style="height=0; border-bottom: 1px dotted #999999"></p>
+				<p>Powered by:</p>
+				<a href="http://www.rubyonrails.com" target="_blank"><img alt="Rails" src="/images/rails.png?1323174488" /></a>
+				
+				<p style="margin-top: 0.2em;">
+					Icons:
+					<br/>
+					<b><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set 1.3</a></b>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+        </div>
+      <br class="clearer"/>
+      
+
+
+  
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1498417-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+
+</body>
+</html>
+
