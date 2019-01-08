@@ -1,0 +1,34 @@
+package Main;
+
+import java.util.ArrayList;
+
+public class ListaFinal {
+	ArrayList<ArrayList<ArrayList<Integer>>> recomendacoes = 
+							new ArrayList<ArrayList<ArrayList<Integer>>>();
+	
+	public ListaFinal(){
+	
+		//Insere os 10 Sistemas de recomendacao
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int CART_REGRESSAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int BINOMIAL_REGRESSAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int MARS_REGRESSAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int NNET_REGRESSAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int SVM_REGRESSAO_RESULTADO;
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int CART_CLASSIFICACAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int NAIVE_BAYES_CLASSIFICACAO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int NNET_CLASSIFICACAO_RESULTADO; 
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int SVM_CLASSIFICACAO_RESULTADO;
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());//int KNN_CLASSIFICACAO_RESULTADO;
+		
+		System.out.println(recomendacoes.size());
+		
+		//*Insere as 77 recomendacoes de cada um deles
+		for (int i = 0; i < recomendacoes.size(); i++) {
+			for (int j = 0; j < 73; j++) {
+				recomendacoes.get(i).addAll(new ArrayList<ArrayList<Integer>>());
+				recomendacoes.get(i).get(j).addAll(new ArrayList<Integer>());
+			}
+		}
+	}
+	
+}

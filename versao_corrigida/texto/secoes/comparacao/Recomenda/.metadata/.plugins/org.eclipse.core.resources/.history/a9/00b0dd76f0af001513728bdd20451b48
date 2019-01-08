@@ -1,0 +1,34 @@
+package Main;
+
+public class Main {
+
+	public void leituraDeEntradaRecomendador(){
+
+		String caminhoArquivoEntrada = "/home/toasty/Desktop/dadosParaRecomendar.csv";
+		String [][] workflows = new CriaListaAnotacoes().leMatrizCSV(caminhoArquivoEntrada);
+		
+	}
+	
+	public void geraAnotacoesEmAtividades(){}
+	
+	
+	public static void main(String[] args) {
+
+		//String caminhoArquivoEntradaAtividadesEAnotacoes = "/home/toasty/Desktop/Leitura.csv";
+		
+		
+		
+		//String [][] workflowsAnotacoes = 
+		//		new CriaListaAnotacoes().
+		//		leMatrizCSVRelacionaAnotacaoEAtividades(caminhoArquivoEntradaAtividadesEAnotacoes);
+		
+		//new Recomenda().efetuaRecomendacao(workflowsAnotacoes);
+		//imprime o resultado
+		//new CriaListaAnotacoes().imprimeMatrizCSV(workflows);
+		//new Recomenda().efetuaRecomendacao(workflows);
+		
+		
+		
+	}
+	
+}

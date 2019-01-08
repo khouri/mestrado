@@ -1,0 +1,657 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[ACMDL 2014]{ACMDL}
+\abntrefinfo{ACMDL}{ACMDL}{2014}
+{ACMDL, t. \emph{ACM Digital Library}. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dl\-.acm\-.org\-/$>$}{http://dl.acm.org/}.}
+
+\bibitem[Adomavicius e Tuzhilin 2005]{Adomavicius2005}
+\abntrefinfo{Adomavicius e Tuzhilin}{ADOMAVICIUS; TUZHILIN}{2005}
+{ADOMAVICIUS, G.; TUZHILIN, A. {Toward the next generation of recommender
+  systems: a survey of the state-of-the-art and possible extensions}.
+\emph{Knowledge and Data Engineering, IEEE Transactions on}, v.~17, n.~6, p.
+  734--749, 2005.}
+
+\bibitem[Agrawal e Srikant 1994]{Agrawal1994}
+\abntrefinfo{Agrawal e Srikant}{AGRAWAL; SRIKANT}{1994}
+{AGRAWAL, R.; SRIKANT, R. Fast algorithms for mining association rules in large
+  databases. In:  \emph{Proceedings of the 20th International Conference on
+  Very Large Data Bases}. San Francisco, CA, USA: Morgan Kaufmann Publishers
+  Inc., 1994.  (VLDB '94), p. 487--499. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dl\-.acm\-.org\-/citation\-.cfm?id=645920\-.672836$>$}{http://dl.acm.org/citation.cfm?id=645920.672836}.}
+
+\bibitem[Agresti 2015]{Agresti2015}
+\abntrefinfo{Agresti}{AGRESTI}{2015}
+{AGRESTI, A. \emph{Foundations of Linear and Generalized Linear Models}. 2015.}
+
+\bibitem[Almeida e Bax 2003]{ALMEIDA2003}
+\abntrefinfo{Almeida e Bax}{ALMEIDA; BAX}{2003}
+{ALMEIDA, M.; BAX, M. Uma vis\~{a}o geral sobre ontologias: pesquisa sobre
+  defini\c{c}\~{o}es, tipos aplica\c{c}\~{o}es, m\'{e}todos de
+  avalia\c{c}\~{a}o e de constru\c{c}\~{a}o.
+\emph{{Ci\^{e}ncia da Informa\c{c}\~{a}o}}, scielo, v.~32, p. 7--20, 2003.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dx\-.doi\-.org\-/10\-.1590\-/S0100{\textbackslash}-19652003000300002$>$}{http://dx.doi.org/10.1590/S0100\-19652003000300002}.}
+
+\bibitem[Bhagat et al. 2014]{Biocatalogue}
+\abntrefinfo{Bhagat et al.}{BHAGAT et al.}{2014}
+{BHAGAT, J. et al. \emph{BioCatalogue: a universal catalogue of web services
+  for the life sciences}. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http://dx.doi.org/10.1093/nar/gkq394$>$}{http://dx.doi.org/10.1093/nar/gkq394}.}
+
+\bibitem[Biolchini et al. 2007]{Biolchini2007}
+\abntrefinfo{Biolchini et al.}{BIOLCHINI et al.}{2007}
+{BIOLCHINI, J.~C. de A. et al. Scientific research ontology to support
+  systematic review in software engineering.
+\emph{Adv. Eng. Inform.}, Elsevier Science Publishers B. V., v.~21, n.~2, p.
+  133--151, 2007.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S147403460600070X$>$}{http://www.sciencedirect.com/science/article/pii/S147403460600070X}.}
+
+\bibitem[Bomfim et al. 2005]{Bomfim2005}
+\abntrefinfo{Bomfim et al.}{BOMFIM et al.}{2005}
+{BOMFIM, E. et al. Thoth: improving experiences reuses in the scientific
+  environment through workflow management system. In:  \emph{Computer Supported
+  Cooperative Work in Design, 2005. Proceedings of the Ninth International
+  Conference}. [s.n.], 2005. v.~2, p. 1164--1170 Vol. 2. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/xpl\-/articleDetails\-.jsp?arnumber=1504261$>$}{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1504261}.}
+
+\bibitem[Bottou et al. 2007]{Weston2007}
+\abntrefinfo{Bottou et al.}{BOTTOU et al.}{2007}
+{BOTTOU, L. et al. Scaling learning algorithms toward ai.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Large-Scale Kernel Machines}. MIT
+  Press, 2007. p. 321--359.
+ISBN 9780262255790.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/xpl\-/articleDetails\-.jsp?arnumber=6279976$>$}{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6279976}.}
+
+\bibitem[Breiman et al. 1984]{Breiman1984}
+\abntrefinfo{Breiman et al.}{BREIMAN et al.}{1984}
+{BREIMAN, L. et al. \emph{{Classification and Regression Trees}}. Monterey, CA:
+  Wadsworth and Brooks, 1984.}
+
+\bibitem[Burges 1998]{Burges1998}
+\abntrefinfo{Burges}{BURGES}{1998}
+{BURGES, C. J.~C. A tutorial on support vector machines for pattern
+  recognition.
+\emph{Data Min. Knowl. Discov.}, Kluwer Academic Publishers, Hingham, MA, USA,
+  v.~2, n.~2, p. 121--167, jun. 1998.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dx\-.doi\-.org\-/10\-.1023\-/A:1009715923555$>$}{http://dx.doi.org/10.1023/A:1009715923555}.}
+
+\bibitem[Cao et al. 2012]{Cao2012}
+\abntrefinfo{Cao et al.}{CAO et al.}{2012}
+{CAO, B. et al. Graph-based workflow recommendation: on improving business
+  process modeling. In:  \emph{Proceedings of the 21st ACM international
+  conference on Information and knowledge management}. ACM, 2012.  (CIKM '12),
+  p. 1527--1531. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/2396761\-.2398466$>$}{http://doi.acm.org/10.1145/2396761.2398466}.}
+
+\bibitem[Cerezo e Montagnat 2011]{Cerezo2011}
+\abntrefinfo{Cerezo e Montagnat}{CEREZO; MONTAGNAT}{2011}
+{CEREZO, N.; MONTAGNAT, J. {Scientific Workflow Reuse Through Conceptual
+  Workflows on the Virtual Imaging Platform}. In:  \emph{Proceedings of the 6th
+  Workshop on Workflows in Support of Large-scale Science}. ACM, 2011.
+  (\{WORKS\} '11), p. 1--10. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/2110497\-.2110499$>$}{http://doi.acm.org/10.1145/2110497.2110499}.}
+
+\bibitem[Chang e Lin 2011]{Chang2011}
+\abntrefinfo{Chang e Lin}{CHANG; LIN}{2011}
+{CHANG, C.-C.; LIN, C.-J. Libsvm: A library for support vector machines.
+\emph{ACM Trans. Intell. Syst. Technol.}, ACM, New York, NY, USA, v.~2, n.~3,
+  p. 27:1--27:27, may 2011.
+ISSN 2157-6904.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/1961189\-.1961199$>$}{http://doi.acm.org/10.1145/1961189.1961199}.}
+
+\bibitem[Cohen-Boulakia et al. 2014]{CohenBoulakia2014}
+\abntrefinfo{Cohen-Boulakia et al.}{COHEN-BOULAKIA et al.}{2014}
+{COHEN-BOULAKIA, S. et al. {Distilling structure in Taverna scientific
+  workflows: a refactoring approach.}
+\emph{BMC bioinformatics}, v. 15 Suppl 1, p.~S12, jan 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.pubmedcentral\-.nih\-.gov\-/articlerender\-.fcgi?artid=4016501{\textbackslash}\&tool=pmcentrez{\textbackslash}\&rendertype=abstract$>$}{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4016501\&tool=pmcentrez\&rendertype=abstract}.}
+
+\bibitem[Connor 2007]{Connor2007}
+\abntrefinfo{Connor}{CONNOR}{2007}
+{CONNOR, S.~B. {Wiley Encyclopedia of Statistics in Quality and Reliability}.
+In:  \underline{\ \ \ \ \ \ \ \ }. [S.l.]: Wiley, 2007. cap. Perfect Sampling.}
+
+\bibitem[Cristianini e Shawe-Taylor 2000]{Cristianini1999}
+\abntrefinfo{Cristianini e Shawe-Taylor}{CRISTIANINI; SHAWE-TAYLOR}{2000}
+{CRISTIANINI, N.; SHAWE-TAYLOR, J. \emph{An Introduction to Support Vector
+  Machines: And Other Kernel-based Learning Methods}. New York, NY, USA:
+  Cambridge University Press, 2000.
+ISBN 0-521-78019-5.}
+
+\bibitem[Deelman et al. 2009]{Deelman2009}
+\abntrefinfo{Deelman et al.}{DEELMAN et al.}{2009}
+{DEELMAN, E. et al. {Workflows and e-Science: An overview of workflow system
+  features and capabilities}.
+\emph{Future Generation Computer Systems}, v.~25, n.~5, p. 528--540, may 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0167739X08000861$>$}{http://www.sciencedirect.com/science/article/pii/S0167739X08000861}.}
+
+\bibitem[Deza e Deza 2009]{Deza2009}
+\abntrefinfo{Deza e Deza}{DEZA; DEZA}{2009}
+{DEZA, M.~M.; DEZA, E. \emph{Encyclopedia of Distances}. 2ed. ed. [S.l.]:
+  Springer Berlin Heidelberg, 2009.}
+
+\bibitem[Diamantini, Potena e Storti 2012]{Diamantini2012}
+\abntrefinfo{Diamantini, Potena e Storti}{DIAMANTINI; POTENA; STORTI}{2012}
+{DIAMANTINI, C.; POTENA, D.; STORTI, E. {Mining Usage Patterns from a
+  Repository of Scientific Workflows}. In:  \emph{Proceedings of the 27th
+  Annual \{ACM\} Symposium on Applied Computing}. ACM, 2012.  (SAC '12), p.
+  152--157. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/2245276\-.2245307$>$}{http://doi.acm.org/10.1145/2245276.2245307}.}
+
+\bibitem[Digiampietri et al. 2014]{DigiampietriEtAl2015}
+\abntrefinfo{Digiampietri et al.}{DIGIAMPIETRI et al.}{2014}
+{DIGIAMPIETRI, L. et al. A framework for automatic composition of scientific
+  experiments: Achievements, lessons learned and challenges. In:  \emph{CSBC
+  2014 - BreSci}. Bras\'{i}lia - DF: [s.n.], 2014.}
+
+\bibitem[Digiampietri 2007]{DigiampietriTese2007}
+\abntrefinfo{Digiampietri}{DIGIAMPIETRI}{2007}
+{DIGIAMPIETRI, L.~A.
+\emph{Gerenciamento de workflows cientificos em bioinformatica}.
+Tese (Doutorado) --- Unicamp, 2007.}
+
+\bibitem[Direct 2014]{ScienceDirect}
+\abntrefinfo{Direct}{DIRECT}{2014}
+{DIRECT, t. S. \emph{Science~Direct}. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/$>$}{http://www.sciencedirect.com/}.}
+
+\bibitem[Ezeife 2005]{Ezeife2005}
+\abntrefinfo{Ezeife}{EZEIFE}{2005}
+{EZEIFE, C.~I. Plwap sequential mining: open source code. In:  \emph{In
+  Proceedings of the 1st International Workshop on Open Source Data Mining:
+  Frequent Pattern Mining Implementations}. [S.l.: s.n.], 2005. p.~26.}
+
+\bibitem[Fletcher 1987]{Fletcher1987}
+\abntrefinfo{Fletcher}{FLETCHER}{1987}
+{FLETCHER, R. \emph{Practical methods of optimization}. Chichester, New York,
+  Brisbane: John Wiley \& Sons, 1987.
+ISBN 0-471-91547-5.}
+
+\bibitem[Garijo et al. 2014]{Garijo2014}
+\abntrefinfo{Garijo et al.}{GARIJO et al.}{2014}
+{GARIJO, D. et al. {Common motifs in scientific workflows: An empirical
+  analysis}.
+\emph{Future Generation Computer Systems}, v.~36, p. 338--351, jul 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0167739X13001970$>$}{http://www.sciencedirect.com/science/article/pii/S0167739X13001970}.}
+
+\bibitem[Garijo, Corcho e Gil 2013]{Garijo2013}
+\abntrefinfo{Garijo, Corcho e Gil}{GARIJO; CORCHO; GIL}{2013}
+{GARIJO, D.; CORCHO, O.; GIL, Y. {Detecting Common Scientific Workflow
+  Fragments Using Templates and Execution Provenance}. In:  \emph{Proceedings
+  of the Seventh International Conference on Knowledge Capture}. New York, NY,
+  USA: ACM, 2013.  (K-CAP '13), p. 33--40. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/2479832\-.2479848$>$}{http://doi.acm.org/10.1145/2479832.2479848}.}
+
+\bibitem[Garijo et al. 2014]{CorchoGarijo2014}
+\abntrefinfo{Garijo et al.}{GARIJO et al.}{2014}
+{GARIJO, D. et al. {Workflow Reuse in Practice: A Study of Neuroimaging
+  Pipeline Users}.
+\emph{Proceedings of the 2014 IEEE 10th International Conference on eScience},
+  p. 239--246, 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.isi\-.edu\-/{\~{}}gil\-/papers\-/garijo-etal-escience14a\-.p$>$}{http://www.isi.edu/{~}gil/papers/garijo-etal-escience14a.p}.}
+
+\bibitem[Gil et al. 2015]{Wings2015}
+\abntrefinfo{Gil et al.}{GIL et al.}{2015}
+{GIL, Y. et al. \emph{Wings: Intelligent Workflow-Based Design of Computational
+  Experiments}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.wings-workflows\-.org$>$}{http://www.wings-workflows.org}.}
+
+\bibitem[Haav e Lubi 2001]{haav2001context}
+\abntrefinfo{Haav e Lubi}{HAAV; LUBI}{2001}
+{HAAV, H.-M.; LUBI, T.-L. A survey of concept-based information retrieval tools
+  on the web. In:  \emph{5th East-European Conference, ADBIS 2001}. [S.l.:
+  s.n.], 2001. p.~11.}
+
+\bibitem[Han, Kamber e Pei 2011]{HanKamber2011}
+\abntrefinfo{Han, Kamber e Pei}{HAN; KAMBER; PEI}{2011}
+{HAN, J.; KAMBER, M.; PEI, J. \emph{Data Mining: Concepts and Techniques}. 3rd.
+  ed. [S.l.]: Morgan Kaufmann Publishers Inc., 2011.
+ISBN 0123814790, 9780123814791.}
+
+\bibitem[Harvey, Ruthven e Carman 2010]{Harvey2010}
+\abntrefinfo{Harvey, Ruthven e Carman}{HARVEY; RUTHVEN; CARMAN}{2010}
+{HARVEY, M.; RUTHVEN, I.; CARMAN, M. {Ranking Social Bookmarks Using Topic
+  Models}.
+\emph{Proceedings of the 19th ACM International Conference on Information and
+  Knowledge Management}, p. 1401--1404, 2010.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/doi\-.acm\-.org\-/10\-.1145\-/1871437\-.1871632$>$}{http://doi.acm.org/10.1145/1871437.1871632}.}
+
+\bibitem[Hastie, Tibshirani e Friedman 2003]{StatisticalLearning2001}
+\abntrefinfo{Hastie, Tibshirani e Friedman}{HASTIE; TIBSHIRANI; FRIEDMAN}{2003}
+{HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. \emph{{The Elements of Statistical
+  Learning: Data Mining, Inference, and Prediction}}. [S.l.]: Springer, 2003.
+  Hardcover.}
+
+\bibitem[Haykin 2007]{Haykin2007}
+\abntrefinfo{Haykin}{HAYKIN}{2007}
+{HAYKIN, S. \emph{Neural Networks: A Comprehensive Foundation}. 3nd. ed. Upper
+  Saddle River, NJ, USA: Prentice-Hall, Inc., 2007.}
+
+\bibitem[Heijst, Schreiber e Wielinga" 1997]{vanHeijst1997}
+\abntrefinfo{Heijst, Schreiber e Wielinga"}{HEIJST; SCHREIBER; WIELINGA"}{1997}
+{HEIJST, G. van; SCHREIBER, A.; WIELINGA", B. Using explicit ontologies in
+  \{KBS\} development.
+\emph{International Journal of Human-Computer Studies}, v.~46, n. 2–3, p. 183
+  -- 292, 1997.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S1071581996900907$>$}{http://www.sciencedirect.com/science/article/pii/S1071581996900907}.}
+
+\bibitem[Huang, Lin e Demner-Fushman 2006]{Huang2006}
+\abntrefinfo{Huang, Lin e Demner-Fushman}{HUANG; LIN; DEMNER-FUSHMAN}{2006}
+{HUANG, X.; LIN, J.; DEMNER-FUSHMAN, D. Evaluation of {PICO} as a knowledge
+  representation for clinical questions. In:  \emph{AMIA Annu Symp Proc.}
+  American Medical Informatics Association, 2006. p. 359--363. Dispon{\'\i}vel
+  em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.ncbi\-.nlm\-.nih\-.gov\-/pmc\-/articles\-/PMC1839740\-/$>$}{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1839740/}.}
+
+\bibitem[IEEE 2014]{IEEEXPLORE}
+\abntrefinfo{IEEE}{IEEE}{2014}
+{IEEE, t. \emph{IEEE Xplore Digital Library}. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/Xplore\-/home\-.jsp$>$}{http://ieeexplore.ieee.org/Xplore/home.jsp}.}
+
+\bibitem[Jasper e Uschold 1999]{Jasper99aframework}
+\abntrefinfo{Jasper e Uschold}{JASPER; USCHOLD}{1999}
+{JASPER, R.; USCHOLD, M. A framework for understanding and classifying ontology
+  applications. In:  \emph{Twelfth Workshop on Knowledge Acquisition Modeling
+  and Management KAW 99}. [S.l.]: V. Richard Benjamins, 1999. p.~12.}
+
+\bibitem[Kepler 2014]{kepler2014}
+\abntrefinfo{Kepler}{KEPLER}{2014}
+{KEPLER, T.~D. \emph{Kepler your science. Enabled}. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/kepler-project\-.org\-/$>$}{https://kepler-project.org/}.}
+
+\bibitem[Khouri e Digiampietri 2015]{Khouri2015}
+\abntrefinfo{Khouri e Digiampietri}{KHOURI; DIGIAMPIETRI}{2015}
+{KHOURI, A.~L.; DIGIAMPIETRI, L.~A. A systematic review about activities
+  recommendation in workflows. In:  \emph{12{\textordfeminine} Confer{\^e}ncia
+  Internacional sobre Sistemas de Informa{\c{c}}{\~a}o e Gest{\~a}o de
+  Tecnologia (CONTECSI)}. [S.l.: s.n.], 2015. p.~14.}
+
+\bibitem[Koop 2008]{Koop2008}
+\abntrefinfo{Koop}{KOOP}{2008}
+{KOOP, D. Viscomplete: Automating suggestions for visualization pipelines.
+\emph{IEEE Transactions on Visualization and Computer Graphics}, IEEE
+  Educational Activities Department, v.~14, n.~6, p. 1691--1698, nov 2008.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dx\-.doi\-.org\-/10\-.1109\-/TVCG\-.2008\-.174$>$}{http://dx.doi.org/10.1109/TVCG.2008.174}.}
+
+\bibitem[Lantz 2013]{MachineLearningwithR2013}
+\abntrefinfo{Lantz}{LANTZ}{2013}
+{LANTZ, B. \emph{Machine Learning with R}. 1nd. ed. Birmingham: Packt
+  Publishing, 2013.}
+
+\bibitem[Leng, El-Gayyar e Cremers 2010]{Leng2010}
+\abntrefinfo{Leng, El-Gayyar e Cremers}{LENG; EL-GAYYAR; CREMERS}{2010}
+{LENG, Y.; EL-GAYYAR, M.; CREMERS, A.~B. {Semantics Enhanced Composition
+  Planner for Distributed Resources}. In:  \emph{2010 Ninth International
+  Symposium on Distributed Computing and Applications to Business, Engineering
+  and Science}. IEEE, 2010. p. 61--65. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5573302$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5573302}.}
+
+\bibitem[Lim et al. 2010]{Lim2010}
+\abntrefinfo{Lim et al.}{LIM et al.}{2010}
+{LIM, C. et al. {Prospective and Retrospective Provenance Collection in
+  Scientific Workflow Environments}. In:  \emph{2010 IEEE International
+  Conference on Services Computing}. IEEE, 2010.  (SCC '10), p. 449--456.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5557202$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5557202}.}
+
+\bibitem[Lima 2004]{LIMA2004}
+\abntrefinfo{Lima}{LIMA}{2004}
+{LIMA, C.~A. de M.
+\emph{Comitê de Máquinas:Uma Abordagem Unificada Empregando Máquinas de
+  Vetores-Suporte}.
+Tese (Thesys) --- UNICAMP, 2004.}
+
+\bibitem[Lin et al. 2009]{Lin2009}
+\abntrefinfo{Lin et al.}{LIN et al.}{2009}
+{LIN, C. et al. {A Task Abstraction and Mapping Approach to the Shimming
+  Problem in Scientific Workflows}. In:  \emph{2009 IEEE International
+  Conference on Services Computing}. IEEE Computer Society, 2009.  (SCC '09),
+  p. 284--291. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5283946$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5283946}.}
+
+\bibitem[Ludascher et al. 2006]{Ludascher2006}
+\abntrefinfo{Ludascher et al.}{LUDASCHER et al.}{2006}
+{LUDASCHER, B. et al. Scientific workflow management and the kepler system.
+\emph{Concurrency and Computation: Practice and Experience}, John Wiley e Sons,
+  Ltd., v.~18, n.~10, p. 1039--1065, 2006.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dx\-.doi\-.org\-/10\-.1002\-/cpe\-.994$>$}{http://dx.doi.org/10.1002/cpe.994}.}
+
+\bibitem[Martinez 2004]{Martinez2004}
+\abntrefinfo{Martinez}{MARTINEZ}{2004}
+{MARTINEZ, W.~L. \emph{{Exploratory Data Analysis with MATLAB (Computer Science
+  and Data Analysis)}}. [S.l.]: Chapman \& Hall/CRC, 2004. Hardcover.
+ISBN 1584883669.}
+
+\bibitem[McGuinness e Harmelen 2015]{W3COWL2015}
+\abntrefinfo{McGuinness e Harmelen}{MCGUINNESS; HARMELEN}{2015}
+{MCGUINNESS, D.~L.; HARMELEN, F.~v. \emph{OWL Web Ontology Language Overview}.
+  2015. Electronic.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.w3\-.org\-/TR\-/owl-features\-/$>$}{http://www.w3.org/TR/owl-features/}.}
+
+\bibitem[McPhillips et al. 2009]{McPhillips2009}
+\abntrefinfo{McPhillips et al.}{MCPHILLIPS et al.}{2009}
+{MCPHILLIPS, T. et al. {Scientific workflow design for mere mortals}.
+\emph{Future Generation Computer Systems}, v.~25, n.~5, p. 541--551, may 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0167739X08000873$>$}{http://www.sciencedirect.com/science/article/pii/S0167739X08000873}.}
+
+\bibitem[Medeiros et al. 2005]{Medeiros2005}
+\abntrefinfo{Medeiros et al.}{MEDEIROS et al.}{2005}
+{MEDEIROS, C. et al. {WOODSS and the Web: Annotating and Reusing Scientific
+  Workflows}.
+\emph{ACM SIGMOD Record}, v.~34, n.~3, p. 18--23, 2005.}
+
+\bibitem[Mizoguchi, Welkenhuysen e Ikeda 1995]{Mizoguchi1995}
+\abntrefinfo{Mizoguchi, Welkenhuysen e Ikeda}{MIZOGUCHI; WELKENHUYSEN;
+  IKEDA}{1995}
+{MIZOGUCHI, R.; WELKENHUYSEN, J. V.; IKEDA, M. {Task ontology for reuse of
+  problem solving knowledge}. In:  \emph{Towards Very Large Knowledge Bases}.
+  [S.l.]: IOS Press, 1995. p. 46--57.}
+
+\bibitem[Mohan, Ebrahimi e Lu 2015]{Mohan2015}
+\abntrefinfo{Mohan, Ebrahimi e Lu}{MOHAN; EBRAHIMI; LU}{2015}
+{MOHAN, A.; EBRAHIMI, M.; LU, S. 2015 ieee international conference on services
+  computing a folksonomy-based social recommendation system for scientific
+  workflow reuse.
+2015.}
+
+\bibitem[Olabarriaga et al. 2014]{Olabarriaga2014}
+\abntrefinfo{Olabarriaga et al.}{OLABARRIAGA et al.}{2014}
+{OLABARRIAGA, S. et al. {Scientific Workflow Management -- For Whom?}
+\emph{2014 IEEE 10th International Conference on e-Science}, Ieee, p. 298--305,
+  oct 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6972277$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6972277}.}
+
+\bibitem[Oliveira et al. 2015]{TostaBraganholo2015}
+\abntrefinfo{Oliveira et al.}{OLIVEIRA et al.}{2015}
+{OLIVEIRA, F. T.~d. et al. {Improving workflow design by mining reusable
+  tasks}.
+\emph{Journal of the Brazilian Computer Society}, Journal of the Brazilian
+  Computer Society, v.~21, n.~1, p.~16, 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.journal-bcs\-.com\-/content\-/21\-/1\-/16$>$}{http://www.journal-bcs.com/content/21/1/16}.}
+
+\bibitem[Oliveira 2010]{Oliveir2010}
+\abntrefinfo{Oliveira}{OLIVEIRA}{2010}
+{OLIVEIRA, F.~T. de.
+\emph{UM SISTEMA DE RECOMENDAÇÃO PARA COMPOSIÇÃO DE WORKFLOWS}.
+Disserta\c{c}\~{a}o (Mestrado) --- UNIVERSIDADE FEDERAL DO RIO DE JANEIRO,
+  2010.}
+
+\bibitem[Oliveira et al. 2008]{Oliveira2008}
+\abntrefinfo{Oliveira et al.}{OLIVEIRA et al.}{2008}
+{OLIVEIRA, F.~T. de et al. Using provenance to improve workflow design. In:
+  FREIRE, J.; KOOP, D.; MOREAU, L. (Ed.). \emph{Provenance and Annotation of
+  Data and Processes}. Springer Berlin Heidelberg, 2008,  (Lecture Notes in
+  Computer Science, v.~5272). p. 136--143.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/dx\-.doi\-.org\-/10\-.1007\-/978-3-540-89965-5{\textbackslash}\underline{\
+  }15$>$}{http://dx.doi.org/10.1007/978-3-540-89965-5\\_15}.}
+
+\bibitem[Olsson 2002]{Olsson2002}
+\abntrefinfo{Olsson}{OLSSON}{2002}
+{OLSSON, U. \emph{Generalized Linear Models An Applied Approach}. 2002.}
+
+\bibitem[Paiva, Costa e Silva 2013]{Paiva2013}
+\abntrefinfo{Paiva, Costa e Silva}{PAIVA; COSTA; SILVA}{2013}
+{PAIVA, F. A.~P. de; COSTA, J. A.~F.; SILVA, C. R.~M. {A Hierarchical
+  Architecture for Ontology-Based Recommender Systems}. In:  \emph{2013 BRICS
+  Congress on Computational Intelligence and 11th Brazilian Congress on
+  Computational Intelligence}. IEEE, 2013. p. 362--367. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6855876$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6855876}.}
+
+\bibitem[Pevzner e Compeau 2015]{Pevzner2015b}
+\abntrefinfo{Pevzner e Compeau}{PEVZNER; COMPEAU}{2015a}
+{PEVZNER, P.; COMPEAU, P. \emph{Comparing Genes, Proteins, and Genomes
+  (Bioinformatics III)}. 2015. Online course.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/www\-.coursera\-.org\-/course\-/comparinggenomes$>$}{https://www.coursera.org/course/comparinggenomes}.}
+
+\bibitem[Pevzner e Compeau 2015]{Pevzner2015a}
+\abntrefinfo{Pevzner e Compeau}{PEVZNER; COMPEAU}{2015b}
+{PEVZNER, P.; COMPEAU, P. \emph{Deciphering Molecular Evolution (Bioinformatics
+  IV)}. 2015. Online course.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/www\-.coursera\-.org\-/course\-/molecularevolution$>$}{https://www.coursera.org/course/molecularevolution}.}
+
+\bibitem[Pevzner e Compeau 2015]{Pevzner2015c}
+\abntrefinfo{Pevzner e Compeau}{PEVZNER; COMPEAU}{2015c}
+{PEVZNER, P.; COMPEAU, P. \emph{Finding Hidden Messages in DNA (Bioinformatics
+  I)}. 2015. Online course.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/www\-.coursera\-.org\-/course\-/hiddenmessages$>$}{https://www.coursera.org/course/hiddenmessages}.}
+
+\bibitem[Pevzner e Compeau 2015]{Pevzner2015d}
+\abntrefinfo{Pevzner e Compeau}{PEVZNER; COMPEAU}{2015d}
+{PEVZNER, P.; COMPEAU, P. \emph{Genome Sequencing (Bioinformatics II)}. 2015.
+  Online course.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/www\-.coursera\-.org\-/course\-/assembly$>$}{https://www.coursera.org/course/assembly}.}
+
+\bibitem[ProgrammableWeb 2014]{ProgrammableWeb}
+\abntrefinfo{ProgrammableWeb}{PROGRAMMABLEWEB}{2014}
+{PROGRAMMABLEWEB, C.~T. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$https:\-/\-/www\-.programmableweb\-.com\-/$>$}{https://www.programmableweb.com/}.}
+
+\bibitem[Protege 2014]{Protege2014}
+\abntrefinfo{Protege}{PROTEGE}{2014}
+{PROTEGE, C.~T. 2014.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/protege\-.stanford\-.edu\-/$>$}{http://protege.stanford.edu/}.}
+
+\bibitem[Rex e Toga 2003]{Rex2003}
+\abntrefinfo{Rex e Toga}{REX; TOGA}{2003}
+{REX, D.~E.; TOGA, A.~W. The loni pipeline processing environment.
+v.~19, p. 1033--1048, 2003.}
+
+\bibitem[Richardson 2015]{BeautifulSoup2015}
+\abntrefinfo{Richardson}{RICHARDSON}{2015}
+{RICHARDSON, L. \emph{Beautiful Soup}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.crummy\-.com\-/software\-/BeautifulSoup\-/$>$}{http://www.crummy.com/software/BeautifulSoup/}.}
+
+\bibitem[Rodr{\'{\i}}guez, Kuncheva e Alonso 2006]{Rodriguez2006}
+\abntrefinfo{Rodr{\'{\i}}guez, Kuncheva e Alonso}{RODR{\'{I}}GUEZ; KUNCHEVA;
+  ALONSO}{2006}
+{RODR{\'{I}}GUEZ, J.~J.; KUNCHEVA, L.~I.; ALONSO, C.~J. {Rotation forest: A New
+  classifier ensemble method}.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, v.~28,
+  n.~10, p. 1619--1630, 2006.}
+
+\bibitem[Roure 2015]{ROURE2015}
+\abntrefinfo{Roure}{ROURE}{2015}
+{ROURE, C.~G. \emph{myExperiment}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.myexperiment\-.org\-/$>$}{http://www.myexperiment.org/}.}
+
+\bibitem[Sanchez et al. 2012]{Sanchez2012}
+\abntrefinfo{Sanchez et al.}{SANCHEZ et al.}{2012}
+{SANCHEZ, D. et al. {Ontology-based semantic similarity: A new feature-based
+  approach}.
+\emph{Expert Systems with Applications}, v.~39, n.~9, p. 7718--7728, jul 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0957417412000954$>$}{http://www.sciencedirect.com/science/article/pii/S0957417412000954}.}
+
+\bibitem[Scrivano e Niksic 2015]{wget2015}
+\abntrefinfo{Scrivano e Niksic}{SCRIVANO; NIKSIC}{2015}
+{SCRIVANO, G.; NIKSIC, H. \emph{GNU Wget Introduction to GNU Wget}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.gnu\-.org\-/software\-/wget\-/$>$}{http://www.gnu.org/software/wget/}.}
+
+\bibitem[Setubal e Meidanis 1997]{Setubal97}
+\abntrefinfo{Setubal e Meidanis}{SETUBAL; MEIDANIS}{1997}
+{SETUBAL, J.; MEIDANIS, J. \emph{Introduction to computational molecular
+  biology}. [S.l.]: PWS Publishing, 1997.}
+
+\bibitem[Shao, Kinsy e Chen 2007]{Shao2007}
+\abntrefinfo{Shao, Kinsy e Chen}{SHAO; KINSY; CHEN}{2007}
+{SHAO, Q.; KINSY, M.; CHEN, Y. {Storing and Discovering Critical Workflows from
+  Log in Scientific Exploration}. In:  \emph{2007 IEEE Congress on Services
+  (Services 2007)}. IEEE, 2007. p. 209--212. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=4278799$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4278799}.}
+
+\bibitem[Shao, Sun e Chen 2009]{Shao2009}
+\abntrefinfo{Shao, Sun e Chen}{SHAO; SUN; CHEN}{2009}
+{SHAO, Q.; SUN, P.; CHEN, Y. {Efficiently discovering critical workflows in
+  scientific explorations}.
+\emph{Future Generation Computer Systems}, v.~25, n.~5, p. 577--585, may 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0167739X08000897$>$}{http://www.sciencedirect.com/science/article/pii/S0167739X08000897}.}
+
+\bibitem[Shawe-Taylor e Cristianini 2004]{Shawe2004}
+\abntrefinfo{Shawe-Taylor e Cristianini}{SHAWE-TAYLOR; CRISTIANINI}{2004}
+{SHAWE-TAYLOR, J.; CRISTIANINI, N. \emph{Kernel Methods for Pattern Analysis}.
+  1. ed. [S.l.]: Cambridge University Press, 2004.}
+
+\bibitem[Soomro, Munir e Mcclatchey 2015]{Soomro2015}
+\abntrefinfo{Soomro, Munir e Mcclatchey}{SOOMRO; MUNIR; MCCLATCHEY}{2015}
+{SOOMRO, K.; MUNIR, K.; MCCLATCHEY, R. Incorporating semantics in pattern-based
+  scientific workflow recommender systems.
+2015.}
+
+\bibitem[Stewart 2013]{Stewart2013}
+\abntrefinfo{Stewart}{STEWART}{2013}
+{STEWART, J. \emph{Cálculo}. 7. ed. [S.l.]: Cengage, 2013. v.~2.}
+
+\bibitem[Tan et al. 2011]{Tan2011}
+\abntrefinfo{Tan et al.}{TAN et al.}{2011}
+{TAN, W. et al. {Providing Map and GPS Assistance to Service Composition in
+  Bioinformatics}. In:  \emph{2011 IEEE International Conference on Services
+  Computing}. IEEE, 2011. p. 632--639. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6009316$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009316}.}
+
+\bibitem[Telea e Wijk 1999]{Telea1999}
+\abntrefinfo{Telea e Wijk}{TELEA; WIJK}{1999}
+{TELEA, A.; WIJK, J.~J. van. Vission: An object oriented dataflow system for
+  simulation and visualization. In:  \emph{PROCEEDINGS OF IEEE VISSYM}. [s.n.],
+  1999. p. 95--104. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/link\-.springer\-.com\-/chapter\-/10\-.1007\%2F978-3-7091-6803-5\underline{\
+  }21$>$}{http://link.springer.com/chapter/10.1007\%2F978-3-7091-6803-5\_21}.}
+
+\bibitem[Umamaheswari e Patil 2012]{Umamaheswari2012}
+\abntrefinfo{Umamaheswari e Patil}{UMAMAHESWARI; PATIL}{2012}
+{UMAMAHESWARI, B.; PATIL, P. Personalized ontology model - a survey. In:
+  \emph{Hybrid Intelligent Systems (HIS), 2012 12th International Conference
+  on}. [S.l.: s.n.], 2012. p. 348--353.}
+
+\bibitem[Uschold e Gruninger 1996]{Uschold96ontologies}
+\abntrefinfo{Uschold e Gruninger}{USCHOLD; GRUNINGER}{1996}
+{USCHOLD, M.; GRUNINGER, M. Ontologies: Principles, methods and applications.
+\emph{KNOWLEDGE ENGINEERING REVIEW}, v.~11, p. 93--136, 1996.}
+
+\bibitem[Uschold e King 1995]{Uschold95}
+\abntrefinfo{Uschold e King}{USCHOLD; KING}{1995}
+{USCHOLD, M.; KING, M. Towards a methodology for building ontologies. In:
+  \emph{In Workshop on Basic Ontological Issues in Knowledge Sharing, held in
+  conjunction with IJCAI-95}. [S.l.: s.n.], 1995.}
+
+\bibitem[Vapnik 1998]{Vapnik1988}
+\abntrefinfo{Vapnik}{VAPNIK}{1998}
+{VAPNIK, V.~N. \emph{Statistical learning theory}. 1. ed. [S.l.]: Wiley, 1998.}
+
+\bibitem[Vistrails 2015]{Vistrails}
+\abntrefinfo{Vistrails}{VISTRAILS}{2015}
+{VISTRAILS, t. \emph{Vistrails}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.vistrails\-.org\-/index\-.php\-/Main\underline{\
+  }Page$>$}{http://www.vistrails.org/index.php/Main\_Page}.}
+
+\bibitem[Wang et al. 2010]{Wang2010}
+\abntrefinfo{Wang et al.}{WANG et al.}{2010}
+{WANG, F. et al. {A Survey on Scientific Workflow Techniques for Escience in
+  Astronomy}. In:  \emph{2010 International Forum on Information Technology and
+  Applications}. IEEE, 2010. v.~1, p. 417--420. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5634997$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634997}.}
+
+\bibitem[Wang et al. 2008]{Wang2008}
+\abntrefinfo{Wang et al.}{WANG et al.}{2008}
+{WANG, J. et al. Vinca4science: A personal workflow system for e-science. In:
+  \emph{Internet Computing in Science and Engineering, 2008. ICICSE '08.
+  International Conference on}. [s.n.], 2008. p. 444--451. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/xpl\-/articleDetails\-.jsp?arnumber=4548305$>$}{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4548305}.}
+
+\bibitem[Wang, Cao e Li 2009]{Wang2009}
+\abntrefinfo{Wang, Cao e Li}{WANG; CAO; LI}{2009}
+{WANG, Y.; CAO, J.; LI, M. {Change Sequence Mining in Context-Aware Scientific
+  Workflow}. In:  \emph{2009 IEEE International Symposium on Parallel and
+  Distributed Processing with Applications}. IEEE, 2009. p. 635--640.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5207868$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5207868}.}
+
+\bibitem[Williams 2011]{Williams2011}
+\abntrefinfo{Williams}{WILLIAMS}{2011}
+{WILLIAMS, G.~J. \emph{Data Mining with {Rattle} and {R}: The art of excavating
+  data for knowledge discovery}. 1. ed. [S.l.]: Springer, 2011.}
+
+\bibitem[Yao et al. 2012]{Yao2012}
+\abntrefinfo{Yao et al.}{YAO et al.}{2012}
+{YAO, J. et al. Reputationnet: A reputation engine to enhance servicemap by
+  recommending trusted services. In:  \emph{Services Computing (SCC), 2012 IEEE
+  Ninth International Conference on}. [s.n.], 2012. p. 454--461.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/xpl\-/articleDetails\-.jsp?arnumber=6274177$>$}{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6274177}.}
+
+\bibitem[Yeo e Abidi 2013]{Yeo2013}
+\abntrefinfo{Yeo e Abidi}{YEO; ABIDI}{2013}
+{YEO, P.; ABIDI, S. S.~R. {Dataflow Oriented Similarity Matching for Scientific
+  Workflows}. In:  \emph{2013 IEEE International Symposium on Parallel \&
+  Distributed Processing, Workshops and Phd Forum}. IEEE, 2013. p. 2091--2100.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6651115$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6651115}.}
+
+\bibitem[Zhang et al. 2014]{Zhang2014}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2014}
+{ZHANG, J. et al. {A Community-Driven Workflow Recommendations and Reuse
+  Infrastructure}. In:  \emph{2014 IEEE 8th International Symposium on Service
+  Oriented System Engineering}. IEEE, 2014. p. 162--172. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6830902$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6830902}.}
+
+\bibitem[Zhang, Liu e Xu 2009]{Zhang2009}
+\abntrefinfo{Zhang, Liu e Xu}{ZHANG; LIU; XU}{2009}
+{ZHANG, J.; LIU, Q.; XU, K. \emph{FlowRecommender: A Workflow Recommendation
+  Technique for Process Provenance}. 2009.}
+
+\bibitem[Zhang et al. 2011]{Zhang2011}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2011}
+{ZHANG, J. et al. {Recommend-As-You-Go: A Novel Approach Supporting
+  Services-Oriented Scientific Workflow Reuse}. In:  \emph{2011 IEEE
+  International Conference on Services Computing}. IEEE, 2011. p. 48--55.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=6009243$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6009243}.}
+
+\bibitem[Zhong, Jinsha e Hong 2009]{ZhongLi2009}
+\abntrefinfo{Zhong, Jinsha e Hong}{ZHONG; JINSHA; HONG}{2009}
+{ZHONG, L.; JINSHA, Y.; HONG, Y. {Analysis distances for similarity estimation
+  by Fuzzy C-Mean algorithm}. In:  \emph{2009 International Conference on
+  Machine Learning and Cybernetics}. IEEE, 2009. v.~1, p. 582--587.
+  Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ieeexplore\-.ieee\-.org\-/lpdocs\-/epic03\-/wrapper\-.htm?arnumber=5212575$>$}{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5212575}.}
+
+\end{thebibliography}

@@ -1,0 +1,11 @@
+package Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		new CriaListaAnotacoes().run("/home/toasty/Desktop/dadosParaRecomendar.csv");
+		
+	//8615x14 matrz com os dados para analisar!
+	}
+}

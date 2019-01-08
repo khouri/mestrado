@@ -1,0 +1,59 @@
+\section{Comparação dos experimentos}
+
+\begin{frame}		
+	\begin{block}{Comparação dos experimentos}
+		Resultados dos sistemas de recomendação.
+		\bgroup
+		\begin{table}[!htp]
+			\centering
+			\tiny
+			\begin{tabular}{|l|l|l|l|l|l|l|l|l|} \hline
+				\textbf{\(\mathbf{\#}\)} & \textbf{Técnica}&\textbf{S@1}&\textbf{S@5} & \textbf{S@10} & \textbf{S@50} & \textbf{S@100} & \textbf{S@280} & \textbf{MRR} \\ \hline
+				
+\rowcolor{roxo}		1  & Aleatório				& 0,0037 & 0,0260 & 0,0280 & 0,0300 & 0,0400 & 1,0000 & 0.033 \\ \hline
+\rowcolor{roxo}		2  & \emph{Apriori}			& 0,0037 & 0,0385 & 0,0559 & 0,0568 & 0,0570 & 1,0000 & 0,037 \\ \hline
+\rowcolor{amarelo}	3  & KNN\(_C\)				& 0,0037 & 0,0685 & 0,0959 & 0,5068 & 1,0000 & 1,0000 & 0,040 \\ \hline
+\rowcolor{amarelo}	4  & Rede neural\(_C\)		& 0,0137 & 0,1507 & 0,1781 & 0,8082 & 1,0000 & 1,0000 & 0,089 \\ \hline
+\rowcolor{amarelo}	5  & CART\(_C\)				& 0,0274 & 0,1233 & 0,3699 & 0,7671 & 1,0000 & 1,0000 & 0,113 \\ \hline
+\rowcolor{amarelo}	6  & Naive Bayes\(_C\)     	& 0,0274 & 0,1507 & 0,3425 & 0,6301 & 1,0000 & 1,0000 & 0,114 \\ \hline
+\rowcolor{verde}	7  & Binomial\(_R\) 		& 0,0822 & 0,1918 & 0,2055 & 0,8493 & 1,0000 & 1,0000 & 0,136 \\ \hline
+\rowcolor{verde}	8  & Rede neural\(_R\)     	& 0,1096 & 0,2603 & 0,2603 & 0,2603 & 1,0000 & 1,0000 & 0,154 \\ \hline
+\rowcolor{verde}	9  & MARS\(_R\)     		& 0,1233 & 0,2055 & 0,2192 & 0,7260 & 1,0000 & 1,0000 & 0,167 \\ \hline
+\rowcolor{verde}	10 & SVM\(_R\)     			& 0,1233 & 0,3151 & 0,4932 & 0,8493 & 1,0000 & 1,0000 & 0,238 \\ \hline
+\rowcolor{verde}	11 & CART\(_R\)    			& 0,1370 & 0,1370 & 0,2603 & 0,6164 & 1,0000 & 1,0000 & 0,114 \\ \hline
+\rowcolor{roxo}		12 & FES           			& 0,1474 & 0,2603 & 0,3699 & 0,8671 & 1,0000 & 1,0000 & 0,196 \\ \hline
+\rowcolor{amarelo}	13 & SVM\(_C\)    			& 0,2425 & 0,4658 & 0,4932 & 0,7123 & 1,0000 & 1,0000 & 0,244 \\ \hline
+\rowcolor{azul}		14 & SVM composto\(_C\)		& 0,2515 & 0,4458 & 0,5232 & 0,7623 & 1,0000 & 1,0000 & 0,314 \\ \hline
+\rowcolor{azul}		15 & Rotation Forest\(_C\)  & 0,2925 & 0,4558 & 0,5432 & 0,7723 & 1,0000 & 1,0000 & 0,324 \\ \hline
+\rowcolor{vermelho}	16 & FESO          			& 0,3425 & 0,4658 & 0,5932 & 0,8123 & 1,0000 & 1,0000 & 0,334 \\ \hline
+			\end{tabular}
+			%\caption{Resultados dos sistemas de recomendação}
+			%\label{tb_resultadosExperimentos}
+			%\vspace{0.1cm}
+			%\source{\varAutorData}
+		\end{table}
+		\egroup
+		
+	\end{block}
+\end{frame}
+
+%Falar isso, não devo ler
+%\begin{frame}		
+%	\begin{block}{Comparação}
+%		A técnica FESO, proposta nessa dissertação, apresentou um resultado superior às demais. Este resultado ocorre, pois considera o uso de frequência, entrada e saída e informações semânticas sobre as atividades. Em comparação com as demais técnicas seu resultado foi superior para todas as métricas calculadas, exceto \(S@50\) para algumas técnicas. Em relação à técnica FES, seu resultado foi superior. Em particular, parte dessa melhora é justificada pelos casos em que a atividade correta teria frequência zero no conjunto de treinamento, pois ela permite recomendar baseada na ontologia (usando as atividades que contenham a ontologia do novo \emph{workflow}). Além disso, para o caso em que há empate entre duas atividades com o critério de entrada e saída e a frequência a técnica proposta apresenta um fator a mais para ser utilizado como desempate.		
+%	\end{block}
+%\end{frame}
+
+
+\begin{frame}
+	\begin{block}{Comparação}
+		\begin{enumerate}
+			\item O aumento de informação melhorou a recomendação.
+			\item Regressores foram melhores que classificadores (com exceção do SVM).
+			\item Classificadores compostos obtiveram um bom desempenho.
+			\item Converter valores contínuos com limiares possibilitou um bom desempenho no caso dos classificadores compostos.
+		\end{enumerate}
+		
+	\end{block}
+\end{frame}
+

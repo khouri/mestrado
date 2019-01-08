@@ -1,0 +1,35 @@
+Dessa forma, foi obtida a string de busca:
+(scientific and (workflow or pipeline)) and 
+(recommendation or provenance or suggestion or forecast or advice or design or visualization or recommender or 
+construct or proposal or guidance or counsel or composition or activity or shimming or inference or reuse or 
+reusing or semiautomatically or similarity or match or matching or complete or auto)
+
+
+(( "Abstract": "SCIENTIFIC"  AND 
+( "Abstract":"WORKFLOW" OR "Abstract":PIPELINE" OR "Abstract":"Flowchart")) AND 
+( "Abstract":"RECOMMENDATION" OR "Abstract":"PROVENANCE" OR "Abstract":"SUGGESTION" OR "Abstract":FORECAST"
+ OR "Abstract":"ADVICE" OR "Abstract":"DESIGN" OR "Abstract":"VISUALIZATION" OR "Abstract":"RECOMMENDER" OR 
+"Abstract":"CONSTRUCT" OR "Abstract":"PROPOSAL" OR "Abstract":"GUIDANCE" OR "Abstract":"COUNSEL" OR 
+"Abstract":"COMPOSITION" OR "Abstract":"ACTIVITY" OR "Abstract":"SHIMMING" OR "Abstract":"INFERENCE" OR
+ "Abstract":"REUSE" OR "Abstract":"REUSING" OR "Abstract":"SEMIAUTOMATICALLY" OR "Abstract":"SIMILARITY" OR 
+"Abstract":"MATCH" OR "Abstract":"MATCHING" OR "Abstract":"COMPLETE" OR "Abstract":"AUTO")) 
+
+
+
+#Valores novos aqui:
+(( "Abstract": "SCIENTIFIC"  AND
+( "Abstract":"WORKFLOW" OR "Abstract":PIPELINE" OR "Abstract":"Flowchart")) AND 
+( "Abstract":"RECOMMENDATION" OR "Abstract":"PROVENANCE" OR "Abstract":"DESIGN" OR "Abstract":"VISUALIZATION" OR 
+"Abstract":"RECOMMENDER" OR "Abstract":"REUSE" OR "Abstract":"REUSING" OR "Abstract":"SEMIAUTOMATICALLY" OR 
+"Abstract":"MATCH" OR "Abstract":"COMPLETE" OR "Abstract":"AUTO" OR "Abstract":"SUGGESTION" OR "Abstract":"MATCH" OR
+"Abstract":"COMPOSITION" OR  "Abstract":"CONSTRUCT")) 
+
+
+448 from IEEExplore
+
+270 ACMDL
+
+Science Direct
+
+SpringerLink
+

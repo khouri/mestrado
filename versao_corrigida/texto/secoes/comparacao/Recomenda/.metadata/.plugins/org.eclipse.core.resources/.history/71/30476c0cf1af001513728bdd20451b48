@@ -1,0 +1,18 @@
+package Main;
+
+import java.util.ArrayList;
+
+public class AtividadeAnotada {
+
+	private String nome;
+	private ArrayList<Integer> anotacoes;
+	
+	public AtividadeAnotada(){
+		
+	}
+	
+	private preencheAnotacoes(){
+		
+	}
+	
+}

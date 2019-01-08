@@ -1,0 +1,37 @@
+\chapter{Conclusões e trabalhos futuros}\label{CAP_CONCLUSOES}
+\begin{flushright}
+	\textit{``Você tem a força de um homem, mas a mentalidade de uma garotinha.''\\ (Ragnar Lothbrok)}
+\end{flushright}
+
+Este trabalho desenvolveu uma técnica híbrida para recomendar atividades em \emph{workflows} científicos, que usa compatibilidade sintática, frequência e ontologias de domínio para recomendar atividades, denominada FESO. Além disso, também modelou o problema de recomendação como um problema de regressão e classificação em inteligência artificial.
+
+A principal ideia do projeto foi acrescentar informações semânticas estruturadas para o sistema de recomendação. Conforme foi apresentado no capítulo de resultados (capítulo~\ref{CAP_COMPARACAO}), esta estratégia atingiu melhores resultados do que as outras técnicas implementadas, sendo que a medida MRR aumentou \(70\%\) em relação as outras estratégias.
+
+Para encontrar as técnicas da literatura correlata, foi realizada uma revisão sistemática (capítulo \ref{CAP_CORRELATOS}). Nessa revisão foram encontradas as técnicas, suas restrições, suas vantagens e as formas que foram validadas. O próximo passo foi implementá-las e compará-las com as soluções propostas neste mestrado, incluindo as soluções baseadas em classificadores e regressores. 
+
+Para realizar a comparação foi organizado um banco de dados relacional de \emph{workflows} e suas atividades. Também foi necessário estabelecer uma metodologia para comparar diferentes técnicas de recomendação de atividades para um mesmo conjunto de dados com as mesmas métricas de validação \(S@k\) e \(MRR\) (descritas na seção \ref{SEC_METRICAS_VALIDACAO}). 
+
+Ao comparar todas as técnicas, foram constatados determinados aspectos do conjunto de dados, como o fato das atividades não serem independentes; o problema não ser linearmente separável; e que técnicas de agrupamento não se mostraram adequadas para solucionar este problema. Com exceção do SVM, regressores apresentaram soluções mais precisas do que classificadores. Além disso, adicionar informação nos sistemas de recomendação melhorou a precisão destes. A seguir serão listadas as principais contribuições deste mestrado e potenciais trabalhos futuros.
+
+\section{Principais contribuições}
+Este trabalho teve como objetivo principal especificar uma técnica para recomendar atividades em \emph{workflows} científicos. Este objetivo foi alcançado, pois a técnica FESO e as técnicas baseadas em classificadores/regressores apresentaram resultados superiores aos dos propostos pela literatura. Além deste objetivo primário foram obtidas as seguintes contribuições:
+\begin{itemize}
+\item Foi apresentada uma revisão sistemática sobre a área de recomendação de atividades em \emph{workflows} científicos a qual poderá ser a base para trabalhos futuros.
+\item Foi construída uma base de dados relacional de \emph{workflows} científicos com suas respectivas atividades. Esta base será disponibilizada na íntegra para uso de outros trabalhos.
+\item Foram implementadas diferentes técnicas da literatura correlata e foram comparados os resultados da recomendação dessas técnicas com os resultados da solução proposta.
+\item Até o momento esta pesquisa de mestrado colaborou com a publicação de dois artigos científicos~\cite{Khouri2015,DigiampietriEtAl2015}.
+\end{itemize}
+
+\section{Trabalhos futuros}
+No decorrer deste projeto foram identificadas algumas oportunidades de continuidade e evolução do mesmo, são elas:
+\begin{enumerate}
+\item Usar outros classificadores compostos na recomendação de atividades;
+\item Criar novas estratégias de recomendação baseadas em redes sociais de pesquisadores ou seus grupos de pesquisa;
+\item Obter informação sobre proveniência de \emph{workflows} e adicioná-la aos sistemas de recomendação;
+\item Usar atividades de outros SGWC e/ou de outras áreas de pesquisa além da bioinformática;
+\item Estudar a relação entre a distribuição dos dados de entrada (atividade), sua esparsidade e a relação que ambas possuem com o aumento ou redução da precisão das recomendações;
+\item Utilizar técnicas de redução de dimensionalidade para o conjunto de dados de entrada
+\item Adaptar o classificador SVM para considerar ontologias durante a maximização da margem ótima.
+\end{enumerate}
+
+Este trabalho organizou por meio de uma revisão sistemática o estado da arte da área de recomendação de atividades em \emph{workflows} científicos. Criou uma técnica para recomendar atividades nos \emph{workflows} científicos que permitiu aceitar a hipótese proposta na seção de objetivos \ref{SEC_OBJETIVOS}. Acrescentar informações semânticas estruturadas no problema de recomendação de atividades acarretou uma melhoria nas métricas \(MRR\) e \(S@k\) dos sistemas de recomendação que as utilizaram. Espera-se que este projeto sirva como semente para futuros estudos na área de recomendação de atividades para \emph{workflows} científicos e auxilie cientistas na construção de experimentos computacionais.

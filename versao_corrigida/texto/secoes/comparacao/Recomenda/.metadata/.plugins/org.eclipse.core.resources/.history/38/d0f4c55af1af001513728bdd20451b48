@@ -1,0 +1,29 @@
+package Main;
+
+import java.util.ArrayList;
+
+class AtividadesAnotadas {
+
+	public String nome;
+	public ArrayList<Integer> anotacoes;
+	
+	public AtividadesAnotadas(String nome, ArrayList<Integer> anotacoes) {
+		
+		this.nome = nome;
+		this.anotacoes.addAll(anotacoes);
+	}
+	
+}
+
+public class ListaDeAtividadesAnotadas {
+
+	public String nome;
+	public ArrayList<Integer> AtividadeAnotada;
+	
+	public AtividadeAnotada(String nome, ArrayList<Integer> anotacoes) {
+		
+		this.nome = nome;
+		this.anotacoes.addAll(anotacoes);
+	}
+	
+}

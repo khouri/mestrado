@@ -1,0 +1,61 @@
+package Main;
+
+/*
+ * 
+ * Copiar os arquivos de entrada para a
+ *  pasta desse projeto
+ *  
+ *  */
+public class Main {
+
+	public String [][] leituraDeEntradaRecomendador() {
+
+		String caminhoArquivoEntrada = "/home/toasty/Desktop/dadosParaRecomendar.csv";
+		String [][] workflows = new CriaListaAnotacoes().leMatrizCSV(caminhoArquivoEntrada);
+		//new CriaListaAnotacoes().imprimeMatrizCSV(workflows);
+		
+		return workflows;
+	}
+
+	//Cria o arquivo que sera usado posteriormente
+	public void geraAnotacoesEmAtividades() {
+
+		String caminhoArquivoEntradaAtividadesEAnotacoes = "/home/toasty/Desktop/Leitura.csv";
+
+		String [][] workflowsAnotacoes = new CriaListaAnotacoes().
+										 leMatrizCSVRelacionaAnotacaoEAtividades(
+												 caminhoArquivoEntradaAtividadesEAnotacoes);
+
+		new AnotaAtividades().anotadorDeAtividades(workflowsAnotacoes);
+	}
+
+	public ListaDeAtividadesAnotadas listaDeAtividadesAnotadas(){
+		
+		String caminhoArquivoEntradaAtividadesEAnotacoes = "/home/toasty/Desktop/AnotacoesFinais.csv";
+		ListaDeAtividadesAnotadas myLisy = 
+				new ListaDeAtividadesAnotadas(caminhoArquivoEntradaAtividadesEAnotacoes);
+		
+		//myLisy.imprimeAnotacoes();
+		
+		return myLisy;
+	
+	}
+
+	public void fazRecomendacoes() {
+		
+		//wfs lidos da base de dados
+		String [][] workflows = new Main().leituraDeEntradaRecomendador();
+		
+		//Vai funcionar como um dicionario
+		ListaDeAtividadesAnotadas ListaAnotacoes = new Main().listaDeAtividadesAnotadas();
+		
+		new SistemaDeRecomendacao().recomenda(workflows, ListaAnotacoes);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		new Main().fazRecomendacoes();
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Main.DezSistemasRecomenda.ACABOU_ESSA_PORRA()&apos; to &apos;geraListaSimplesFinal&apos;&#x0A;- Original project: &apos;Recomenda&apos;&#x0A;- Original element: &apos;Main.DezSistemasRecomenda.ACABOU_ESSA_PORRA()&apos;&#x0A;- Renamed element: &apos;Main.DezSistemasRecomenda.geraListaSimplesFinal()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;ACABOU_ESSA_PORRA&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;Main{SistemaDeRecomendacao.java[DezSistemasRecomenda~ACABOU_ESSA_PORRA" name="geraListaSimplesFinal" references="true" stamp="1451955520288" version="1.0"/>
+</session>

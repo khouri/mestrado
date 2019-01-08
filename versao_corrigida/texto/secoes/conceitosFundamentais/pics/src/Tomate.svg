@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Tomate.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3188"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3184"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3180"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3176"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5763"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5761"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5347"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5343"
+       effect="spiro" />
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         id="path3898"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3907"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect2991"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2987"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="281.85304"
+     inkscape:cy="390.80374"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1305"
+     inkscape:window-height="744"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85519826px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#TriangleOutL)"
+       d="m 158.49902,733.79075 173.00145,0"
+       id="path2985"
+       inkscape:path-effect="#path-effect2987"
+       inkscape:original-d="m 158.49902,733.79075 173.00145,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 159.07439,575.0286 0,159.3299"
+       inkscape:path-effect="#path-effect2991"
+       id="path2989"
+       d="m 159.07439,575.0286 0,159.3299"
+       style="fill:none;stroke:#000000;stroke-width:0.84241182px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL);marker-mid:none" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.81775457;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3041"
+       width="152.0751"
+       height="48.547985"
+       x="169.3196"
+       y="589.18176" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.82958597;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3043"
+       width="59.920414"
+       height="83.848984"
+       x="169.32552"
+       y="645.97339" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.81775457;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3045"
+       width="50.550102"
+       height="83.531082"
+       x="270.8446"
+       y="645.94006" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="173.57143"
+       y="604.14789"
+       id="text3047"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3049"
+         x="173.57143"
+         y="604.14789">alface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="177.85715"
+       y="621.64789"
+       id="text3051"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3053"
+         x="177.85715"
+         y="621.64789">abobrinha</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="219.28572"
+       y="605.2193"
+       id="text3055"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3057"
+         x="219.28572"
+         y="605.2193">cenoura</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="243.21429"
+       y="629.005"
+       id="text3059"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3061"
+         x="243.21429"
+         y="629.005">feijão</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="271.78571"
+       y="683.07648"
+       id="text3063"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3065"
+         x="271.78571"
+         y="683.07648">uva</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="277.67856"
+       y="697.36218"
+       id="text3067"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3069"
+         x="277.67856"
+         y="697.36218">laranja</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="286.78571"
+       y="658.43359"
+       id="text3071"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3073"
+         x="286.78571"
+         y="658.43359">maçã</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="189.00002"
+       y="656.29077"
+       id="text3075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="189.00002"
+         y="656.29077">castanha</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="170.35715"
+       y="670.93359"
+       id="text3079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="170.35715"
+         y="670.93359">queijo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="173.92857"
+       y="689.86218"
+       id="text3083"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3085"
+         x="173.92857"
+         y="689.86218">bacon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="232.18355"
+       y="747.71936"
+       id="text3087"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3089"
+         x="232.18355"
+         y="747.71936">Doçura</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="-673.14612"
+       y="151.40392"
+       id="text3091"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3093"
+         x="-673.14612"
+         y="151.40392">Crocância</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes Bold"
+       x="167.85715"
+       y="585.2193"
+       id="text3095"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3097"
+         x="167.85715"
+         y="585.2193">vegetais</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes Bold"
+       x="170.35715"
+       y="726.29077"
+       id="text3099"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3101"
+         x="170.35715"
+         y="726.29077">proteínas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes Bold"
+       x="272.85715"
+       y="726.64789"
+       id="text3103"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3105"
+         x="272.85715"
+         y="726.64789">frutas</tspan></text>
+    <image
+       y="671.92712"
+       x="237.67693"
+       id="image3169"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAC3ARMDASIA AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3 ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3 uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii gAooooAKKKKACiiigAooooAKKKpalcNa2TyRqGlJVIwehZiFGfbJGfak3YCWW7t4nVZZ40Y8hWYA kfSljureb/VzI30YVBY2CWSH/lpM/MszfedvUn09B2p11YxXCs21Vk7OBz+PrWcvaJXX3AXKKwLb UmtJ/In3bc456itxHV0DK2VPQ0qNeNVabgPooorYAooooAKKKKACiiigAooooAKKM0UAFFFFABRR RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUARNIy8+U7ewx/jVK6u7fYouS0G11IMw2gkEHG elaVQXUUE1vJHcqrQuMOG6YqJJ23GiRW3Dd0p9cHDrzeHtS/s5pWurRj+4kPXJ/hJ9R+o96s3Piy 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 "
+       height="16.324831"
+       width="21.325441" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,3;stroke-dashoffset:0"
+       d="m 224.82143,346.23734 16.25,24.46428"
+       id="path3174"
+       inkscape:path-effect="#path-effect3176"
+       inkscape:original-d="m 224.82143,346.23734 16.25,24.46428"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,3;stroke-dashoffset:0"
+       d="m 254.64286,373.73734 15.89286,-1.25"
+       id="path3178"
+       inkscape:path-effect="#path-effect3180"
+       inkscape:original-d="m 254.64286,373.73734 15.89286,-1.25"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,3;stroke-dashoffset:0"
+       d="M 252.67857,377.84448 277.5,386.77305"
+       id="path3182"
+       inkscape:path-effect="#path-effect3184"
+       inkscape:original-d="M 252.67857,377.84448 277.5,386.77305"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,3;stroke-dashoffset:0"
+       d="m 248.57143,365.34448 5.89286,-42.67857"
+       id="path3186"
+       inkscape:path-effect="#path-effect3188"
+       inkscape:original-d="m 248.57143,365.34448 5.89286,-42.67857"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)" />
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+package Main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class LinhaAnalise {
+	/*
+	 * Class, ativ_recomendada, frequencia, cod_ontologia, 
+	 * CART_REGRESSAO_RESULTADO, BINOMIAL_REGRESSAO_RESULTADO, MARS_REGRESSAO_RESULTADO, 
+	 * NNET_REGRESSAO_RESULTADO, SVM_REGRESSAO_RESULTADO, CART_CLASSIFICACAO_RESULTADO, 
+	 * NAIVE_BAYES_CLASSIFICACAO, NNET_CLASSIFICACAO_RESULTADO, SVM_CLASSIFICACAO_RESULTADO, 
+	 * KNN_CLASSIFICACAO_RESULTADO
+	 * 
+	 * */
+	int classeReal;
+	String nomeAtividadeRecomendada;
+	int frequencia;
+	int cod_ontologia;//Isso aqui eh um ArrayList composto que ja esta pronto!
+	int CART_REGRESSAO_RESULTADO; 
+	int BINOMIAL_REGRESSAO_RESULTADO; 
+	int MARS_REGRESSAO_RESULTADO; 
+	int NNET_REGRESSAO_RESULTADO; 
+	int SVM_REGRESSAO_RESULTADO; 
+	int CART_CLASSIFICACAO_RESULTADO; 
+	int NAIVE_BAYES_CLASSIFICACAO; 
+	int NNET_CLASSIFICACAO_RESULTADO; 
+	int SVM_CLASSIFICACAO_RESULTADO;
+	int KNN_CLASSIFICACAO_RESULTADO;
+
+}
+
+class Grupo118Analise {
+	
+}
+
+
+
+public class SistemaDeRecomendacao {
+
+	/*
+	 * Percorre a matriz 'workflows' e agrupa a cada 118 linhas
+	 *Ordena essas 118 e junta com a lista de atividades ordenadas.
+	 * 
+	 * */
+	public ArrayList<Integer> recomenda(String [][] workflows, 
+										ListaDeAtividadesAnotadas ListaAnotacoes){		
+		
+		this.imprimeWfs(workflows);
+		
+		return null;
+	}
+	
+	
+	
+	
+	/*Para ajudar a testar*/
+	private void imprimeListaAtividades(ListaDeAtividadesAnotadas ListaAnotacoes){
+		
+		//Itera nas atividades.
+		for (int i = 0; i < ListaAnotacoes.listaAtividadesAnotadas.size(); i++) {
+			System.out.print(ListaAnotacoes.listaAtividadesAnotadas.get(i).nome+": ");
+			
+				StringBuilder builder = new StringBuilder();
+			
+				//Itera nas anotacoes de cada atividade.
+				for (int j = 0; j < ListaAnotacoes.listaAtividadesAnotadas.get(i).anotacoes.size(); j++) {
+					builder.append(ListaAnotacoes.listaAtividadesAnotadas.get(i).anotacoes.get(j)+", ");					
+				}
+				
+				System.out.print(builder.toString().subSequence(0, builder.toString().length()-2));
+				System.out.println();
+		}		
+	}
+	
+
+	private void imprimeWfs(String [][] workflows){
+		
+		
+		for (int i = 0; i < workflows.length-8000; i++) {
+			for (int j = 0; j < workflows[i].length; j++) {
+				System.out.print(workflows[i][j]+", ");
+				new Scanner(System.in).nextInt();
+			}
+			System.out.println();
+		}
+
+	
+		
+	}
+	
+}

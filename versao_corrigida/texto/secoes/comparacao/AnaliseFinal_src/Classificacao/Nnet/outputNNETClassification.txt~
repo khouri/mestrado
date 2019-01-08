@@ -1,0 +1,1379 @@
+
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+
+[1] "valor de numNeuronios = 3 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+
+[1] "valor de numNeuronios = 4 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 4 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+
+[1] "valor de numNeuronios = 5 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[
+[1] "valor de numNeuronios = 6 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 6 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 6 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 7 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 8 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 10 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 10 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 11 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 12 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 14 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 14 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 15 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 15 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 16 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 16 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 16 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 17 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 17 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 17 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 17 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 20 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 20 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 20 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 21 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 21 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 21 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 22 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 22 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 72  0
+          T  0 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 144, df = 1, p-value = 3.553e-33
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 22 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 72  0
+          T  0 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 144, df = 1, p-value = 3.553e-33
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 22 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 72  0
+          T  0 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 144, df = 1, p-value = 3.553e-33
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 24 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 24 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 24 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 24 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 26 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 26 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 26 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 27 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 27 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 28 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 28 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 28 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 30 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 30 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 30 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 30 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 31 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 31 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 31 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 32 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 32 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 32 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 33 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 33 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 33 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 34 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 34 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 34 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 36 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 36 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 37 e txAprendizagem =  100"
+           
+predictions  F  T
+          T 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 37 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 37 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 71  0
+          T  1 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 140.05, df = 1, p-value = 2.59e-32
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  100"
+           
+predictions  F  T
+          F 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 38 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  100"
+           
+predictions  F  T
+          F 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 39 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  100"
+           
+predictions  F  T
+          T 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 40 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 41 e txAprendizagem =  100"
+           
+predictions  F  T
+          F 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 41 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 41 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 41 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  100"
+           
+predictions  F  T
+          T 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 57  3
+          T 15 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 83.31, df = 1, p-value = 6.999e-20
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 66  2
+          T  6 70
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 114.13, df = 1, p-value = 1.22e-26
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 67  2
+          T  5 70
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 117.57, df = 1, p-value = 2.159e-27
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 1 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 67  2
+          T  5 70
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 117.57, df = 1, p-value = 2.159e-27
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  100"
+           
+predictions  F  T
+          T 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  0.01"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  0.001"
+           
+predictions  F  T
+          F 70  0
+          T  2 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 136.22, df = 1, p-value = 1.789e-31
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1e-04"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1e-05"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1e-06"
+           
+predictions  F  T
+          F 66  0
+          T  6 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 121.85, df = 1, p-value = 2.495e-28
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 63  0
+          T  9 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 112, df = 1, p-value = 3.573e-26
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 2 e txAprendizagem =  1e-07"
+           
+predictions  F  T
+          F 63  0
+          T  9 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 112, df = 1, p-value = 3.573e-26
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  100"
+           
+predictions  F  T
+          F 72 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 0, df = 0, p-value = 1
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  10"
+           
+predictions  F  T
+          F 64  3
+          T  8 69
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 103.86, df = 1, p-value = 2.169e-24
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  1"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  0.5"
+           
+predictions  F  T
+          F 68  0
+          T  4 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 128.84, df = 1, p-value = 7.343e-30
+[1] "--------------------------------------------------"
+[1] "valor de numNeuronios = 3 e txAprendizagem =  0.1"
+           
+predictions  F  T
+          F 69  0
+          T  3 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 132.48, df = 1, p-value = 1.175e-30
+[1] "--------------------------------------------------"

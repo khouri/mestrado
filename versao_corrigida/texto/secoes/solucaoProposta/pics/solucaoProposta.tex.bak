@@ -1,0 +1,139 @@
+\chapter{Solu\c{c}{\~a}o proposta}\label{CAP_SOLUCAOPROPOSTA}
+\begin{flushright}
+	\textit{``Não odeie seus inimigos. Isso afeta seu julgamento''(Vito Corleone)}
+\end{flushright}
+
+Nesta seção será descrita a solução proposta nessa monografia a qual utiliza uma ontologia de domínio e a frequência de atividades para recomendar atividades em workflows científicos. 
+
+Primeiramente será detalhado como a ontologia foi construída, qual a metodologia foi usada e o processo de sua construção. Em seguida será detalhado o conjunto de dados, como foram obtidos, sua organização em um modelo relacional e como ocorreu a modelagem desses dados para solucionar um problema de recomendação. O próximo passo é explicar as alterações necessárias nos dados para serem usados por classificadores e regressores. Por fim, na última seção do capítulo, será detalhada a solução proposta neste projeto, sua relação com a ontologia construída.
+ 
+\section{Desenvolvimento da ontologia}\label{SEC_DESENVOLVIMENTO_DA_ONTOLOGIA} 
+O desenvolvimento da ontologia foi realizado de acordo com a metodologia \emph{Skeletal} proposta por \citeonline{Uschold95}, esta metodologia é composta pelas seguintes fases:
+\begin{enumerate}
+	\item Identificar a finalidade;
+	\item Construção da ontologia:
+	\begin{enumerate}
+		\item Captura da ontologia;
+		\item Codificação da ontologia;
+		\item Integração com ontologias existentes;
+	\end{enumerate}
+	\item Validação;
+	\item Documentação;
+\end{enumerate}
+
+A primeira fase, denominada \emph{Identificar a finalidade}, é responsável por definir o objetivo pelo qual será construída a ontologia e como esta será usada. Neste projeto a ontologia foi construída para agregar conhecimento semântico durante a recomendação de atividades, para tal todos os workflows foram anotados com os conceitos desta ontologia. A segunda fase, chamada de \emph{Construção da ontologia} tem como objetivo construir a ontologia (usando uma linguagem formal) o que ocorre em três etapas: i) \emph{Captura da ontologia}; ii) \emph{Codificação da ontologia}; e iii) \emph{Integração com ontologias existentes}. 
+
+Na primeira etapa é realizada a identificação de conceitos e suas relações no domínio de aplicação (neste projeto o domínio de aplicação é a bioinformática). Para realizar esta etapa foi necessário estudar a área de alinhamento genético com os seguintes materiais de estudo: i) o livro \cite{Setubal97} e quatro cursos online, disponibilizados pela universidade de São Diego, criados por \citeauthoronline{Pevzner2015a} (\citeyear{Pevzner2015b}, \citeyear{Pevzner2015a}, \citeyear{Pevzner2015c}, \citeyear{Pevzner2015d}). 
+
+A codificação da ontologia, realizada na segunda etapa, usou a ferramenta Protégé \cite{Protege2014a} por ter código aberto, ser muito conhecida na área de ontologias e suportar a linguagem formal de ontologias OWL \cite{W3COWL2015}. A terceira etapa, denominada \emph{Integração com ontologias existentes}, não ocorreu neste projeto pois não foram encontradas ontologias usadas para recomendar atividades em workflows científicos na área de bioinformática.
+\begin{figure}[hbt]
+	\centering
+ 	\caption{Ontologia construída utilizando a metodologia Skeletal}
+		\includegraphics[width=6cm, height=8cm]{./secoes/solucaoProposta/pics/img/Ontologia.png}
+	\label{FIGURA_ONTOLOGIA_CONSTRUIDA}
+	\source{\varAutorData}
+\end{figure}
+
+A ontologia construída pode ser visualizada na figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}, na qual os círculos representam os conceitos do domínio, a relação entre conceitos definida é a \emph{é subtipo de}. Ao término da fase de construção ocorreu a validação da ontologia (ver figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}) por um especialista no domínio de bioinformática. O qual é o orientador deste projeto e tem formação específica em bioinformática e workflows científicos. A documentação da ontologia, que é a última etapa, foi realizada nesta seção da monografia onde foram detalhados os por ques de sua construção, sua motivação, seus futuros usos e a forma de sua validação.
+
+\section{Modelagem dos dados}\label{SEC_MODELAGEM} 
+Os workflows foram obtidos no repositório \emph{myExperiment} \cite{ROURE2015} por meio do comando \emph{wget} \cite{wget2015}. Após efetuar o download, dos diversos \emph{workflows} em formato \emph{xml}, foi utilizado um analisador de código \emph{xml}, chamado \emph{Beautiful Soup} \cite{BeautifulSoup2015}, para organizar o conjunto de dados em uma base de dados relacional.
+\begin{figure}[!hbt]
+    \centering  
+    \caption{Modelo de dados proposto para armazenar as informações dos workflows}
+    \includegraphics[width=13cm, height=7cm]{./secoes/solucaoProposta/pics/img/modelo_conceitual.png}
+     \source{\varAutorData}
+	\label{figura_modelo_conceitual}
+\end{figure}
+
+A figura \ref{figura_modelo_conceitual} exibe o modelo de dados relacional construído. Neste modelo conceitual os retângulos representam as entidades, os losangos representam a relação entre atividades, os círculos brancos representam os atributos das entidades, os círculos pretos representam identificadores e os números próximos a cada entidade representam sua cardinalidade. Este modelo armazena todas as atividades dos workflows de diversas áreas usando as entidades \emph{Atividades} e \emph{Workflow}, para determinar qual a área científica de cada \emph{workflow} foram utilizadas as tabelas \emph{Workflow Tag} e \emph{Tag}.
+
+Os workflows da área de bioinformática, um total de \(72\), em conjunto com suas atividades, um total de \(280\), foram convertidos em uma matriz \(M_{i,j}\) onde cada linha \(i\) representa um workflow, cada coluna \(j\) representa uma das \(280\) atividades e cada célula da matriz \(M\) representa a existência \(M_{i,j} = 1\), ou não \(M_{i,j} = 0\), da atividade da coluna \(j\) no workflow \(i\). A tabela \ref{tabela_matriz_de_dados} apresenta um exemplo, fictício, de matriz \(M\). Para cada linha da tabela \ref{tabela_matriz_de_dados} é removida uma atividade e recomendada uma lista de possíveis atividades.
+\begin{table}[htbp]
+	\centering
+	\caption{Exemplo de matriz usada como entrada para as técnicas de recomendação da literatura correlata}
+		\begin{tabular}{|c|c|c|c|c|}  \hline
+		\textbf{Workflow} & \textbf{Ativ.\(\mathbf{01}\)} & \textbf{Ativ.\(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)} & \textbf{Ativ.\(\mathbf{280}\)}  \\ \hline
+		\(\mathbf{01}\) 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+		\(\mathbf{02}\) 			  & 1 			  & 1 			  & \(\ldots\) 	  & 1  				\\ \hline
+		\(\mathbf{03}\) 			  & 1 			  & 0 			  & \(\ldots\) 	  & 1  				\\ \hline
+		\(\vdots\) 		  			  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) 		\\ \hline
+		\(\mathbf{72}\) 			  & 1 			  & 0 			  & \(\ldots\) 	  & 0  				\\ \hline
+		\end{tabular}
+	\label{tabela_matriz_de_dados}
+	\vspace{0.1cm}
+	\source{\varAutorData}
+\end{table}
+
+\section{Modelagem dos dados como problema de classificação e regressão}\label{SEC_MODELAGEM_CLASSIFICACAO_REGRESSAO} 
+Para usar técnicas de classificação e regressão foram propostas algumas alterações no conjunto de dados original, descrito na tabela \ref{tabela_matriz_de_dados}, as quais podem ser visualizadas na tabela \ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}. Cada workflow foi replicado \(118\) vezes, destes, \(59\) são uma cópia idêntica ao original, enquanto que dos outros \(59\) foi removida uma atividade (em vermelho na figura \ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}), a mesma para todos os workflows, e foi adicionada uma nova atividade (em verde na figura \ref{tabela_matriz_de_dados_adapatada_classificacao_regressao}) representando uma possível recomendação. 
+\begin{table}[!htbp]
+	\tiny
+	\centering
+	\caption{Exemplo de matriz usada como entrada para as técnicas de recomendação baseadas em classificadores e regressores}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}  \hline
+\textbf{\(\#\)} & \textbf{Workflow} & \textbf{Ativ \(\mathbf{01}\)} & \textbf{Ativ \(\mathbf{02}\)} & \textbf{\(\mathbf{\ldots}\)}  & \textbf{Ativ \(\mathbf{279}\)} & \textbf{Ativ \(\mathbf{280}\)} & \textbf{Rótulo} \\ \hline
+
+1	&		01		 			   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+2	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+\(\vdots\)  &  \(\vdots\) 	   	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)\\ \hline
+59	&		01 					   & 1 			  & 0 			  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+1	&		01		 			   & \textcolor{red}{1} 		  & \textcolor{green}{1} &\(\ldots\)& 1 & 0	& F	\\ \hline
+2	&		01 					   & \textcolor{red}{1}& 0 		  & \(\ldots\) 	  & \textcolor{green}{1} & 0& F	\\ \hline
+\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\) & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+59	&		01 					   & \textcolor{red}{1}			  & 0 			  & \(\ldots\) & 0 & \textcolor{green}{1}& F \\ \hline
+					&\(\vdots\) & & & & & & 																		\\ \hline
+1	&		72		 			   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+2	&		72 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0  			& T	\\ \hline
+\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\) \\ \hline
+59	&		72 					   & 1 			  & 1  & \(\ldots\) 	  & 0 & 0   		& T	\\ \hline
+1	&		72		 			   & \textcolor{green}{1} & \textcolor{red}{1}  & \(\ldots\) 	  & 1 & 0   		& F	\\ \hline
+2	&		72 					   & 1 			  & \textcolor{red}{1}  & \(\ldots\)& \textcolor{green}{1} & 0  & F	\\ \hline
+\(\vdots\)  &		\(\vdots\) 	   & \(\vdots\)   & \(\vdots\) 	  & \(\vdots\) 	  & \(\vdots\) & \(\vdots\) & \(\vdots\)	\\ \hline
+59	&		72 					   & 1 			  & \textcolor{red}{1}  & \(\ldots\) 	  & 0 & \textcolor{green}{1} & F	\\ \hline
+		\end{tabular}
+	\label{tabela_matriz_de_dados_adapatada_classificacao_regressao}
+	\vspace{0.1cm}
+	\source{\varAutorData}
+\end{table}
+
+As \(59\) atividades a serem recomendadas foram escolhidas por duas razões. A primeira é que são as atividades com maior frequência na base de dados. A segunda é a limitação computacional, replicar as \(280\) possíveis recomendações seria inviável em termos de treinamento. Foram replicadas \(59\) atividades idênticas consideradas corretas, isto é com a atividade correta não removida, para garantir o balanceamento entre classes. A última alteração, foi adicionar uma coluna indicando se a recomendação da atividade proposta é pertencente a classe \emph{workflow} (\emph{T}) ou não (\emph{F}).
+
+Na primeira modelagem, tabela \ref{tabela_matriz_de_dados}, cada linha do workflow recebe uma lista de atividades recomendadas pelas técnicas da literatura correlata e pela técnica proposta nesse mestrado, ver seção \ref{SEC_HIBRIDA_PROPOSTA}. Cada lista retornada segue algum critério de ordenação referente a técnica usada, por exemplo uma técnica baseada em frequência retorna uma lista de atividades ordenadas pelas suas frequências. 
+
+Na segunda modelagem, cada linha classificada como não pertencente ao workflow (\emph{F}), é automaticamente adicionada no final da lista de recomendação. As outras atividades (\emph{T}) são adicionadas ao início da lista e ordenadas, de maneira estável, de acordo com suas frequências, anotações ontológicas, ordem alfabética e seletor aleatório nesta sequência de ordenação.
+
+Em ambas as modelagens após construir a lista de recomendação oficial, aquela com os itens recomendados pelas técnicas, os sistemas de recomendação adicionam todas as outras atividades (que não foram recomendadas), ordenadas alfabeticamente, no final da lista. Dessa forma, todas as possíveis atividades estarão presentes na lista. Portanto as métricas descritas na seção \ref{SEC_METRICAS_VALIDACAO} sempre poderão retornar algum valor.
+
+\section{Solução híbrida de frequência e ontologia de domínio}\label{SEC_HIBRIDA_PROPOSTA} 
+A solução proposta neste mestrado recomenda atividades usando de três conceitos importantes na área de workflows científicos: i) frequência de atividades; ii) compatibilidade entre entrada e saída; e ii) semântica de atividades. Para explicar esta proposta, será usada a figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2} como exemplo, na qual é possível observar \(6\) workflows com suas anotações, que simula uma base de dados de workflows científicos.
+\begin{figure}[!hbt]
+	\centering
+ 	\caption{Exemplo de banco de dados de workflows científicos}
+		\includegraphics[width=12cm, height=7cm]{./secoes/solucaoProposta/pics/img/recomendacaofreqontologia.png}
+	\label{FIGURA_ONTOLOGIA_CONSTRUIDA2}
+	\source{\varAutorData}
+\end{figure}
+
+A solução proposta começa calculando a frequência de ocorrência de cada par de atividades existentes, que é o número de vezes que uma atividade \emph{W} ocorre após uma outra atividade \emph{Z}. Ao considerar somente atividades que já foram conectadas, previamente na base de workflows, a compatibilidade de entrada e saída é garantida por consequência.
+
+O próximo passo, feito manualmente, é anotar todos os workflows da figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}, usando os conceitos da ontologia construída (ver figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}). O último passo, realizado de forma automatizada, é anotar todas as atividades com as mesmas anotações de seus respectivos workflows, isto é, se a atividade \emph{X} (da figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA2}) está dentro de dois workflows com anotações distintas então esta atividade receberá duas anotações. O resultado final é a tabela \ref{tabela_lista_recomendacao_ordenada_frequencia}, que apresenta as frequências e anotações de atividades, nesse ponto o sistema está treinado e pronto para uso do cientista
+
+Para compreender o mecanismo de recomendação treinado será usado outro exemplo, cujo objetivo é simular a interação do usuário com o sistema de recomendação. Suponha que durante a construção do workflow \(1\) (ver figura \ref{FIGURA_ONTOLOGIA_CONSTRUIDA}) um cientista insere a atividade \emph{Z} e solicita uma recomendação. O sistema vai procurar na lista das atividades posteriores a \emph{Z} ordenadas por frequência e conceito ontológico e irá retornar a lista de recomendação \ref{tabela_lista_recomendacao_ordenada_frequencia}. A ordenação por conceito ontológico, além de ser estável serve como critério de desempate, para o caso de duas atividades terem a mesma frequência. Neste exemplo, de acordo com a lista de recomendação \ref{tabela_lista_recomendacao_ordenada_frequencia} a atividade \emph{W} seria recomendada em primeiro lugar ao cientísta, o que representa um acerto.
+\begin{table}[!htbp]
+	\centering
+	\caption{Recomendação para a atividade \emph{Z} ordenada por frequência e conceito ontológico}
+		\begin{tabular}{|c|c|c|c|}  \hline
+		\textbf{Posição na Lista} & \textbf{Ativ} & \textbf{Frequência} & \textbf{Anotação Atividade} 	\\ \hline
+		1				& W 				& 2 				& BLAST				\\ \hline
+		2				& X 				& 3 				& FAST, CLUSTAL		\\ \hline
+		3				& Q 				& 1 				& SNAP DRAGONS		\\ \hline
+		\(\vdots\)		& \(\vdots\)		& \(\vdots\) 		& \(\vdots\)		\\ \hline
+		280				& \(\vdots\)		& \(\vdots\)		& \(\vdots\)	\\ \hline
+		\end{tabular}
+	\label{tabela_lista_recomendacao_ordenada_frequencia}
+	\vspace{0.1cm}
+	\source{\varAutorData}
+\end{table}
+
+As atividades são anotadas com a mesma anotação dos \emph{workflows} que as contém, dessa forma é possível que haja pelo menos uma atividade com mais de uma anotação. Isto gera um novo caso de recomendação a ser considerado, suponha que ambas as atividades \emph{W} e \emph{X} contenham dentro de suas listas de anotação o conceito \emph{BLAST}. Neste caso seria recomendada a atividade com menor número de anotações por ser considerada mais específica para o experimento em questão. Caso ambas as atividades tenham o mesmo número de anotações é utilizada a ordem alfabética de conceitos como critério de desempate. Se ocorrer um novo empate é usado um seletor aleatório.

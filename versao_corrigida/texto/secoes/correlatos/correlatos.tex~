@@ -1,0 +1,256 @@
+\chapter{Revis{\~a}o da literatura correlata}\label{CAP_CORRELATOS}
+\begin{flushright}
+	\textit{``Odin deu um olho em troca de sabedoria. Pois fique sabendo que eu daria muito mais!''\\(Ragnar Lothbrok).}
+\end{flushright}
+
+Este capítulo detalha os trabalhos presentes na literatura correlata obtidos por meio de uma revisão sistemática. A primeira seção (\ref{SEC_METODOLOGIA_REVISAO}), detalha as três fases da revisão sistemática: i) Planejamento; ii) Condução; e iii) Extração de dados. A última seção (\ref{SEC_RESULTADOS_REVISAO}) apresenta os resultados obtidos com a revisão descrita, que são os artigos com técnicas correlatasna área de recomendação de atividades em \emph{workflows} científicos.
+
+\section{Metodologia da revisão sistemática} \label{SEC_METODOLOGIA_REVISAO}
+A revisão iniciou com um estudo exploratório sobre o tema, que permitiu compreender o problema de recomendação em detalhes, termos expecíficos da área de workflows cientificos e encontrar palavras-chave. Ao término do estudo exploratório foi realizada uma revisão sistemática, no modelo proposto por \citeonline{Biolchini2007} composta em três etapas: planejamento; condução e extração de dados, cujo objetivo foi responder a pergunta: ``Quais métodos são utilizados para recomendar atividades em \emph{workf\mbox{}lows}?''.
+
+
+\subsection{Planejamento}
+Nesta etapa, foram def\mbox{}inidos: a pergunta que a revisão pretende responder, as bibliotecas digitais utilizadas na pesquisa, a \emph{string} de busca e os critérios de inclusão e exclusão.
+
+A revisão sistemática pretende responder a pergunta: ``Quais são as técnicas existentes para recomendar atividades em \emph{workf\mbox{}lows}?”''. Para responder a esta pergunta foram selecionadas as bibliotecas digitais: ACMDL \cite{ACMDL}, IEEExplore \cite{IEEEXPLORE} e Science Direct \cite{ScienceDirect} por serem consideradas as principais bibliotecas digitais da área que disponibilizam artigos completos de diversos periódicos e conferências.
+
+Utilizando a metodologia PICO \cite{Huang2006} foram definidos:
+\begin{enumerate}
+\item \textbf{Population:} scientific, \emph{workflow} e pipeline;
+\item \textbf{Intervention:} recommendation, provenance, suggestion, forecast, advice, design, visualization , recommender, construc, proposal , guidance, counsel, composition, activity, shimming, inference, reuse, reusing, semiautomatically, similarity, match , matching, complete, auto;
+\item \textbf{Control:} O alvo da pesquisa são as técnicas usadas;
+\item \textbf{Output:} O alvo da pesquisa é descobrir como são validadas as técnicas propostas;
+\end{enumerate}
+após aplicar essa metodologia para definir \emph{strings} de busca obteve-se:
+
+(scientif\mbox{}ic \textbf{and} (\emph{workf\mbox{}low} \textbf{or} pipeline)) \textbf{and} (recommendation \textbf{or} provenance \textbf{or} suggestion \textbf{or} forecast \textbf{or} advice \textbf{or} design \textbf{or} visualization \textbf{or} recommender \textbf{or} construct \textbf{or} proposal \textbf{or} guidance \textbf{or} counsel \textbf{or} composition \textbf{or} activity \textbf{or} shimming \textbf{or} inference \textbf{or} reuse \textbf{or} reusing \textbf{or} semiautomatically \textbf{or} similarity \textbf{or} match \textbf{or} matching \textbf{or} complete \textbf{or} auto)
+
+Para cada resultado da pesquisa, em cada base de dados, foram lidos os resumos e conclusões de todos os artigos e aplicados os critérios de inclusão: i) artigos que utilizam técnica de recomendação de atividades em \emph{workf\mbox{}lows}, e exclusão: i) trabalhos não disponibilizados na integra; ii) trabalhos que não descrevem o método utilizado; e iii) trabalhos que não são da área de recomendação de atividades em \emph{workf\mbox{}lows}. Para classificar um artigo como ``selecionado para leitura integral'', ele deve satisfazer o critério de inclusão e não satisfazer nenhum dos critérios de exclusão.
+
+\subsection{Condução}
+Executando a \emph{string} de busca nas bibliotecas digitais foram obtidos \(XXXX\) artigos. Deste total, \(XXXX\) oriundos da ACMDL, \(XXX\) oriundos da IEEE e \(XXX\) oriundos da Science Direct. O resumo de cada artigo foi lido e os critérios de inclusão e exclusão aplicados. Após a aplicação dos critérios, foram selecionados para a leitura integral \(XXX\) artigos. A Figura \ref{figArtigosPorBase} sumariza o resultado da aplicação dos critérios de inclusão e exclusão dos artigos.
+\begin{figure}[H]
+	\centering
+ 	  \caption{Artigos encontrados por base de dados}
+		\includegraphics[width=11cm,height=6cm]{./secoes/correlatos/ArtigosPorBase.png}
+	\label{figArtigosPorBase}
+  %\source{Marcelo Fantinato, 2015}
+\end{figure}
+
+\subsection{Extração de dados}
+Os dados extraídos de cada artigo foram: a técnica de recomendação e metodologia de validação que podem ser vistos na Tabela \ref{tabResumoTecnicas}.
+\begin{table}[htp] %Usar uma longtable eh mais eficiente!!!
+	\centering
+	\caption{Resumo das técnicas encontradas na literatura correlata.}
+		\begin{tabular}{p{1.5in} p{1.25in} p{2.4in}} \hline %p{1.5in} p{1.5in} p{3in} 
+
+		Referência			& Técnica							& Validação			\\ \hline
+		
+		\cite{Telea1999}		& Frequência 						& Estudo de caso	\\[4pt]
+		
+		\cite{Bomfim2005}		& Ontologia 						& Estudo de caso	\\[4pt]
+		
+		\cite{Zhang2006} 	& Entrada/saída e semântica 		& Estudo de caso	\\[4pt] 
+		
+		\cite{Shao2007}		& Minera proveniência de execução	& Estudo de caso	\\[4pt] 
+		
+		\cite{Koop2008}		& Frequência e proveniências 		& \emph{Workflows} e suas proveniências\\[4pt] 
+		
+		\cite{Oliveira2008}	& Proveniências						& Estudo de caso	\\[4pt] 
+		
+		\cite{Wang2008}		& Entrada e saída de atividades  	& Estudo de caso	\\[4pt] 
+		
+		\cite{Shao2009}		& Proveniência de execução			& Estudo de caso	\\[2pt] 
+		
+		\cite{Wang2009}		& Itemsets e proveniência de execução& Estudo de caso	\\[4pt] 
+		
+		\cite{Leng2010}		& Planejador						& Estudo de caso	\\[4pt] 
+		
+		\cite{Oliveir2010}	& Frequência						& Comparação com \citeonline{Koop2008}\\[4pt] 
+		
+		\cite{Cerezo2011}   & Entrada/saída e semântica			& Estudo de caso	\\[4pt] 
+		
+		\cite{Tan2011}		& Proveniência de execução			& Usados workflows do myExperiment \cite{ROURE2015}	\\[4pt] 
+		
+		\cite{Zhang2011}	& Frequência						& Dados do myExperiment \cite{ROURE2015}	\\[4pt] 
+		
+		\cite{Cao2012}		& Proveniência de modelagem			& Estudo de caso 	\\[4pt] 
+		
+		\cite{Diamantini2012}		& Proveniência de modelagem	& Dados do myExperiment \cite{ROURE2015}	\\[4pt] 
+		
+		\cite{Yao2012}		& Baseado em confiança	& Usados workflows do myExperiment \cite{ROURE2015}	\\[4pt] 
+		
+		\cite{Garijo2013}	& Frequência e proveniência de execução	& \(22\) workflows e suas proveniências 	\\[4pt] 
+		
+		\cite{Yeo2013}		& Proveniência de execução	& Elaborado um estudo de caso com dados fictícios	\\[4pt] 
+		
+		\cite{Bergmann2014}	& Ontologias (Contagem de arestas)	& Comparação com dist. de Levenshtein \cite{Deza2009}	\\[4pt]
+				
+		\cite{Zhang2014}	& Frequência e semântica de metadados & Interfaces do Programmableweb (2015)			\\[4pt] \hline
+		
+		\end{tabular}
+	\label{tabResumoTecnicas}
+  %\source{Marcelo Fantinato, 2015}
+\end{table}
+
+A Figura \ref{figArtigosPorAno} é a relação entre artigos selecionados para leitura integral e o ano de sua publicação.
+\begin{figure}[htp]
+	\centering
+ 	  \caption{Artigos encontrados por ano de publicação}
+		\includegraphics[width=11cm,height=6cm]{./secoes/correlatos/QuantidadePorAno.png}
+	\label{figArtigosPorAno}
+  %\source{Marcelo Fantinato, 2015}
+\end{figure}
+
+\newpage
+\section{Artigos retornados pela revisão sistemática}\label{SEC_RESULTADOS_REVISAO}
+Nesta seção são apresentadas as técnicas, para recomendar atividades em workflows científicos, empregadas ou propostas pelos trabalhos retornados pela revisão da seção \ref{SEC_METODOLOGIA_REVISAO}.
+
+O sistema Smartlink proposto por \citeonline{Telea1999} modela os workflows científicos como grafos, onde as arestas correspondem ao fluxo de dados e os nós às atividades. É criado um grafo de atividades mais utilizadas e elaborada uma busca em profundidade procurando por atividades. A recomendação do Smartlink é baseada no grafo de atividades mais utilizadas, o que permite minimizar os seguintes problemas: i) Como conectar duas atividades?; e ii) Quais atividades podem ser conectadas a uma atividade específica?
+
+\citeonline{Bomfim2005} desenvolveram um sistema de recomendação de atividades em workflows científicos baseado em ontologias. É criada uma ontologia de domínio que é utilizada para recomendar atividades em workflows. O autor não considera as dependências de dados e de controle para recomendar atividades. Além disso, a qualidade da recomendação não foi testada.
+
+\citeonline{Zhang2006} desenvolveu uma técnica para recomendar atividades no sistema Kepler baseada em validação ontológica de dados. Foram desenvolvidas ontologias de domínio e de tipo de dados. Durante a construção do workflow são validadas as atividade semântica e sintaticamente (entrada e saída). Segundo o autor, essa técnica pode melhorar a usabilidade do sistema Kepler recomendando atividades.
+
+\citeonline{Shao2007} e \citeonline{Shao2009} propõem minerar a proveniência de execução e encontrar os experimentos que terminam em estado de sucesso. As execuções dos workflows são modeladas como grafos acíclicos dirigidos, cada execução parte do estado inicial até atingir um dos estados: i) teste; ii) não finalizado; iii) irrelevante, que não auxilia a atingir o estado de sucesso; e iv) sucesso. São considerados críticos todos os caminhos que partem do estado inicial e terminam no estado sucesso. Não foram realizados experimentos sobre recomendação, apenas sobre tempo de execução para minerar a proveniência. O autor cita que essa técnica poderia ser utilizada para recomendar os caminhos de sucesso para workflows em tempo de construção.
+
+\citeonline{Koop2008} recomendam subworkflows frequentes considerando a estrutura do workflow. Para tal, são encontradas (utilizando a proveniência de execução) todas as sequências de atividades posteriores ao nó âncora (aquele que vem antes do item a ser recomendado) essas serão recomendadas ao usuário. Para testar foram utilizados \(2875\) workflows e suas proveniências de execuções, geradas por estudantes durante um curso de visualização de dados, o conjunto de dados foi dividido em: i) treino, responsável por gerar caminhos; e ii) testes, responsável por usar caminhos gerados e recomendar.
+
+\citeonline{Oliveira2008} propõem recomendar trechos de workflows baseado em filtro colaborativo sobre a proveniência de execução e de modelagem de outros workflows. Sempre que uma atividade é adicionada, o sistema verifica quais as atividades seguintes foram utilizadas, através da proveniência, recomendando-as. 
+
+Na área de recomendação de serviços, \citeonline{Wang2008} recomendam serviços baseados nos fatores: dependência entre serviços, modelos existentes e ordem de execução dos serviços. Considere um modelo de workflow no qual um serviço b invoca um serviço c e o serviço c invoca o serviço d, nessa situação um workflow em construção, após incluir o nó b, receberá as recomendações c e d ordenadas pela proximidade com b.
+
+\citeonline{Wang2009} recomendam atividades por meio de itemsets frequentes minerados a partir das mudanças ocorridas nos workflows, cada mudança é denominada \(\Delta\), uma série destas transforma um workflow em outro e consiste na sequência: \(\Delta_{0}, \Delta_{1}, \ldots, \Delta_{N}\). É aplicado o algoritmo Apriori em todas as sequências de operações \(\Delta\), dessa forma, são obtidas as regras de associação que podem ser usadas como recomendação.
+
+\citeonline{Leng2010} propõem um planejador que procura por termos de uma ontologia, primeiramente o grafo acíclico dirigido, que representa os serviços web, são modelados como uma quíntupla (P, \(P_{0}\), G, A, \(\Gamma\)) onde P é o conjunto de proposições, \(P_{0}\) é o estado inicial, G é o estado a ser atingido, A é o conjunto de ações que transformam uma proposição em outra e \(\Gamma\) é a função que transforma proposições.
+
+No grafo os serviços serão as ações A, as entradas e saídas de todos os serviços serão as proposições P, a entrada passada pelo usuário será o estado inicial \(P_{0}\) e a saída esperada pelo usuário será o estado final a ser atingido G. O planejador começa adicionando os estados que satisfaçam as entradas das proposições existentes e que tenham uma similaridade semântica mínima, a qual é calculada por meio de graus de similaridade comparando as anotações semânticas feitas em todos os serviços com termos controlados por uma ontologia \(\Gamma\).
+
+A similaridade entre conceitos (e ) da ontologia é calculada com as seguintes regras: i) e  são equivalentes, então é denominada exata; ii)  é superconceito de ; iii)  é super conceito de ; iv) são inexatos. Ao término do algoritmo é encontrado um caminho entre o estado inicial e o final que é recomendado.
+
+\citeonline{Oliveir2010} recomenda atividades de workflows científicos utilizando mineração sequencial. Essa abordagem permite utilizar uma modificação do algoritmo Preorder Linked WAP (PLWAP) desenvolvido por Ezeife, Lu e Liu (2005) para recomendar atividades. São determinadas as sequências máximas (aquelas que não estão presentes em outras sequências de um mesmo workflow). As sequências são a entrada para o PLWAP que define os caminhos padrões (que são usados como recomendação).
+
+\citeonline{Cerezo2011} elaborou um sistema que permite construir workflows em alto nível, utilizando ontologias de domínio, essa modelagem é convertida para uma linguagem que pode ser executada por sistemas gerenciadores de workflow científico. Durante a tradução, que é semi-automática, são recomendados para o usuário padrões que possuem entradas e saídas compatíveis sintaticamente e cuja similaridade ontológica é alta em relação ao workflow de alto nível modelado.
+
+\citeonline{Tan2011} constroem dois grafos: i) workflows e seus serviços, representados por nós, e as arestas representam a relação de inclusão de um serviço dentro de um workflow; e ii) entre operações, onde os nós representam operações dentro de serviços e as arestas operações entre serviços. Com esses grafos é possível usar o algoritmo Apriori para descobrir quais serviços são utilizados em conjunto por quais usuários e assim gerar recomendações.
+
+\citeonline{Zhang2011} constroem redes sociais de: i) workflows e serviços; ii) serviços e serviços; e iii) pessoas e serviços que permitem avaliar quais serviços são utilizados por quais workflows, com qual frequência e quem são os autores, o sistema foi testado com workflows do repositórios myExperiment (Roure, 2014) com validação cruzada, são recomendados os serviços mais frequentemente utilizados em workflows distintos.
+
+No contexto de processos de negócio, \citeonline{Cao2012} aplicam recomendação baseada em grafos durante a construção dos workflows. Os grafos prontos são minerados para definir padrões (sequências frequentes). Então, é calculada a distância entre os padrões e o processo de negócio (workflow) em construção. Os padrões com menor distância em relação ao processo de negócio em construção são recomendados ao usuário. A distância é calculada utilizando uma métrica elaborada pelos autores que considera a posição do nó no modelo pronto e no subgrafo em construção.
+
+\citeonline{Diamantini2012} recomendam fragmentos de workflows, modelados como um grafo dirigido acíclico, encontrando as menores subestruturas mais representativas de cada grafo. Para tal, empregam um algoritmo de agrupamento da biblioteca SUBDUE que permite reduzir os nós do grafo utilizando a métrica Minimum Description Length (MDL)
+
+onde DL(S) é a Description Length (DL), que é uma função para computar o número de bits necessários para representar a matriz de adjacência do subgrafo S, DL(G) é a Description Length do grafo original G e DL(G|S) Description Length de G comprimido por S. São recomendados os padrões mais representativos ordenados pelo valor da MDL. Para teste foi utilizado um subconjunto de 564 workflows do repositório myExperiment (ROURE, 2014) obtendo como saída uma hierarquia de agrupamentos similares que poderiam ser usados para recomendar segundo os autores.
+
+\citeonline{Yao2012} recomendam baseado em confiabilidade de serviços e autores a ReputationNet é um sistema de recomendação de atividades para workflows que considera a reputação do autor (escolaridade, especialidade e número de citações) e a popularidade dos serviços (frequência relativa). Os serviços mais populares dos autores mais confiáveis são recomendados. 
+
+\citeonline{Garijo2013} mineram a proveniência de execução para encontrar fragmentos frequentes de workflows e recomendá-los, os rastros de proveniência são representados como grafos dirigidos acíclicos. Dado um repositório de workflows e sua proveniência de execução o objetivo é encontrar: i) conjuntos de atividades frequentes; e ii) subworkflows frequentes. Utilizando o algoritmo de agrupamento do SUBDUE baseado na equação MDL. Os testes foram feitos com 22 workflows e suas proveniências. O resultado de estruturas frequentes encontradas foi comparado com os resultados de uma pesquisa manual (feita por um usuário). A diferença entre esta proposta e Diamantini, Potena e Storti (2012) é que esta considera a proveniência de execução para recomendar, o outro apenas os workflows prontos.
+
+\citeonline{Yeo2013} adaptam a técnica de rastro de casualidade para workflows científicos, originalmente esta técnica é usada em workflows de negócios. Para isto, o autor armazena a informação de fluxo dos dados junto com o grafo de casualidade para workflows científicos onde N é o número de atividades, DP é o conjunto de caminhos do fluxo de dados,  é o conjunto de atividades para trás, tal que a execução de b é sempre realizada após alguma atividade do conjunto A e conjunto de nós para frente, tal que a é sempre executada antes de alguma das atividades do conjunto B.
+
+Utilizando o rastro é possível criar um vetor de distâncias entre o nó âncora (que será alvo da recomendação) e os possíveis próximos nós, oriundos de , esse vetor booleano contém o valor um representando a presença de uma atividade do rastro e zero caso contrário. Os vetores são gerados para todos os rastros da base de dados e suas similaridades são calculadas por meio da similaridade do cosseno \cite{Deza2009}.
+
+\citeonline{Bergmann2014} propõem uma ontologia para anotar as atividades, arestas, dados de cada workflow. A similaridade entre anotações é definida como a diferença do nível hierárquico entre elas em uma ontologia, a similaridade de atividades funciona em duas etapas: i) se as atividades são de tipos (por exemplo, algoritmo de Inteligência Artificial (IA), renderização, leitura de arquivos) diferentes sua similaridade é zero; ii) se forem do mesmo tipo, seguem a regra de similaridade de suas anotações semânticas. 
+
+A similaridade da aresta é definida como a soma entre a similaridade das atividades que ela une e a sua própria, ao comparar duas arestas de tipos diferentes, sua similaridade é zero. A similaridade do workflow (parcial ou total [de todos os elementos do workflow]) é definida como a soma de similaridades de aresta e nós sobre o número de arestas mais nós, dessa forma é possível comparar workflows e recomendar os mais similares.
+
+\citeonline{Zhang2014} constroem uma rede social de workflows e serviços (nós) e suas possíveis relações (arestas) são inclusão ou de autoria. Essa rede pode ser modelada como uma matriz Q onde  indica a inclusão de serviço em workflow ou como a matriz  onde  representa o número de workflows onde os serviços (i, j) são chamados. 
+
+Quanto mais vezes dois serviços são utilizados em workflows, maior o grau de ligação entre os mesmos, todos os serviços são publicados com metadados, dessa forma, os autores calculam o Term Frequency-Inverse Category Frequency (TF-ICF) nos metadados que descrevem os serviços e suas categorias. Com base nos valores de TF-ICF cada serviço é classificado em k categorias. Durante a construção do workflow são sugeridos serviços de acordo com a métrica Rank-Biased Overlap (RBO), descrita no artigo. São recomendados os serviços que possuem maior RBO em relação ao workflow em construção.
+
+% Essa figura vai existir porem com outros resultados
+%A Figura \ref{figTecnicasPorQuantidade} relaciona as técnicas existentes e o número de artigos estudados que as utilizam.
+%\begin{figure}[H]
+%	\centering
+% 	  \caption{Número de artigos por técnica de recomendação.}
+%		\includegraphics[width=11cm,height=6cm]{./secoes/correlatos/TecnicasPorQuantidade.png}
+%	\label{figTecnicasPorQuantidade}
+%  %\source{Marcelo Fantinato, 2015}
+%\end{figure}
+
+%Essa "conclusao mini" pode ficar.
+É possível notar a existência de uma tendência no uso de técnicas baseadas em proveniência de dados, frequência e dependência da informação.
+
+A técnica baseada em proveniência de dados (mais utilizada na literatura) tem como vantagem considerar n possíveis dados históricos sobre um mesmo padrão de atividade. Por exemplo, para recomendar uma atividade em um \emph{workflow} que contenha a atividade x, são considerados todos os \emph{workflows} que contenham x e suas atividades posteriores, a atividade com maior frequência é recomendada. Essa abordagem permite minimizar o efeito de outliers. Como desvantagem, possui a necessidade de uma base de dados históricos relevantes, caso contrário, outliers podem afetar o desempenho.
+
+A técnica baseada em frequência tem como vantagem a simplicidade na implementação e como principal desvantagem a necessidade de uma base de dados com pouca esparsidade no uso de atividades.
+
+A técnica baseada em dependência de informação tem como principal vantagem a facilidade de implementação. Como desvantagem, ela não leva em consideração a semântica dos dados das atividades. Por exemplo, uma string que representa o nome de uma espécie de bactéria é considerada similar a uma string que representa um CEP.
+
+Outra tendência observada é sobre a validação dos resultados. Não há uma metodologia amplamente utilizada entre os trabalhos analisados para validação, muitos autores apenas executam a solução uma vez para ''mostrar`` que sua solução funciona. Não ocorrem testes com dados sintéticos ou reais. O que pode ser verificado na Tabela \ref{tabResumoTecnicas} onde doze artigos, marcados como ''Elaborado um estudo de caso``, estão nessa situação.
+
+De fato, as únicas validações encontradas que contém testes efetivos são as que utilizam o log do sistema. Os autores de técnicas baseadas em similaridade entre grafos afirmam utilizar um conjunto de dados sintéticos. Entretanto, nenhum dos autores descreve como o conjunto de dados foi gerado.
+
+
+
+
+
+%OLD
+
+%O sistema Smartlink proposto por \citeonline{TELEA13} modela os \emph{workflows} científicos como grafos, onde as arestas correspondem ao fluxo de dados e os nós às atividades. É criado um grafo de atividades mais utilizadas e elaborada uma busca em profundidade procurando por atividades. A recomendação do Smartlink é baseada no grafo de atividades mais utilizadas, o que permite minimizar os seguintes problemas: i) Como conectar duas atividades?; e ii) Quais atividades podem ser conectadas a uma atividade específica?
+%
+%\citeonline{Bomfim23} desenvolveram um sistema de recomendação de atividades em \emph{workflows} científicos baseado em ontologias. É criada uma ontologia de domínio que é utilizada para recomendar atividades em \emph{workflows}. O autor não considera as dependências de dados e de controle para recomendar atividades. Além disso, a qualidade da recomendação não foi testada.
+%
+%\citeonline{Zhang2006} desenvolveu uma técnica para recomendar atividades no sistema Kepler baseada em validação ontológica de dados. Foram desenvolvidas ontologias de domínio e de tipo de dados. Durante a construção do \emph{workflow} são validadas as atividade semântica e sintaticamente (entrada e saída). Segundo o autor, essa técnica pode melhorar a usabilidade do sistema Kepler recomendando atividades.
+%
+%\citeonline{Shao2007} e \citeonline{Shao2009} propõem minerar a proveniência de execução e encontrar os experimentos que terminam em estado de sucesso. As execuções dos \emph{workflows} são modeladas como grafos acíclicos dirigidos, cada execução parte do estado inicial até atingir um dos estados: i) teste; ii) não finalizado; iii) irrelevante, que não auxilia a atingir o estado de sucesso; e iv) sucesso. São considerados críticos todos os caminhos que partem do estado inicial e terminam no estado sucesso. Não foram realizados experimentos sobre recomendação, apenas sobre tempo de execução para minerar a proveniência. O autor cita que essa técnica poderia ser utilizada para recomendar os caminhos de sucesso para \emph{workflows} em tempo de construção.
+%
+%\citeonline{Koop2008} recomendam sub\emph{workflows} frequentes considerando a estrutura do \emph{workflow}. Para tal, são encontradas (utilizando a proveniência de execução) todas as sequências de atividades posteriores ao nó âncora (aquele que vem antes do item a ser recomendado) essas serão recomendadas ao usuário
+%Para testar foram utilizados 2875 \emph{workflows} e suas proveniências de execuções, geradas por estudantes durante um curso de visualização de dados, o conjunto de dados foi dividido em: i) treino, responsável por gerar caminhos; e ii) testes, responsável por usar caminhos gerados e recomendar.
+%
+%\citeonline{OLIVEIRA2008} propõem recomendar trechos de \emph{workflows} baseado em filtro colaborativo sobre a proveniência de execução e de modelagem de outros \emph{workflows}. Sempre que uma atividade é adicionada, o sistema verifica quais as atividades seguintes foram utilizadas, através da proveniência, recomendando-as. 
+%
+%Na área de recomendação de serviços, \citeonline{VINCA4Science07} recomendam serviços baseados nos fatores: dependência entre serviços, modelos existentes e ordem de execução dos serviços. Considere um modelo de \emph{workflow} no qual um serviço b invoca um serviço c e o serviço c invoca o serviço d, nessa situação um \emph{workflow} em construção, após incluir o nó b, receberá as recomendações c e d ordenadas pela proximidade com b.
+%
+%\citeonline{Wang2009} recomendam atividades por meio de itemsets frequentes minerados a partir das mudanças ocorridas nos \emph{workflows}, cada mudança é denominada \(\Delta\), uma série destas transforma um \emph{workflow} em outro e consiste na sequência: \(\Delta_0, \Delta_1, \ldots \Delta_n\) . É aplicado o algoritmo Apriori em todas as sequências de operações \(\Delta\), dessa forma, são obtidas as regras de associação que podem ser usadas como recomendação.
+%
+%\citeonline{Leng2010} propõem um planejador que procura por termos de uma ontologia, primeiramente o grafo acíclico dirigido, que representa os serviços web, são modelados como uma quíntupla (\(P\), \(P_0\), \(G\), \(A\), \(\Gamma\)) onde P é o conjunto de proposições, \(P_0\) é o estado inicial, \(G\) é o estado a ser atingido, \(A\) é o conjunto de ações que transformam uma proposição em outra e \(\Gamma\) é a função que transforma proposições.
+%
+%No grafo os serviços serão as ações \(A\), as entradas e saídas de todos os serviços serão as proposições \(P\), a entrada passada pelo usuário será o estado inicial \(P_{0}\) e a saída esperada pelo usuário será o estado final a ser atingido \(G\). O planejador começa adicionando os estados que satisfaçam as entradas das proposições existentes e que tenham uma similaridade semântica mínima, a qual é calculada por meio de graus de similaridade comparando as anotações semânticas feitas em todos os serviços com termos controlados por uma ontologia.
+%
+%A similaridade entre conceitos (\(c_{1}\) e \(c_{2}\)) da ontologia é calculada com as seguintes regras: i) \(c_{1}\) e \(c_{2}\) são equivalentes, então é denominada exata; ii) \(c_{1}\) é superconceito de \(c_{2}\) ; iii) \(c_{2}\) super conceito de \(c_{1}\); iv) são inexatos. Ao término do algoritmo é encontrado um caminho entre o estado inicial e o final que é recomendado.
+%
+%\citeonline{TOSTA15} recomenda atividades de \emph{workflows} científicos utilizando mineração sequencial. Essa abordagem permite utilizar uma modificação do algoritmo Preorder Linked WAP (PLWAP) desenvolvido por \citeonline{Ezeife16} para recomendar atividades. São determinadas as sequências máximas (aquelas que não estão presentes em outras sequências de um mesmo \emph{workflow}). As sequências são a entrada para o PLWAP que define os caminhos padrões (que são usados como recomendação).
+%
+%\citeonline{Montagnat2011} elaborou um sistema que permite construir \emph{workflows} em alto nível, utilizando ontologias de domínio, essa modelagem é convertida para uma linguagem que pode ser executada por sistemas gerenciadores de \emph{workflow} científico. Durante a tradução, que é semi-automática, são recomendados para o usuário padrões que possuem entradas e saídas compatíveis sintaticamente e cuja similaridade ontológica é alta em relação ao \emph{workflow} de alto nível modelado.
+%
+%\citeonline{Tan2011} constroem dois grafos: i) \emph{workflows} e seus serviços, representados por nós, e as arestas representam a relação de inclusão de um serviço dentro de um \emph{workflow}; e ii) entre operações, onde os nós representam operações dentro de serviços e as arestas operações entre serviços. Com esses grafos é possível usar o algoritmo Apriori para descobrir quais serviços são utilizados em conjunto por quais usuários e assim gerar recomendações.
+%
+%\citeonline{Zhang2011} constroem redes sociais de: i) \emph{workflows} e serviços; ii) serviços e serviços; e iii) pessoas e serviços que permitem avaliar quais serviços são utilizados por quais \emph{workflows}, com qual frequência e quem são os autores, o sistema foi testado com \emph{workflows} do repositórios \emph{myExperiment} (Roure, 2014) com validação cruzada, são recomendados os serviços mais frequentemente utilizados em \emph{workflows} distintos.
+%
+%No contexto de processos de negócio, \citeonline{Grafo12} aplicam recomendação baseada em grafos durante a construção dos \emph{workflows}. Os grafos prontos são minerados para definir padrões (sequências frequentes). Então, é calculada a distância entre os padrões e o processo de negócio (\emph{workflow}) em construção. Os padrões com menor distância em relação ao processo de negócio em construção são recomendados ao usuário. A distância é calculada utilizando uma métrica elaborada pelos autores que considera a posição do nó no modelo pronto e no subgrafo em construção.
+%
+%\citeonline{diamantini_mining_2012} recomendam fragmentos de \emph{workflows}, modelados como um grafo dirigido acíclico, encontrando as menores subestruturas mais representativas de cada grafo. Para tal, empregam um algoritmo de agrupamento da biblioteca SUBDUE que permite reduzir os nós do grafo utilizando a métrica \emph{Minimum Description Length} (MDL)
+%\begin{align}
+%  MDL = \frac{DL(S) + DL(G|S)}{DL(G)}
+%	\label{eqMDL}
+%\end{align}
+%onde \(DL(S)\) é a \emph{Description Length} (DL), que é uma função para computar o número de bits necessários para representar a matriz de adjacência do subgrafo \(S\), \(DL(G)\) é a \emph{Description Length} do grafo original \(G\) e \(DL(G|S)\) \emph{Description Length} de \(G\) comprimido por \(S\). São recomendados os padrões mais representativos ordenados pelo valor da MDL.
+%
+%Para teste foi utilizado um subconjunto de \(564\) \emph{workflows} do repositório  \emph{myExperiment} \cite{ROURE2015} obtendo como saída uma hierarquia de agrupamentos similares que poderiam ser usados para recomendar segundo os autores.
+%
+%\citeonline{ReputationNet22} recomendam baseado em confiabilidade de serviços e autores a ReputationNet é um sistema de recomendação de atividades para \emph{workflows} que considera a reputação do autor (escolaridade, especialidade e número de citações) e a popularidade dos serviços (frequência relativa). Os serviços mais populares dos autores mais confiáveis são recomendados.
+%
+%\citeonline{Garijo2013} mineram a proveniência de execução para encontrar fragmentos frequentes de \emph{workflows} e recomendá-los, os rastros de proveniência são representados como grafos dirigidos acíclicos. Dado um repositório de \emph{workflows} e sua proveniência de execução o objetivo é encontrar: i) conjuntos de atividades frequentes; e ii) sub\emph{workflows} frequentes. Utilizando o algoritmo de agrupamento do SUBDUE baseado na equação MDL. Os testes foram feitos com \(22\) \emph{workflows} e suas proveniências. O resultado de estruturas frequentes encontradas foi comparado com os resultados de uma pesquisa manual (feita por um usuário). A diferença entre esta proposta e \citeonline{diamantini_mining_2012} é que esta considera a proveniência de execução para recomendar, o outro apenas os \emph{workflows} prontos.
+%
+%\citeonline{Yeo2013} adaptam a técnica de rastro de casualidade para \emph{workflows} científicos, originalmente esta técnica é usada em \emph{workflows} de negócios. Para isto, o autor armazena a informação de fluxo dos dados junto com o grafo de casualidade para \emph{workflows} científicos
+%\begin{align}
+%  G = <N, DP, L_B, L_A>
+%	\label{eqCausalidade}
+%\end{align}
+%onde \(N\) é o número de atividades, \(DP\) é o conjunto de caminhos do fluxo de dados, \((A,b) \in L_B\) é o conjunto de atividades para trás, tal que a execução de \(b\) é sempre realizada após alguma atividade do conjunto \(A\) e \((a,B) \in L_A\) conjunto de nós para frente, tal que \(a\) é sempre executada antes de alguma das atividades do conjunto \(B\).
+%
+%Utilizando o rastro é possível criar um vetor de distâncias entre o nó âncora (que será alvo da recomendação) e os possíveis próximos nós, oriundos de , esse vetor booleano contém o valor um representando a presença de uma atividade do rastro e zero caso contrário. Os vetores são gerados para todos os rastros da base de dados e suas similaridades são calculadas por meio da similaridade do cosseno \cite{Deza2009}.
+%
+%\citeonline{Bergmann2014} propõem uma ontologia para anotar as atividades, arestas, dados de cada \emph{workflow}. A similaridade entre anotações é definida como a diferença do nível hierárquico entre elas em uma ontologia, a similaridade de atividades funciona em duas etapas: i) se as atividades são de tipos (por exemplo, algoritmo de Inteligência Artificial (IA), renderização, leitura de arquivos) diferentes sua similaridade é zero; ii) se forem do mesmo tipo, seguem a regra de similaridade de suas anotações semânticas. 
+%
+%A similaridade da aresta é definida como a soma entre a similaridade das atividades que ela une e a sua própria, ao comparar duas arestas de tipos diferentes, sua similaridade é zero. A similaridade do \emph{workflow} (parcial ou total [de todos os elementos do \emph{workflow}]) é definida como a soma de similaridades de aresta e nós sobre o número de arestas mais nós, dessa forma é possível comparar \emph{workflows} e recomendar os mais similares.
+%
+%\citeonline{Zhang2014} constroem uma rede social de \emph{workflows} e serviços (nós) e suas possíveis relações (arestas) são inclusão ou de autoria. Essa rede pode ser modelada como uma matriz \(Q\) onde \(q_{i,j} = 1\) indica a inclusão de serviço em \emph{workflow} ou como a matriz \(S = Q^{T}Q\) onde \(s_{i,j}\) representa o número de \emph{workflows} onde os serviços \((i, j)\) são chamados. 
+%
+%Quanto mais vezes dois serviços são utilizados em \emph{workflows}, maior o grau de ligação entre os mesmos, todos os serviços são publicados com metadados, dessa forma, os autores calculam o \emph{Term Frequency-Inverse Category Frequency} (TF-ICF) nos metadados que descrevem os serviços e suas categorias. Com base nos valores de TF-ICF cada serviço é classificado em \(k\) categorias. Durante a construção do \emph{workflow} são sugeridos serviços de acordo com a métrica \emph{Rank-Biased Overlap} (RBO), descrita no artigo. São recomendados os serviços que possuem maior RBO em relação ao \emph{workflow} em construção.
+
+
+
+%
+%A revisão da literatura foi realizada em duas fases, um estudo exploratório, para compreender o problema, os termos específicos da área e encontrar palavras-chaves. E a segunda uma revisão sistemática \cite{Biolchini2007} cujo objetivo era responder a pergunta: ``Quais métodos são utilizados para recomendar atividades em \emph{workflows}?'' esta revisão tem três etapas: planejamento, condução e extração de dados.

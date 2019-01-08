@@ -1,0 +1,30 @@
+
+%%Isto será removido após a revisão
+%Seguem as críticas da qualificação sobre a seção ``Conceitos fundamentais'':
+%\begin{enumerate}
+%\item \textcolor{red}{Explicar como foram organizadas as coleções de workflows.}
+%\item \textcolor{blue}{Vírgulas.}
+%\item \textcolor{red}{Definir o termo \emph{itemset} na descrição do algoritmo Apriori.}
+%\item \textcolor{red}{A frase: ``termos raros são mais informativos que os termos comuns de uma ontologia'' foi criticada. De acordo com o Norton isso pode não ser verdade para sinônimos raros ou termos novos. Acho que uma solução seria achar uma referência para isso.}
+%\item \textcolor{red}{Colocar o termo ``Apriori'' em itálico.}
+%\item \textcolor{blue}{A seção métricas de validação ficou confusa, o Norton não entendeu se removiamos atividades do conjunto de teste ou validação.}
+%\item \textcolor{blue}{Na seção ``Sistemas Gerenciadores de Workflow Científico'' devo adicionar um exemplo completo e explicativo sobre workflow científico.}
+%\item \textcolor{blue}{A figura 1(Exemplo do Kepler estava com baixa qualidade) vou colocar várias figuras com alta qualidade.}
+%\item \textcolor{blue}{A técnica ``community-based'' precisa ter a ordem invertida para ficar mais clara sua relação com o filtro colaborativo.}
+%\item \textcolor{blue}{Usar todos os termos em apenas um idioma: ``Colaborative filter'' e ``Filtro colaborativo''.}
+%\item \textcolor{blue}{As equações das várias métricas de distância precisam ter referências.}
+%\item \textcolor{blue}{Definir o termo ``Shim''.}
+%\item \textcolor{blue}{Detalhar mais as diversas partes de uma ontologia: i) conceitos; ii) relações; etc.}
+%\item \textcolor{red}{Achar os autores originais que criaram as técnicas e citar estes.}
+%\item \textcolor{blue}{Explicar em mais detalhes a ontologia de workflows proposta por bergman e GIL. Eu removi ela, foi usada para composição e não tem nada de bioinformática}
+%\item \textcolor{blue}{O termo: `` baseada'' trocar por `` partir de''.}
+%\item \textcolor{blue}{O termo: ``base de dados de workflows científicos'' trocar por `` banco de dados de workflows científicos''.}
+%\item \textcolor{blue}{Evitar frases grandes.}
+%\item \textcolor{blue}{Explicar em detalhes o que cada figura representa ao invés de apenas citar.}
+%\item \textcolor{blue}{A seção métricas de validação deveria revisar os conceitos das métricas ao invés de explicar como serão utilizadas.}
+%\item \textcolor{blue}{Adicionar figuras explicando a estratégia de testes.}
+%\end{enumerate}
+%
+%\newpage
+%Isto será removido após a revisão
+%

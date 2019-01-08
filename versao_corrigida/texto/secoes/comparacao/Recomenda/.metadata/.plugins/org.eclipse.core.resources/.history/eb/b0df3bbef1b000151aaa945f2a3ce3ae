@@ -1,0 +1,42 @@
+package Main;
+
+import java.util.ArrayList;
+
+public class ListaFinal {
+	ArrayList<ArrayList<ArrayList<Integer>>> recomendacoes = 
+							new ArrayList<ArrayList<ArrayList<Integer>>>();
+	
+	public ListaFinal(){
+		
+		//Insere os 10 Sistemas de recomendacao
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		recomendacoes.add(new ArrayList<ArrayList<Integer>>());
+		
+		System.out.println(recomendacoes.size());
+		
+		//*Insere as 77 recomendacoes de cada um deles
+		for (int i = 0; i < recomendacoes.size(); i++) {
+			for (int j = 0; j < 77; j++) {
+				recomendacoes.get(i).add(new ArrayList<Integer>());
+			}
+		}
+		//Insere um arrayList em cada um dos 77 casos de recomendacoes
+		
+		//*Insere as 77 recomendacoes de cada um deles
+		for (int i = 0; i < recomendacoes.size(); i++) {
+			for (int j = 0; j < 77; j++) {
+				recomendacoes.get(i).add(new ArrayList<Integer>(1,2,3,4,5));
+			}
+		}
+				
+	}
+	
+}

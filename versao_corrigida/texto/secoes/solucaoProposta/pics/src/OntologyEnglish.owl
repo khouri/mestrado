@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Alignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Alignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Annotation_of_Genes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Annotation_of_Genes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#BLAST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#BLAST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Binary_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Binary_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Clustal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Clustal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Comparison_of_sequences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Comparison_of_sequences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Dali_Lite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Dali_Lite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#FAST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#FAST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Families_Classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Families_Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Kalign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Kalign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#MPSearch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#MPSearch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Mafft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Mafft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Mapping_sequences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Mapping_sequences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Muscle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Muscle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Prediction_structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Prediction_structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Search_strings_composed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Search_strings_composed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Experiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Smith_Waterman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Smith_Waterman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Pair_Wise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Snap_Dragons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Snap_Dragons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Prediction_structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#TCoffe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#TCoffe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toasty/ontologies/2015/3/untitled-ontology-15#Multiple_Sequence_Alignment"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

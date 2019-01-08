@@ -1,0 +1,101 @@
+package Main;
+
+import java.awt.image.ConvolveOp;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+class AtividadesAnotadas {
+
+	public String nome;
+	public ArrayList<Integer> anotacoes = new ArrayList<Integer>();
+
+	public AtividadesAnotadas(String nome, ArrayList<Integer> anotacoes) {
+
+		this.nome = nome;
+		this.anotacoes.addAll(anotacoes);
+	}
+
+}
+
+public class ListaDeAtividadesAnotadas {
+
+	public ArrayList<AtividadesAnotadas> listaAtividadesAnotadas = new ArrayList<AtividadesAnotadas>();
+	private String line = "";
+	private String cvsSplitBy = ",";
+
+	public ListaDeAtividadesAnotadas(String caminhoArquivoEntrada){
+		this.preencheAtividades(caminhoArquivoEntrada);
+	}
+
+	private int tryParseInt(String converter){
+		
+		int retorno = -1;
+		try {
+			retorno = Integer.parseInt(converter);
+		} catch (Exception e) {
+			retorno = -1;
+		}
+		
+		return retorno;
+	}
+	
+	public void imprimeAnotacoes(){
+		
+		for (int i = 0; i < listaAtividadesAnotadas.size(); i++) {//Percorre atividades
+			
+			AtividadesAnotadas anot = listaAtividadesAnotadas.get(i);
+			System.out.print("Nome da Atividade: "+anot.nome);
+			for (int j = 0; j < anot.anotacoes.size(); j++) {//Percorre Anotacoes
+				
+			}
+		}
+	}
+	
+	private void preencheAtividades(String caminhoArquivoEntrada){
+
+		String csvFile = caminhoArquivoEntrada;
+		BufferedReader br = null;
+		try {
+
+			br = new BufferedReader(new FileReader(csvFile));
+			int count = 0;
+			while ((line = br.readLine()) != null) {//Le matriz
+				
+				ArrayList<Integer> novos = new ArrayList<Integer>();
+				
+				String[]arr =  line.split(cvsSplitBy);
+				for (int i = 1; i < arr.length-1; i++) {//Pega os cod_anotacao
+				
+					int valorConvertido = tryParseInt(arr[i]);
+					if( valorConvertido != -1){
+						novos.add(valorConvertido);
+					}				
+				}	
+				
+				//Cria objeto
+				AtividadesAnotadas nova = new AtividadesAnotadas(arr[0], novos);
+				
+				//Add na lista
+				this.listaAtividadesAnotadas.add(nova);
+				
+				count++;
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}		
+	}
+}

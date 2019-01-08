@@ -1,0 +1,101 @@
+package Main;
+
+import java.util.ArrayList;
+
+/*
+ * 
+ * Copiar os arquivos de entrada para a
+ *  pasta desse projeto
+ *  
+ *  */
+public class Main {
+
+	public String [][] leituraDeEntradaRecomendador() {
+
+		String caminhoArquivoEntrada = "/home/toasty/Desktop/dadosParaRecomendar.csv";
+		String [][] workflows = new CriaListaAnotacoes().leMatrizCSV(caminhoArquivoEntrada);
+		//new CriaListaAnotacoes().imprimeMatrizCSV(workflows);
+		
+		return workflows;
+	}
+
+	//Cria o arquivo que sera usado posteriormente
+	public void geraAnotacoesEmAtividades() {
+
+		String caminhoArquivoEntradaAtividadesEAnotacoes = "/home/toasty/Desktop/Leitura.csv";
+
+		String [][] workflowsAnotacoes = new CriaListaAnotacoes().
+										 leMatrizCSVRelacionaAnotacaoEAtividades(
+												 caminhoArquivoEntradaAtividadesEAnotacoes);
+
+		new AnotaAtividades().anotadorDeAtividades(workflowsAnotacoes);
+	}
+
+	public ListaDeAtividadesAnotadas listaDeAtividadesAnotadas(){
+		
+		String caminhoArquivoEntradaAtividadesEAnotacoes = "/home/toasty/Desktop/AnotacoesFinais.csv";
+		ListaDeAtividadesAnotadas myLisy = 
+				new ListaDeAtividadesAnotadas(caminhoArquivoEntradaAtividadesEAnotacoes);
+		
+		//myLisy.imprimeAnotacoes();
+		
+		return myLisy;
+	
+	}
+
+	public void fazRecomendacoes() {
+		
+		//wfs lidos da base de dados
+		String [][] workflows = new Main().leituraDeEntradaRecomendador();
+		
+		//Vai funcionar como um dicionario
+		ListaDeAtividadesAnotadas ListaAnotacoes = new Main().listaDeAtividadesAnotadas();
+		
+		SistemaDeRecomendacao obj = new SistemaDeRecomendacao();
+		
+		obj.recomenda(workflows, ListaAnotacoes);
+	//	obj.ACABOU_ESSA_PORRA();
+	}
+	
+	public void geraDadosClassificadorComposto() {
+		
+		//wfs lidos da base de dados
+		String [][] workflows = new Main().leituraDeEntradaRecomendador();
+		
+		//Vai funcionar como um dicionario
+		ListaDeAtividadesAnotadas ListaAnotacoes = new Main().listaDeAtividadesAnotadas();
+		
+		SistemaDeRecomendacao obj = new SistemaDeRecomendacao();
+		
+		obj.geraDadosClassificadorComposto(workflows, ListaAnotacoes);
+	//	obj.ACABOU_ESSA_PORRA();
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+	//	new Main().fazRecomendacoes();
+	new Main().geraDadosClassificadorComposto();
+		//ListaFinal list = new ListaFinal();
+		
+	/*	ArrayList<Integer> nnnnnn =new ArrayList<Integer>();
+		nnnnnn.add(1);
+		nnnnnn.add(2);
+		nnnnnn.add(3);
+		nnnnnn.add(4);
+		nnnnnn.add(5);
+		nnnnnn.add(6);
+		
+		System.out.println(nnnnnn);
+		
+		nnnnnn.add(0, 20);
+		
+		System.out.println(nnnnnn);
+		
+		nnnnnn.add(nnnnnn.size(), 2000);//Joga no size()
+
+		System.out.println(nnnnnn);*/
+	}
+
+}

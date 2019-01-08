@@ -1,0 +1,79 @@
+package Main;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Main {
+
+	public void metodo(){
+		Set<Integer> cargos = new HashSet<Integer>();
+		cargos.add(	1451	);
+		cargos.add(	1452	);
+		cargos.add(	"1428	"	);
+		cargos.add(	32	);
+		cargos.add(	1457	);
+		cargos.add(	1492	);
+		cargos.add(	1493	);
+		cargos.add(	158	);
+		cargos.add(	165	);
+		cargos.add(	167	);
+		cargos.add(	168	);
+		cargos.add(	1697	);
+		cargos.add(	199	);
+		cargos.add(	200	);
+		cargos.add(	203	);
+		cargos.add(	204	);
+		cargos.add(	205	);
+		cargos.add(	206	);
+		cargos.add(	207	);
+		cargos.add(	209	);
+		cargos.add(	21	);
+		cargos.add(	210	);
+		cargos.add(	211	);
+		cargos.add(	212	);
+		cargos.add(	213	);
+		cargos.add(	215	);
+		cargos.add(	216	);
+		cargos.add(	217	);
+		cargos.add(	218	);
+		cargos.add(	219	);
+		cargos.add(	22	);
+		cargos.add(	220	);
+		cargos.add(	221	);
+		cargos.add(	222	);
+		cargos.add(	224	);
+		cargos.add(	225	);
+		cargos.add(	227	);
+		cargos.add(	228	);
+		cargos.add(	229	);
+		cargos.add(	23	);
+		cargos.add(	230	);
+		cargos.add(	233	);
+		cargos.add(	235	);
+		cargos.add(	236	);
+		cargos.add(	237	);
+		cargos.add(	238	);
+		cargos.add(	244	);
+		cargos.add(	245	);
+		cargos.add(	251	);
+		cargos.add(	368	);
+		cargos.add(	377	);
+		cargos.add(	4	);
+		cargos.add(	6	);
+		cargos.add(	737	);
+		cargos.add(	738	);
+		cargos.add(	740	);
+
+	
+			
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

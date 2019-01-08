@@ -1,0 +1,19 @@
+         valoresDeTestes
+matrizTmp FALSE TRUE
+        0   227  177
+        1   186  236
+[1] "limiar de corte:  3.46371378380536e-08"
+[1] "--------------------------------------------------"
+        valoresDeTestes
+matrizTmp FALSE TRUE
+        0   150   59
+        1   263  354
+[1] "limiar de corte:  1.35350192863083e-09"
+[1] "--------------------------------------------------"
+         valoresDeTestes
+matrizTmp FALSE TRUE
+        0   150   59
+        1   263  354
+[1] "limiar de corte:  1.35350192863083e-09"
+[1] "--------------------------------------------------"
+ 

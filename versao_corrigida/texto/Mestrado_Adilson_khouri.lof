@@ -1,0 +1,30 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Sistema gerenciador de \emph {workflows} cient\IeC {\'\i }ficos Kepler\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de atividade do tipo \emph {simples}\relax }}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de atividade do tipo \emph {Shim}\relax }}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de atividade do tipo \emph {subworkflow}\relax }}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo de incompatibilidade sem\IeC {\^a}ntica entre atividades\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de ontologia\relax }}{24}{figure.caption.14}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de classifica\IeC {\c c}\IeC {\~a}o usando o algoritmo KNN\relax }}{29}{figure.caption.18}
+\contentsline {figure}{\numberline {8}{\ignorespaces Estrutura de \IeC {\'a}rvore de decis\IeC {\~a}o\relax }}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {9}{\ignorespaces Tipos de eventos probabil\IeC {\'\i }sticos\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de neur\IeC {\^o}nio\relax }}{36}{figure.caption.23}
+\contentsline {figure}{\numberline {11}{\ignorespaces Topologia de rede neural\relax }}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de neur\IeC {\^o}nio de sa\IeC {\'\i }da para c\IeC {\'a}lculo do \emph {backpropagation}\relax }}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {13}{\ignorespaces Exemplo de neur\IeC {\^o}nio oculto para c\IeC {\'a}lculo do \emph {backpropagation}\relax }}{40}{figure.caption.26}
+\contentsline {figure}{\numberline {14}{\ignorespaces Vetores de suporte e margem do SVM\relax }}{45}{figure.caption.27}
+\contentsline {figure}{\numberline {15}{\ignorespaces Ponto de sela do Lagrangiano\relax }}{46}{figure.caption.28}
+\contentsline {figure}{\numberline {16}{\ignorespaces SVM considerando erro de classifica\IeC {\c c}\IeC {\~a}o\relax }}{48}{figure.caption.29}
+\contentsline {figure}{\numberline {17}{\ignorespaces SVM com dados n\IeC {\~a}o linearmente separ\IeC {\'a}veis\relax }}{50}{figure.caption.30}
+\contentsline {figure}{\numberline {18}{\ignorespaces Tubo de insensibilidade\relax }}{52}{figure.caption.31}
+\contentsline {figure}{\numberline {19}{\ignorespaces Gr\IeC {\'a}fico da fun\IeC {\c c}\IeC {\~a}o perda\relax }}{53}{figure.caption.32}
+\contentsline {figure}{\numberline {20}{\ignorespaces Fun\IeC {\c c}\IeC {\~o}es espelho usadas pelo MARS\relax }}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {21}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o ortogonal dos dados do algoritmo PCA\relax }}{58}{figure.caption.35}
+\contentsline {figure}{\numberline {22}{\ignorespaces Arquitetura de \emph {ensemble} de classificadores\relax }}{59}{figure.caption.36}
+\contentsline {figure}{\numberline {23}{\ignorespaces Artigos obtidos com a revis\IeC {\~a}o sistem\IeC {\'a}tica\relax }}{63}{figure.caption.37}
+\contentsline {figure}{\numberline {24}{\ignorespaces N\IeC {\'u}mero de artigos por t\IeC {\'e}cnica de recomenda\IeC {\c c}\IeC {\~a}o\relax }}{71}{figure.caption.38}
+\contentsline {figure}{\numberline {25}{\ignorespaces Ontologia constru\IeC {\'\i }da utilizando a metodologia \emph {Skeletal}\relax }}{75}{figure.caption.39}
+\contentsline {figure}{\numberline {26}{\ignorespaces Modelo de dados dos \emph {workflows} cient\IeC {\'\i }ficos\relax }}{76}{figure.caption.40}
+\contentsline {figure}{\numberline {27}{\ignorespaces Exemplo de \emph {$10$-fold cross validation}\relax }}{79}{figure.caption.43}
+\contentsline {figure}{\numberline {28}{\ignorespaces Quatro casos de recomenda\IeC {\c c}\IeC {\~a}o de atividades\relax }}{81}{figure.caption.44}
+\contentsline {figure}{\numberline {29}{\ignorespaces Exemplo de banco de dados de \emph {workflows} cient\IeC {\'\i }ficos\relax }}{83}{figure.caption.47}

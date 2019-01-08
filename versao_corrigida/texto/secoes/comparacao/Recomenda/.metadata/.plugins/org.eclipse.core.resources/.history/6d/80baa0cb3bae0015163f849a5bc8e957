@@ -1,0 +1,10 @@
+package Main;
+
+import java.util.ArrayList;
+
+public class ObjetoRecomenda {
+
+	private ArrayList<String> headers;
+	private ArrayList<ArrayList<Integer>> Linhas = new ArrayList<ArrayList<Integer>>();
+	
+}

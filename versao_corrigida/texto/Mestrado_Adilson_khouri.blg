@@ -1,0 +1,105 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Mestrado_Adilson_khouri.aux
+A level-1 auxiliary file: ./secoes/introducao/introducao.aux
+A level-1 auxiliary file: ./secoes/conceitosFundamentais/conceitosFundamentais.aux
+A level-1 auxiliary file: ./secoes/correlatos/correlatos.aux
+A level-1 auxiliary file: ./secoes/solucaoProposta/solucaoProposta.aux
+A level-1 auxiliary file: ./secoes/comparacao/comparacao.aux
+A level-1 auxiliary file: ./secoes/conclusoes/conclusoes.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 11555 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: referenciasNovas.bib
+Warning--entry type for "Biocatalogue" isn't style-file defined
+--line 111 of file referenciasNovas.bib
+Warning--entry type for "Kepler2014" isn't style-file defined
+--line 387 of file referenciasNovas.bib
+Warning--entry type for "ProgrammableWeb" isn't style-file defined
+--line 1119 of file referenciasNovas.bib
+Warning--entry type for "Wings2015" isn't style-file defined
+--line 1147 of file referenciasNovas.bib
+Warning--entry type for "Vistrails" isn't style-file defined
+--line 1163 of file referenciasNovas.bib
+Warning--entry type for "ACMDL" isn't style-file defined
+--line 1179 of file referenciasNovas.bib
+Warning--entry type for "IEEEXPLORE" isn't style-file defined
+--line 1195 of file referenciasNovas.bib
+Warning--entry type for "ScienceDirect" isn't style-file defined
+--line 1211 of file referenciasNovas.bib
+Warning--entry type for "Pevzner2015a" isn't style-file defined
+--line 1805 of file referenciasNovas.bib
+Warning--entry type for "Pevzner2015b" isn't style-file defined
+--line 1827 of file referenciasNovas.bib
+Warning--entry type for "Pevzner2015c" isn't style-file defined
+--line 1849 of file referenciasNovas.bib
+Warning--entry type for "Pevzner2015d" isn't style-file defined
+--line 1871 of file referenciasNovas.bib
+Warning--entry type for "Protege2014" isn't style-file defined
+--line 1893 of file referenciasNovas.bib
+Warning--entry type for "W3COWL2015" isn't style-file defined
+--line 1909 of file referenciasNovas.bib
+Warning--entry type for "wget2015" isn't style-file defined
+--line 1931 of file referenciasNovas.bib
+Warning--entry type for "BeautifulSoup2015" isn't style-file defined
+--line 1951 of file referenciasNovas.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v<VERSION>           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+You've used 95 entries,
+            6711 wiz_defined-function locations,
+            1839 strings with 29728 characters,
+and the built_in function-call counts, 273091 in all, are:
+= -- 43350
+> -- 3212
+< -- 6283
++ -- 7411
+- -- 962
+* -- 12464
+:= -- 23491
+add.period$ -- 426
+call.type$ -- 95
+change.case$ -- 1071
+chr.to.int$ -- 188
+cite$ -- 94
+duplicate$ -- 40191
+empty$ -- 6282
+format.name$ -- 4632
+if$ -- 56926
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 1720
+newline$ -- 458
+num.names$ -- 471
+pop$ -- 2749
+preamble$ -- 1
+purify$ -- 399
+quote$ -- 0
+skip$ -- 40429
+stack$ -- 1
+substring$ -- 9201
+swap$ -- 8004
+text.length$ -- 205
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 41
+warning$ -- 0
+while$ -- 807
+width$ -- 0
+write$ -- 1524
+(There were 16 warnings)

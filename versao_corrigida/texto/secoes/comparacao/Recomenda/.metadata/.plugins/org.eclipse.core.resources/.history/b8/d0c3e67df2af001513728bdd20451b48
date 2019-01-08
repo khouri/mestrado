@@ -1,0 +1,65 @@
+package Main;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+class AtividadesAnotadas {
+
+	public String nome;
+	public ArrayList<Integer> anotacoes = new ArrayList<Integer>();
+
+	public AtividadesAnotadas(String nome, ArrayList<Integer> anotacoes) {
+
+		this.nome = nome;
+		this.anotacoes.addAll(anotacoes);
+	}
+
+}
+
+public class ListaDeAtividadesAnotadas {
+
+	public ArrayList<AtividadesAnotadas> listaAtividadesAnotadas = new ArrayList<AtividadesAnotadas>();
+
+	public ListaDeAtividadesAnotadas(String caminhoArquivoEntrada){
+		this.preencheAtividades(caminhoArquivoEntrada);
+	}
+
+	private void preencheAtividades(String caminhoArquivoEntrada){
+
+		//public String[][] leMatrizCSV(String caminhoArquivoEntrada) {
+
+		String csvFile = caminhoArquivoEntrada;
+		BufferedReader br = null;
+		String [][] dadosParaAnalise = new String [8615][14];
+
+		try {
+
+			br = new BufferedReader(new FileReader(csvFile));
+			int count = 0;
+			while ((line = br.readLine()) != null) {//Le matriz
+
+				dadosParaAnalise[count] = line.split(cvsSplitBy);
+				count++;
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}		
+
+
+	}
+
+}

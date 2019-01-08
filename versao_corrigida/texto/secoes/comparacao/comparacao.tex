@@ -1,0 +1,79 @@
+\chapter{Resultados e discuss{\~a}o}\label{CAP_COMPARACAO}
+\begin{flushright}
+	\textit{``Tudo o que temos de decidir é o que fazer com o tempo que nos é dado.''(Gandalf)}
+\end{flushright}
+
+Este capítulo compara resultados das técnicas propostas neste mestrado, incluindo as baseadas unicamente em classificadores e regressores e com os classificadores compostos (descritos na seção \ref{ENSEMBLES}) com as da literatura correlata. Para tal, foram usadas as métricas \(MRR\) e \(S@K\), descritas na seção \ref{SEC_METRICAS_VALIDACAO} e validação cruzada em \(10\) subconjuntos (\emph{\(10\)-fold cross validation}).
+
+A técnica baseada na Frequência em conjunto com Entrada e Saída e Ontologia (FESO) é a contribuição principal deste mestrado. As técnicas baseadas em: i) aleatoriedade, ii) \emph{Apriori} e iii) frequência em conjunto com entrada e saída (FES), foram propostas pela literatura correlata (ver capítulo~\ref{CAP_CORRELATOS}). 
+
+Outra contribuição é a modelagem da recomendação de atividades como um problema de classificação e regressão. Para implementá-la, foram usados os seguintes classificadores: i) CART\(_C\); ii) Naive Bayes\(_C\); iii) Rede neural\(_C\); iv) KNN\(_C\); e v) SVM\(_C\), e os seguintes regressores: i) Binomial\(_R\); ii) MARS\(_R\); iii) Rede neural\(_R\); iv) CART\(_R\); e v) SVM\(_R\), descritos no capítulo~\ref{CAP_CONCEITOS_FUNDAMENTAIS}. Também foram usados: i) um classificador composto (SVM); e ii) um \emph{ensemble} de classificadores (\emph{Rotation Forest}).
+
+\section{Comparação de resultados}
+A tabela \ref{tb_resultadosExperimentos} exibe os resultados de cada sistema recomendador usado. As técnicas que possuem a letra \emph{C} em subscrito são classificadores; as que possuem letra \emph{R} em subscrito são regressores; e as que não tem nada são da literatura correlata. Cada sistema efetua suas recomendações de acordo com seus diferentes critérios em uma lista inicial. Em seguida, as atividades não recomendadas são acrescentadas ao final da lista inicial. Dessa forma, a atividade correta sempre será encontrada, e o fator que diferencia os sistemas de recomendação é a posição em que as atividades ocupam na lista de atividades final que contém \(280\) posições.
+\bgroup
+\begin{table}[!htp]
+\centering
+%\tiny
+\caption{Resultados dos sistemas de recomendação}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|} \hline
+\textbf{\(\mathbf{\#}\)} & \textbf{Técnica}&\textbf{S@1}&\textbf{S@5} & \textbf{S@10} & \textbf{S@50} & \textbf{S@100} & \textbf{S@280} & \textbf{MRR} \\ \hline
+
+1  & Aleatório				& 0,0037 & 0,0260 & 0,0280 & 0,0300 & 0,0400 & 1,0000 & 0.033 \\ \hline
+2  & \emph{Apriori}			& 0,0037 & 0,0385 & 0,0559 & 0,0568 & 0,0570 & 1,0000 & 0,037 \\ \hline
+3  & KNN\(_C\)				& 0,0037 & 0,0685 & 0,0959 & 0,5068 & 1,0000 & 1,0000 & 0,040 \\ \hline
+4  & Rede neural\(_C\)		& 0,0137 & 0,1507 & 0,1781 & 0,8082 & 1,0000 & 1,0000 & 0,089 \\ \hline
+5  & CART\(_C\)				& 0,0274 & 0,1233 & 0,3699 & 0,7671 & 1,0000 & 1,0000 & 0,113 \\ \hline
+6  & CART\(_R\)    			& 0,1370 & 0,1370 & 0,2603 & 0,6164 & 1,0000 & 1,0000 & 0,114 \\ \hline
+7  & Naive Bayes\(_C\)     	& 0,0274 & 0,1507 & 0,3425 & 0,6301 & 1,0000 & 1,0000 & 0,114 \\ \hline
+8  & Binomial\(_R\) 		& 0,0822 & 0,1918 & 0,2055 & 0,8493 & 1,0000 & 1,0000 & 0,136 \\ \hline
+9  & Rede neural\(_R\)     	& 0,1096 & 0,2603 & 0,2603 & 0,2603 & 1,0000 & 1,0000 & 0,154 \\ \hline
+10 & MARS\(_R\)     		& 0,1233 & 0,2055 & 0,2192 & 0,7260 & 1,0000 & 1,0000 & 0,167 \\ \hline
+11 & SVM\(_R\)     			& 0,1233 & 0,3151 & 0,4932 & 0,8493 & 1,0000 & 1,0000 & 0,238 \\ \hline
+12 & FES           			& 0,1474 & 0,2603 & 0,3699 & 0,8671 & 1,0000 & 1,0000 & 0,196 \\ \hline
+13 & SVM\(_C\)    			& 0,2425 & 0,4658 & 0,4932 & 0,7123 & 1,0000 & 1,0000 & 0,244 \\ \hline
+14 & SVM composto\(_C\)		& 0,2515 & 0,4458 & 0,5232 & 0,7623 & 1,0000 & 1,0000 & 0,314 \\ \hline
+15 & Rotation Forest\(_C\)  & 0,2925 & 0,4558 & 0,5432 & 0,7723 & 1,0000 & 1,0000 & 0,324 \\ \hline
+16 & FESO          			& 0,3425 & 0,4658 & 0,5932 & 0,8123 & 1,0000 & 1,0000 & 0,334 \\ \hline
+\end{tabular}
+\label{tb_resultadosExperimentos}
+\vspace{0.1cm}
+\source{\varAutorData}
+\end{table}
+\egroup
+
+O sistema baseado em \emph{Aleatoriedade} não precisou de treinamento. O algoritmo apenas selecionava aleatoriamente as atividades formando uma lista de atividades recomendadas. Esse sistema recomendou menos de \(3\%\) das atividades corretas entre as dez primeiras posições. A maioria das atividades corretas foram classificadas próximas a posição \(140\) que é a posição média das listas recomendadas. Os valores das métricas \(S@280 = 1\) e \(S@100 = 0,0400\) indicam que a maior parte dos itens corretos foi encontrado após a centésima posição. Esse sistema foi proposto como um marco de comparação.
+
+O sistema que usa a técnica \emph{Apriori} obteve seu melhor desempenho quando os parâmetros \emph{confiança} e \emph{suporte} foram definidos como \emph{sem limitação}, isto é, não foi estabelecido um valor de confiança ou suporte mínimo para considerar possíveis regras de associação criadas. Todas as regras foram consideradas válidas. Mesmo sem restringir esses valores, os resultados desse sistema foram superiores apenas ao sistema baseado em Aleatoriedade. Recomendando menos de \(6\%\) das atividades corretas entre as \(50\) primeiras posições, sua precisão ainda é baixa com valor de \(MRR = 0,037\). Os baixos resultados dessa técnica acontecem devido ao fato de desconsiderar a ordem das atividades durante a geração das regras e, consequentemente, da recomendação.
+
+O sistema baseado em \emph{KNN} foi treinado para diferentes valores do parâmetro \(k = [1:100]\) que representa o número de vizinhos mais próximos (de acordo com a distância Euclidiana) que serão considerados para classificar. Este sistema apresentou os melhores resultados de recomendação para o valor de \(k = 2\). Mesmo assim, menos de \(10\%\) dos itens corretos foram encontrados entre as dez primeiras posições da lista e \(50\%\) dos itens entre os \(50\) primeiros itens. De acordo com a métrica MRR, a posição média dos itens recomendados foi distante da primeira posição da lista \(MRR = 0,040\). Esses resultados indicam que classificar atividades de acordo com a distância entre grupos de vizinhos próximos não é uma abordagem adequada para o problema.
+
+O sistema que usa uma rede neural MLP como classificador teve uma melhoria de quase quatro vezes na métrica \(S@1\) de \(0,0037\) para \(0,0137\) em relação ao \emph{KNN}. Para o treinamento da rede foram usados os parâmetros: i) número de neurônios \(\eta\) (variando entre \(1:40\)); ii) taxa de aprendizagem \(\alpha\) (variando entre \(10^{-7}:10^{+1}\)); iii) duas camadas escondidas; e iv) arquitetura totalmente conectada. Os melhores resultados de classificação foram obtidos para \(\eta = 18\) e \(\alpha = 10^{-4}\) obtendo \(17\%\) de itens classificados entre as dez primeiras posições da lista, e \(80\%\) entre as \(50\) primeiras posições, o que representa uma melhoria de \(30\%\) em relação a técnica \emph{KNN}. O valor da métrica \(MRR = 0,089\) apresentou uma taxa duas vezes mais elevada que a do \emph{KNN}, esse aumento de precisão indica que o poder de generalizar da rede neural para solucionar problemas não lineares foi mais eficiente que a capacidade de generalização das técnicas anteriores.
+
+O sistema baseado em CART como classificador, que tem como característica tratar dados categóricos, apresentou um resultado superior ao da rede neural. O treinamento usou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini ou ganho de informação. O melhor resultado foi para \(gamma = 0\), \(\delta = 30\), \(cp = 10^{-3}\) e \(\xi = \) Ganho de informação. 
+
+Os resultados desse sistema foram aproximadamente duas vezes melhores que os da rede neural. Isso indica uma tendência de bons resultados para técnicas que lidem com dados categóricos por natureza. Essa melhoria indicou um aumento de \(26\%\) na métrica \(MRR\) que representa um aumento da precisão do sistema, além disso posicionou \(13\%\) dos itens procurados na primeira posição e \(26\%\) nas primeiras \(50\) posições.
+
+O sistema baseado em CART como regressor, teve seu melhor valor com os parâmetros \(gamma = 2\), \(\delta = 20\), \(cp = 10^{-5}\) e \(\xi = \) Ganho de informação. A recomendação que usou valores contínuos apresentou um resultado superior ao \(CART_{C}\) nas métricas \(S@1\) e \(S@5\) e um resultado inferior para \(S@10\) e \(S@50\), e a precisão geral (MRR) do \(CART_R\) foi levemente superior.
+
+O sistema baseado no classificador Naive Bayes obteve resultados muito próximos ao do regressor CART. O treinamento ocorreu modificando o atributo \emph{correção de Laplace} com valores entre \([0:100]\). O melhor resultado ocorreu para o valor zero obtendo \(34\%\) dos itens recomendados entre as dez primeiras posições e \(63\%\) entre as \(50\) primeiras posições. Em contrapartida, o valor de \(MRR\) não sofreu grande variação.
+
+O sistema baseado em regressor binomial apresentou melhoria em relação ao Naive Bayes e à rede neural (técnicas que apresentaram resultados próximos). O treinamento dessa técnica ocorre por máxima verossimilhança de um modelo generalizado linear aproximado por uma distribuição binomial. Os resultados para \(S@5\) e \(S@50\) foram superiores que das técnicas anteriores e o valor da métrica \(MRR\) melhorou em aproximadamente \(19\%\) em relação a técnica Naive Bayes. Isto indica que aproximar a variável dependente por uma distribuição binomial e estimar seus parâmetros por verossimilhança é uma ideia potencialmente interessante para tratar este problema.
+
+A rede neural como regressor, que utiliza o peso da rede neural como saída, foi treinada de forma análoga à rede neural usada como classificador. O melhor resultado foi obtido para os valores de \(\eta = 10\) e \(\alpha = 10^{-2}\) recomendando \(26\%\) dos itens corretos entre as dez primeiras posições da lista. A precisão do sistema (MRR) melhorou \(13\%\) em relação ao regressor binomial. Esses resultados indicam que usar um regressor ao invés de um classificador apresenta um resultado melhor para esse tipo de problema, quando solucionado com redes neurais.
+
+O sistema que usou o algoritmo MARS como regressor apresentou um resultado superior à rede neural (usada como regressor) em \(12,5\%\) na métrica \(S@1\), três vezes mais atividades recomendadas entre as \(50\) primeiras e um aumento de precisão geral (MRR) de \(8\%\). Esse resultado mostra que as curvas criadas pelas diversas funções conectadas do MARS obtiveram uma generalização melhor que da rede neural. O treinamento dos parâmetros foi por verossimilhança.
+
+O regressor SVM apresentou resultados duas vezes melhores que o algoritmo MARS para a medida S@10, pois em \(49\%\) das recomendações o item correto estava entre as dez primeiras posições da lista de recomendações. O valor de MRR também foi superior (\(42\%\)). O treinamento foi feito por otimização de margem com os valores de \(c = [10^{-7}:10^{2}]\) , \(\epsilon = [10^{-7}:10^{2}]\), valores de tolerância \(\beta = [10^{-7}:10^{2}]\), funções de \emph{kernel}: i) linear; ii) sigmoide; iii) polinomial; e iv) radial, os parâmetros do \emph{kernel} polinomial são: i) \(p = [1:10]\) que é a potência da função. Os melhores valores encontrados foram para \(c = 1\), \(\epsilon = 1\), \(\beta = 10^{-4}\), \emph{kernel} polinomial com \(p = 2\). Esse resultado é um indício que o problema não é linearmente separável, pois foi usada uma função de \emph{kernel} polinomial para mapear o problema em alta dimensão e projetá-lo novamente para uma dimensão mais baixa. Os autores acreditam que esta característica foi responsável pelo bom desempenho desse regressor.
+
+Dentre os sistemas propostos pela literatura, o sistema baseado em entrada, saída e frequência (FES) \cite{Wang2008} é o que apresenta os melhores resultados. Nos experimentos realizados, este sistema identificou o item correto entre as dez primeiras posições da lista de recomendação em \(37\%\) dos casos, e obteve um valor de \(MRR = 0,196\).
+
+O sistema baseado no algoritmo SVM para classificação foi o único classificador que superou os resultados dos regressores. Seu treinamento foi análogo ao SVM para regressão. Sua melhor execução foi para os valores \(c = 10^{-1}\), \(p = 10^{-4}\) e \emph{kernel} linear. Esta execução, para a métrica \(S@1\) foi \(64\%\) melhor que a da técnica FES e o valor da precisão geral (MRR) aumentou \(24\%\). Este resultado indica que a solução utilizando \emph{kernel} para mapeamento em alta dimensão é uma proposta eficiente no caso de classificadores.
+
+O sistema SVM composto, que executa sobre os resultados dos outros sistemas de recomendação, apresentou um desempenho superior ao SVM para classificação. Seu treinamento foi análogo ao do SVM\(_{C}\) e seu melhor desempenho foi para os parâmetros \(c = 10^{-2}\), \(p = 1\) e \emph{kernel polinomial}. Houve uma melhoria de \(3\%\) na métrica \(S@1\) e \(28\%\) na métrica \(MRR\), essa melhoria é em virtude do uso do resultado de outros classificadores em conjunto com a redução de esparsidade do conjunto de dados.
+
+O sistema utilizando \emph{Rotation Forest} apresentou o segundo melhor resultado, seu treinamento utilizou os parâmetros: i) valor mínimo de divisão \(\gamma = [0:30]\); ii) tamanho máximo da árvore final \(\delta = [0:10000]\) ; iii) valor mínimo de variação para realizar uma divisão \(cp = [10^{-7}:10^{+1}]\); iv) função de divisão (\(\xi\)) como índice de Gini e ganho de informação; v) \(K = [1:10]\) como número de partições; vi) \(L = [1:10]\) como o número de classificadores; e vii) valores de corte \(0,25; 0,5; 0,75\). Essa melhoria foi em virtude de usar em conjunto uma técnica de classificação do tipo \emph{ensemble} e três limiares de corte, os quais foram estabelecidos para converter os valores numéricos (da média dos \(L\) classificadores) em valores binários.
+
+A técnica FESO, apresentou um resultado superior às demais. Este  considera o uso de frequência, entrada e saída e informações semânticas sobre as atividades. Em comparação com as demais técnicas seu resultado foi superior para todas as métricas calculadas, exceto \(S@50\) para algumas técnicas. Em relação à técnica FES, seu resultado foi superior. Em particular, parte dessa melhora é justificada pelos casos em que a atividade correta teria frequência zero no conjunto de treinamento, pois ela permite recomendar baseada na ontologia (usando as atividades que contenham a ontologia do novo \emph{workflow}). Além disso, para o caso em que há empate entre duas atividades com o critério de entrada e saída e a frequência a técnica proposta apresenta um fator a mais para ser utilizado como desempate.
+
+Algumas tendências observadas com esses resultados foram que aumentar a informação sobre dados na recomendação melhora o seu desempenho, como o resultado dos experimentos: 2, 12 e 14 mostram. Uma segunda tendência é que o classificador SVM foi o único que obteve um melhor resultado que os regressores, indicando que soluções por maximização de espaço entre dados em alta dimensão podem ser uma área de estudo promissora. Uma terceira tendência é o uso de classificadores compostos e \emph{ensembles}, os quais apresentaram resultados promissores. No caso do \emph{ensemble} há um indício que técnicas desse tipo, que usem limiares para converter os valores da média dos resultados do conjunto \(L\) em valores binários, têm resultados promissores na recomendação de atividades.

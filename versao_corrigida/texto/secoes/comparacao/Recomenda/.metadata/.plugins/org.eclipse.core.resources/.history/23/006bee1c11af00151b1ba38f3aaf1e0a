@@ -1,0 +1,275 @@
+package Main;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class CriaListaAnotacoes {
+
+	private String line = "";
+	private String cvsSplitBy = ",";
+	private ArrayList<String> listaDeAtividades = new ArrayList<String>();
+
+	public CriaListaAnotacoes(){
+		this.preencheAtividades();
+	}
+	
+	private void preencheAtividades() {
+
+		listaDeAtividades.add("addangle");
+		listaDeAtividades.add("addprefixtoid");
+		listaDeAtividades.add("addsuffix");
+		listaDeAtividades.add("askforsequence");
+		listaDeAtividades.add("beanshellscriptinghost");
+		listaDeAtividades.add("bget");
+		listaDeAtividades.add("bgetin");
+		listaDeAtividades.add("biologicalsequencedatabase");
+		listaDeAtividades.add("blast");
+		listaDeAtividades.add("blastdatabase");
+		listaDeAtividades.add("blastfilecomparer");
+		listaDeAtividades.add("blastp");
+		listaDeAtividades.add("blastsimplifier");
+		listaDeAtividades.add("boxshade");
+		listaDeAtividades.add("buildfastaseq");
+		listaDeAtividades.add("buildinterpromatchesuniparcurl");
+		listaDeAtividades.add("buildqblastgeturl");
+		listaDeAtividades.add("buildqblastputurl");
+		listaDeAtividades.add("chainid");
+		listaDeAtividades.add("checkforsrserror");
+		listaDeAtividades.add("checkforsuccess");
+		listaDeAtividades.add("checkstatusworkflow");
+		listaDeAtividades.add("chromosomefilter");
+		listaDeAtividades.add("clustalwalignment");
+		listaDeAtividades.add("clustalwphylogenetictree");
+		listaDeAtividades.add("compression");
+		listaDeAtividades.add("concatenatetwostrings");
+		listaDeAtividades.add("contentxml");
+		listaDeAtividades.add("convertlistofkeggidsinto1elementlistoflists");
+		listaDeAtividades.add("databases");
+		listaDeAtividades.add("decodebase64tobyte");
+		listaDeAtividades.add("decodetextresult");
+		listaDeAtividades.add("decodexmlresult");
+		listaDeAtividades.add("download");
+		listaDeAtividades.add("downloadin");
+		listaDeAtividades.add("downloadout");
+		listaDeAtividades.add("ebidbfetchfetchbatch");
+		listaDeAtividades.add("ebidbfetchuniparc");
+		listaDeAtividades.add("ebifasta");
+		listaDeAtividades.add("ebifetchinterpromatchesuniparc");
+		listaDeAtividades.add("ebiinterproscantmhmmsignalp");
+		listaDeAtividades.add("ebincbiblast");
+		listaDeAtividades.add("ebiphobius");
+		listaDeAtividades.add("ebipicrsequencetoid");
+		listaDeAtividades.add("emma");
+		listaDeAtividades.add("extractaccver");
+		listaDeAtividades.add("extractdes");
+		listaDeAtividades.add("extractentries");
+		listaDeAtividades.add("extractposition");
+		listaDeAtividades.add("extractqblastjobid");
+		listaDeAtividades.add("extractqblaststatus");
+		listaDeAtividades.add("extractseq");
+		listaDeAtividades.add("genscan");
+		listaDeAtividades.add("genscansplitter");
+		listaDeAtividades.add("getalignmentresult");
+		listaDeAtividades.add("getdownloadurl");
+		listaDeAtividades.add("getdownloadurlin");
+		listaDeAtividades.add("getdownloadurlout");
+		listaDeAtividades.add("getdragonsimpleannotatedimages");
+		listaDeAtividades.add("getentryfromsrs");
+		listaDeAtividades.add("getfastafromgi");
+		listaDeAtividades.add("getguidetreeresult");
+		listaDeAtividades.add("gethitidlist");
+		listaDeAtividades.add("gethssequence");
+		listaDeAtividades.add("getimagefromurl");
+		listaDeAtividades.add("getjpegfromannotatedimage");
+		listaDeAtividades.add("getmaskedsequence");
+		listaDeAtividades.add("getmmsequence");
+		listaDeAtividades.add("getnjtreeresult");
+		listaDeAtividades.add("getnucleotidegbseqxml");
+		listaDeAtividades.add("getnucleotideinsdseqxml");
+		listaDeAtividades.add("getnucleotidetinyseqxml");
+		listaDeAtividades.add("getoperationstatus");
+		listaDeAtividades.add("getoperationstatusin");
+		listaDeAtividades.add("getoperationstatusout");
+		listaDeAtividades.add("getorf");
+		listaDeAtividades.add("getoutputresult");
+		listaDeAtividades.add("getpathwaysbycompounds");
+		listaDeAtividades.add("getphyliptreeresult");
+		listaDeAtividades.add("getproteingbseqxml");
+		listaDeAtividades.add("getproteininsdseqxml");
+		listaDeAtividades.add("getproteintinyseqxml");
+		listaDeAtividades.add("getresult");
+		listaDeAtividades.add("getrnsequence");
+		listaDeAtividades.add("getstatus");
+		listaDeAtividades.add("gettable");
+		listaDeAtividades.add("gettrna");
+		listaDeAtividades.add("getupiforsequence");
+		listaDeAtividades.add("gi");
+		listaDeAtividades.add("ginumber");
+		listaDeAtividades.add("gioption");
+		listaDeAtividades.add("hsapiensgeneensembl");
+		listaDeAtividades.add("idtype");
+		listaDeAtividades.add("inputdatalist");
+		listaDeAtividades.add("inputlisttext");
+		listaDeAtividades.add("inputlisttextin");
+		listaDeAtividades.add("inputlisttextout");
+		listaDeAtividades.add("inputparameters");
+		listaDeAtividades.add("isgi");
+		listaDeAtividades.add("isrunning");
+		listaDeAtividades.add("isstructure");
+		listaDeAtividades.add("job");
+		listaDeAtividades.add("jobstatus");
+		listaDeAtividades.add("jobstatuspoll");
+		listaDeAtividades.add("keyin");
+		listaDeAtividades.add("makedatabaselist");
+		listaDeAtividades.add("makefastaprogramlist");
+		listaDeAtividades.add("makeprogramlist");
+		listaDeAtividades.add("markpathwaybyobjects");
+		listaDeAtividades.add("mergegff");
+		listaDeAtividades.add("mergestringlisttostring");
+		listaDeAtividades.add("minimumorflength");
+		listaDeAtividades.add("moleculetype");
+		listaDeAtividades.add("mpsrchprogram");
+		listaDeAtividades.add("mustang");
+		listaDeAtividades.add("namespace");
+		listaDeAtividades.add("ncbidatabase");
+		listaDeAtividades.add("ncbiesearch");
+		listaDeAtividades.add("ndproteinid");
+		listaDeAtividades.add("ndproteinstructure");
+		listaDeAtividades.add("nucid");
+		listaDeAtividades.add("nucleotideorftranslation");
+		listaDeAtividades.add("params");
+		listaDeAtividades.add("paramsxml");
+		listaDeAtividades.add("parsemobydatajpegimage");
+		listaDeAtividades.add("parsemobydatasimpleannotatedjpegimage");
+		listaDeAtividades.add("pdbformatcoordinates");
+		listaDeAtividades.add("pdbid");
+		listaDeAtividades.add("phylogenetictree");
+		listaDeAtividades.add("picrinputparams");
+		listaDeAtividades.add("plot");
+		listaDeAtividades.add("poll");
+		listaDeAtividades.add("proteinsequences");
+		listaDeAtividades.add("qblastget");
+		listaDeAtividades.add("qblastjobid");
+		listaDeAtividades.add("qblastput");
+		listaDeAtividades.add("queryseq");
+		listaDeAtividades.add("querysequence");
+		listaDeAtividades.add("rcsbsuffix");
+		listaDeAtividades.add("regex");
+		listaDeAtividades.add("removeduplicatestrings");
+		listaDeAtividades.add("removefirstcharacter");
+		listaDeAtividades.add("repeatlibrary");
+		listaDeAtividades.add("repeatmasker");
+		listaDeAtividades.add("requestxml");
+		listaDeAtividades.add("run");
+		listaDeAtividades.add("runclustalw");
+		listaDeAtividades.add("rundalilite");
+		listaDeAtividades.add("runefetchms");
+		listaDeAtividades.add("runesummary");
+		listaDeAtividades.add("runkalign");
+		listaDeAtividades.add("runmafft");
+		listaDeAtividades.add("runmaxsprout");
+		listaDeAtividades.add("runmpsrch");
+		listaDeAtividades.add("runmuscle");
+		listaDeAtividades.add("runscanps");
+		listaDeAtividades.add("runtcoffee");
+		listaDeAtividades.add("searchmode");
+		listaDeAtividades.add("searchparallel");
+		listaDeAtividades.add("searchparam");
+		listaDeAtividades.add("selectdatabase");
+		listaDeAtividades.add("selectfastaprogram");
+		listaDeAtividades.add("selectprogram");
+		listaDeAtividades.add("sequencealignment");
+		listaDeAtividades.add("sequenceorigin");
+		listaDeAtividades.add("sequencetype");
+		listaDeAtividades.add("speciesfilter");
+		listaDeAtividades.add("spitpicrresult");
+		listaDeAtividades.add("splitbynewline");
+		listaDeAtividades.add("splitintosequences");
+		listaDeAtividades.add("splitstringintolist");
+		listaDeAtividades.add("splitstringintostringlistbyregularexpression");
+		listaDeAtividades.add("sssprogram");
+		listaDeAtividades.add("statuscheck");
+		listaDeAtividades.add("stproteinstructure");
+		listaDeAtividades.add("stringconstant");
+		listaDeAtividades.add("structure");
+		listaDeAtividades.add("structureorid");
+		listaDeAtividades.add("swiss");
+		listaDeAtividades.add("unpackalignmentresult");
+		listaDeAtividades.add("unpackguidetreeresult");
+		listaDeAtividades.add("unpackmaskedsequence");
+		listaDeAtividades.add("unpacknjtree");
+		listaDeAtividades.add("unpackoutputresult");
+		listaDeAtividades.add("unpackphyliptree");
+		listaDeAtividades.add("unpackresult");
+		listaDeAtividades.add("unpacktable");
+		listaDeAtividades.add("unpacktextoutput");
+		listaDeAtividades.add("unwrappicrresult");
+		listaDeAtividades.add("unwrapresult");
+		listaDeAtividades.add("usestructure");
+		listaDeAtividades.add("wsarrayofdataxml");
+		listaDeAtividades.add("Fastajobparams");
+		listaDeAtividades.add("Fastaprogram");
+		listaDeAtividades.add("Fastastringtofastalist");
+		listaDeAtividades.add("Fetchcompoundimage");
+		listaDeAtividades.add("Fetchcompoundinfo");
+		listaDeAtividades.add("Fetchhits");
+		listaDeAtividades.add("Fetchpage");
+		listaDeAtividades.add("Fetchsequences");
+		listaDeAtividades.add("Findbinaryinteractions");
+		listaDeAtividades.add("Flattenimagelist");
+		listaDeAtividades.add("Format");
+		listaDeAtividades.add("Formatasgff");
+		listaDeAtividades.add("idunico");
+		listaDeAtividades.add("Terms");
+		listaDeAtividades.add("Tmapsingleseq");
+		listaDeAtividades.add("Translationtable");
+
+	}
+
+	public void imprimeMatrizCSV(String[] imprimir){
+
+		for (int i = 0; i < imprimir.length; i++)
+			System.out.print(imprimir[i] + "\t");
+
+		System.out.println();
+	}
+
+	public String[][] run(String caminhoArquivoEntrada) {
+
+		String csvFile = caminhoArquivoEntrada;
+		BufferedReader br = null;
+		String [][] dadosParaAnalise = new String [8615][14];
+		
+		try {
+
+			br = new BufferedReader(new FileReader(csvFile));
+			while ((line = br.readLine()) != null) {//Le matriz
+
+				String[] workflowCSVLido = line.split(cvsSplitBy);
+				imprimeMatrizCSV(workflowCSVLido);
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		System.out.println("Done");
+		
+		return dadosParaAnalise;
+	}
+
+	
+
+}

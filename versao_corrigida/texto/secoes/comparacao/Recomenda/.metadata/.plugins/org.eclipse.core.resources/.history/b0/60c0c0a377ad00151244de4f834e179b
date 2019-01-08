@@ -1,0 +1,74 @@
+package Main;
+
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+class ElementoOntologico {
+
+	private String nome;
+	private int codOntologico;
+	private int profundidade;
+
+	public int getProfundidade() {
+		return profundidade;
+	}
+
+	public ElementoOntologico(String nome, int codOntologico, int profundidade) {
+		
+		this.nome			=	nome;
+		this.codOntologico	=	codOntologico;
+		this.profundidade	=	profundidade;
+	}
+}
+
+
+class ArvoreOntologica {
+
+	private ArrayList<ElementoOntologico> arvoreDeOntologias = new ArrayList<ElementoOntologico>();
+	
+	public void addElemento(String nome, int codOntologico, int profundidade){
+		
+		ElementoOntologico novoElemento = new ElementoOntologico(nome, codOntologico, profundidade);
+		arvoreDeOntologias.add(novoElemento);
+		
+	}
+	
+	public int retornaProfundidadeElemento(String nome){
+		
+		int profundidadeElemento = -1;
+		for (ElementoOntologico elementoOntologico: arvoreDeOntologias) {
+			
+			if(elementoOntologico.equals(nome)){
+				profundidadeElemento = elementoOntologico.getProfundidade();
+				break;
+			}
+		}
+		
+		return profundidadeElemento;
+	}
+	
+}
+
+
+public class Ontologia {
+
+	private TreeSet<String> arvoreOntologica = null;
+
+	public Ontologia() {
+
+		arvoreOntologica = new TreeSet<String>();
+		arvoreOntologica.add("Thing");
+		arvoreOntologica.add("Experiment");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+
+	}
+
+
+}

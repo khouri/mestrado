@@ -1,0 +1,18 @@
+package Main;
+
+import java.util.ArrayList;
+
+public class SistemaDeRecomendacao {
+
+	/*
+	 * Percorre a matriz 'workflows' e agrupa a cada 118 linhas
+	 *Ordena essas 118 e junta com a lista de atividades ordenadas.
+	 * 
+	 * */
+	public ArrayList<Integer> recomenda(String [][] workflows, 
+										ListaDeAtividadesAnotadas ListaAnotacoes){
+		
+		
+		return null;
+	}
+}

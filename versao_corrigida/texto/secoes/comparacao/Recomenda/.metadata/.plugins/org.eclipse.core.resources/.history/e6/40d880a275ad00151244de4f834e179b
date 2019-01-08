@@ -1,0 +1,38 @@
+package Main;
+
+import java.util.TreeSet;
+
+class ElementoOntologico {
+
+	private String nome;
+	private int codOntologico;
+	private int profundidade;
+	
+	public ElementoOntologico(){
+		
+	}
+
+}
+
+public class Ontologia {
+
+	private TreeSet<String> arvoreOntologica = null;
+	
+	public Ontologia() {
+		
+		arvoreOntologica = new TreeSet<String>();
+		arvoreOntologica.add("Thing");
+		arvoreOntologica.add("Experiment");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+		arvoreOntologica.add("");
+
+	}
+	
+	
+}

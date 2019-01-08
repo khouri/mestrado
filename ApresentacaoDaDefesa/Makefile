@@ -1,0 +1,13 @@
+FILE = ApresentacaoMestradoDefesa
+
+all :
+	echo "Compilando"
+	pdflatex $(FILE).tex
+	pdflatex $(FILE).tex
+	#acroread $(FILE).pdf
+	evince $(FILE).pdf
+	make clean
+
+clean:
+	echo Limpando arquivos auxiliares
+	rm *.bbl *.blg *.aux *log *.brf *out *nav *snm *toc

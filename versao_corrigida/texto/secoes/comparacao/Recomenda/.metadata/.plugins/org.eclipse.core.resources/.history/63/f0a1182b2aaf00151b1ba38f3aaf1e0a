@@ -1,0 +1,15 @@
+package Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String caminhoArquivoEntrada = "/home/toasty/Desktop/dadosParaRecomendar.csv";
+		String [][] workflows = new CriaListaAnotacoes().leMatrizCSV(caminhoArquivoEntrada);
+		
+		//imprime o resultado
+		//new CriaListaAnotacoes().imprimeMatrizCSV(workflows);
+		
+	}
+	
+}

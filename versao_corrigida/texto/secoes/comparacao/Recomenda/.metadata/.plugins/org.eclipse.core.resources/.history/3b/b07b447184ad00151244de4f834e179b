@@ -1,0 +1,86 @@
+package Main;
+
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+class ElementoOntologico {
+
+	private String nome;
+	private int codOntologico;
+	private int profundidade;
+
+	public int getProfundidade() {
+		return profundidade;
+	}
+
+	public ElementoOntologico(String nome, int codOntologico, int profundidade) {
+		
+		this.nome			=	nome;
+		this.codOntologico	=	codOntologico;
+		this.profundidade	=	profundidade;
+	}
+}
+
+
+class ArvoreOntologica {
+
+	private ArrayList<ElementoOntologico> arvoreDeOntologias = new ArrayList<ElementoOntologico>();
+	
+	public void addElemento(String nome, int codOntologico, int profundidade){
+		
+		ElementoOntologico novoElemento = new ElementoOntologico(nome, codOntologico, profundidade);
+		arvoreDeOntologias.add(novoElemento);		
+	}
+	
+	public int retornaProfundidadeElemento(String nome){
+		
+		int profundidadeElemento = -1;
+		for (ElementoOntologico elementoOntologico: arvoreDeOntologias){
+			
+			if(elementoOntologico.equals(nome)){
+				profundidadeElemento = elementoOntologico.getProfundidade();
+				break;
+			}
+		}
+		
+		return profundidadeElemento;
+	}
+	
+}
+
+
+public class Ontologia {
+
+	private ArvoreOntologica arvoreOntologica = null;
+
+	public Ontologia() {
+
+		arvoreOntologica = new ArvoreOntologica();
+		arvoreOntologica.addElemento("Thing", 1, 1);
+		arvoreOntologica.addElemento("Experiment", 2, 2);
+		arvoreOntologica.addElemento("Alignment", codOntologico, profundidade);
+		arvoreOntologica.addElemento("MSA", codOntologico, profundidade);
+		arvoreOntologica.addElemento("Clustal", codOntologico, profundidade);
+		arvoreOntologica.addElemento("Kalign", codOntologico, profundidade);
+		arvoreOntologica.addElemento("Mafft", codOntologico, profundidade);
+		arvoreOntologica.addElemento("MPSearch", codOntologico, profundidade);
+		arvoreOntologica.addElemento("Muscle", codOntologico, profundidade);
+		arvoreOntologica.addElemento("TCoffe", codOntologico, profundidade);
+		arvoreOntologica.addElemento("PairWise", codOntologico, profundidade);
+		arvoreOntologica.addElemento("BLAST", codOntologico, profundidade);
+		arvoreOntologica.addElemento("DaliLite", codOntologico, profundidade);
+		arvoreOntologica.addElemento("FAST", codOntologico, profundidade);
+		arvoreOntologica.addElemento("SmithWaterman", codOntologico, profundidade);
+		arvoreOntologica.addElemento("AnnotationOfGenes", codOntologico, profundidade);
+		arvoreOntologica.addElemento("BinaryInteraction", codOntologico, profundidade);
+		arvoreOntologica.addElemento("ComparisonOfSequences", codOntologico, profundidade);
+		arvoreOntologica.addElemento("FamiliesClassification", codOntologico, profundidade);
+		arvoreOntologica.addElemento("MappingSequences", codOntologico, profundidade);
+		arvoreOntologica.addElemento("PredictionStructures", codOntologico, profundidade);
+		arvoreOntologica.addElemento("SnapDragons", codOntologico, profundidade);
+		arvoreOntologica.addElemento("SearchStringsComposed", codOntologico, profundidade);
+
+	}
+
+
+}

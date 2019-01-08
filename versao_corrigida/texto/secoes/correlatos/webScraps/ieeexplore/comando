@@ -1,0 +1,1 @@
+wget -U "Mozilla/5.0" -nd -e robots=off --wait 0.95 -r -A.pdf -i linksParaD.txt

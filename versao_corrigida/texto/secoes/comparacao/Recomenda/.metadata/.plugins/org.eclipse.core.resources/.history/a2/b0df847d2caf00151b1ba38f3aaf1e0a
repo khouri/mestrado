@@ -1,0 +1,95 @@
+package Main;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class CriaListaAnotacoes {
+
+	private String line = "";
+	private String cvsSplitBy = ",";
+
+
+	public void imprimeArrayCSV(String[] imprimir){
+
+		for (int i = 0; i < imprimir.length; i++)
+			System.out.print(imprimir[i] + "\t");
+
+		System.out.println();
+	}
+	
+	public void imprimeMatrizCSV(String[][] imprimir){
+
+		for (int i = 0; i < imprimir.length; i++){
+			for (int j = 0; j < imprimir[i].length; j++){
+				System.out.print(imprimir[i][j] + "\t");
+			}
+			System.out.println();			
+		}
+	}
+
+	public String[][] leMatrizCSV(String caminhoArquivoEntrada) {
+
+		String csvFile = caminhoArquivoEntrada;
+		BufferedReader br = null;
+		String [][] dadosParaAnalise = new String [8615][14];
+		
+		try {
+
+			br = new BufferedReader(new FileReader(csvFile));
+			int count = 0;
+			while ((line = br.readLine()) != null) {//Le matriz
+
+				dadosParaAnalise[count] = line.split(cvsSplitBy);
+				count++;
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}		
+		return dadosParaAnalise;
+	}
+	
+	public String[][] leMatrizCSVRelacionaAnotacaoEAtividades(String caminhoArquivoEntrada) {
+
+		String csvFile = caminhoArquivoEntrada;
+		BufferedReader br = null;
+		String [][] dadosParaAnalise = new String [8615][14];
+		
+		try {
+
+			br = new BufferedReader(new FileReader(csvFile));
+			int count = 0;
+			while ((line = br.readLine()) != null) {//Le matriz
+
+				dadosParaAnalise[count] = line.split(cvsSplitBy);
+				count++;
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}		
+		return dadosParaAnalise;
+	}
+}

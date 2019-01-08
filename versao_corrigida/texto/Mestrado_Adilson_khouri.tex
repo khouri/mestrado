@@ -1,0 +1,816 @@
+%% abtex2-modelo-trabalho-academico.tex, v-1.9.2 laurocesar
+%% Copyright 2012-2014 by abnTeX2 group at http://abntex2.googlecode.com/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://abntex2.googlecode.com/
+%%
+%% This work consists of the files abntex2-modelo-trabalho-academico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+% Modelo adaptado especificamente para o contexto do PPgSI-EACH-USP por 
+% Marcelo Fantinato, com auxílio dos Professores Norton T. Roman, Helton
+% H. Bíscaro, e Sarajane M. Peres, em 2015, com muitos agradecimentos aos 
+% criadores da classe e do modelo base.
+%-------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	% openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão apenas no anverso (apenas frente). Oposto a twoside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	%french,				% idioma adicional para hifenização
+	%spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2ppgsi}
+
+%Altera o espacamento entre equações
+\setlength{\jot}{7pt}
+
+
+%\newcommand{\@autor}{Adilson Lopes Khouri, 2015}
+\def \varAutorData {Adilson Lopes Khouri, 2016}
+% ---
+% Pacotes básicos 
+% ---
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+
+\usepackage{microtype} 			% para melhorias de justificação
+\DisableLigatures{encoding = *, family = *} %Remove ligaduras, tornando o texto bonito
+
+\usepackage{pdfpages}     		%para incluir pdf
+\usepackage{algorithm}			%para ilustrações do tipo algoritmo
+\usepackage{mdwlist}			%para itens com espaço padrão da abnt
+\usepackage[noend]{algpseudocode}			%para ilustrações do tipo algoritmo
+\usepackage{lipsum}				% para geração de dummy text
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amstext}
+\usepackage{longtable, tabu}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsfonts}
+\usepackage{bm}
+
+%Numera as equacoes por secao/subsecao
+\numberwithin{equation}{section}
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}					 % Citações padrão ABNT
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``título'':
+%
+% Em maiúscula apenas a primeira letra da sentença (do título), exceto 
+% nomes próprios, geográficos, institucionais ou Programas ou Projetos ou 
+% siglas, os quais podem ter letras em maiúscula também.
+%
+% O subtítulo do trabalho é opcional.
+% Sem ponto final.
+%
+% Atenção: o título da Dissertação na versão corrigida não pode mudar. 
+% Ele deve ser idêntico ao da versão original.
+%
+%-------------------------------------------------------------------------
+\titulo{Desenvolvimento de técnica para recomendar atividades em \emph{workflows} científicos: uma abordagem baseada em ontologias}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``autor'':
+%
+% Todas as letras em maiúsculas.
+% Nome completo.
+% Sem ponto final.
+%-------------------------------------------------------------------------
+\autor{\uppercase{Adilson Lopes Khouri}}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``local'':
+%
+% Não incluir o ``estado''.
+% Sem ponto final.
+%-------------------------------------------------------------------------
+\local{São Paulo}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre a ``data'':
+%
+% Colocar o ano do depósito (ou seja, o ano da entrega) da respectiva 
+% versão, seja ela a versão original (para a defesa) seja ela a versão 
+% corrigida (depois da aprovação na defesa). 
+%
+% Atenção: Se a versão original for depositada no final do ano e a versão 
+% corrigida for entregue no ano seguinte, o ano precisa ser atualizado no 
+% caso da versão corrigida. 
+% Cuidado, pois o ano da ``capa externa'' também precisa ser atualizado 
+% nesse caso.
+%
+% Não incluir o dia, nem o mês.
+% Sem ponto final.
+%-------------------------------------------------------------------------
+\data{2016}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``Orientador'':
+%
+% Se for uma professora, trocar por ``Profa. Dra.''
+% Nome completo.
+% Sem ponto final.
+%-------------------------------------------------------------------------
+\orientador{Prof. Dr. Luciano Antonio Digiampietri}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``Coorientador'':
+%
+% Opcional. Incluir apenas se houver co-orientador formal, de acordo com o 
+% Regulamento do Programa.
+%
+% Se for uma professora, trocar por ``Profa. Dra.''
+% Nome completo.
+% Sem ponto final.
+%-------------------------------------------------------------------------
+%\coorientador{Prof. Dr. Fulano de Tal}
+
+\tipotrabalho{Dissertação (Mestrado)}
+
+\preambulo{
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o texto ``Versão 
+% original'':
+%
+% Não usar para Qualificação.
+% Não usar para versão corrigida de Dissertação.
+%
+%-------------------------------------------------------------------------
+Versão corrigida	%---Esse texto é problemático!!!!
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o ``texto principal do
+% preambulo'':
+%
+% Para Qualificação, trocar por: Texto de Exame de Qualificação apresentado à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo como parte dos requisitos para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação.
+%
+%-------------------------------------------------------------------------
+%\newline \newline \newline Dissertação apresentada à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação. 
+%
+%\newline \newline Área de concentração: Metodologia e Técnicas da Computação
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o texto da ``Versão 
+% corrigida'':
+%
+% Não usar para Qualificação.
+% Não usar para versão original de Dissertação.
+% 
+% Substituir ``xx de xxxxxxxxxxxxxxx de xxxx'' pela ``data da defesa''.
+%
+%-------------------------------------------------------------------------
+\newline \newline \newline Versão corrigida contendo as alterações solicitadas pela comissão julgadora em 16 de Março de 2016. A versão original encontra-se em acervo reservado na Biblioteca da EACH-USP e na Biblioteca Digital de Teses e Dissertações da USP (BDTD), de acordo com a Resolução CoPGr 6018, de 13 de outubro de 2011.
+%}
+% ---
+}
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX com abnTeX2 adaptado para o PPgSI-EACH-USP},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{qualificação de mestrado}{dissertação de mestrado}{ppgsi}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.25cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0cm}  % tente também \onelineskip
+\renewcommand{\baselinestretch}{1.5}
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+  % Controlar linhas orfas e viuvas
+  \clubpenalty10000
+  \widowpenalty10000
+  \displaywidowpenalty10000
+
+%Foi removido da nova versao
+%\newcommand\MyBox[2]{
+%  \fbox{\lower0.75cm
+%    \vbox to 1.7cm{\vfil
+%      \hbox to 1.7cm{\hfil\parbox{1.4cm}{#1\\#2}\hfil}
+%      \vfil}%
+%  }%
+%}
+
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre a ``capa'':
+%
+% Esta é a ``capa'' principal/oficial do trabalho, a ser impressa apenas 
+% para os casos de encadernação simples (ou seja, em ``espiral'' com 
+% plástico na frente).
+% 
+% Não imprimir esta ``capa'' quando houver ``capa dura'' ou ``capa brochura'' 
+% em que estas mesmas informações já estão presentes nela.
+%
+%-------------------------------------------------------------------------
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% ---
+
+% ---
+% Inserir a autorização para reprodução e ficha bibliografica
+% ---
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre o texto da 
+% ``autorização para reprodução e ficha bibliografica'':
+%
+% Página a ser usada apenas para Dissertação (tanto na versão original 
+% quanto na versão corrigida).
+%
+% Solicitar a ficha catalográfica na Biblioteca da EACH. 
+% Duas versões devem ser solicitadas, em dois momentos distintos: uma vez 
+% para a versão original, e depois outra atualizada para a versão 
+% corrigida.
+%
+% Atenção: esta página de ``autorização para reprodução e ficha 
+% catalográfica'' deve ser impressa obrigatoriamente no verso da folha de 
+% rosto.
+%
+% Não usar esta página para Qualificação.
+%
+% Substitua o arquivo ``fig_ficha_catalografica.pdf'' abaixo referenciado 
+% pelo PDF elaborado pela Biblioteca
+%
+%-------------------------------------------------------------------------
+\begin{fichacatalografica}
+    \includepdf{fichaCatalograficaVersaoCorrigida.pdf}
+\end{fichacatalografica}
+
+% ---
+% Inserir errata
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Errata'':
+%
+% Usar esta página de errata apenas em casos de excepcionais, e apenas 
+% para a versão corrigida da Dissertação. Por exemplo, quando depois de
+% já depositada e publicada a versão corrigida, ainda assim verifica-se
+% a necessidade de alguma correção adicional.
+%
+% Se precisar usar esta página, busque a forma correta (o modelo correto) 
+% para fazê-lo, de acordo com a norma ABNT.
+%
+% Não usar esta página para versão original de Dissertação.
+% Não usar esta página para Qualificação.
+%
+%-------------------------------------------------------------------------
+%\begin{errata}
+%Elemento opcional para versão corrigida, depois de depositada.
+%\end{errata}
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+\begin{folhadeaprovacao}
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Folha da aprovação'':
+%
+% Para Qualificação, trocar por: Texto de Exame de Qualificação de autoria de Fulano de Tal, sob o título \textbf{``\imprimirtitulo''}, apresentado à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, como parte dos requisitos para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação, na área de concentração Sistemas de Informação, aprovado em \_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_ de \_\_\_\_\_\_ pela comissão examinadora constituída pelos doutores:
+%
+% Substituir ``Fulano de Tal'' pelo nome completo do autor do trabalho, com 
+% apenas as iniciais em maiúsculo.
+%
+% Substiuir ``___ de ______________ de ______'' por: 
+%     - Para versão original de Dissertação: deixar em branco, pois a data 
+%       pode mudar, mesmo que ela já esteja prevista.
+%     - Para versão corrigida de Dissertação: usar a data em que a defesa 
+%       efetivamente ocorreu.
+%
+%-------------------------------------------------------------------------
+\noindent Dissertação de autoria de Adilson Lopes Khouri, sob o título \textbf{``\imprimirtitulo''}, apresentada à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação, na área de concentração Metodologia e Técnicas da Computação, aprovada em 16 de Março de 2016 pela comissão julgadora constituída pelos doutores:
+
+\vspace*{3cm}
+
+\begin{center}
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``assinaturas'':
+%
+% Para Qualificação e para versão original de Dissertação: deixar em 
+% branco (ou seja, assim como está abaixo), pois os membros da banca podem
+% mudar, mesmo que eles já estejam previstos.
+% 
+% Para versão corrigida de Dissertação: usar os dados dos examinadores que 
+% efetivamente participaram da defesa. 
+% 
+% Em nenhum caso há realmente necessidade de assinaturas.
+%
+% Para versão corrigida de Dissertação: em caso de ``professora'', trocar 
+% por ``Profa. Dra.'' 
+% 
+% Para versão corrigida de Dissertação: ao colocar os nomes dos 
+% examinadores, remover o sublinhado
+% 
+% Para versão corrigida de Dissertação: ao colocar os nomes dos 
+% examinadores, usar seus nomes completos, exatamente conforme constam em 
+% seus Currículos Lattes
+% 
+% Para versão corrigida de Dissertação: ao colocar os nomes das 
+% instituições, remover o sublinhado e remover a palavra ``Instituição:''
+%
+% Não abreviar os nomes das instituições.
+%
+%-------------------------------------------------------------------------
+\textbf{Prof. Dr. Luciano Antonio Digiampietri} 
+\\ Presidente 
+\\ Universidade de São Paulo (USP) 
+
+\vspace*{2cm}
+
+\textbf{Prof. Dr. Ivandre Paraboni} 
+\\ Universidade de São Paulo (USP)
+
+\vspace*{2cm}
+
+\textbf{Prof. Dr. Marcio Katsumi Oikawa} 
+\\ Universidade Federal do ABC (UFABC)
+
+\end{center}
+  
+\end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Dedicatória'': 
+%
+% Opcional para Dissertação.
+% Não sugerido para Qualificação.
+% 
+%-------------------------------------------------------------------------
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{   
+   ``Dedico este trabalho para Deus e seus assistentes, para minha família (Arthur, Claudia e Gimayma) e para o meu orientador (professor Dr. Luciano).''\varAutorData. } 
+	 \vspace*{\fill}
+\end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Agradecimentos'': 
+%
+% Opcional para Dissertação.
+% Não sugerido para Qualificação.
+% 
+% Lembrar de agradecer agências de fomento e outras instituições similares.
+%
+%-------------------------------------------------------------------------
+\begin{agradecimentos}
+Agradecemos a Pró-Reitoria de Pós-Graduação da Universidade de São Paulo (USP) e a agência CAPES que forneceram bolsas de estudo para o estudante. Permitindo completar esse mestrado com publicações na área de computação. Além disso, agradecemos o professor Dr. Clodoaldo Aparecido de Lima por sanar dúvidas referentes a técnica SVM.
+\end{agradecimentos}
+% ---
+
+% ---
+% Epígrafe
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Epígrafe'': 
+%
+% Opcional para Dissertação.
+% Não sugerido para Qualificação.
+% 
+%-------------------------------------------------------------------------
+\begin{epigrafe}
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{``Odin deu um olho em troca de sabedoria. Pois fique sabendo que eu daria muito mais!''\\(Ragnar Lothbrok).}	
+	\end{flushright}
+\end{epigrafe}
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``referência'':
+% 
+% Troque os seguintes campos pelos dados de sua Dissertação (mantendo a 
+% formatação e pontuação):
+%   - SOBRENOME
+%   - Nome1
+%   - Nome2
+%   - Nome3
+%   - Título do trabalho: subtítulo do trabalho
+%   - AnoDeDefesa
+%
+% Mantenha todas as demais informações exatamente como estão.
+% 
+% [Não usar essas informações de ``referência'' para Qualificação]
+%
+%-------------------------------------------------------------------------
+\begin{flushleft}
+KHOURI, Adilson Lopes. \textbf{Desenvolvimento de técnica para recomendar atividades em \emph{workflows} científicos }: uma abordagem baseada em ontologias. \imprimirdata. \pageref{LastPage} f. Dissertação (Mestrado em Ciências) – Escola de Artes, Ciências e Humanidades, Universidade de São Paulo, São Paulo, 2016.
+\end{flushleft}
+
+O número de atividades disponibilizadas pelos sistemas gerenciadores de \emph{workflows} científicos é grande, o que exige dos cientistas conhecerem muitas delas para aproveitar a capacidade de reutilização desses sistemas. Para minimizar este problema, a literatura apresenta algumas técnicas para recomendar atividades durante a construção de \emph{workflows} científicos. 
+%Nesta dissertação, foi realizada uma revisão sistemática que permitiu identificar quais são os principais trabalhos dessa área; as informações utilizadas, como proveniência, frequência de atividades e compatibilidade de entrada e saída para recomendar. 
+Este projeto especificou e desenvolveu um sistema de recomendação de atividades híbrido, considerando informação sobre frequência, entrada e saídas das atividades, e anotações ontológicas para recomendar. Além disso, neste projeto é apresentada uma modelagem da recomendação de atividades como um problema de classificação e regressão, usando para isso cinco classificadores; cinco regressores; um classificador SVM composto, o qual usa o resultado dos outros classificadores e regressores para recomendar; e um \emph{ensemble} de classificadores \emph{Rotation Forest}. A técnica proposta foi comparada com as outras técnicas da literatura e com os classificadores e regressores, por meio da validação cruzada em 10 subconjuntos, apresentando como resultado uma recomendação mais precisa, com medida MRR ao menos \(70\%\) maior do que as obtidas pelas outras técnicas.
+
+Palavras-chaves: Sistemas de recomendação. Ontologias. Sistemas gerenciadores de \emph{workflows} científicos. Modelagem de classificadores e regressores.
+\end{resumo}
+
+% resumo em inglês
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``resumo em inglês''
+% 
+% Caso a Qualificação ou a Dissertação inteira seja elaborada no idioma inglês, 
+% então o ``Abstract'' vem antes do ``Resumo''.
+% 
+%-------------------------------------------------------------------------
+\begin{resumo}[Abstract]
+\begin{otherlanguage*}{english}
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``referência em inglês''
+% 
+% Troque os seguintes campos pelos dados de sua Dissertação (mantendo a 
+% formatação e pontuação):
+%     - SURNAME
+%     - FirstName1
+%     - MiddleName1
+%     - MiddleName2
+%     - Work title: work subtitle
+%     - DefenseYear (Ano de Defesa)
+%
+% Mantenha todas as demais informações exatamente como estão.
+%
+% [Não usar essas informações de ``referência'' para Qualificação]
+%
+%-------------------------------------------------------------------------
+\begin{flushleft}
+KHOURI, Adilson Lopes. \textbf{Development of a strategy to scientific workflow activities recommendation}: An ontology-based approach. \imprimirdata. \pageref{LastPage} p. Dissertation (Master of Science) – School of Arts, Sciences and Humanities, University of São Paulo, São Paulo, 2016. 
+\end{flushleft}
+
+The number of activities provided by scientific workflow management systems is large, which requires scientists to know many of them to take advantage of the reusability of these systems. To minimize this problem, the literature presents some techniques to recommend activities during the scientific workflow construction. %In this work it was carried out a systematic review in order to identify what are the main works in this area; the information used for the recommendation, such as provenance, activity frequency, and input and output compatibility.
+This project specified and developed a hybrid activity recommendation system considering information on frequency, input and outputs of activities and ontological annotations. Additionally, this project presents a modeling of activities recommendation as a classification problem, tested using \(5\) classifiers; \(5\) regressors; a SVM classifier, which uses the results of other classifiers and regressors to recommend; and Rotation Forest , an ensemble of classifiers. The proposed technique was compared to other related techniques and to classifiers and regressors, using 10-fold-cross-validation, achieving a MRR at least \(70\% \) greater than those obtained by other techniques.
+
+Keywords: Recommendation systems. Ontologies. Scientific Workflows Management Systems. Recommeder Systems.
+
+\end{otherlanguage*}
+\end{resumo}
+
+% ---
+% ---
+% inserir lista de figuras
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de algoritmos
+% ---
+%\pdfbookmark[0]{\listalgorithmname}{loa}
+%\listofalgorithms
+%\cleardoublepage
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Lista de abreviaturas 
+% e siglas'': 
+%
+% Opcional.
+% Uma vez que se deseja usar, é necessário manter padrão e consistência no
+% trabalho inteiro.
+% Se usar: inserir em ordem alfabética.
+%
+%-------------------------------------------------------------------------
+%\begin{siglas}
+%  \item[MoC] \emph{Model of Computation}
+%  \item[LCS] \emph{Longest Common Substructure}
+%  \item[AGNES] \emph{AGlomerative NESting}
+%  \item[ROCK] \emph{RObust Clustering using linKs}
+%  \item[MRR] \emph{Mean Reciprocal Rank}
+%  \item[RDF] \emph{Resource Description Framework}
+%  \item[DCC] \emph{Digital Content Components}
+%  \item[PLWAP] \emph{Preorder Linked WAP}
+%  \item[S@K] \emph{Success at rank k}
+%  \item[SUBDUE] \emph{Substructure Discovery Using MDL and Background Knowledge}
+%  \item[WSDL] \emph{Web Service Description Language}
+%  \item[WSDL-S] \emph{Web Service Description Language-Semantics}
+%  \item[AGWL] \emph{Abstract Grid Workflow Language}
+%  \item[QSQL] \emph{Quick Service Query List}
+%  \item[SWRL] \emph{Semantic Web Rule Language Combining OWL and RuleML}
+%  \item[WSBPEL] \emph{Web Service Business Process Execution Language}
+%  \item[XPDL] \emph{XML Process Definition Language}
+%  \item[OWL] \emph{Ontology Web Language}
+%  \item[PDDL] \emph{Planning Description Language}
+%  \item[PDDL4J] \emph{Planning Description Language \(4\) Java}
+%  \item[IA] Inteligência Artificial
+%  \item[MDL] \emph{Minimum Description Length}  
+%  \item[DL] \emph{Description Length}        
+%  \item[DIV] \emph{Minimum Description Length}        
+%  \item[COM] \emph{Minimum Description Length}        
+%  \item[TF-ICF] \emph{Minimum Description Length}        
+%  \item[RBO] \emph{Minimum Description Length}        
+%  \item[IDE] \emph{Minimum Description Length}        
+%\end{siglas}
+% ---
+% ---
+% inserir lista de símbolos
+% ---
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``Lista de símbolos'': 
+%
+% Opcional.
+% Uma vez que se deseja usar, é necessário manter padrão e consistência no
+% trabalho inteiro.
+% Se usar: inserir na ordem em que aparece no texto.
+% 
+%-------------------------------------------------------------------------
+%\begin{simbolos}
+%  \item[$ \forall $] Qualquer
+%  \item[$ \geq $] Menor ou igual
+%  \item[$ d_{H} $] Distância de Hamming
+%  \item[$ \in $] Pertence
+%  \item[$ |C_{i}| $]  Número de objetos do agrupamento \(i\)
+%  \item[$ \Gamma $] Letra grega gama maiúscula
+%  \item[$ \cup $] União
+%  \item[$ \cap $] Intersecção
+%  \item[$ \emptyset $] Conjunto vazio
+%  \item[$ \neq $] Diferente
+%  \item[$ \subseteq $] Subconjunto próprio (\(A\) está contido em \(B\) mas é diferente deste)
+%  \item[$ \subset $] Subconjunto
+%  \item[$ \Rightarrow $] Implica
+%  \item[$ \theta $] Letra grega teta	minúscula
+%  \item[$ cl_{q} \sqsubseteq cl_{c} $] \(cl_{q}\) é superconceito de \(cl_{c}\)
+%  \item[$ S \langle cl_{q}, cl_{c} \rangle $] Superconceito comum de duas classes
+%  \item[$ \Delta $]  Letra grega delta maiúscula
+%\end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+%-------------------------------------------------------------------------
+% Comentário adicional do PPgSI - Informações sobre ``títulos de seções''
+% 
+% Para todos os títulos (seções, subseções, tabelas, ilustrações, etc):
+%
+% Em maiúscula apenas a primeira letra da sentença (do título), exceto 
+% nomes próprios, geográficos, institucionais ou Programas ou Projetos ou
+% siglas, os quais podem ter letras em maiúscula também.
+%
+%-------------------------------------------------------------------------
+%
+\include{./secoes/introducao/introducao}
+%
+\include{./secoes/conceitosFundamentais/conceitosFundamentais}
+%
+\include{./secoes/correlatos/correlatos}
+%
+\include{./secoes/solucaoProposta/solucaoProposta}
+%
+\include{./secoes/comparacao/comparacao}
+%%
+\include{./secoes/conclusoes/conclusoes}
+%
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{referenciasNovas}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+%% ---
+%\begin{apendicesenv}
+%
+%% Imprime uma página indicando o início dos apêndices
+%%\partapendices
+%
+%%-------------------------------------------------------------------------
+%% Comentário adicional do PPgSI - Informações sobre ``apêndice''
+%%
+%% Para todos os captions/(títulos) (de seções, subseções, tabelas, 
+%% ilustrações, etc):
+%%     - em maiúscula apenas a primeira letra da sentença (do título), 
+%%       exceto nomes próprios, geográficos, institucionais ou Programas ou
+%%       Projetos ou siglas, os quais podem ter letras em maiúscula também.
+%%
+%% Todas  as tabelas, ilustrações (figuras, quadros, gráficos, etc. ), 
+%% anexos, apêndices devem obrigatoriamente ser citados no texto.
+%%      - a citação deve vir sempre antes da primeira vez em que a tabela, 
+%%        ilustração, etc., aparecer pela primeira vez.
+%%
+%%-------------------------------------------------------------------------
+%\chapter{Exemplo de apêndice}
+%
+%Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+%
+%\end{apendicesenv}
+%% ---
+%
+%
+%% ----------------------------------------------------------
+%% Anexos
+%% ----------------------------------------------------------
+%
+%% ---
+%% Inicia os anexos
+%% ---
+%\begin{anexosenv}
+%
+%% Imprime uma página indicando o início dos anexos
+%%\partanexos
+%
+%
+%%-------------------------------------------------------------------------
+%% Comentário adicional do PPgSI - Informações sobre ``anexo''
+%%
+%% Para todos os captions/(títulos) (de seções, subseções, tabelas, 
+%% ilustrações, etc):
+%%     - em maiúscula apenas a primeira letra da sentença (do título), 
+%%       exceto nomes próprios, geográficos, institucionais ou Programas ou
+%%       Projetos ou siglas, os quais podem ter letras em maiúscula também.
+%%
+%% Todas  as tabelas, ilustrações (figuras, quadros, gráficos, etc. ), 
+%% anexos, apêndices devem obrigatoriamente ser citados no texto.
+%%      - a citação deve vir sempre antes da primeira vez em que a tabela, 
+%%        ilustração, etc., aparecer pela primeira vez.
+%%
+%%-------------------------------------------------------------------------
+%\chapter{Resumo das normas}
+%\label{anexoA}
+%
+%Considerando a dificuldade para formatar um texto acadêmico sem conhecimento básico do conteúdo da norma NBR 14724 ``Informação e documentação – Trabalhos acadêmicos – Apresentação'', este anexo apresenta um resumo de alguns conceitos dessa norma, conforme publicada em julho de 2011. Sugere-se a leitura completa da norma para garantir que seu documento seja completamente aderente à mesma.
+%
+%\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+%%%%%MF\phantompart
+%%%%%MF\printindex
+%---------------------------------------------------------------------
+
+\end{document}

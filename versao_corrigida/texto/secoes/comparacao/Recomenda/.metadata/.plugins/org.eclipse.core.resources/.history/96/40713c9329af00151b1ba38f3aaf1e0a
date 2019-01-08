@@ -1,0 +1,12 @@
+package Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String caminhoArquivoEntrada = "/home/toasty/Desktop/dadosParaRecomendar.csv";
+		new CriaListaAnotacoes().run(caminhoArquivoEntrada);
+		
+		//8615x14 matriz com os dados para analisar!
+	}
+}

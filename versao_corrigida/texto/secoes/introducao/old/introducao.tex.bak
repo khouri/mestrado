@@ -1,0 +1,82 @@
+\chapter{Introdu\c{c}{\~a}o e Justificativa}\label{INTRODUCAO}
+\begin{flushright}
+	\textit{``Perdoe-me, meu amigo, não pelo o que eu fiz. Mas pelo que estou prestes a fazer.''\\
+	(Ragnar Lothbrok)}
+\end{flushright}
+%%Isto será removido após a revisão
+%Seguem as críticas da qualificação sobre a seção ``Introdução'':
+%\begin{enumerate}
+%\item \textcolor{red}{Explicar se criou ou utilizou uma ontologia pronta.}
+%\item \textcolor{red}{Incluir exemplo de  \emph{workflow} científico: como se usa, para que serve, pq é importante recomendar atividades...}
+%\item \textcolor{red}{Virgulas erradas.}
+%\item \textcolor{red}{Tornar claro mais o texto.}
+%\item \textcolor{red}{Frases gigantescas.}
+%\end{enumerate}
+%Estou imaginando que o sumário da defesa será:
+%\begin{enumerate}
+%\item Conceitos fundamentais.
+%\item Correlatos.
+%\item Solução proposta.
+%\item Comparação com literatura correlata.
+%\item Conclusões.
+%\end{enumerate}
+%Obs: caso o sr. queira eu altero ele e a introdução.
+%
+%\newpage
+%%Isto será removido após a revisão
+
+O termo \emph{e-Science} se refere a ciência que é realizada com o uso intensivo de computadores. Em projetos da \emph{e-Science} existe uma forte relação entre computação e outras áreas do conhecimento (biologia, astronomia, física, entre outras), na qual a primeira fornece ferramentas fundamentais para o sucesso de experimentos científicos computacionais da segunda. Um dos objetivos dessas ferramentas é ocultar detalhes técnicos computacionais, permitindo aos cientistas gerenciarem experimentos com maior facilidade \cite{Deelman2009}.
+
+Uma das ferramentas para auxiliar na criação/manutenção de experimentos científicos computacionais, ocultando os detalhes técnicos, são os sistemas gerenciadores de \emph{workflows} científicos (SGWC). Que segundo \citeonline{DigiampietriTese2007} e \citeonline{Wang2010} são processos estruturados e ordenados, construídos de forma manual, semi-automática ou automática e que permitem solucionar problemas científicos por meio da construção e execução de um \emph{workflow}.
+
+Um workflow denota a execução controlada de diversas atividades em um ambiente potencialmente distribuído. Workflows representam um conjunto de atividades a serem executadas, suas relações de interdependência, entradas e saídas~\cite{Medeiros2005}.
+
+Alguns grandes projetos de \emph{e-Science} e seus desafios computacionais, solucionados pelos SGWC, são enumerados por \citeonline{Olabarriaga2014}. O primeiro é a visualização de grandes quantidades de dados Astrofísicos presentes no projeto internacional IVOA\footnote{http://www.ivoa.net}, o qual tem experimentos com petabytes de dados a serem visualizados. O segundo são cálculos matemáticos em ambientes distribuídos como no projeto internacional HELIO\footnote{http://helio-vo.eu} criado por heliofísicos. O último são simulações genéticas em centros médicos de pesquisa como na universidade de Amsterdam \cite{Olabarriaga2014}.
+
+Um \emph{workflow científico} modela um experimento científico construído por meio de diversas atividades conectadas que realizam uma tarefa computacional. Alguns SGWC permitem que seja armazenado o log de modelagem e execução do \emph{workflow} junto com seus parâmetros de execução, o que facilita sua execução por outros cientistas. As atividades usadas podem ser trechos de código fonte em Java (ou outra linguagem), aplicativos locais, serviços \emph{web} ou outros \emph{workflows} que foram encapsulados para esconder os detalhes computacionais, como lógica de programação. Isto permite aos cientistas, sem grandes conhecimentos computacionais, ``programarem'' computadores para realizar seus experimentos sem se preocupar com detalhes de computação.
+
+Atualmente, há um grande número de atividades disponíveis em repositórios como \emph{myExperiment} \cite{myExperiment}, que armazena mais de \(2.500\) \emph{workflows} e \emph{BioCatalogue} \cite{Biocatalogue} que disponibiliza \(2.464\) serviços de bioinformática. A existência desse grande número de atividades acarreta em um grande potencial de reúso~\cite{Wang2010}, motivando a construção de sistemas para recomendar atividades aos cientistas durante a composição dos \emph{workflows}. As quais possibilitam reduzir: a criação de novas atividades redundantes e o tempo total para a construção de \emph{workflows}.
+
+A recomendação de atividades em  \emph{workflows} científicos possui algumas peculiaridades que justificam o desenvolvimento de novas técnicas de recomendação ou a extensão das existentes. Entre as características dos dados relacionados aos  \emph{workflows} científicos estão: (i) a esparsidade dos dados, isto é, cada  \emph{workflow} é tipicamente composto por poucas atividades e as bases de  \emph{workflows}, muitas vezes, contêm mais atividades do que  \emph{workflows}; (ii) a dependência entre as atividades dos  \emph{workflows}: ao contrário da recomendação de itens como livros e filmes, a ordem em que as atividades serão executadas é extremamente importante para a correta criação de um  \emph{workflow}; (iii) a diversidade da representação, documentação ou anotação das atividades e  \emph{workflows}: existem poucas atividades com descrições detalhadas (incluindo algumas descrições formais e anotações ontológicas), enquanto outras possuem apenas a definição dos tipos de dados usados na entrada e o tipo de dado produzido como saída da atividade.
+
+Este mestrado apresenta três contribuições principais. A primeira é uma técnica mista para recomendar atividades em  \emph{workflows} baseada em frequência de atividades e ontologia de domínio. A segunda é a modelagem da recomendação de atividades como um problema de classificação e regressão. A terceira é a comparação do desempenho de diferentes técnicas de recomendação de atividades em  \emph{workflows} científicos utilizando-se uma mesma base de dados construída a partir de \emph{workflows} reais.
+
+A técnica de recomendação proposta neste projeto é genérica o suficiente para permitir sua aplicação em diferentes contextos, apesar de ter sido projetada para tratar as especificidades da recomendação de atividades em \emph{workflows} científicos.
+%, contanto que seja desenvolvida uma nova ontologia de domínio, nos desafios computacionais citados por \citeonline{Olabarriaga2014}. Ao construir uma nova ontologia é possível auxiliar o trabalho destes cientista de três formas. A primeira é recomendar atividades que tenham melhor desempenho para permitir a visualização de grandes quantidades de dados no projeto IVOA. A segunda é recomendar os melhores nós de um \emph{cluster} de computadores para efetuar um determinado cálculo matemático. Por último recomendar quais atividades devem ser utilizadas para cada tipo de alinhamento genético (\emph{BLAST}, \emph{MSA}, \emph{Kalign}) na universidade de Amsterdam.
+
+Os resultados deste mestrado podem auxiliar na redução da redundância de atividades dentro de um mesmo \emph{workflow} ou dentro de um banco de atividades, aumentando a reutilização de atividades existentes e, por conseguinte, reduzir a necessidade da construção de novas atividades (redundantes) e mesmo o tempo necessário para se encontrar a atividade desejada. Segundo \citeonline{CohenBoulakia2014} umas das principais razões pela falta de reuso de \emph{workflows} e atividades é a grande complexidade destes na área de bioinformática (grande número de atividades e \emph{workflows}, muitos dos quais redundantes). Segundo o autor \(98,1\%\) dos \emph{workflows} contêm atividades redundantes ou são redundantes em relação a outros \emph{workflows}.
+%, dado que este terá uma estrutura menos complexa. Segundo \citeonline{CohenBoulakia2014} umas das principais razões pela falta de reúso de \emph{workflows} e atividades é a grande complexidade destes na área de bioinformática. A redundância de atividades e serviços dentro de um mesmo \emph{workflow} é o fator responsável pela alta complexidade (grande número de atividades desnecessárias, segundo o autor \(98.1\%\) dos \emph{workflows} contém redundância).
+
+Esta dissertação está organizada com a seguinte estrutura: no capítulo~\ref{CAP_CONCEITOS_FUNDAMENTAIS} são apresentados conceitos básicos para este trabalho, o capítulo~\ref{CAP_CORRELATOS} apresenta a revisão da literatura correlata. O capítulo~\ref{CAP_SOLUCAOPROPOSTA} descreve a solução baseada em ontologias e frequência, o capítulo~\ref{CAP_COMPARACAO} compara as soluções da literatura correlata com as propostas neste mestrado. Por fim o capítulo~\ref{CAP_CONCLUSOES} concluí o trabalho e apresenta possíveis projetos futuros.
+
+%\newpage
+
+%Pelo resultado do estudo é possível constatar que \(98.1\%\) dos \emph{workflows} continham redundância de atividades tornando-os mais complexos desnecessariamente e tornando menor sua possibilidade de reúso. A proposta deste mestrado, ao recomendar atividades, pode reduzir a redundância destas dentro de um mesmo \emph{workflow} fazendo com que a possibilidade de reutilização seja maior, dado que este terá uma estrutura menos complexa.
+
+%Os projetos de \emph{e-Science} apresentam grandes desafios computacionais como visualizar grandes quantidades de dados Astrofísicos no projeto internacional IVOA\footnote{http://www.ivoa.net} cujos experimentos produzem petabytes de informação \cite{Olabarriaga2014}. O projeto internacional HELIO\footnote{http://helio-vo.eu} necessita de diversos cálculos matemáticos e pesquisas em bases de dados distribuídos \cite{Olabarriaga2014}. Produzir imagens de diagnósticos complexos e simulações genéticas em um único computador como feito pela universidade de Amsterdam \cite{Olabarriaga2014}.
+
+%Esse parágrafo aumenta a introdução do texto
+%Com o crescimento dessa relação alguns novos desafios são encontrados como organizar recursos computacionais usados (scripts, programas executáveis, serviços), reutilização de experimentos de sucesso incluindo: i) seus parâmetros; ii) decisões de modelagem; e iii) log de execuções e de modelagem. Prover interoperabilidade entre dados e ferramentas usados por cientistas com diferentes perfis, permitir a usuários com diferentes graus de conhecimento em computação programarem computadores entre outros \cite{Silva2011}.
+
+%%Serve como introdução tb
+%Um dos desafios é a analise de grandes quantidades de dados por meio de sua visualização pelos Astrofísicos do projeto IVOA\footnote{http://www.ivoa.net} que envolvem Brasil, Argentina, Canadá, Russia, Espanha, Reino Unido entre outros. Estes cientístas tem por objetivo estudar os corpos celestes, seu comportamento, movimento entre outros aspectos para tal é necessário analisar Terabites de pixels os experimentos científicos dessa área produzem Pentabites de dados frequentemente que devem ser analisados \cite{Olabarriaga2014}. O sistemas gerenciadores de  \emph{workflow} científico permitem o uso de clusters de computadores para processar essas informações de forma transparente para o cientista por meio de atividades e  \emph{workflows} finalizados.
+%
+%Outro desafio da \emph{e-Science} é o grande número de cálculos matemáticos e pesquisas em bancos de dados distribuídos efetuados pelos heliofísicos do projeto europeu HELIO\footnote{http://helio-vo.eu/aboutus/} que abrange cientístias do reino unido, frança, suíça, irlanda, itália e estados unidos. Cientistas que estudam a interação entre o sol e os diversos planetas do sistema solar por meio de modelagens matemáticas complexas \cite{Olabarriaga2014}. Estes cálculos são efetuados em diversos clusters computacionais e as pesquisas em bases de dados são realizadas em diversas bases de dados. Os SGWC permitem distribuir os cálculos e realizar consultas em bases de dados de forma transparente.
+%
+%Outro desafio são as simulações computacionais com diferentes parâmetros na bimoedicina o instituto médico da universidade de Amsterdam utiliza  \emph{workflows} para simular exerimentos genéticos e produzir imagens de diagnósticos oriundos de diversas bases de dados. Ambos os experimentos podem ser executados localmente em um desktop \cite{Olabarriaga2014}.
+%
+%Outro desafio é gerenciar a informação de proveniência de modelagem/execução dos experimentos, necessidade da área de pesquisa Química. Tarefa esta que foi solucionado pelo oreChem sistema gerenciador de  \emph{workflows} para químicos além de proporcionar o gerenciamento de proveniência oferece anotações dos componentes em termos computacionais para os químicos poderem realizar seus experimentos \cite{Borkum2014}.
+
+
+%A ideia é adicionar um parágrafo explicando como são os  \emph{workflows} (compostos por atividades, etc) e falar um pouco mais de como os cientistas têm trabalhado e no que e como a sua proposta irá ajudá-los.
+
+%Integrating chemistry scholarship with web architectures, grid computing and semantic web
+
+
+
+%A literatura correlata (capítulo~\ref{CAP_CORRELATOS}) apresenta poucas soluções específicas para a recomendação de atividades em \emph{workflows} científicos. As quais desconsideram algumas possibilidades como o uso de ontologias para recomendar atividades. Outra desconsideração é modelar a recomendação de atividades como um problema de classificação binária ou regressão. Por último observa-se a ausência de uma metodologia de validação de diferentes técnicas de recomendação para um mesmo conjunto de dados.
+
+
+%Um exemplo de SGWC é o Kepler \cite{kepler2014} que oferece uma lista de atividades, localizadas na área \emph{A} da Figura~\ref{figura_SGWC_Kepler_exemplo_de_ \emph{workflow}}, para uso do cientista e uma área de modelagem de experimentos científicos onde as atividades são conectadas (setas pretas e brancas) na área \emph{C}. Ao clicar em uma atividade é aberta uma janela com os parâmetros que devem ser configurados (área \emph{B} da figura), como url do serviço \emph{web}, classe Java, entre outros.
+
+%Um \emph{workflow} científico construído no Kepler é apresentado na área \emph{B} da Figura~\ref{figura_SGWC_Kepler_exemplo_de_ \emph{workflow}}. O objetivo deste \emph{workflow} é pesquisar o identificador de um gene na \emph{Nuclear Protein Database} (NPD) utilizando um serviço \emph{web} \footnote{http://npd.hgu.mrc.ac.uk/soap/npd.wsdl}. Para tal são realizadas algumas tarefas computacionais (denominadas atividades) como pesquisa em base de dados, uso de serviço \emph{web} e uso de código fonte.

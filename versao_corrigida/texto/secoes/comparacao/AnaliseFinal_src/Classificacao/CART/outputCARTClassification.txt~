@@ -1,0 +1,3742 @@
+
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  3 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  5 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  10 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  20 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  30 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  40 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  100 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 2 MaxDepth =  200 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  3 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  5 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  10 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  20 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  30 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  40 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  100 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 3 MaxDepth =  200 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  3 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  5 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  10 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  20 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  30 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  40 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  100 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 10 MaxDepth =  200 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 1e-06 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 1e-05 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 1e-04 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 0.001 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 0.01 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 0.1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 1 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 2 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 3 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 4 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 5 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  3 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  5 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  10 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  20 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  30 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  40 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  100 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"
+[1] "MinSplit = 20 MaxDepth =  200 cp= 10 splitFunction =  gini"
+           
+predictions  F  T
+          F 67  0
+          T  5 72
+Number of cases in table: 144 
+Number of factors: 2 
+Test for independence of all factors:
+	Chisq = 125.3, df = 1, p-value = 4.378e-29
+[1] "--------------------------------------------------"

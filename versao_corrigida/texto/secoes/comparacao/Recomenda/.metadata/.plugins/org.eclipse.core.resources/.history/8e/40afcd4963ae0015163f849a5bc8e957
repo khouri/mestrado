@@ -1,0 +1,13 @@
+package Main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		new CriaListaAnotacoes().run("/home/toasty/Desktop/dados.csv");
+
+	}
+}

@@ -1,0 +1,1 @@
+aspell --lang=pt_BR --master=pt_BR --mode=tex -c PPgSI-modeloQualiDissertacaoLatex.tex

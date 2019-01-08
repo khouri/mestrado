@@ -1,0 +1,16 @@
+package Main;
+
+import java.util.TreeSet;
+
+public class Ontologia {
+
+	private TreeSet<String> arvoreOntologica = null;
+	
+	public Ontologia() {
+		
+		arvoreOntologica = new TreeSet<String>();
+		arvoreOntologica.add("");
+	}
+	
+	
+}

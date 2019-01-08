@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="GraficoQuantidade.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3098"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3095"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3100"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3096"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3092"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3088"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3084"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3080"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3076"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3072"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3068"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3064"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3060"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3056"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3052"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3048"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3044"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3040"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="624.13517"
+     inkscape:cy="503.22309"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:window-width="1305"
+     inkscape:window-height="744"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)"
+     style="display:none">
+    <image
+       y="344.71933"
+       x="26.07143"
+       id="image3012"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl0AAAFVCAIAAABaW82MAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4 nO3deVxU5f4H8O+ZYZhhYAaGVTYJ3FCxwhTSUiyXCsEFQRHEtcXyl0JlditRupWmKS5lXjXT64Ym ajqSmkZYhqJ13VDcEEVEFoGZAWYGZs75/QF2XMYacRhFP++Xf8Az5zzf53A8fDg7w3EcAQAAABER CR70AAAAAB4iyEUAAAAechEAAICHXAQAAOAhFwEAAHjIRQAAAB5yEQAAgIdcBAAA4CEXAQAAeObl omb3EClzk44zT+qJ2KrsuVEdFWKxVOEbOmFlXi1Hd2kEAABoGczLxTpVheCpRfn1XKPTM4PEnCoz MWq2Pim7Uld9cXPk8aToObl6k43NvAgAAAAWY1YuGqvLNOTgJhPe3Fids1Qpip+REChlBE6hk5J7 F61Zl1duqlHXPEMHAACwOLNy0aAprdHnL43u7C6zc/AMHvFFVrnRUJZ7VusT4idpmETqH+xaknOh yERjAXIRAABaChtzJhLYtx8YN6zt+GkTenmoD84f/lLEKJ+TX6p1JJFJmMZJxDJbVqvWqO5s1Og5 osYWysjIYFm2GRYEAABMiIiIeNBDaGHMykWRf3zq6viGryU93/4sdv6AtUfZVySk0+g4cmSIiNVW 6QT2jnLFnY1yMcN3FR4eflvnSqUSqw0AoDkolcoHPYSWx5zjqJz+2tFfDxXeOBzKGupYoVjiHtTZ vjC7QNswifpMTrlXj3Y+JhoD7Jpn6AAAABZnTi4y+tMLo/tEzTlQbiDD9YNLkrcY+4/t6t594lAu LXlVbg1rKMual3IoYHxcexdTjeJmXwoAAADLMOu6G3lY6vZZbdMHe4oYW8/I9V4pO1cMchPIes3d Nt1pWT8Psdg3bn/YsvSkQFsy2QgAANBCMBz3gG+8x/lFAIBmgl+wTYDnwAEAAPCQiwAAADzkIgAA AA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADwkIsAAAA85CIAAAAPuQgAAMBDLgIA APCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAA795ykS3bHu/KOI7MrCYize4hUuYm HWee1BOxVdlzozoqxGKpwjd0wsq8Wq55Bg4AANAM7iUX2dIdiZP3iiSihm/rVBWCpxbl13ONTs8M EnOqzMSo2fqk7Epd9cXNkceToufk6ptl4AAAAM3A/Fw0lvyQmHQ2IXVUa5uG76vLNOTgJhPePFF1 zlKlKH5GQqCUETiFTkruXbRmXZ7OskMGAABoNubmovHatinvnH915btd7JiGFoOmtEafvzS6s7vM zsEzeMQXWeVGQ1nuWa1PiJ+kYRKpf7BrSU4BchEAAFoK83LRWLxl8nsXX1/5zl+pSCSwbz8wblhM yp7LKnV+emzJpxGj0opq1TqSyCSNEwnEMltWq9HjFCMAALQQNmZMYyxOnzztyps7/hskIf5kocg/ PnV1fMPXkp5vfxY7f8Dao+wrEtJpdBw5MkTEaqt0Anu5mOH7ysjIYFn2tgJKpfJ+lwMAAMASzMhF rvK3b3+6cmJvL6/ZRFSvqqxmB7a5/NGuDQOri126h/pKiIhYQx0rFEvcgzrbF2YXaEd5SIk49Zmc cq8eAXY3dRYeHn5b90qlMiIiwmILBAAAN2CvownMOI7KuMbsrqrTVFZUVFRUFGd/1MEjdueFAx+1 ubAwuk/UnAPlBjJcP7gkeYux/9iu7t0nDuXSklfl1rCGsqx5KYcCxse1Fzf/YgAAAFhE0+/rl4el bp/VNn2wp4ix9Yxc75Wyc8UgN4Gs19xt052W9fMQi33j9octS08KtLXgcAEAAJoVw3EP+KoYHEcF AGgm+AXbBHgOHAAAAM+c61EB4L5p9tH176xaUeRL3rOsWhHgkYBcBLCK+mKqPmDVipIOVi0H8KjA cVQAAAAechEAAICHXAQAAOAhFwEAAHjIRQAAAB5yEQAAgIdcBAAA4CEXAQAAeMhFAAAAHnIRAACA h1wEAADgIRcBAAB4yEUAAAAechEAAICHXAQAAOAhFwEAAHjIRQAAAN695SJbtj3elXEcmVlNRMRW Zc+N6qgQi6UK39AJK/Nqubs1AgAAtAz3kots6Y7EyXtFEhEREXGqzMSo2fqk7Epd9cXNkceToufk 6k02Ns/IAQAALM/8XDSW/JCYdDYhdVRrGyIiqs5ZqhTFz0gIlDICp9BJyb2L1qzLKzfVqGuuwQMA AFiYublovLZtyjvnX135bhc7hoiIDGW5Z7U+IX6Shs+l/sGuJTkXikw0FiAXAQCgpbAxaypj8ZbJ 7118fceqLnbnv29oYnVqHUlkkoaUJIFYZstq1RrVnY0aPUfU2EIZGRksy97WvVKpvO8FAXio+clO dHGxakWNWpOFLQvg3pmTi8bi9MnTrry5479BEvrrZKHAzklCOo2OI0eGiFhtlU5g7yhX3NkoFzN8 X+Hh4bf1rlQqIyIiLLEsAA+xiiq6usmaBWVyWURXbFmPO+x1NIEZx1G5yt++/enKiVm9vJydnT17 fHamJG1gm+fmlHfobF+YXaBtmEZ9Jqfcq0c7n6A7GwPsmnMBAAAALMiMXGRcY3ZX1WkqKyoqKiqK sz/q4BG788KBD7v3nDiUS0telVvDGsqy5qUcChgf196lu4lGcfMvBgAAgEXcx339sl5zt013WtbP Qyz2jdsftiw9KdDWdCMAAEALYd51Nzxx0Cd51xq/ZuTdEjceTbx1ApONAAAALQOeAwcAAMBDLgIA APCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADwkIsAAAA85CIA AAAPuQgAAMBDLgIAAPCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAPDNzUZ+/KfGFAEdbIWOj 6DT08/3XjUSa3UOkzE06zjypJ2KrsudGdVSIxVKFb+iElXm1XPMuAAAAgAWZlYv1ZxdFj90eOP+4 2mAo+zH2ckrM1N+rqU5VIXhqUX491+j0zCAxp8pMjJqtT8qu1FVf3Bx5PCl6Tq6+uZcBAADAUszb X7R/Zup/N34a6SdhhIquw4cFqE/la+qryzTk4CYT3jxhdc5SpSh+RkKglBE4hU5K7l20Zl2erllG DgAAYHlm5aLI+8WR0d1dhESGytwtqauudY3t4cJqSmv0+UujO7vL7Bw8g0d8kVVuNJTlntX6hPhJ GuaT+ge7luQUIBcBAKClMP+6G678+xdEIueguH3d5n37RjtbgX37gXHDYlL2XFap89NjSz6NGJVW VKvWkUQmYRo7F8tsWa1Gj1OMAADQQtiYPSXjGpNZX6+5lL06KaZnlPDYjjHxqavjGz6T9Hz7s9j5 A9YeZV+RkE6j48iRISJWW6UT2MvFDN9LRkYGy7K3da1UKu97QQAean6yE11crFpRo9ZkYcsCuHfm 5CKrPrF10+n2I2K6yGxkfr3Gvxv575e/P1H50vW8Sy7dQ30lRESsoY4ViiXuQZ3tC7MLtKM8pESc +kxOuVePALub+goPD7+td6VSGRERYbEFAng4VVTR1U3WLCiTyyK6Yst63GGvownMOY4qoLIdHyaM /uKXknritPk7V/xY+cTzAczphdF9ouYcKDeQ4frBJclbjP3HdnXvPnEol5a8KreGNZRlzUs5FDA+ rr242ZcCAADAMsw6vyjvs0A5p1NGbGtbRmAf9M65yBWbp3RwDUvdPqtt+mBPEWPrGbneK2XnikFu AlmvudumOy3r5yEW+8btD1uWnhRo29zLAAAAYCkMxz3gq2JwHBUeCxVr6ep0q1aUdKC2u6xaER4+ +AXbBHgOHAAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADwkIsAAAA85CIAAAAP uQgAAMBDLgIAAPCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADw kIsAAAA8M3NRn78p8YUAR1shY6PoNPTz/deNRMRWZc+N6qgQi6UK39AJK/Nqubs1AgAAtAxm5WL9 2UXRY7cHzj+uNhjKfoy9nBIz9fdqTpWZGDVbn5Rdqau+uDnyeFL0nFy9ycbmXgYAAABLMW9/0f6Z qf/d+Gmkn4QRKroOHxagPpWvUecsVYriZyQEShmBU+ik5N5Fa9bllZtq1DXzMgAAAFiKWbko8n5x ZHR3FyGRoTJ3S+qqa11jezhezz2r9QnxkzRMIvUPdi3JuVBkorEAuQgAAC2FjdlTcuXfv+g5/BcD 02bkCuUb7WwuqnUkkUmYhk8FYpktq1VrVHc2avQcUWMLZWRksCx7W9dKpfK+FwTgoeYnO9HFxaoV NWpNFrYsgHtnfi4yrjGZ9fWaS9mrk2J6Rgn/WOwkIZ1Gx5EjQ0SstkonsHeUK+5slIsZvpfw8PDb +lUqlREREZZYFoCHWEUVXd1kzYIyuSyiK7asxx32OprAnOOorPpE+opNJzQckY3Mr9f4dyNFv32f Zx/U2b4wu0BLRESc+kxOuVePdj4mGgPsmnH8AAAAlmROLgqobMeHCaO/+KWknjht/s4VP1Y+8by/ S/eJQ7m05FW5NayhLGteyqGA8XHtTTaKm30pAAAALMOs627kfRYo53TKiG1tywjsg945F7li85QO trJec7dNd1rWz0Ms9o3bH7YsPSnQlkw2AgAAtBAMxz3gG+9xfhEeCxVr6ep0q1aUdKC2u6xaER4+ +AXbBHgOHAAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADwkIsAAAA85CIAAADP /PdpAADAI+5KuWbdvtw729t4OUX3Cmz8RrNvuFe/76v5T+18nh0+bfHCt7o53u+ulvbU2rVlL40P cxPWnZn1VNcf/124P9r5ps/rz815+unt0y/9GuvK3LWT+4VcBACARgXXVB98m3ln+8DQtnwuEpFQ NnRP0Zb+MiIio/r8zuSIqIj3njq/vJfDfZXXnlrxySKnrmPC3IS2bSf/mv+GTHFf/TUNjqMCAMB9 EMrbvvRarH/lHyeuG8lYujclMtDN2b2Vh88zCUuOajiqO/VJoPz5lOThvbo/3cGrVZf45ae1RHdO WZe/dEh46rmTn4d1HpZWrDu/qFfAkB2VRJzmj/lD2znKPfw795m08VJdwzO96wt/mNqvrZubp6dH q8CByXtKjETavG/HdfdxdXN3Vbh2GDhzX5mxSQuEXAQAgPtgVJ3emrqqwKf/sx50ZW1c1BL7GYeL S69dynyj5KNBH2TXkFDEaA5sEX+0+/DRvNMbe++f8uq6wro7pzziMXHD173s2n2YlZse6/lXONWd +Wrsh6di9hRdu3gsLSL/h/NaIjJcWhkXnxaw6GRxcfGVwzNsvx7x+vayql/efy/z+U0XS0vLy47P Czy26ediQ1MWCLkIAAD3yKjZOkDONLBxCp5ZMjJtT0pX8fVfV/6uSHh/6BNiIkm72HdeqN6Rlqsl ItsuY2M7S4kYx2diektOKHOv3G3K27EVOdvP+Qwf+bSMIZtW/d+M8rIl4ioOrD3iFvfWix42RCLf iP/rx+zfeKLe2U9Wsnvlf3cfv1bvGTFv639G+DTpVCFyEQAA7pFQNnSPmuM4zliyJdpF2j5+8pA2 EjJqiiu0lxe+4OXs7Ozs7PzEiF0aXXGVgYiEck9HYcOcUhc7faWm6m5T3s5YXaohBzeHxrllreRC IoO6uIqTezk2xp6N3FOqvaayCZmbtXkMo5zWz0eq6DLs030lOI4KAADWJXCPnPNp531TPvjpOktC uZeLffuPf79W0UBVW1/6/QAZERlUV1UNIWWsLq2VuDoq7jbl7YT2rg5UXV7dMLeh8nKFgchG7qVg VEU3gtSgulpj7+UkYiT+A6ct//FYae21H8epvxw+5RdNk5apKTMBAAAQEZGN/9iv3nPeMPGTbA05 Pz/22ZLvFu8tMRCx6j+/Gh37+eFqjojqT65e86eGI7bsl1WZdcGDOnubnJIRCtnacs3N+40C524v +V3euP5PNUd1l7cv+qG0nohxfm50yPX1SzLLjET6i1sW7LXpP6rjlYUvdx+36XIdka1bhycDZAzL NW2JLPJzAQCAR8ATrRxnT3jhzvY2Xk53n0ny5DtLxi0f8NqX4/9IGbU27cL4xC4eY1iOdQgaOeu7 Lg7MJSK7roOZ+f06HcwvVHkMWZQ+wttWYmpKYXBC/7oJz7bK+Sz7p2GNvYs7Ja1MPhTX1/0bR+9O A18fE7Rjv5G1aT1m/frz4yd3clcLBAKPsGlbv365lVPIB4P3vfmM2+sGASN0Dh6zfHWYqT3Qf8Rw XNMC1WKUSmVERMSDHQNAs6tYS1enW7WipAO13WXVivDweRh+wZq+Q/8hZuZxVEPJTymRHRwFDMPI 2oUn/1RqJNLsHiJlbtJx5kk9EVuVPTeqo0Islip8QyeszKt9wLELAABwD8zKReOVtXFRi22m/q4y Gip+nlD55ch3flFTnapC8NSi/Hqu0emZQWJOlZkYNVuflF2pq764OfJ4UvScXH1zLwMAAIClmJWL nKjthK/TvhrTWSYQKoKHx7arOXW2qq66TEMObjLhzVNW5yxViuJnJARKGYFT6KTk3kVr1uXpmmfo AADw8LPt8K/TNS3mICqZmYs2Hs/Hje7nLSIiqi/ck37Jb+BzHpymtEafvzS6s7vMzsEzeMQXWeVG Q1nuWa1PiJ+kYT6pf7BrSU4BchEAAFqKe7tPo65w69sDk9n310/rIhbYtx8YNywmZc9llTo/Pbbk 04hRaUW1ah1JZJLG55wLxDJbVqvR4xQjAAC0EObfp8FW/j47Juob+49/2jXpKQeGyD8+dXV8w2eS nm9/Fjt/wNqj7CsS0ml0HDkyRMRqq3QCe7n4pteBZGRksCx7W9dKpfK+FwTgoeYnO9HFxaoVNWpN FrYsgHtnZi6ylb9+3G/Yrj6rD3/xSisbIiJOf+1YziWX7qG+EiIi1lDHCsUS96DO9oXZBdpRHlIi Tn0mp9yrR4DdTR2Fh4ff1vXDcBkxQLOrqKKrm6xZUCaXRXTFlvW4w15HE5h1HJUtU741Yv0za/bM bQxFImL0pxdG94mac6DcQIbrB5ckbzH2H9vVvfvEoVxa8qrcGtZQljUv5VDA+Lj24mYcPwAAgCWZ lYuqAws2FV9a/rKb8Ma9ip4TfhWGpW6f1TZ9sKeIsfWMXO+VsnPFIDeBrNfcbdOdlvXzEIt94/aH LUtPCrRt7mUAAACwFLOOoyqG/Gw0de1MaOKGY4kbbm1j5N0SNx5NtMDQAADAyi6fpVWfmWhv9zSN TLq1qTYnsUPoQt3YzPzv+tzz89ZuegiO9tTatWUvjQ9zE/7zbFaB56MCAMAN6uuUtc1Eu15LdEsu clW/Ldgsm/CGQpm6tzxsqCtjYqa/Ydt28q/5b8gURNpTKz5Z5NR1zMOTi3ifBgAA3Cu2dNf8n1u/ /a9/vdvp4ILtRX+96NBQnPHRy+2cHewkTu0jPsksNxIRGUv3pkQGujm7t/LweSZhyVENR3XnF/UK GLKjNH/pkPDUcyc/D+s8LK2YpfrCH6b2a+vm5unp0SpwYPKeEiORNu/bcd19XN3cXRWuHQbO3FfW tLcqmg+5CAAA98hw6fsFx0Pei/ZvPWjqCxcWr79Q39B8eXV8XFr7b86qalV/TDPMHz7lZxVnvLI2 LmqJ/YzDxaXXLmW+UfLRoA+yaxr7EQVM3PB1L7t2H2blpsd6spdWxsWnBSw6WVxcfOXwDNuvR7y+ vazql/ffy3x+08XS0vKy4/MCj236udjU+4stCLkIAAD3Rp+36puSiKkD3ASMIuzdmOpvV5zUERFX 8dvqg64jX+vlKmTEbcamXzi9NExO139d+bsi4f2hT4iJJO1i33mhekdartZEr1zFgbVH3OLeetHD hkjkG/F//Zj9G0/UO/vJSnav/O/u49fqPSPmbf3PCJ9mPgGIXAQAgHtSc+TrZacKlveWMQzD2Ics OH921eKDGiKDuriSdXB3aDhRKLR3cZXZMkZNcYX28sIXvJydnZ2dnZ8YsUujK64ytctnUBdXcXIv x8bYs5F7SrXXVDYhc7M2j2GU0/r5SBVdhn26rwTHUQEA4CHCVWSmbnX59yn9jZcp1Z2f75ORuq+c s5F7KZiqwsbQM6ounjpXphfIvVzs23/8+7WKBqra+tLvB5i6gNVG7qVgVEU3MtOgulpj7+UkYiT+ A6ct//FYae21H8epvxw+5RdN8y4gchEAAMxnLFbO2+saH93mr3vTRa0HJXhmzd9RxDo/NzqkfP2i 3VfrOX1B2riQ3h8fqWWcnx/7bMl3i/eWGIhY9Z9fjY79/HA1f+sfIxSyteUaAxHj/NzokOvrl2SW GYn0F7cs2GvTf1THKwtf7j5u0+U6Ilu3Dk8GyBi2uR+5jfs0AADghic60dwfTLTLbzzet/7ihvkH fRKWtrnpkS0iv0Fj/D9asCF/1NQx69afGT05UD5CL/Ts807amgEKRqgYtTbtwvjELh5jWI51CBo5 67suDsylGzM7BCf0r5vwbKucz7KzPhyzfv358ZM7uasFAoFH2LStX7/cyinkg8H73nzG7XWDgBE6 B49Zvjrsnu+WvDcMxz3gt13g+ajwWKhYS1enW7WipAO13WXVivDwwS/YJsBxVAAAAB5yEQAAgIdc BAAA4CEXAQAAeMhFAAAAHnIRAACAh1wEAADg4b5+AIB7YSgj9V5rF3UaTAKptYs+rpCLAAD3ou4S Xf3Q2kVlYchFq8FxVAAAuEF7gs6GmfhX9AE/jWbfcBlzO793jph6d9Td1J2Z1dG+9+aKu31eX/j9 ayE9X11xTM3e0nxuTmf759PKm/U5bdhfBACAGzg91V020S5ue8u3QtnQPUVb+jfXg0q52oITwld3 7g91exAZZeb+oqHkp5TIDo4ChmFk7cKTfyo1EhFblT03qqNCLJYqfEMnrMyr5e7WCAAAj7y681+H KTq8n1NNRIaCZS8q2kzer+KIDMUZH73cztnBTuLUPuKTzPKbX6CoP/FxG+kLP6gavsmd2c6+73YV Yys8O/PFQRtKWCLiNH/MH9rOUe7h37nPpI2X6hpCpb7wh6n92rq5eXp6tAocmLynxEikzft2XHcf Vzd3V4Vrh4Ez95U17U2NZuWi8crauKjFNlN/VxkNFT9PqPxy5Du/qDlVZmLUbH1SdqWu+uLmyONJ 0XNy9SYbmzQwAABoWWzbvr5qts+q1+Yd01zZ+Pb0ovFrPuvlyBgur46PS2v/zVlVreqPaYb5w6f8 rLqHHaa6M1+N/fBUzJ6iaxePpUXk/3BeS0SGSyvj4tMCFp0sLi6+cniG7dcjXt9eVvXL++9lPr/p YmlpednxeYHHNv1cbOr1x//IrFzkRG0nfJ321ZjOMoFQETw8tl3NqbNVqpylSlH8jIRAKSNwCp2U 3Ltozbq8clONuqYMDAAAHlZGzdYB8pvOLgq6zMqrIyKR/4SVszz/M3JEzHsXx61J6SFjiKv4bfVB 15Gv9XIVMuI2Y9MvnF4aJmfMrsRW5Gw/5zN85NMyhmxa9X8zysuWiKs4sPaIW9xbL3rYEIl8I/6v H7N/44l6Zz9Zye6V/919/Fq9Z8S8rf8Z4dOkw7Bm5aKNx/Nxo/t5i4iI6gv3pF/yG/icS0XuWa1P iJ+kYRKpf7BrSc6FIhONBchFAIBHilA2dI+a47En/hXY8EJGG7+Yaf1LfzzoO+nNrg4MERnUxZWs g7uDsGFGexdXma35sUjG6lINObjdmF3WSi4kMqiLqzi5l2Nj7NnIPaXaayqbkLlZm8cwymn9fKSK LsM+3VfStOOo9xamdYVbJw9MZt/fNa2L6PI2HUlkksbFE4hltqxWrVHd2ajRc0Q3fgoZGRksy97W rVKpbNLgAVoMP9mJLi7/PJkFadSaLGxZzcBZcqFnK2sX3bdvn9agsHbVJqn5Y+6Un4ITY/M/eSd9 yKYRnkIbuZeCqSqsMhDZEBlVF8+UOrRp6/jXDIyAIdbQkGCsTq27LSCE9q4OVF1ebSSyITJUXq4w ENnIvRSMqqixTzKortbYezmJGIn/wGnLB05bXleS/dWoV4ZP6VGQ1vferw0yPxfZyt9nx0R9Y//x T7smPeXAGOycJKTT6DhyZIiI1VbpBPaOcsWdjXLxTX8ahIeH39YvXpsJj4WKKrq6yZoFZXJZRFds Wc2g9gjlL7Byzb59+5LIqwkzWnmvg6vO+XT0Mp/ZR+YMzq97OuaNtOe3xHs7Pzc6pHzGot1Jywa5 FKWNC5ki+u+5tL43ZrFR+LlyV/4s1A1ztq06vG7HlbrWt3QpcO72kt/ltPV/vvd5D0nh9kU/lNa3 Icb5udEh12cuyZy69BU3w8UtC/ba9F/b8crClxOOjk//z/DWtm4dngyQMZVNu+7TzFxkK3/9uN+w XX1WH/7ilVY2REQ2bkGd7QuzC7SjPKREnPpMTrlXj3Y+JhoD7Jo0MgAAsDa7p6njURPtjOiWbxvO L97S9OS8s5k9/pOw3OuzP+J8RTY+ny4f/OSIV9f22jG29Zh168+MnhwoH6EXevZ5J23NAAVjLG2c Teg5ZFbi6tEDOiv9PH1Ch0YHSbONt+wyijslrUw+FNfX/RtH704DXx8TtGO/kbVpPWb9+vPjJ3dy VwsEAo+waVu/frmVU8gHg/e9+Yzb6wYBI3QOHrN8dViTbiRhOO6fA5Ut2x7/1GTZd0eWvuTKn5DU 7H+j49CCD/dvmdihdv/HLwzaPSrn0AfeB000Nh52Ng37i/BYqFhLV6dbtaKkA7XdZdWKj4naI5Qf Y+2iHQ40eX8Rv2DvlVnX3agOLNhUfGn5y27CG9ceeU74tUbWa+626U7L+nmIxb5x+8OWpScF2pLJ RgAAgBbCrOOoiiE/G03uVXZL3Hg08dYmRm6iEQAAoGXA81EBAAB4yD2JxYAAABLBSURBVEUAAAAe chEAAICHXAQAAOAhFwEAAHjIRQAAAB5yEQAAgIdcBAAA4CEXAQAAeMhFAAAAHnIRAACAh1wEAADg IRcBAAB4yEUAAAAechEAAICHXAQAAOCZ9V5ieGB0Z8lQZtWKNm4kaW/VigAADxPk4sOtfAlV/WDV ik6DyWeBVSsCADxMcBwVAACAZ3YuspU5i0f4M8zTiwsMDS2a3UOkzE06zjypJ2KrsudGdVSIxVKF b+iElXm1XHMNHQAAwOLMy0W2fOe40ISfW/drI+Yb61QVgqcW5ddzjU7PDBJzqszEqNn6pOxKXfXF zZHHk6Ln5OqbaegAAAAWZ+b+om2bidsPb5rS3Ymf3lhdpiEHN5nw5umqc5YqRfEzEgKljMApdFJy 76I16/J0Fh0xAABA8zEvFwXywB6B8lunNWhKa/T5S6M7u8vsHDyDR3yRVW40lOWe1fqE+EkaJpH6 B7uW5BQgFwEAoKVo+nU3Avv2A+OGxaTsuaxS56fHlnwaMSqtqFatI4lMwjROIpbZslqNHqcYAQCg hWj6fRoi//jU1fENX0t6vv1Z7PwBa4+yr0hIp9Fx5MgQEaut0gns5WKGnysjI4Nl2du6UiqVTR7G oy3Yrcjb3qoVi4qK/ncUq8Py/GQnurhYtaJGrcnCltUMnCUXeraydtF9+/ZpDQprV31cNTkXOf21 YzmXXLqH+kqIiFhDHSsUS9yDOtsXZhdoR3lIiTj1mZxyrx4BdjfNFh4efltHSqUyIiKiqcN41F3Z S1VHrFnQ29vbOxSroxlUVNHVTdYsKJPLIrpiVTaD2iOUb+17fPv27UsirybMiL2OJmjycVRGf3ph dJ+oOQfKDWS4fnBJ8hZj/7Fd3btPHMqlJa/KrWENZVnzUg4FjI9rL/7n3gAAAB4K5uVixZZ+Eoax 8X3jD+2xyf4ihnEfkyUIS90+q236YE8RY+sZud4rZeeKQW4CWa+526Y7LevnIRb7xu0PW5aeFGjb zIsAAABgMeYdR3WO2qszcfFMaOKGY4kbbm1j5N0SNx5NtMDQAAAArA7PgQMAAOAhFwEAAHjIRQAA AB5yEQAAgIdcBAAA4CEXAQAAeMhFAAAAHnIRAACAh1wEAADgIRcBAAB4yEUAAAAechEAAICHXAQA AOAhFwEAAHjIRQAAAB5yEQAAgIdcBAAA4CEXAQAAeMhFAAAAHnIRAACAZ3YuspU5i0f4M8zTiwsM N5qqsudGdVSIxVKFb+iElXm13N0aAQAAWgbzcpEt3zkuNOHn1v3aiP9q41SZiVGz9UnZlbrqi5sj jydFz8nVm2xsrrEDAABYmpn7i7ZtJm4/vGlKdyd++uqcpUpR/IyEQCkjcAqdlNy7aM26vHJTjbpm GjsAAIClmZeLAnlgj0D5LdMaynLPan1C/CQN30r9g11Lci4UmWgsQC4CAEBLYdPUGVmdWkcSmYRp +FYgltmyWrVGdWejRs8RNbZQRkYGy7K39aVUKps6jEdcsFuRt71VKxYVFf3vKFaH5fnJTnRxsWpF jVqThS2rGThLLvRsZe2i+/bt0xoU1q76uGpyLgrsnCSk0+g4cmSIiNVW6QT2jnLFnY1yMcPPFh4e fltHSqUyIiKiqcN41F3ZS1VHrFnQ29vbOxSroxlUVNHVTdYsKJPLIrpiVTaD2iOUv8DKNfv27Usi rybMiL2OJmjyfRo2bkGd7QuzC7RERMSpz+SUe/Vo52OiMcDOMkMFAABodk2/f9Gh+8ShXFryqtwa 1lCWNS/lUMD4uPYuphrF/9wZAADAQ8G8XKzY0k/CMDa+b/yhPTbZX8Qw7mOyqmW95m6b7rSsn4dY 7Bu3P2xZelKgLZlsBAAAaCHMO7/oHLVXZ+r+/G6JG48m3trEyE00AgAAtAx4DhwAAAAPuQgAAMBD LgIAAPCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAPOQiAAAAD7kIAADAQy4CAADwkIsAAAA8 5CIAAAAPuQgAAMBDLgIAAPCQiwAAADzkIgAAAA+5CAAAwEMuAgAA8O4jFzW7h0iZm3SceVJPxFZl z43qqBCLpQrf0Akr82o5yw0WAACgmd1HLtapKgRPLcqv5xqdnhkk5lSZiVGz9UnZlbrqi5sjjydF z8nVW260AAAAzavpuWisLtOQg5tMeHNjdc5SpSh+RkKglBE4hU5K7l20Zl2e7r5HCQAAYB1Nz0WD prRGn780urO7zM7BM3jEF1nlRkNZ7lmtT4ifpGESqX+wa0lOAXIRAABaiqbnosC+/cC4YTEpey6r 1PnpsSWfRoxKK6pV60gikzCNk4hltqxWo8cpRgAAaCFsmjynyD8+dXV8w9eSnm9/Fjt/wNqj7CsS 0ml0HDkyRMRqq3QCe7mY4efKyMhgWfa2rpRKZZOH8WgLdivytrdqxaKiov8dxeqwPD/ZiS4uVq2o UWuysGU1A2fJhZ6trF103759WoPC2lUfV03ORU5/7VjOJZfuob4SIiLWUMcKxRL3oM72hdkF2lEe UiJOfSan3KtHgN1Ns4WHh9/WkVKpjIiIaOowHnVX9lLVEWsW9Pb29g7F6mgGFVV0dZM1C8rksoiu WJXNoPYI5S+wcs2+ffuSyKsJM2KvowmafByV0Z9eGN0nas6BcgMZrh9ckrzF2H9sV/fuE4dyacmr cmtYQ1nWvJRDAePj2ostOWAAAIBm1PTzi/Kw1O2z2qYP9hQxtp6R671Sdq4Y5CaQ9Zq7bbrTsn4e YrFv3P6wZelJgbYWHC4AAECzavr5RRI4hSZuOJa44dZWRt4tcePRxPsbFQAAwIOB58ABAADwkIsA AAA85CIAAAAPuQgAAMBDLgIAAPCQiwAAALz7uE8DwEKYAbOsXFH575iBoW2tXBQAWgTsLwIAAPCQ iwAAADzkIgAAAA+5CAAAwEMuAgAA8JCLAAAAvJZ6n0bmsUuvzs+wctGjSyfI7PDaLACAR1lLzcVa XX1+cZWVi7IsZ+WKAABgZTiOCgAAwEMuAgAA8JCLAAAAPOQiAAAAr6Ved/NAyGPbUq3aqiW/6EsS qxZ8THRfPYU+/M2qJd96kTpYtSAANI3Fc5Gtyp43fvznO/P1UvcuUSmrF48LlDKWLgIA0KD8KlWU WrWiqNCq5cDqLJyLnCozMWq2PiW78rX2dTmf9x8QPSfkj5lBYstWAQBotG0ZbUi1asV+T1OkVQuC lVk4F6tzlipF8RkJgVKGpKGTknvPS1yX98Gsp3AsEOBxsPnXvAqNzpoVB1fWelizHjwGLJuLhrLc s1qfwX6NMSj1D3YtOVCgI+QiwGPhk7W/nbhYZs2KT3apQi6CZVk2F1mdWkcSmaTxhKJALLNltRo9 R3TjFGNGRgbLsrfNplQq77VSRY1h2iut72+09yyHJthwRmtWZIskAnmwNStqixVVR+95ddwn66/K PwVhbm27WrMiqxMLyqxa0cDaleVZe1XGPOUQHmhnzYqXhVKR92RrVmTlIkGZtS+aKL100MjhIZRW YtlcFNg5SUin0XHkyBARq63SCezl4pv+C4WHh982j1KpjIiIsOgw4MFo8qrE6n/YYFU+Mpqw1wGW vX/Rxi2os31hdoGWiIg49Zmccq8eAVb96xEAAOA+WPi+fofuE4dyacmrcmtYQ1nWvJRDAePj2uNq VAAAaCks/bwbWa+526Y7LevnIRb7xu0PW5aeFIhj4gAA0GJY/L5+Rt4tcePRREt3CwAAYA0P/vmo QqHwQQ8BLAOr8pGBVfnIwKpsAobj8K5dAACARg9+fxEAAODhgVwEAADgIRcBAAB4yEUAAAAechEA AICHXDRfbU6iL8O4jftFc0szV527/v1BT7WSMAzDCJ0DB7y98qiKJdLsGy5jGL+pf9701h2ufGuE lGGeXJBvuDFBI4Gsdbeh7685rmaJiDT7hjvJo366tRA0k7q8zwIlzywtNNJtK+UGv3eOaJv6Efwt 7flNUwcGediLbW1tRDLfkJFz9pff9dH8dWdmdbTvvbmi+Yd1923zvsegPbV2eVaZVV8/APcKuWgu ruq3BZtlE97w/DF1bzl/b4su98v+3cbt8p6y9Zym3lBzedeH7X97q0f4ojN1RCSyc6/Y8M3h6hsT s9d2LTkothP99VMXyobuUXMcx9VXHt/wtt+vb3V77uNDGtw580D9tVL+cml+N7v7+Ajupu7UvCFj fmg762CZrq6uvjpv9SsXZgx6bUfZ7W/caWTbdvKv+dsiFVYZ2122TRNj4FjW/E1We2rFJ4uQiw85 5KKZ2NJd839u/fa//vVup4MLthc1/rdmy5Tvf3Ki97e7vhrfw9fBRij1Dhm94MeMxa92sWM5IpFX 38H2O7/6taphszEUbv/m1JMxHcV3bkU2jv7PjUn98Ycx5V++9W1+vTWXDOBB0RceuWz/7JA+/lKG iBF7v/jxjycOL+nvLCAiQ3HGRy+3c3awkzi1j/gks9xIVHd+Ua+AITsqichYujclMtDN2b2Vh88z CUuOajiqP/tFkFOfL+e99lKPrh28XNoMXnii1nQ/Jme/q1u3zZobY6g/M6uz4oVP3u3l7vzcV/k6 Ux3eUbo+f+mQ8NRzJz8P6zwsrfgu6Q8PHnLRPIZL3y84HvJetH/rQVNfuLB4/YWG6KrN3ZZt6PHG K543PVLCptWLr47r21rCEHGiNsMneGUu+qmMJaL6i98vuxz25vOOdJeNkHF6dvwg55NbciqxxwiP A/vgcRGCNdHhb8xZ+9PRwmojiVzatvO0FxIZLq+Oj0tr/81ZVa3qj2mG+cOn/KzitwrjlbVxUUvs ZxwuLr12KfONko8GfZBdw9iIharfvje+vfX3P/Ny14UemDHjV7XJfkzO/vcjvXPbZER2NlW/73T6 8tz17EnijXd2aKJ0rf/EDV/3smv3YVZueqwnfvk+tLBqzKLPW/VNScTUAW4CRhH2bkz1tytO6oiI jOprNVJvV8ldX1IqeiJ6Uscji3dcNZL+7LrvKsIn9XT8mzea2jh6O5K6vBZHWR4go2brAPlN5wkF XWbl1d3PR3A3AvfBq08eTH2xPjN1Qs/WMrFXaNynOy/pibiK31YfdB35Wi9XISNuMzb9wumlYfK/ Nhzu+q8rf1ckvD/0CTGRpF3sOy9U70jL1TIMSYJGxXSSMsQ4tAluVVd0tbrcRD9kevZ/GOsd2ybD kG3AkOHBjgKT4zlZ9HeLAA81iz83/JFUc+TrZacKrvWWLb/R4rb44PSVfWQ2Tt6ymktXaziyv8v/ eBuviLdDpn2+6WJM2Hfr66PTnnG48jeF6krPlQvcfeRYLQ+QUDZ0T9GW/jKLfQR/Q+QeOjoldHQK cfqSE3u+/XB85IvqI7mfyYsrWQd3h4bjMEJ7F1cioht/Zxg1xRXaywtf8FrZ8LlRpxEPrDIQkUAi txMQETFCkYA4rl5toh/DXWf/O39tm3l8m1DuKbe5y3jKK0wtArQI2F/8Z1xFZupWl3+f0t+4oKLu /HyfjNR95RxJOw19zvbAwo03nxE0Xtvx7rjP9lc0nj0QuPab/OK1Vau3fLNVnDAuSPI3hdjSPV/t 1PUcFeLYrMsD8HCoL/7t+02/lzbsgTFijycj3/389SeuZB2rEMi9FExVYWNYGVUXT50r0/91HFUo 93Kxb//x79cqGqhq60u/H2DqTxIbU/0IzJ6dZ3rbZBiGudt4wr3/bhHgoYZc/EfGYuW8va7x0W3+ epGkqPWgBM+s+TuKjIzrK1988uyxKX0TFuw7V6mvryk69N2bfWO+K/NsLbvxo2Wcnvu/yKqF07a6 TIhrf7eXUbLa4iNrE18ZlRE4c2GMNx6AD48DTnNozuiBo+dlXqphiaiu7H8b5q0p8n+pm4vQ+bnR IeXrF+2+Ws/pC9LGhfT++EjtX/Mxzs+Pfbbku8V7SwxErPrPr0bHfn642lTmMKb6MX92IjJn2zTZ YY3C5CIwQiFbW675p71TeLA4+Ht15758StJ5dl7dzY3151Oftntyztk6juPY6tMb3o980t2WiEjk /vSwGdsvajmOU++NcQtMydVzHKf9c+oT0udWFBo4jqv64UWHLqkX6jlOvTfGgV8RIvcnI99ff0rD ctztHxERdfr8tP7OwYEl6E9/2kHc9ZvLBs7UT56I6Ml55+qa+BH8HUPpL18m9HxCLiRiGKGDT7eY mTsuNfxHryv84b0X/GQSsa39EwOm/1Ri4Dh93ueB0l7fX+c4rr74x49f6eDm7OqicPbrNWn9eS1X n7/gSWnoqmIjx3Fc/YXULnbdvy0ymurH5Oy3uPu2+dcYbilnukNTpesufhvhRiQL/eykzlo/ZbhX eM8UAAAAD8dRAQAAeMhFAAAAHnIRAACAh1wEAADgIRcBAAB4yEUAAAAechEAAICHXAQAAOAhFwEA AHj/D196rS4e5SX5AAAAAElFTkSuQmCC "
+       height="663.85712"
+       width="1002.1428" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Linhas"
+     style="display:inline">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.5,639.09448 771.0034,0"
+       id="path3038"
+       inkscape:path-effect="#path-effect3040"
+       inkscape:original-d="m 87.5,639.09448 771.0034,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 87.536032,123.04964 770.904228,0"
+       inkscape:path-effect="#path-effect3056"
+       id="path3054"
+       d="m 87.536032,123.04964 770.904228,0"
+       style="fill:#b3b3b3;stroke:#b3b3b3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.536032,179.61214 770.904228,0"
+       id="path3058"
+       inkscape:path-effect="#path-effect3060"
+       inkscape:original-d="m 87.536032,179.61214 770.904228,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 87.536032,237.96569 770.904228,0"
+       inkscape:path-effect="#path-effect3064"
+       id="path3062"
+       d="m 87.536032,237.96569 770.904228,0"
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.536032,294.46309 770.904228,0"
+       id="path3066"
+       inkscape:path-effect="#path-effect3068"
+       inkscape:original-d="m 87.536032,294.46309 770.904228,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 87.536032,352.75035 770.904228,0"
+       inkscape:path-effect="#path-effect3072"
+       id="path3070"
+       d="m 87.536032,352.75035 770.904228,0"
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.536032,409.1923 770.904228,0"
+       id="path3074"
+       inkscape:path-effect="#path-effect3076"
+       inkscape:original-d="m 87.536032,409.1923 770.904228,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 87.536032,467.61214 770.904228,0"
+       inkscape:path-effect="#path-effect3080"
+       id="path3078"
+       d="m 87.536032,467.61214 770.904228,0"
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.536032,524.12037 770.904228,0"
+       id="path3086"
+       inkscape:path-effect="#path-effect3088"
+       inkscape:original-d="m 87.536032,524.12037 770.904228,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 87.834129,582.56231 770.904231,0"
+       inkscape:path-effect="#path-effect3092"
+       id="path3090"
+       d="m 87.834129,582.56231 770.904231,0"
+       style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.56466,651.55188 0,-12.55114"
+       id="path3094"
+       inkscape:path-effect="#path-effect3096"
+       inkscape:original-d="m 351.56466,651.55188 0,-12.55114"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 604.98928,651.55188 0,-12.55114"
+       inkscape:path-effect="#path-effect3100"
+       id="path3098"
+       d="m 604.98928,651.55188 0,-12.55114"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 97.857143,651.41255 0,-584.537053"
+       id="path3042"
+       inkscape:path-effect="#path-effect3044"
+       inkscape:original-d="m 97.857143,651.41255 0,-584.537053"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 858.48215,651.32264 0,-585.334551"
+       id="path3050"
+       inkscape:path-effect="#path-effect3052"
+       inkscape:original-d="m 858.48215,651.32264 0,-585.334551"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.536032,66.48714 770.904228,0"
+       id="path3085"
+       inkscape:path-effect="#path-effect3098"
+       inkscape:original-d="m 87.536032,66.48714 770.904228,0"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Barras"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Legenda">
+    <g
+       id="g3102"
+       transform="translate(4.9497475,1.3205448)">
+      <rect
+         y="67.93618"
+         x="713.37402"
+         height="110.54877"
+         width="138.49586"
+         id="rect3090"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+      <rect
+         y="78.594482"
+         x="714.70709"
+         height="16.25"
+         width="15"
+         id="rect3190"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="115.74094"
+         x="714.92676"
+         height="15.75"
+         width="15.25"
+         id="rect3192"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="152.84448"
+         x="714.5"
+         height="15.5"
+         width="15.5"
+         id="rect3194"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3196"
+         y="93.594482"
+         x="735.95203"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         xml:space="preserve"><tspan
+           y="93.594482"
+           x="735.95203"
+           id="tspan3198"
+           sodipodi:role="line">Repetidos</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3200"
+         y="131.34448"
+         x="736"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         xml:space="preserve"><tspan
+           y="131.34448"
+           x="736"
+           id="tspan3202"
+           sodipodi:role="line">Aceitos</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3204"
+         y="168.34448"
+         x="736.07202"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         xml:space="preserve"><tspan
+           y="168.34448"
+           x="736.07202"
+           id="tspan3206"
+           sodipodi:role="line">Excluídos</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Texto">
+    <text
+       xml:space="preserve"
+       style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="149.60512"
+       y="671.04065"
+       id="text3134"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3136"
+         x="149.60512"
+         y="671.04065">ACMDL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="432.54834"
+       y="670.70465"
+       id="text3138"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3140"
+         x="432.54834"
+         y="670.70465">IEEE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="637.60931"
+       y="671.04065"
+       id="text3142"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3144"
+         x="637.60931"
+         y="671.04065">Science Direct</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="64.34198"
+       y="646.96625"
+       id="text3146"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3148"
+         x="64.34198"
+         y="646.96625">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="52.341984"
+       y="590.36835"
+       id="text3150"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3152"
+         x="52.341984"
+         y="590.36835">50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="532.75793"
+       id="text3154"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3156"
+         x="40.341984"
+         y="532.75793">100</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="475.72968"
+       id="text3158"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3160"
+         x="40.341984"
+         y="475.72968">150</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="417.67709"
+       id="text3162"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3164"
+         x="40.341984"
+         y="417.67709">200</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="361.0105"
+       id="text3166"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3168"
+         x="40.341984"
+         y="361.0105">250</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="302.62579"
+       id="text3170"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3172"
+         x="40.341984"
+         y="302.62579">300</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="39.597984"
+       y="245.69695"
+       id="text3174"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3176"
+         x="39.597984"
+         y="245.69695">350</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="186.68355"
+       id="text3178"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3180"
+         x="40.341984"
+         y="186.68355">400</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="40.341984"
+       y="131.49739"
+       id="text3182"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3184"
+         x="40.341984"
+         y="131.49739">450</tspan></text>
+    <g
+       id="g3128"
+       transform="translate(-1.6793786,0)">
+      <rect
+         ry="0"
+         y="616.38898"
+         x="127.82547"
+         height="20.626785"
+         width="63.300419"
+         id="rect3102"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         x="149.34198"
+         y="612.36835"
+         id="text3995"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3997"
+           x="149.34198"
+           y="612.36835">19</tspan></text>
+    </g>
+    <g
+       id="g3134">
+      <rect
+         style="display:inline;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3104"
+         width="62.311783"
+         height="9.2797098"
+         x="192.10825"
+         y="627.73608"
+         ry="0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3999"
+         y="624.36835"
+         x="219.90569"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         xml:space="preserve"><tspan
+           y="624.36835"
+           x="219.90569"
+           id="tspan4001"
+           sodipodi:role="line">9</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3106"
+       width="62.857449"
+       height="184.10745"
+       x="257.04797"
+       y="452.90829" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4003"
+       y="448.75208"
+       x="269.88541"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         y="448.75208"
+         x="269.88541"
+         id="tspan4005"
+         sodipodi:role="line">162</tspan></text>
+    <rect
+       y="602.74084"
+       x="380.17502"
+       height="34.274971"
+       width="64.024963"
+       id="rect3108"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="398.46698"
+       y="599.61835"
+       id="text4007"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4009"
+         x="398.46698"
+         y="599.61835">31</tspan></text>
+    <g
+       id="g3101">
+      <rect
+         y="627.3208"
+         x="446.84"
+         height="9.6950092"
+         width="64.445007"
+         id="rect3110"
+         style="display:inline;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         x="471.9057"
+         y="623.86835"
+         id="text4011"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4013"
+           x="471.9057"
+           y="623.86835">9</tspan></text>
+    </g>
+    <rect
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3120"
+       width="64.619186"
+       height="3.9298491"
+       x="632.01288"
+       y="633.08594" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="659.75177"
+       y="629.6214"
+       id="text4023"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4025"
+         x="659.75177"
+         y="629.6214">3</tspan></text>
+    <g
+       id="g3089">
+      <rect
+         style="display:inline;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3122"
+         width="64.494965"
+         height="7.7778997"
+         x="698.87048"
+         y="629.23792" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+         x="729.43683"
+         y="627.24701"
+         id="text4027"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4029"
+           x="729.43683"
+           y="627.24701">6</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect3124"
+       width="62.551476"
+       height="243.80148"
+       x="765.53864"
+       y="393.21426" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="778.52191"
+       y="390.51932"
+       id="text4031"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4033"
+         x="778.52191"
+         y="390.51932">213</tspan></text>
+    <rect
+       y="135.21872"
+       x="513.64777"
+       height="501.79706"
+       width="61.547047"
+       id="rect3112"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06800008000000002;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       x="524.185"
+       y="131.13614"
+       id="text4019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4021"
+         x="524.185"
+         y="131.13614">448</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3100"
+       y="73.497391"
+       x="39.861984"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Termes;-inkscape-font-specification:TeX Gyre Termes"
+       xml:space="preserve"><tspan
+         y="73.497391"
+         x="39.861984"
+         id="tspan3102"
+         sodipodi:role="line">500</tspan></text>
+  </g>
+</svg>
